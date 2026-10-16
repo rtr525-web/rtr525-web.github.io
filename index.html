@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#0A2A63">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Empire Status">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icon-180.png">
+<link rel="icon" type="image/png" sizes="192x192" href="icon-192.png">
+<title>Content Empire — Expansion Status</title>
+<style>
+:root{--blue:#0a2a63;--blue2:#0d3578;--line:#eaf4ff;--cyan:#7fd4ff;--dim:#a9c6ee;--amber:#ffc857;--green:#4ade80;--red:#ff7a7a;--violet:#c4a7ff}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--blue);color:var(--line);font-family:"Courier New",ui-monospace,monospace;padding:28px 18px 60px;
+background-image:linear-gradient(rgba(127,212,255,.10) 1px,transparent 1px),linear-gradient(90deg,rgba(127,212,255,.10) 1px,transparent 1px),linear-gradient(rgba(127,212,255,.05) 1px,transparent 1px),linear-gradient(90deg,rgba(127,212,255,.05) 1px,transparent 1px);
+background-size:120px 120px,120px 120px,24px 24px,24px 24px}
+.wrap{max-width:1180px;margin:0 auto}
+.warn-banner{background:#7a1020;border:2px solid var(--red);color:#fff;text-align:center;font-weight:bold;letter-spacing:1px;padding:10px;margin-bottom:18px}
+header{border:2px solid var(--line);padding:22px 24px;background:rgba(10,42,99,.75);position:relative}
+h1{font-size:clamp(24px,4.5vw,44px);letter-spacing:2px}
+.sub{color:var(--cyan);letter-spacing:3px;font-size:13px;margin-top:6px;text-transform:uppercase}
+.draw{width:100%;height:56px;margin-top:10px}
+.draw path{stroke:var(--cyan);stroke-width:2;fill:none;stroke-dasharray:1400;stroke-dashoffset:1400;animation:draw 3.2s ease forwards .3s}
+@keyframes draw{to{stroke-dashoffset:0}}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin:18px 0}
+.kpi{border:1.5px solid var(--cyan);padding:14px;background:rgba(13,53,120,.65);text-align:center}
+.kpi .num{font-size:40px;font-weight:bold;color:#fff}
+.kpi .lab{color:var(--dim);font-size:12px;letter-spacing:2px;text-transform:uppercase;margin-top:4px}
+section{margin-top:30px}
+h2{font-size:19px;letter-spacing:2px;border-bottom:2px solid var(--cyan);padding-bottom:6px;margin-bottom:14px;text-transform:uppercase}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(255px,1fr));gap:10px}
+.card{border:1px solid rgba(234,244,255,.55);padding:10px 12px;background:rgba(13,53,120,.45)}
+.card.wide{grid-column:1/-1}
+.card-top{display:flex;justify-content:space-between;align-items:flex-start;gap:8px}
+.pname{font-weight:bold;font-size:15px}
+.phandle{color:var(--dim);font-size:12px;margin-top:2px;word-break:break-all}
+.detail{color:var(--dim);font-size:12.5px;line-height:1.5;margin-top:8px;border-top:1px dashed rgba(127,212,255,.4);padding-top:7px}
+.chip{display:inline-flex;align-items:center;gap:6px;font-size:11px;font-weight:bold;letter-spacing:1px;border:1.5px solid;padding:3px 8px;white-space:nowrap}
+.chip .dot{width:8px;height:8px;border-radius:50%;background:currentColor;display:inline-block}
+.chip.live{color:var(--green);border-color:var(--green)} .chip.live .dot{animation:pulse 1.6s infinite}
+.chip.staged{color:var(--amber);border-color:var(--amber)}
+.chip.building{color:var(--cyan);border-color:var(--cyan)}
+.chip.blocked{color:var(--red);border-color:var(--red)} .chip.blocked .dot{animation:pulse 1s infinite}
+.chip.held{color:var(--violet);border-color:var(--violet)}
+@keyframes pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.35;transform:scale(.7)}}
+.bars{display:flex;align-items:flex-end;gap:14px;height:170px;border:1px solid rgba(234,244,255,.55);padding:16px 16px 8px;background:rgba(13,53,120,.45)}
+.bar-wrap{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:flex-end;height:100%}
+.bar{width:70%;max-width:52px;background:linear-gradient(180deg,var(--cyan),#2b7fff);height:var(--h);animation:grow 1.4s ease both;transform-origin:bottom}
+.bar.none{background:repeating-linear-gradient(45deg,rgba(127,212,255,.25) 0 6px,transparent 6px 12px);height:8%}
+@keyframes grow{from{transform:scaleY(0)}to{transform:scaleY(1)}}
+.bar-val{margin-top:6px;font-weight:bold} .bar-lab{color:var(--dim);font-size:12px}
+.wins{display:flex;flex-wrap:wrap;gap:8px 18px;border:1px solid rgba(234,244,255,.55);padding:14px 16px;background:rgba(13,53,120,.45)}
+.win{color:#fff;font-size:14px}
+.tally{color:var(--dim);font-size:13px;margin-top:10px;letter-spacing:1px}
+footer{margin-top:34px;color:var(--dim);font-size:12px;border-top:1px dashed rgba(127,212,255,.4);padding-top:10px}
+</style></head><body><div class="wrap">
+
+<header>
+<h1>CONTENT EMPIRE — EXPANSION STATUS</h1>
+<div class="sub">Robert Rang · Florida · Snapshot — Thursday, October 15, 2026</div>
+<svg class="draw" viewBox="0 0 1200 56" preserveAspectRatio="none"><path d="M0,46 L180,46 L215,14 L250,46 L470,46 L505,22 L540,46 L760,46 L795,8 L830,46 L1200,46 M795,8 L795,46 M215,14 L215,46 M505,22 L505,46"/></svg>
+<div class="kpis">
+<div class="kpi"><div class="num" data-count="45">0</div><div class="lab">YouTube channels</div></div>
+<div class="kpi"><div class="num" data-count="5">0</div><div class="lab">Facebook pages</div></div>
+<div class="kpi"><div class="num" data-count="4">0</div><div class="lab">Instagram accounts</div></div>
+<div class="kpi"><div class="num" data-count="23">0</div><div class="lab">Posts published Oct 15</div></div>
+<div class="kpi"><div class="num" data-count="750">0</div><div class="lab">Directory entries</div></div>
+<div class="kpi"><div class="num" data-count="613">0</div><div class="lab">Historic places mapped</div></div>
+</div>
+<div class="tally">PROPERTY STATUS — 25 LIVE · 18 STAGED · 13 BUILDING · 1 HELD · 45 YouTube channels + 1 spare · directories: 613 historic places + 137 cigar shops</div>
+</header>
+
+<section><h2>Tonight's wins — Oct 15</h2><div class="wins"><span class="win">▸ Homemade Genius launched — first Short live</span><span class="win">▸ America in Song launched</span><span class="win">▸ Winter Park Road launched — YouTube + Instagram</span><span class="win">▸ Florida historic directory: 613 places, 67 counties</span><span class="win">▸ Cigar directory: 137 shops + 13 heritage spots</span><span class="win">▸ @winterparkroad first reel live — the Lake Rose sinkhole</span><span class="win">▸ Sprinkler Engineering backlog E2–E8 fully re-produced</span></div></section>
+
+<section><h2>YouTube — Brand Blueprint channels (20)</h2><div class="cards"><div class="card"><div class="card-top"><div><div class="pname">Rain Bird Blueprint</div><div class="phandle">@RainBirdBlueprint</div></div><span class="chip building"><span class="dot"></span>BUILDING</span></div></div>
+<div class="card"><div class="card-top"><div><div class="pname">Hunter Blueprints</div><div class="phandle">@HunterBlueprints</div></div><span class="chip live"><span class="dot"></span>LIVE</span></div></div>
+<div class="card"><div class="card-top"><div><div class="pname">Toro Blueprint</div><div class="phandle">@ToroBlueprint</div></div><span class="chip live"><span class="dot"></span>LIVE</span></div></div>
+<div class="card"><div class="card-top"><div><div class="pname">Orbit Blueprints</div><div class="phandle">@OrbitBlueprints</div></div><span class="chip live"><span class="dot"></span>LIVE</span></div></div>
+<div class="card"><div class="card-top"><div><div class="pname">K-Rain Blueprint</div><div class="phandle">@KRainBlueprint</div></div><span class="chip staged"><span class="dot"></span>STAGED</span></div></div>
+<div class="card"><div class="card-top"><div><div class="pname">Calsense Blueprint</div><div class="phandle">@CalsenseBlueprint</div></div><span class="chip staged"><span class="dot"></span>STAGED</span></div></div>
+<div class="card"><div class="card-top"><div><div class="pname">Buckner-Superior Blueprint</div><div class="phandle">@BucknerSuperiorBlueprint</div></div><span class="chip staged"><span class="dot"></span>STAGED</span></div></div>
+<div class="card"><div class="card-top"><div><div class="pname">Signature Blueprint</div><div class="phandle">@SignatureBlueprint</div></div><span class="chip staged"><span class="dot"></span>STAGED</span></div></div>
+<div class="card"><div class="card-top"><div><div class="pname">Baseline Blueprints</div><div class="phandle">@BaselineBlueprints</div></div><span class="chip staged"><span class="dot"></span>STAGED</span></div></div>
+<div class="card"><div class="card-top"><div><div class="pname">Weathermatic Blueprint</div><div class="phandle">@WeathermaticBlueprint</div></div><span class="chip staged"><span class="dot"></span>STAGED</span></div></div>
+<div class="card"><div class="card-top"><div><div class="pname">Senninger Blueprint</div><div class="phandle">@SenningerBlueprint</div></div><span class="chip staged"><span class="dot"></span>STAGED</span></div></div>
+<div class="card"><div class="card-top"><div><div class="pname">Nelson Blueprint</div><div class="phandle">@NelsonBlueprint</div></div><span class="chip live"><span class="dot"></span>LIVE</span></div></div>
+<div class="card"><div class="card-top"><div><div class="pname">Irritrol Blueprint</div><div class="phandle">@IrritrolBlueprint</div></div><span class="chip live"><span class="dot"></span>LIVE</span></div></div>
+<div class="card"><div class="card-top"><div><div class="pname">DIG Blueprint</div><div class="phandle">@DIGBlueprint</div></div><span class="chip building"><span class="dot"></span>BUILDING</span></div></div>
+<div class="card"><div class="card-top"><div><div class="pname">Netafim Blueprint</div><div class="phandle">@NetafimBlueprint</div></div><span class="chip staged"><span class="dot"></span>STAGED</span></div></div>
+<div class="card"><div class="card-top"><div><div class="pname">Valley Blueprint</div><div class="phandle">@ValleyBlueprint</div></div><span class="chip staged"><span class="dot"></span>STAGED</span></div></div>
+<div class="card"><div class="card-top"><div><div class="pname">Rivulis Blueprint</div><div class="phandle">@RivulisBlueprint</div></div><span class="chip staged"><span class="dot"></span>STAGED</span></div></div>
+<div class="card"><div class="card-top"><div><div class="pname">Golf Blueprints</div><div class="phandle">@GolfBlueprints</div></div><span class="chip live"><span class="dot"></span>LIVE</span></div></div>
+<div class="card"><div class="card-top"><div><div class="pname">Fronius Blueprint</div><div class="phandle">@FroniusBlueprint</div></div><span class="chip live"><span class="dot"></span>LIVE</span></div></div>
+<div class="card"><div class="card-top"><div><div class="pname">Hobart Blueprint</div><div class="phandle">@HobartBlueprint</div></div><span class="chip live"><span class="dot"></span>LIVE</span></div></div></div></section>
+<section><h2>YouTube — Empire channels (22)</h2><div class="cards"><div class="card"><div class="card-top"><div><div class="pname">Sprinkler Tips</div><div class="phandle">@RTR525</div></div><span class="chip live"><span class="dot"></span>LIVE</span></div></div>
+<div class="card"><div class="card-top"><div><div class="pname">Standing the Watch</div><div class="phandle">@StandingTheWatch</div></div><span class="chip staged"><span class="dot"></span>STAGED</span></div></div>
+<div class="card"><div class="card-top"><div><div class="pname">Tax Blueprint</div><div class="phandle">@TaxBlueprintTips</div></div><span class="chip live"><span class="dot"></span>LIVE</span></div></div>
+<div class="card"><div class="card-top"><div><div class="pname">Minneola Politics</div><div class="phandle">@MinneolaPolitics</div></div><span class="chip building"><span class="dot"></span>BUILDING</span></div></div>
+<div class="card"><div class="card-top"><div><div class="pname">Minneola Politics (spare)</div><div class="phandle">@MinneolaPoliticsFL</div></div><span class="chip building"><span class="dot"></span>BUILDING</span></div></div>
+<div class="card"><div class="card-top"><div><div class="pname">MinneolaMatters</div><div class="phandle">@MinneolaMatters</div></div><span class="chip live"><span class="dot"></span>LIVE</span></div></div>
+<div class="card"><div class="card-top"><div><div class="pname">Cigar College</div><div class="phandle">@cigarcollege</div></div><span class="chip live"><span class="dot"></span>LIVE</span></div></div>
+<div class="card"><div class="card-top"><div><div class="pname">Money Matters</div><div class="phandle">@moneymatters-o6k-t9i</div></div><span class="chip live"><span class="dot"></span>LIVE</span></div></div>
+<div class="card"><div class="card-top"><div><div class="pname">Arc &amp; Anvil</div><div class="phandle">@arcandanvil-d7b</div></div><span class="chip live"><span class="dot"></span>LIVE</span></div></div>
+<div class="card"><div class="card-top"><div><div class="pname">Verse &amp; Anvil</div><div class="phandle">@verseandanvil</div></div><span class="chip live"><span class="dot"></span>LIVE</span></div></div>
+<div class="card"><div class="card-top"><div><div class="pname">Stoic Mind</div><div class="phandle">@stoicmind-s7e</div></div><span class="chip staged"><span class="dot"></span>STAGED</span></div></div>
+<div class="card"><div class="card-top"><div><div class="pname">Audi Saga</div><div class="phandle">@audisaga-m2l</div></div><span class="chip live"><span class="dot"></span>LIVE</span></div></div>
+<div class="card"><div class="card-top"><div><div class="pname">Style Blueprint</div><div class="phandle">@StyleBlueprints</div></div><span class="chip staged"><span class="dot"></span>STAGED</span></div></div>
+<div class="card"><div class="card-top"><div><div class="pname">Jayhil Media</div><div class="phandle">@JayhilMedia</div></div><span class="chip staged"><span class="dot"></span>STAGED</span></div></div>
+<div class="card"><div class="card-top"><div><div class="pname">Central Florida News</div><div class="phandle">@thisdaycentralfl</div></div><span class="chip staged"><span class="dot"></span>STAGED</span></div></div>
+<div class="card"><div class="card-top"><div><div class="pname">Justice Blueprint</div><div class="phandle">@JusticeBlueprintHQ</div></div><span class="chip staged"><span class="dot"></span>STAGED</span></div></div>
+<div class="card"><div class="card-top"><div><div class="pname">Family Blueprint</div><div class="phandle">@FamilyBlueprintHQ</div></div><span class="chip staged"><span class="dot"></span>STAGED</span></div></div>
+<div class="card"><div class="card-top"><div><div class="pname">Home Repair Blueprint</div><div class="phandle">@HomeRepairBlueprint</div></div><span class="chip staged"><span class="dot"></span>STAGED</span></div></div>
+<div class="card"><div class="card-top"><div><div class="pname">Tech Blueprint</div><div class="phandle">@TechBlueprintHQ-k3r</div></div><span class="chip building"><span class="dot"></span>BUILDING</span></div></div>
+<div class="card"><div class="card-top"><div><div class="pname">Career Blueprint</div><div class="phandle">@CareerBlueprintHQ-y4k</div></div><span class="chip building"><span class="dot"></span>BUILDING</span></div></div>
+<div class="card"><div class="card-top"><div><div class="pname">Florida Storm Watch</div><div class="phandle">handle not in records</div></div><span class="chip live"><span class="dot"></span>LIVE</span></div></div>
+<div class="card"><div class="card-top"><div><div class="pname">Built Not Born Fitness</div><div class="phandle">handle not in records</div></div><span class="chip live"><span class="dot"></span>LIVE</span></div></div></div></section>
+<section><h2>YouTube — New &amp; held (4)</h2><div class="cards"><div class="card"><div class="card-top"><div><div class="pname">Homemade Genius</div><div class="phandle">@HomemadeGeniusInventions</div></div><span class="chip live"><span class="dot"></span>LIVE</span></div></div>
+<div class="card"><div class="card-top"><div><div class="pname">America in Song</div><div class="phandle">@AmericaInSongStories</div></div><span class="chip building"><span class="dot"></span>BUILDING</span></div></div>
+<div class="card"><div class="card-top"><div><div class="pname">Winter Park Road</div><div class="phandle">@WinterParkRoad</div></div><span class="chip building"><span class="dot"></span>BUILDING</span></div></div>
+<div class="card"><div class="card-top"><div><div class="pname">Firearms News Daily</div><div class="phandle">@firearmsnewsdaily</div></div><span class="chip held"><span class="dot"></span>HELD</span></div></div></div></section>
+<section><h2>Facebook pages</h2><div class="cards"><div class="card"><div class="card-top"><div><div class="pname">Hillsboro Entertainment</div><div class="phandle">page 304854799935117</div></div><span class="chip live"><span class="dot"></span>LIVE</span></div></div>
+<div class="card"><div class="card-top"><div><div class="pname">Cross Climate Entertainment</div><div class="phandle">page 100431098919558</div></div><span class="chip live"><span class="dot"></span>LIVE</span></div></div>
+<div class="card"><div class="card-top"><div><div class="pname">Cigar College (FB)</div><div class="phandle">page 108870878562428</div></div><span class="chip live"><span class="dot"></span>LIVE</span></div></div>
+<div class="card"><div class="card-top"><div><div class="pname">Cigar School</div><div class="phandle">page 108917845223798</div></div><span class="chip building"><span class="dot"></span>BUILDING</span></div></div>
+<div class="card"><div class="card-top"><div><div class="pname">Hillsboro Consumer</div><div class="phandle">page 1422194797633015</div></div><span class="chip live"><span class="dot"></span>LIVE</span></div></div></div></section>
+<section><h2>Instagram</h2><div class="cards"><div class="card"><div class="card-top"><div><div class="pname">@mrhillsboro</div><div class="phandle">instagram.com/mrhillsboro</div></div><span class="chip live"><span class="dot"></span>LIVE</span></div></div>
+<div class="card"><div class="card-top"><div><div class="pname">@wpcigars</div><div class="phandle">instagram.com/wpcigars</div></div><span class="chip building"><span class="dot"></span>BUILDING</span></div></div>
+<div class="card"><div class="card-top"><div><div class="pname">@winterparkroad</div><div class="phandle">instagram.com/winterparkroad</div></div><span class="chip live"><span class="dot"></span>LIVE</span></div></div>
+<div class="card"><div class="card-top"><div><div class="pname">@jayhilmedia</div><div class="phandle">handle validated Oct 12</div></div><span class="chip building"><span class="dot"></span>BUILDING</span></div></div></div></section>
+<section><h2>Also building</h2><div class="cards"><div class="card"><div class="card-top"><div><div class="pname">TikTok — PracticalProTips</div><div class="phandle">account exists</div></div><span class="chip building"><span class="dot"></span>BUILDING</span></div></div>
+<div class="card"><div class="card-top"><div><div class="pname">Rumble — Jayhil Media</div><div class="phandle">on the RTR525 account</div></div><span class="chip building"><span class="dot"></span>BUILDING</span></div></div></div></section>
+
+<section><h2>Daily use — posts published, last 7 days</h2><div class="bars"><div class="bar-wrap"><div class="bar none" style="--h:6%"></div><div class="bar-val">—</div><div class="bar-lab">Oct 9</div></div><div class="bar-wrap"><div class="bar none" style="--h:6%"></div><div class="bar-val">—</div><div class="bar-lab">Oct 10</div></div><div class="bar-wrap"><div class="bar none" style="--h:6%"></div><div class="bar-val">—</div><div class="bar-lab">Oct 11</div></div><div class="bar-wrap"><div class="bar none" style="--h:6%"></div><div class="bar-val">—</div><div class="bar-lab">Oct 12</div></div><div class="bar-wrap"><div class="bar none" style="--h:6%"></div><div class="bar-val">—</div><div class="bar-lab">Oct 13</div></div><div class="bar-wrap"><div class="bar" style="--h:43%"></div><div class="bar-val">~10</div><div class="bar-lab">Oct 14</div></div><div class="bar-wrap"><div class="bar" style="--h:100%"></div><div class="bar-val">~23</div><div class="bar-lab">Oct 15</div></div></div>
+<div class="tally">Source: daily-use log. "—" = no logged record for that day (the log starts Oct 14, 2026).</div></section>
+
+<footer>Blueprint board · Counts and statuses from empire records as of Oct 15, 2026 · Directory entries: Florida historic-places directory (613) + Florida cigar directory (137 shops, 13 heritage locations).</footer>
+</div>
+<script>
+document.querySelectorAll('.num').forEach(el=>{const target=+el.dataset.count;const t0=performance.now();const dur=1600;
+function tick(t){const p=Math.min(1,(t-t0)/dur);el.textContent=Math.round(target*(1-Math.pow(1-p,3)));if(p<1)requestAnimationFrame(tick)}requestAnimationFrame(tick)});
+</script>
+</body></html>
