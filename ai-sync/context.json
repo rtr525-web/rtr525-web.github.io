@@ -1,7 +1,7 @@
 {
  "schema": "ai-sync/1.0",
- "updated_at": "2026-10-16T21:49-04:00",
- "updated_note": "Evening update, Friday, October 16, 2026 (America/New_York).",
+ "updated_at": "2026-10-16T22:26-04:00",
+ "updated_note": "Late-evening update, Friday, October 16, 2026 (America/New_York): the first outside AI checked in (Claude, The Wire desk), the AI roster was added, and the daily brief system started \u2014 VIDEO_BRIEF.md now regenerates daily from this feed. Fairways directory count corrected to 689. Official handoff format confirmed (see handoff).",
  "owner": {
   "name": "Robert Rang",
   "public_identity": "Creator and builder in Minneola, Florida. Runs the RTR525 media empire and the Hillsboro Blueprint hub: dozens of narrated, blueprint-style educational channels covering irrigation, welding, music history, golf, parks, local news, and practical know-how.",
@@ -57,7 +57,7 @@
   },
   {
    "name": "The Fairways",
-   "charter": "Florida golf: 685 verified courses, county by county, with a Top 25 list."
+   "charter": "Florida golf: 689 verified courses, county by county, with a Top 25 list."
   },
   {
    "name": "The Parks",
@@ -751,10 +751,136 @@
   "Privacy: this public feed is the whole of what an outside AI should use. Never ask Robert for passwords, codes, private contact details, or anything about his family, health, finances, or employer \u2014 none of it belongs in empire work.",
   "End every work session with a HANDOFF FOR MUSE block (format in the connector kit) so the work enters the record."
  ],
- "check_ins": [],
+ "check_ins": [
+  {
+   "agent": "Claude (Anthropic)",
+   "desk": "The Wire",
+   "date": "2026-10-16",
+   "connected_at": "10:06 PM ET",
+   "summary": "First outside AI connected. Verified live fetch of the feed; built a read-only connector script and a VIDEO_BRIEF generator; runs an hourly scheduled feed check."
+  }
+ ],
  "check_ins_note": "The desk check-in ledger. Entries are {desk, ai, date, summary}. Muse is the only writer: when an outside AI returns a HANDOFF FOR MUSE block and Muse folds its work into the record, Muse appends that AI's check-in here and bumps updated_at. Outside AIs never edit this feed or the sync page themselves \u2014 the one-way design is deliberate; it protects the page and the record.",
+ "ai_roster": [
+  {
+   "name": "Claude",
+   "provider": "Anthropic",
+   "model": "Claude Opus 5.5",
+   "sync_status": "Synced \u2014 verified live Oct 16, 2026, 10:06 PM ET",
+   "sync_method": "Fetches context.json directly (cache-buster on every fetch); runs an hourly scheduled feed check",
+   "desks": [
+    "The Wire",
+    "The Directory"
+   ],
+   "strengths": [
+    "Live web fetch of the JSON feed",
+    "Runs Python with internet access; builds and tests connector scripts",
+    "Scheduled tasks, including an hourly feed check",
+    "Gmail, Google Drive, Calendar, Notion, Slack, and vidIQ connectors",
+    "Memory across chats"
+   ],
+   "struggles": [
+    "Its fetch tool can cache errors (it served a stale 404 for about 15 minutes on Oct 16) \u2014 always use a cache-buster",
+    "Cannot browse during voice calls",
+    "Cannot schedule more often than hourly",
+    "Cannot see its own usage meters (NOT VISIBLE)"
+   ]
+  },
+  {
+   "name": "ChatGPT",
+   "provider": "OpenAI",
+   "model": "GPT-6",
+   "sync_status": "Not connected \u2014 context.json fetch failed Oct 16, 2026, 10:19 PM ET (connect.txt loaded); retry sent; a daily 8:00 AM ET scheduled check is set but not yet verified",
+   "sync_method": "Web fetch of connect.txt / context.json; daily scheduled check (unverified)",
+   "desks": [
+    "Top Lists",
+    "The Route"
+   ],
+   "strengths": [
+    "Drafting scripts, articles, and reports",
+    "Web research with citations",
+    "Image generation and downloadable files"
+   ],
+   "struggles": [
+    "Raw JSON feed fetch failed on its first attempt",
+    "Scheduling is daily, not hourly",
+    "Cannot see its own usage meters (NOT VISIBLE)"
+   ]
+  },
+  {
+   "name": "M365 Copilot",
+   "provider": "Microsoft",
+   "model": "GPT-5-based",
+   "sync_status": "Not connected \u2014 no attempt reported yet",
+   "sync_method": "Manual only: works when Robert opens a chat; no scheduling or background monitoring",
+   "desks": [
+    "Money"
+   ],
+   "strengths": [
+    "Word, Excel, PowerPoint, and PDF files",
+    "Drafts, outlines, reports, and document review",
+    "Follows standing procedures"
+   ],
+   "struggles": [
+    "No scheduling or background monitoring",
+    "Only works when Robert opens a chat",
+    "No guaranteed memory across chats"
+   ]
+  },
+  {
+   "name": "Gemini",
+   "provider": "Google",
+   "model": "Current production model",
+   "sync_status": "Upload-only \u2014 cannot fetch the feed",
+   "sync_method": "Robert uploads context.json each session; its Sync line reads \"VIA UPLOAD \u2014 [stamp]\"",
+   "desks": [
+    "Data analysis",
+    "Fairways/Parks fact files"
+   ],
+   "strengths": [
+    "Google Search research",
+    "Python for analysis and files (CSV, PDF, XLSX, images)",
+    "Reads uploaded images and documents",
+    "Memory across chats"
+   ],
+   "struggles": [
+    "Cannot open raw .json files or unindexed URLs",
+    "Its Python has no internet access",
+    "New GitHub Pages sites are not in search results yet",
+    "No scheduling"
+   ]
+  },
+  {
+   "name": "Muse",
+   "provider": "Meta",
+   "model": "Muse (personal AI agent)",
+   "sync_status": "Coordinator \u2014 publisher of record",
+   "sync_method": "Owns and updates this feed and page; logs check-ins from the handoffs Robert forwards",
+   "desks": [
+    "All desks (coordination)"
+   ],
+   "strengths": [
+    "The only AI that publishes or updates the feed",
+    "Holds the memory, calendar, files, and task tracking behind this feed",
+    "Folds handoffs into the record and posts desk check-ins"
+   ],
+   "struggles": [
+    "No direct AI-to-AI link exists \u2014 handoffs travel through Robert"
+   ]
+  }
+ ],
+ "daily_brief": {
+  "date": "2026-10-17",
+  "headline": "First full day of the AI desk system",
+  "items": [
+   "Claude checked in as the first outside AI (The Wire desk) on Oct 16.",
+   "Desk assignments adopted: Claude \u2014 Wire + Directory; ChatGPT \u2014 Top Lists + Route; Copilot \u2014 Money; Gemini \u2014 data + fact files (upload-only).",
+   "Official handoff format confirmed for all AIs.",
+   "Oct 17: first Daily Power Brief; Oct 16 channel premieres retry after the new-channel upload limit resets."
+  ]
+ },
  "handoff": {
-  "format": "HANDOFF FOR MUSE \u2014 [date]\nDesk/section: [empire section worked, if any]\nDone: [what was completed, with links and where each fact came from]\nDecisions Robert made: [verbatim where possible]\nNew facts to remember: [facts + their source]\nOpen items: [what remains, who owns it, any deadline]\nFiles created: [names/locations]",
+  "format": "HANDOFF FOR MUSE\nAgent: [name, provider, model]\nDesk: [desk worked]\nSync: [the feed updated_at stamp you read]\nDone: [what was completed, with links and where each fact came from]\nNeeds a decision: [anything waiting on Robert]\nBlocked: [what stopped you, or 'nothing']\nUsage after work: [figures only as actually displayed, saying where seen \u2014 otherwise NOT VISIBLE]\nFiles-links: [files created or links produced]",
   "note": "There is no direct AI-to-AI link. Robert carries handoffs to Muse, and Muse folds them into memory and tracking. Never claim you synced with Muse directly."
  }
 }

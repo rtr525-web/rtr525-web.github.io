@@ -63,9 +63,9 @@ the gap from memory or invention.
 
 ## TEST VALUES (true at issue; the live feed always wins over this list)
 
-- `updated_at`: 2026-10-16T21:49-04:00
+- `updated_at`: 2026-10-16T22:26-04:00
 - `empire_pages`: 70 entries
-- `check_ins`: empty — no outside AI has checked in yet
+- `check_ins`: 1 entry — Claude (Anthropic), The Wire, Oct 16
 
 *End of file. If you are reading this, you now know everything you need to stay current:
 fetch the feed.*
