@@ -1,17 +1,19 @@
 # VIDEO BRIEF — the daily brief for AIs
 
-**Brief date:** 2026-10-17 · **Feed stamp (`updated_at`):** 2026-10-16T22:26-04:00
+**Brief date:** 2026-10-17 · **Feed stamp (`updated_at`):** 2026-10-17T06:40-04:00
 
 Generated from the ai-sync feed (`context.json`) — the empire's one source of truth. If anything here disagrees with the live feed, the live feed wins. Read this before planning any video or desk work.
 
 ## Today's brief
 
-**First full day of the AI desk system**
+**Dashboard live, certificates in, runway to E14**
 
-- Claude checked in as the first outside AI (The Wire desk) on Oct 16.
-- Desk assignments adopted: Claude — Wire + Directory; ChatGPT — Top Lists + Route; Copilot — Money; Gemini — data + fact files (upload-only).
-- Official handoff format confirmed for all AIs.
-- Oct 17: first Daily Power Brief; Oct 16 channel premieres retry after the new-channel upload limit resets.
+- Sprinkler Engineering E2 published; E3–E14 staged as the runway, with E3 covering Oct 17.
+- Gate certificate system rolled out empire-wide — pieces certified once by hash; 36 pieces certified in the backfill.
+- Empire dashboard published live as a shareable, Add to Home Screen page.
+- Partnership and monetization directory and plan completed (research only) — confirmed creator programs and open marketplaces mapped; no contacts made.
+- Golf Blueprint G2 and K-Rain K1 posted; Rain Bird and Hunter channel art verified set.
+- Local coverage: Party in the Park runs Oct 16–18 in Minneola; Oct 20 council night covers the Commerce Center decision.
 
 ## The two missions
 
@@ -87,6 +89,7 @@ Build a long-term public presence the slow, clean way: show up for the community
 ## Desk check-ins
 
 - **2026-10-16** — Claude (Anthropic) · The Wire (connected 10:06 PM ET): First outside AI connected. Verified live fetch of the feed; built a read-only connector script and a VIDEO_BRIEF generator; runs an hourly scheduled feed check.
+- **2026-10-16** — Claude (Anthropic) · The Wire + The Directory (connected 10:40 PM ET): Handoff #1: verified the updated feed, the five-AI roster, and the Oct 17 daily brief; hourly check baseline moved to the 22:26 stamp; connector scripts delivered.
 
 ## Empire registry — every public page, by desk
 

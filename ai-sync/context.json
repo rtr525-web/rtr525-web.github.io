@@ -1,37 +1,37 @@
 {
  "schema": "ai-sync/1.0",
- "updated_at": "2026-10-16T22:26-04:00",
- "updated_note": "Late-evening update, Friday, October 16, 2026 (America/New_York): the first outside AI checked in (Claude, The Wire desk), the AI roster was added, and the daily brief system started \u2014 VIDEO_BRIEF.md now regenerates daily from this feed. Fairways directory count corrected to 689. Official handoff format confirmed (see handoff).",
+ "updated_at": "2026-10-17T06:40-04:00",
+ "updated_note": "Daily update, Saturday, October 17, 2026 (America/New_York): folded Claude's Oct 16 handoff as check-in #2, refreshed the daily brief from Oct 16 empire work — dashboard live, gate certificates rolled out, Sprinkler Engineering runway to E14 — and kept the registry at 70 pages.",
  "owner": {
   "name": "Robert Rang",
   "public_identity": "Creator and builder in Minneola, Florida. Runs the RTR525 media empire and the Hillsboro Blueprint hub: dozens of narrated, blueprint-style educational channels covering irrigation, welding, music history, golf, parks, local news, and practical know-how.",
   "location_public": "Minneola, Florida",
-  "primary_assistant": "Muse (Meta's personal AI agent) \u2014 coordinator and publisher of record. Muse holds the memory, calendar, files, and task tracking behind this public feed."
+  "primary_assistant": "Muse (Meta's personal AI agent) — coordinator and publisher of record. Muse holds the memory, calendar, files, and task tracking behind this public feed."
  },
  "sync": {
   "page": "https://rtr525-web.github.io/ai-sync/",
   "feed": "https://rtr525-web.github.io/ai-sync/context.json",
   "dashboard": "https://rtr525-web.github.io/",
-  "how_it_works": "Fetch this feed at the start of every session. It is the empire's current public state. Anything not in this feed is either private (and stays that way) or not yet published \u2014 never guess at it."
+  "how_it_works": "Fetch this feed at the start of every session. It is the empire's current public state. Anything not in this feed is either private (and stays that way) or not yet published — never guess at it."
  },
  "missions": [
   {
    "id": "empire-income",
-   "title": "Mission 1 \u2014 Grow the media empire into real income",
-   "summary": "Build the RTR525 channel network and the Hillsboro Blueprint hub into real, durable income: more verified channels, directories people actually use, and Top Lists they can trust. Flagships first \u2014 Sprinkler Tips, Cigar College, MinneolaMatters. Every piece passes the house quality gate before Muse publishes it.",
+   "title": "Mission 1 — Grow the media empire into real income",
+   "summary": "Build the RTR525 channel network and the Hillsboro Blueprint hub into real, durable income: more verified channels, directories people actually use, and Top Lists they can trust. Flagships first — Sprinkler Tips, Cigar College, MinneolaMatters. Every piece passes the house quality gate before Muse publishes it.",
    "principles": [
     "No paid placement, ever",
     "Verified facts or cut it",
     "Quality gate before anything publishes",
-    "One network, seven desks \u2014 every channel feeds the hub"
+    "One network, seven desks — every channel feeds the hub"
    ]
   },
   {
    "id": "civic-path",
-   "title": "Mission 2 \u2014 A clean, above-board civic path",
-   "summary": "Build a long-term public presence the slow, clean way: show up for the community now \u2014 local coverage, civic explainers, public meetings \u2014 and work toward a future run for local office later. Everything above board and on the public record: the kind of record anyone can search and find nothing to hide.",
+   "title": "Mission 2 — A clean, above-board civic path",
+   "summary": "Build a long-term public presence the slow, clean way: show up for the community now — local coverage, civic explainers, public meetings — and work toward a future run for local office later. Everything above board and on the public record: the kind of record anyone can search and find nothing to hide.",
    "principles": [
-    "Citizen capacity only \u2014 personal time and resources",
+    "Citizen capacity only — personal time and resources",
     "Public record only; nothing about any employer, ever",
     "Charity work and campaign work are kept fully separate",
     "No fundraiser before the legal registration exists"
@@ -45,7 +45,7 @@
   },
   {
    "name": "The Directory",
-   "charter": "Every place worth knowing \u2014 golf courses, parks, local services \u2014 verified and listed."
+   "charter": "Every place worth knowing — golf courses, parks, local services — verified and listed."
   },
   {
    "name": "Top Lists",
@@ -53,7 +53,7 @@
   },
   {
    "name": "The Route",
-   "charter": "Florida travel tips and trip ideas \u2014 a fresh tip every day, rotating automatically."
+   "charter": "Florida travel tips and trip ideas — a fresh tip every day, rotating automatically."
   },
   {
    "name": "The Fairways",
@@ -61,7 +61,7 @@
   },
   {
    "name": "The Parks",
-   "charter": "State and national parks, drawn and explained \u2014 Florida's parks and all 63 national parks."
+   "charter": "State and national parks, drawn and explained — Florida's parks and all 63 national parks."
   },
   {
    "name": "The Exchange",
@@ -101,9 +101,9 @@
    "platform": "YouTube",
    "handle": "@JayhilMedia",
    "url": "https://www.youtube.com/@JayhilMedia",
-   "role": "Network variety station \u2014 the empire's umbrella channel.",
+   "role": "Network variety station — the empire's umbrella channel.",
    "desk": "Top Lists",
-   "status": "live \u2014 playlists built; uploads in the daily retry rotation"
+   "status": "live — playlists built; uploads in the daily retry rotation"
   },
   {
    "name": "Central Florida News",
@@ -119,7 +119,7 @@
    "platform": "YouTube",
    "handle": "@MinneolaPolitics",
    "url": "https://www.youtube.com/@MinneolaPolitics",
-   "role": "Minneola civic life \u2014 council, elections, development \u2014 in plain language.",
+   "role": "Minneola civic life — council, elections, development — in plain language.",
    "desk": "The Wire",
    "status": "live"
   },
@@ -130,7 +130,7 @@
    "url": "https://www.youtube.com/@MinneolaPoliticsFL",
    "role": "Spare duplicate channel, kept in reserve.",
    "desk": "The Wire",
-   "status": "spare \u2014 no content"
+   "status": "spare — no content"
   },
   {
    "name": "Florida Storm Watch",
@@ -166,7 +166,7 @@
    "url": "https://www.youtube.com/@moneymatters-o6k",
    "role": "Spare duplicate channel, kept in reserve.",
    "desk": "The Exchange",
-   "status": "spare \u2014 no content"
+   "status": "spare — no content"
   },
   {
    "name": "Career Blueprint",
@@ -220,7 +220,7 @@
    "url": "https://www.youtube.com/@audisaga-m2l",
    "role": "Fictional serialized story channel.",
    "desk": "Network",
-   "status": "live \u2014 new episodes approval-gated"
+   "status": "live — new episodes approval-gated"
   },
   {
    "name": "Justice Blueprint",
@@ -281,7 +281,7 @@
    "platform": "YouTube",
    "handle": "@WinterParkRoad",
    "url": "https://www.youtube.com/@WinterParkRoad",
-   "role": "Florida history \u2014 Winter Park and Central Florida first, statewide from the directory.",
+   "role": "Florida history — Winter Park and Central Florida first, statewide from the directory.",
    "desk": "The Route",
    "status": "live"
   },
@@ -319,7 +319,7 @@
    "url": "https://www.youtube.com/@firearmsnewsdaily",
    "role": "Firearms news and education.",
    "desk": "Network",
-   "status": "dark \u2014 no uploads until after Jan 8, 2027"
+   "status": "dark — no uploads until after Jan 8, 2027"
   },
   {
    "name": "Western Swing Blueprint",
@@ -328,7 +328,7 @@
    "url": "https://www.youtube.com/@WesternSwingBlueprint",
    "role": "Western swing music history, documentary style. Original narration and music; history, not imitation.",
    "desk": "Network",
-   "status": "live \u2014 premiere certified; first upload in the Oct 17 retry batch"
+   "status": "live — premiere certified; first upload in the Oct 17 retry batch"
   },
   {
    "name": "ReelGroove TV",
@@ -337,7 +337,7 @@
    "url": "https://www.youtube.com/@ReelGrooveTV",
    "role": "Rights-cleared music videos with Liner Notes trivia cards. Every track cleared in a rights ledger before it airs.",
    "desk": "Network",
-   "status": "live \u2014 premiere certified; first upload in the Oct 17 retry batch"
+   "status": "live — premiere certified; first upload in the Oct 17 retry batch"
   },
   {
    "name": "Florida Fairways",
@@ -346,25 +346,25 @@
    "url": "https://www.youtube.com/@FloridaFairwaysFL",
    "role": "Every Florida golf course, ranked and sorted county by county, with a Top 25 list.",
    "desk": "The Fairways",
-   "status": "live \u2014 premiere certified; first upload in the Oct 17 retry batch"
+   "status": "live — premiere certified; first upload in the Oct 17 retry batch"
   },
   {
    "name": "National Parks Blueprint",
    "platform": "YouTube",
    "handle": "@NationalParksBlueprint",
    "url": "https://www.youtube.com/@NationalParksBlueprint",
-   "role": "All 63 U.S. national parks, one by one \u2014 original maps, verified history.",
+   "role": "All 63 U.S. national parks, one by one — original maps, verified history.",
    "desk": "The Parks",
-   "status": "live \u2014 launch package in production"
+   "status": "live — launch package in production"
   },
   {
    "name": "State Parks Blueprint",
    "platform": "YouTube",
    "handle": "@StateParksBlueprint",
    "url": "https://www.youtube.com/@StateParksBlueprint",
-   "role": "America's state parks, drawn and explained \u2014 starting with Florida's system.",
+   "role": "America's state parks, drawn and explained — starting with Florida's system.",
    "desk": "The Parks",
-   "status": "live \u2014 launch package in production"
+   "status": "live — launch package in production"
   },
   {
    "name": "50 States Unknown",
@@ -380,7 +380,7 @@
    "platform": "YouTube",
    "handle": "@RainBirdBlueprint",
    "url": "https://www.youtube.com/@RainBirdBlueprint",
-   "role": "Manufacturer blueprint channel \u2014 Rain Bird irrigation products, one post a day.",
+   "role": "Manufacturer blueprint channel — Rain Bird irrigation products, one post a day.",
    "desk": "The Directory",
    "status": "live"
   },
@@ -389,7 +389,7 @@
    "platform": "YouTube",
    "handle": "@HunterBlueprints",
    "url": "https://www.youtube.com/@HunterBlueprints",
-   "role": "Manufacturer blueprint channel \u2014 Hunter irrigation products, one post a day.",
+   "role": "Manufacturer blueprint channel — Hunter irrigation products, one post a day.",
    "desk": "The Directory",
    "status": "live"
   },
@@ -398,7 +398,7 @@
    "platform": "YouTube",
    "handle": "@ToroBlueprint",
    "url": "https://www.youtube.com/@ToroBlueprint",
-   "role": "Manufacturer blueprint channel \u2014 Toro irrigation products, one post a day.",
+   "role": "Manufacturer blueprint channel — Toro irrigation products, one post a day.",
    "desk": "The Directory",
    "status": "live"
   },
@@ -407,7 +407,7 @@
    "platform": "YouTube",
    "handle": "@OrbitBlueprints",
    "url": "https://www.youtube.com/@OrbitBlueprints",
-   "role": "Manufacturer blueprint channel \u2014 Orbit irrigation products, one post a day.",
+   "role": "Manufacturer blueprint channel — Orbit irrigation products, one post a day.",
    "desk": "The Directory",
    "status": "live"
   },
@@ -416,7 +416,7 @@
    "platform": "YouTube",
    "handle": "@KRainBlueprint",
    "url": "https://www.youtube.com/@KRainBlueprint",
-   "role": "Manufacturer blueprint channel \u2014 K-Rain irrigation products, one post a day.",
+   "role": "Manufacturer blueprint channel — K-Rain irrigation products, one post a day.",
    "desk": "The Directory",
    "status": "live"
   },
@@ -425,7 +425,7 @@
    "platform": "YouTube",
    "handle": "@CalsenseBlueprint",
    "url": "https://www.youtube.com/@CalsenseBlueprint",
-   "role": "Manufacturer blueprint channel \u2014 Calsense smart irrigation controllers, one post a day.",
+   "role": "Manufacturer blueprint channel — Calsense smart irrigation controllers, one post a day.",
    "desk": "The Directory",
    "status": "live"
   },
@@ -434,7 +434,7 @@
    "platform": "YouTube",
    "handle": "@BucknerSuperiorBlueprint",
    "url": "https://www.youtube.com/@BucknerSuperiorBlueprint",
-   "role": "Manufacturer blueprint channel \u2014 Buckner-Superior irrigation products, one post a day.",
+   "role": "Manufacturer blueprint channel — Buckner-Superior irrigation products, one post a day.",
    "desk": "The Directory",
    "status": "live"
   },
@@ -443,7 +443,7 @@
    "platform": "YouTube",
    "handle": "@SignatureBlueprint",
    "url": "https://www.youtube.com/@SignatureBlueprint",
-   "role": "Manufacturer blueprint channel \u2014 Signature irrigation products, one post a day.",
+   "role": "Manufacturer blueprint channel — Signature irrigation products, one post a day.",
    "desk": "The Directory",
    "status": "live"
   },
@@ -452,7 +452,7 @@
    "platform": "YouTube",
    "handle": "@BaselineBlueprints",
    "url": "https://www.youtube.com/@BaselineBlueprints",
-   "role": "Manufacturer blueprint channel \u2014 Baseline irrigation controllers, one post a day.",
+   "role": "Manufacturer blueprint channel — Baseline irrigation controllers, one post a day.",
    "desk": "The Directory",
    "status": "live"
   },
@@ -461,7 +461,7 @@
    "platform": "YouTube",
    "handle": "@WeathermaticBlueprint",
    "url": "https://www.youtube.com/@WeathermaticBlueprint",
-   "role": "Manufacturer blueprint channel \u2014 Weathermatic irrigation products, one post a day.",
+   "role": "Manufacturer blueprint channel — Weathermatic irrigation products, one post a day.",
    "desk": "The Directory",
    "status": "live"
   },
@@ -470,7 +470,7 @@
    "platform": "YouTube",
    "handle": "@SenningerBlueprint",
    "url": "https://www.youtube.com/@SenningerBlueprint",
-   "role": "Manufacturer blueprint channel \u2014 Senninger irrigation products, one post a day.",
+   "role": "Manufacturer blueprint channel — Senninger irrigation products, one post a day.",
    "desk": "The Directory",
    "status": "live"
   },
@@ -479,7 +479,7 @@
    "platform": "YouTube",
    "handle": "@NelsonBlueprint",
    "url": "https://www.youtube.com/@NelsonBlueprint",
-   "role": "Manufacturer blueprint channel \u2014 Nelson irrigation products, one post a day.",
+   "role": "Manufacturer blueprint channel — Nelson irrigation products, one post a day.",
    "desk": "The Directory",
    "status": "live"
   },
@@ -488,7 +488,7 @@
    "platform": "YouTube",
    "handle": "@IrritrolBlueprint",
    "url": "https://www.youtube.com/@IrritrolBlueprint",
-   "role": "Manufacturer blueprint channel \u2014 Irritrol irrigation products, one post a day.",
+   "role": "Manufacturer blueprint channel — Irritrol irrigation products, one post a day.",
    "desk": "The Directory",
    "status": "live"
   },
@@ -497,7 +497,7 @@
    "platform": "YouTube",
    "handle": "@DIGBlueprint",
    "url": "https://www.youtube.com/@DIGBlueprint",
-   "role": "Manufacturer blueprint channel \u2014 DIG drip and solar irrigation products, one post a day.",
+   "role": "Manufacturer blueprint channel — DIG drip and solar irrigation products, one post a day.",
    "desk": "The Directory",
    "status": "live"
   },
@@ -506,7 +506,7 @@
    "platform": "YouTube",
    "handle": "@NetafimBlueprint",
    "url": "https://www.youtube.com/@NetafimBlueprint",
-   "role": "Manufacturer blueprint channel \u2014 Netafim drip irrigation products, one post a day.",
+   "role": "Manufacturer blueprint channel — Netafim drip irrigation products, one post a day.",
    "desk": "The Directory",
    "status": "live"
   },
@@ -515,7 +515,7 @@
    "platform": "YouTube",
    "handle": "@ValleyBlueprint",
    "url": "https://www.youtube.com/@ValleyBlueprint",
-   "role": "Manufacturer blueprint channel \u2014 Valley center-pivot irrigation, one post a day.",
+   "role": "Manufacturer blueprint channel — Valley center-pivot irrigation, one post a day.",
    "desk": "The Directory",
    "status": "live"
   },
@@ -524,7 +524,7 @@
    "platform": "YouTube",
    "handle": "@RivulisBlueprint",
    "url": "https://www.youtube.com/@RivulisBlueprint",
-   "role": "Manufacturer blueprint channel \u2014 Rivulis drip irrigation products, one post a day.",
+   "role": "Manufacturer blueprint channel — Rivulis drip irrigation products, one post a day.",
    "desk": "The Directory",
    "status": "live"
   },
@@ -533,7 +533,7 @@
    "platform": "YouTube",
    "handle": "@FroniusBlueprint",
    "url": "https://www.youtube.com/@FroniusBlueprint",
-   "role": "Manufacturer blueprint channel \u2014 Fronius welding power sources, one post a day.",
+   "role": "Manufacturer blueprint channel — Fronius welding power sources, one post a day.",
    "desk": "The Directory",
    "status": "live"
   },
@@ -542,7 +542,7 @@
    "platform": "YouTube",
    "handle": "@HobartBlueprint",
    "url": "https://www.youtube.com/@HobartBlueprint",
-   "role": "Manufacturer blueprint channel \u2014 Hobart welding products, one post a day.",
+   "role": "Manufacturer blueprint channel — Hobart welding products, one post a day.",
    "desk": "The Directory",
    "status": "live"
   },
@@ -614,7 +614,7 @@
    "platform": "Instagram",
    "handle": "@winterparkroad",
    "url": "https://www.instagram.com/winterparkroad",
-   "role": "Florida history reels \u2014 Winter Park and Central Florida.",
+   "role": "Florida history reels — Winter Park and Central Florida.",
    "desk": "The Route",
    "status": "live"
   },
@@ -625,7 +625,7 @@
    "url": "https://www.instagram.com/wpcigars",
    "role": "Cigar education account.",
    "desk": "Network",
-   "status": "live \u2014 posting currently limited"
+   "status": "live — posting currently limited"
   },
   {
    "name": "@jayhilmedia",
@@ -641,7 +641,7 @@
    "platform": "TikTok",
    "handle": "@mrminneola",
    "url": null,
-   "role": "Mr. Minneola \u2014 local shorts and empire clips.",
+   "role": "Mr. Minneola — local shorts and empire clips.",
    "desk": "Network",
    "status": "live"
   },
@@ -661,7 +661,7 @@
    "url": null,
    "role": "Tax, home, and everyday-life tips channel.",
    "desk": "Network",
-   "status": "planned \u2014 creation queued"
+   "status": "planned — creation queued"
   },
   {
    "name": "RTR525",
@@ -670,7 +670,7 @@
    "url": null,
    "role": "Rumble home for Sprinkler Tips and Jayhil Media channels.",
    "desk": "Network",
-   "status": "account exists \u2014 channel setup pending"
+   "status": "account exists — channel setup pending"
   },
   {
    "name": "Empire Dashboard",
@@ -700,12 +700,12 @@
    "status": "in build"
   }
  ],
- "registry_note": "Compiled from empire records on Oct 16, 2026. The Oct 16 Studio audit counted 47 pre-existing YouTube channels while records name 48 (including two spare duplicates) \u2014 a one-channel discrepancy still being reconciled; treat this list as the working registry and flag conflicts in your handoff. Five channels were created the evening of Oct 16, 2026 (Western Swing Blueprint, ReelGroove TV, Florida Fairways, National Parks Blueprint, State Parks Blueprint); 50 States Unknown is in creation. Entries with url=null have no public URL in records \u2014 never guess one.",
+ "registry_note": "Compiled from empire records on Oct 16, 2026. The Oct 16 Studio audit counted 47 pre-existing YouTube channels while records name 48 (including two spare duplicates) — a one-channel discrepancy still being reconciled; treat this list as the working registry and flag conflicts in your handoff. Five channels were created the evening of Oct 16, 2026 (Western Swing Blueprint, ReelGroove TV, Florida Fairways, National Parks Blueprint, State Parks Blueprint); 50 States Unknown is in creation. Entries with url=null have no public URL in records — never guess one.",
  "projects": [
   {
    "name": "Hillsboro Blueprint hub",
    "status": "in build",
-   "summary": "One public front door for the whole empire \u2014 directory, Top Lists, curated news, and daily travel tips \u2014 styled as a 1930s street market crossed with steampunk, organized into seven desks. Self-updating from data files."
+   "summary": "One public front door for the whole empire — directory, Top Lists, curated news, and daily travel tips — styled as a 1930s street market crossed with steampunk, organized into seven desks. Self-updating from data files."
   },
   {
    "name": "The Blueprint List",
@@ -720,11 +720,11 @@
   {
    "name": "50-state facts index",
    "status": "in production",
-   "summary": "Little-known facts and interesting places for all 50 states, in standard categories, folklore labeled as folklore. Florida is complete; the other states roll out in waves \u2014 never padded with unverified facts."
+   "summary": "Little-known facts and interesting places for all 50 states, in standard categories, folklore labeled as folklore. Florida is complete; the other states roll out in waves — never padded with unverified facts."
   },
   {
    "name": "Educational nonprofit (academy model)",
-   "status": "planning \u2014 nothing launched, no donations solicited",
+   "status": "planning — nothing launched, no donations solicited",
    "summary": "An education-first nonprofit in planning, with teach-others channel kits drafted (how to build a nonprofit, second-shift trade skills, homeowner basics). It launches only when the legal entity exists."
   },
   {
@@ -740,15 +740,15 @@
  ],
  "rules": [
   "Work style: short, direct, plain sentences. Robert reads and listens on his phone. Finished work over process explanations; honest failures first.",
-  "Approval first: never send, post, publish, buy, submit, delete, or change any account without Robert's explicit approval for that specific action. Muse is the publisher of record \u2014 outside AIs draft and hand off, they never publish.",
+  "Approval first: never send, post, publish, buy, submit, delete, or change any account without Robert's explicit approval for that specific action. Muse is the publisher of record — outside AIs draft and hand off, they never publish.",
   "Verified facts or cut it: cite the source next to every claim. Never invent names, numbers, addresses, dates, balances, or quotes.",
-  "No paid placement, ever \u2014 in any list, ranking, review, directory, or video.",
+  "No paid placement, ever — in any list, ranking, review, directory, or video.",
   "Follow every platform's community guidelines, including when drafting comment and message replies.",
   "Copyright discipline: no commercial recordings, no reproduced lyrics, no voice clones or likenesses. Public-domain material must be verified for BOTH the composition and the recording; Creative Commons only CC0/CC-BY, with the license noted.",
-  "Maps must match a cited source and carry an on-screen legend naming every symbol \u2014 or be visibly labeled schematic, not to scale.",
+  "Maps must match a cited source and carry an on-screen legend naming every symbol — or be visibly labeled schematic, not to scale.",
   "Disclaimers travel with the content: tax = 'General info, not tax advice.' Legal = 'Education only, not legal advice.' Cigar content ends 'Education only. Nothing for sale.'",
   "Folklore and legend are labeled as folklore.",
-  "Privacy: this public feed is the whole of what an outside AI should use. Never ask Robert for passwords, codes, private contact details, or anything about his family, health, finances, or employer \u2014 none of it belongs in empire work.",
+  "Privacy: this public feed is the whole of what an outside AI should use. Never ask Robert for passwords, codes, private contact details, or anything about his family, health, finances, or employer — none of it belongs in empire work.",
   "End every work session with a HANDOFF FOR MUSE block (format in the connector kit) so the work enters the record."
  ],
  "check_ins": [
@@ -758,15 +758,22 @@
    "date": "2026-10-16",
    "connected_at": "10:06 PM ET",
    "summary": "First outside AI connected. Verified live fetch of the feed; built a read-only connector script and a VIDEO_BRIEF generator; runs an hourly scheduled feed check."
+  },
+  {
+   "agent": "Claude (Anthropic)",
+   "desk": "The Wire + The Directory",
+   "date": "2026-10-16",
+   "connected_at": "10:40 PM ET",
+   "summary": "Handoff #1: verified the updated feed, the five-AI roster, and the Oct 17 daily brief; hourly check baseline moved to the 22:26 stamp; connector scripts delivered."
   }
  ],
- "check_ins_note": "The desk check-in ledger. Entries are {desk, ai, date, summary}. Muse is the only writer: when an outside AI returns a HANDOFF FOR MUSE block and Muse folds its work into the record, Muse appends that AI's check-in here and bumps updated_at. Outside AIs never edit this feed or the sync page themselves \u2014 the one-way design is deliberate; it protects the page and the record.",
+ "check_ins_note": "The desk check-in ledger. Entries are {desk, ai, date, summary}. Muse is the only writer: when an outside AI returns a HANDOFF FOR MUSE block and Muse folds its work into the record, Muse appends that AI's check-in here and bumps updated_at. Outside AIs never edit this feed or the sync page themselves — the one-way design is deliberate; it protects the page and the record.",
  "ai_roster": [
   {
    "name": "Claude",
    "provider": "Anthropic",
    "model": "Claude Opus 5.5",
-   "sync_status": "Synced \u2014 verified live Oct 16, 2026, 10:06 PM ET",
+   "sync_status": "Synced — verified live Oct 16, 2026, 10:06 PM ET",
    "sync_method": "Fetches context.json directly (cache-buster on every fetch); runs an hourly scheduled feed check",
    "desks": [
     "The Wire",
@@ -780,7 +787,7 @@
     "Memory across chats"
    ],
    "struggles": [
-    "Its fetch tool can cache errors (it served a stale 404 for about 15 minutes on Oct 16) \u2014 always use a cache-buster",
+    "Its fetch tool can cache errors (it served a stale 404 for about 15 minutes on Oct 16) — always use a cache-buster",
     "Cannot browse during voice calls",
     "Cannot schedule more often than hourly",
     "Cannot see its own usage meters (NOT VISIBLE)"
@@ -790,7 +797,7 @@
    "name": "ChatGPT",
    "provider": "OpenAI",
    "model": "GPT-6",
-   "sync_status": "Not connected \u2014 context.json fetch failed Oct 16, 2026, 10:19 PM ET (connect.txt loaded); retry sent; a daily 8:00 AM ET scheduled check is set but not yet verified",
+   "sync_status": "Not connected — context.json fetch failed Oct 16, 2026, 10:19 PM ET (connect.txt loaded); retry sent; a daily 8:00 AM ET scheduled check is set but not yet verified",
    "sync_method": "Web fetch of connect.txt / context.json; daily scheduled check (unverified)",
    "desks": [
     "Top Lists",
@@ -811,7 +818,7 @@
    "name": "M365 Copilot",
    "provider": "Microsoft",
    "model": "GPT-5-based",
-   "sync_status": "Not connected \u2014 no attempt reported yet",
+   "sync_status": "Not connected — no attempt reported yet",
    "sync_method": "Manual only: works when Robert opens a chat; no scheduling or background monitoring",
    "desks": [
     "Money"
@@ -831,8 +838,8 @@
    "name": "Gemini",
    "provider": "Google",
    "model": "Current production model",
-   "sync_status": "Upload-only \u2014 cannot fetch the feed",
-   "sync_method": "Robert uploads context.json each session; its Sync line reads \"VIA UPLOAD \u2014 [stamp]\"",
+   "sync_status": "Upload-only — cannot fetch the feed",
+   "sync_method": "Robert uploads context.json each session; its Sync line reads \"VIA UPLOAD — [stamp]\"",
    "desks": [
     "Data analysis",
     "Fairways/Parks fact files"
@@ -854,7 +861,7 @@
    "name": "Muse",
    "provider": "Meta",
    "model": "Muse (personal AI agent)",
-   "sync_status": "Coordinator \u2014 publisher of record",
+   "sync_status": "Coordinator — publisher of record",
    "sync_method": "Owns and updates this feed and page; logs check-ins from the handoffs Robert forwards",
    "desks": [
     "All desks (coordination)"
@@ -865,22 +872,24 @@
     "Folds handoffs into the record and posts desk check-ins"
    ],
    "struggles": [
-    "No direct AI-to-AI link exists \u2014 handoffs travel through Robert"
+    "No direct AI-to-AI link exists — handoffs travel through Robert"
    ]
   }
  ],
  "daily_brief": {
   "date": "2026-10-17",
-  "headline": "First full day of the AI desk system",
+  "headline": "Dashboard live, certificates in, runway to E14",
   "items": [
-   "Claude checked in as the first outside AI (The Wire desk) on Oct 16.",
-   "Desk assignments adopted: Claude \u2014 Wire + Directory; ChatGPT \u2014 Top Lists + Route; Copilot \u2014 Money; Gemini \u2014 data + fact files (upload-only).",
-   "Official handoff format confirmed for all AIs.",
-   "Oct 17: first Daily Power Brief; Oct 16 channel premieres retry after the new-channel upload limit resets."
+   "Sprinkler Engineering E2 published; E3–E14 staged as the runway, with E3 covering Oct 17.",
+   "Gate certificate system rolled out empire-wide — pieces certified once by hash; 36 pieces certified in the backfill.",
+   "Empire dashboard published live as a shareable, Add to Home Screen page.",
+   "Partnership and monetization directory and plan completed (research only) — confirmed creator programs and open marketplaces mapped; no contacts made.",
+   "Golf Blueprint G2 and K-Rain K1 posted; Rain Bird and Hunter channel art verified set.",
+   "Local coverage: Party in the Park runs Oct 16–18 in Minneola; Oct 20 council night covers the Commerce Center decision."
   ]
  },
  "handoff": {
-  "format": "HANDOFF FOR MUSE\nAgent: [name, provider, model]\nDesk: [desk worked]\nSync: [the feed updated_at stamp you read]\nDone: [what was completed, with links and where each fact came from]\nNeeds a decision: [anything waiting on Robert]\nBlocked: [what stopped you, or 'nothing']\nUsage after work: [figures only as actually displayed, saying where seen \u2014 otherwise NOT VISIBLE]\nFiles-links: [files created or links produced]",
+  "format": "HANDOFF FOR MUSE\nAgent: [name, provider, model]\nDesk: [desk worked]\nSync: [the feed updated_at stamp you read]\nDone: [what was completed, with links and where each fact came from]\nNeeds a decision: [anything waiting on Robert]\nBlocked: [what stopped you, or 'nothing']\nUsage after work: [figures only as actually displayed, saying where seen — otherwise NOT VISIBLE]\nFiles-links: [files created or links produced]",
   "note": "There is no direct AI-to-AI link. Robert carries handoffs to Muse, and Muse folds them into memory and tracking. Never claim you synced with Muse directly."
  }
 }
