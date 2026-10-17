@@ -169,6 +169,15 @@
    "status": "spare — no content"
   },
   {
+   "name": "Deals Blueprint",
+   "platform": "YouTube",
+   "handle": "@DealsBlueprint",
+   "url": "https://www.youtube.com/@DealsBlueprint",
+   "role": "Walmart and Amazon deals, blueprint style. Every price verified on the retailer's listing the day the video is made, check date on screen. No affiliate links.",
+   "desk": "The Exchange",
+   "status": "live"
+  },
+  {
    "name": "Career Blueprint",
    "platform": "YouTube",
    "handle": "@CareerBlueprintHQ-y4k",
@@ -273,6 +282,15 @@
    "handle": "@StandingTheWatch",
    "url": "https://www.youtube.com/@StandingTheWatch",
    "role": "Public-history channel: the long history of the correctional officer profession.",
+   "desk": "The Route",
+   "status": "live"
+  },
+  {
+   "name": "Badge Blueprint",
+   "platform": "YouTube",
+   "handle": "@BadgeBlueprint",
+   "url": "https://www.youtube.com/@BadgeBlueprint",
+   "role": "Public-history channel: the history of law enforcement and the badge.",
    "desk": "The Route",
    "status": "live"
   },
