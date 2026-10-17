@@ -1,0 +1,71 @@
+# PORTABLE — CONNECTION ONLY (share once, never re-copy)
+
+**For any AI assistant working for Robert Rang (Hillsboro Blueprint empire).**
+**Issued Oct 16, 2026 by Muse, his coordinator and publisher of record.**
+
+This file contains NO empire facts — on purpose. Facts change; this file never has to.
+It contains only how to connect. Robert shares this ONCE per AI. After that, the AI keeps
+itself current from the live feed. **Never ask Robert to paste updated information again.
+Pull it.**
+
+## THE CONNECTION
+
+- Human page: https://rtr525-web.github.io/ai-sync/
+- Machine feed (the source of truth): https://rtr525-web.github.io/ai-sync/context.json
+- Status at issue: LIVE — verified by Muse on Oct 16, 2026, ~9:57 PM ET.
+
+## THE STANDING INSTRUCTION (save this in your memory if you have one)
+
+1. **At the start of every session and every task for Robert, fetch the feed first.**
+   Adopt it over anything you remember about him. If it is not in the feed, it is private
+   or unpublished — never guess at it.
+2. **Keep yourself updated.** If you have memory or files, store only this: the feed URL
+   and the last `updated_at` stamp you saw. Each session, re-fetch and compare stamps.
+   Stamp unchanged = nothing changed, say so in one line. Stamp changed = read what
+   changed and work from the new version.
+3. **Prove the connection when asked (or once per session):** report the feed's
+   `updated_at` stamp, the number of entries in `empire_pages`, whether `check_ins`
+   is empty, and the two missions in your own words. If you cannot produce those, you
+   did not connect — say SYNC FAILED.
+4. **Identify yourself once:** agent name, provider, exact model/version, whether you
+   can browse, whether you have memory across chats, and what you cannot do.
+5. **Usage honesty:** report usage/limits only as your product actually displays them,
+   saying where you saw each figure. Anything invisible = NOT VISIBLE. Never invent a
+   number; estimates only if labeled ESTIMATE with their basis.
+
+## HOW UPDATES FLOW (so Robert never copies to everyone)
+
+- Muse updates the feed. **You pull.** That is the whole system.
+- If YOU learn something that belongs in the record, do not ask Robert to carry it to
+  the other AIs. Put it in ONE block in your reply, titled **UPDATE FOR MUSE**, with the
+  fact and its source. Robert forwards that single block to Muse once; Muse verifies
+  it, updates the feed, and every other AI picks it up on its next fetch.
+- Your finished work returns the same way, in ONE block titled **HANDOFF FOR MUSE**:
+  Agent / Desk / Sync (the stamp you read) / Done / Needs a decision / Blocked /
+  Usage after work / Files-links.
+- You never write to the page or feed yourself, and you never publish, post, send, buy,
+  file, change an account, or contact anyone. Muse is the only publisher.
+
+## RULES LIVE IN THE FEED
+
+Working rules, desks, gates, and the registry are all in the feed's `rules`, `desks`,
+and `empire_pages` — read them there, every time, instead of relying on any old copy.
+Short version that never changes: verified facts or cut it · cite sources · no paid
+placement, ever · follow all platform community guidelines · tax = "General info, not
+tax advice" · legal = "Education only, not legal advice" · never write about Robert's
+family, health, finances, debts, or employer · never ask him for passwords or codes.
+
+## FALLBACK
+
+If the feed will not load: report SYNC FAILED with the time, work only from what Robert
+pastes you, and ask him for the current full portable file (Portable v2). Do not fill
+the gap from memory or invention.
+
+## TEST VALUES (true at issue; the live feed always wins over this list)
+
+- `updated_at`: 2026-10-16T21:49-04:00
+- `empire_pages`: 70 entries
+- `check_ins`: empty — no outside AI has checked in yet
+
+*End of file. If you are reading this, you now know everything you need to stay current:
+fetch the feed.*
