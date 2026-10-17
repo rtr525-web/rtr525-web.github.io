@@ -178,6 +178,15 @@
    "status": "live"
   },
   {
+   "name": "Forgotten Engines",
+   "platform": "YouTube",
+   "handle": "@ForgottenEnginesFL",
+   "url": "https://www.youtube.com/@ForgottenEnginesFL",
+   "role": "Lost and forgotten vehicle technology — the machines that almost changed everything, drawn and explained in blueprint style.",
+   "desk": "The Exchange",
+   "status": "live"
+  },
+  {
    "name": "Career Blueprint",
    "platform": "YouTube",
    "handle": "@CareerBlueprintHQ-y4k",
@@ -291,6 +300,24 @@
    "handle": "@BadgeBlueprint",
    "url": "https://www.youtube.com/@BadgeBlueprint",
    "role": "Public-history channel: the history of law enforcement and the badge.",
+   "desk": "The Route",
+   "status": "live"
+  },
+  {
+   "name": "Mystery Blueprint",
+   "platform": "YouTube",
+   "handle": "@MysteryBlueprint",
+   "url": "https://www.youtube.com/@MysteryBlueprint",
+   "role": "Unsolved mysteries and cold cases, told from the public record. Facts first; theories labeled as theories.",
+   "desk": "The Route",
+   "status": "live"
+  },
+  {
+   "name": "Anomaly Blueprint",
+   "platform": "YouTube",
+   "handle": "@AnomalyBlueprintFL",
+   "url": "https://www.youtube.com/@AnomalyBlueprintFL",
+   "role": "The world's strangest documented reports — what was reported, what was verified, and what remains unexplained.",
    "desk": "The Route",
    "status": "live"
   },

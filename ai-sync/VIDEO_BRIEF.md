@@ -140,6 +140,8 @@ Build a long-term public presence the slow, clean way: show up for the community
 
 - Standing the Watch — @StandingTheWatch — live · https://www.youtube.com/@StandingTheWatch
 - Badge Blueprint — @BadgeBlueprint — live — Ep1 certified Oct 17, 2026 · https://www.youtube.com/@BadgeBlueprint
+- Mystery Blueprint — @MysteryBlueprint — live — Ep1 certified Oct 17, 2026 · https://www.youtube.com/@MysteryBlueprint
+- Anomaly Blueprint — @AnomalyBlueprintFL — live — Ep1 certified Oct 17, 2026 · https://www.youtube.com/@AnomalyBlueprintFL
 - Winter Park Road — @WinterParkRoad — live · https://www.youtube.com/@WinterParkRoad
 - America in Song — @AmericaInSongStories — live · https://www.youtube.com/@AmericaInSongStories
 - @winterparkroad — @winterparkroad — live · https://www.instagram.com/winterparkroad
@@ -160,6 +162,7 @@ Build a long-term public presence the slow, clean way: show up for the community
 - Money Matters — @moneymatters-o6k-t9i — live · https://www.youtube.com/@moneymatters-o6k-t9i
 - Money Matters (spare) — @moneymatters-o6k — spare — no content · https://www.youtube.com/@moneymatters-o6k
 - Deals Blueprint — @DealsBlueprint — live — Ep1 produced and certified Oct 17, 2026 · https://www.youtube.com/@DealsBlueprint
+- Forgotten Engines — @ForgottenEnginesFL — live — Ep1 produced and certified Oct 17, 2026 · https://www.youtube.com/@ForgottenEnginesFL
 - Career Blueprint — @CareerBlueprintHQ-y4k — live · https://www.youtube.com/channel/UC6UD508BizkdC2Q1cyE8vqA
 
 ### Network
