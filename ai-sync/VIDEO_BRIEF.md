@@ -150,6 +150,7 @@ Build a long-term public presence the slow, clean way: show up for the community
 
 - Florida Fairways — @FloridaFairwaysFL — live — premiere certified; first upload in the Oct 17 retry batch · https://www.youtube.com/@FloridaFairwaysFL
 - Golf Blueprints — @GolfBlueprints — live · https://www.youtube.com/@GolfBlueprints
+- Golf Club Blueprint — @GolfClubBlueprint — live — Ep1 certified Oct 18, 2026 · https://www.youtube.com/@GolfClubBlueprint
 
 ### The Parks
 
@@ -163,6 +164,7 @@ Build a long-term public presence the slow, clean way: show up for the community
 - Money Matters (spare) — @moneymatters-o6k — spare — no content · https://www.youtube.com/@moneymatters-o6k
 - Deals Blueprint — @DealsBlueprint — live — Ep1 produced and certified Oct 17, 2026 · https://www.youtube.com/@DealsBlueprint
 - Forgotten Engines — @ForgottenEnginesFL — live — Ep1 produced and certified Oct 17, 2026 · https://www.youtube.com/@ForgottenEnginesFL
+- Glass Blueprint — @GlassBlueprint — live — Ep1 produced and certified Oct 18, 2026 · https://www.youtube.com/@GlassBlueprint
 - Career Blueprint — @CareerBlueprintHQ-y4k — live · https://www.youtube.com/channel/UC6UD508BizkdC2Q1cyE8vqA
 
 ### Network
