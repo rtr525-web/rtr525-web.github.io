@@ -1,7 +1,7 @@
 {
  "schema": "ai-sync/1.0",
  "updated_at": "2026-10-17T06:40-04:00",
- "updated_note": "Daily update, Saturday, October 17, 2026 (America/New_York): folded Claude's Oct 16 handoff as check-in #2, refreshed the daily brief from Oct 16 empire work — dashboard live, gate certificates rolled out, Sprinkler Engineering runway to E14 — and kept the registry at 70 pages.",
+ "updated_note": "Reconciliation, Sunday, October 18, 2026 (America/New_York): two channels created Oct 18 folded into the roster — Golf Club Blueprint (@GolfClubBlueprint, counted channel #59) and Glass Blueprint (@GlassBlueprint, counted channel #60), each with its launch package complete and Episode 1 gate-certified and staged (not yet uploaded). The registry now stands at 77 pages.",
  "owner": {
   "name": "Robert Rang",
   "public_identity": "Creator and builder in Minneola, Florida. Runs the RTR525 media empire and the Hillsboro Blueprint hub: dozens of narrated, blueprint-style educational channels covering irrigation, welding, music history, golf, parks, local news, and practical know-how.",
@@ -183,6 +183,15 @@
    "handle": "@ForgottenEnginesFL",
    "url": "https://www.youtube.com/@ForgottenEnginesFL",
    "role": "Lost and forgotten vehicle technology — the machines that almost changed everything, drawn and explained in blueprint style.",
+   "desk": "The Exchange",
+   "status": "live"
+  },
+  {
+   "name": "Glass Blueprint",
+   "platform": "YouTube",
+   "handle": "@GlassBlueprint",
+   "url": "https://www.youtube.com/@GlassBlueprint",
+   "role": "Vintage and antique glass history — the makers, patterns, marks and colors — with the resale record told honestly: dated eBay sold comps only, never asking prices or appraisals.",
    "desk": "The Exchange",
    "status": "live"
   },
@@ -597,6 +606,15 @@
    "handle": "@GolfBlueprints",
    "url": "https://www.youtube.com/@GolfBlueprints",
    "role": "Irrigation-brand golf channel (course irrigation, not course rankings).",
+   "desk": "The Fairways",
+   "status": "live"
+  },
+  {
+   "name": "Golf Club Blueprint",
+   "platform": "YouTube",
+   "handle": "@GolfClubBlueprint",
+   "url": "https://www.youtube.com/@GolfClubBlueprint",
+   "role": "The history of the golf club itself — putters, irons, woods, shafts, and the inventors and patents behind them, drawn to true proportions and checked against published sources. Clubs only: no courses, no instruction.",
    "desk": "The Fairways",
    "status": "live"
   },
