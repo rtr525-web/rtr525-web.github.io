@@ -1,19 +1,19 @@
 # VIDEO BRIEF — the daily brief for AIs
 
-**Brief date:** 2026-10-17 · **Feed stamp (`updated_at`):** 2026-10-17T06:40-04:00
+**Brief date:** 2026-10-18 · **Feed stamp (`updated_at`):** 2026-10-18T06:40-04:00
 
 Generated from the ai-sync feed (`context.json`) — the empire's one source of truth. If anything here disagrees with the live feed, the live feed wins. Read this before planning any video or desk work.
 
 ## Today's brief
 
-**Dashboard live, certificates in, runway to E14**
+**Section A complete, hub built, sign-ins cleared**
 
-- Sprinkler Engineering E2 published; E3–E14 staged as the runway, with E3 covering Oct 17.
-- Gate certificate system rolled out empire-wide — pieces certified once by hash; 36 pieces certified in the backfill.
-- Empire dashboard published live as a shareable, Add to Home Screen page.
-- Partnership and monetization directory and plan completed (research only) — confirmed creator programs and open marketplaces mapped; no contacts made.
-- Golf Blueprint G2 and K-Rain K1 posted; Rain Bird and Hunter channel art verified set.
-- Local coverage: Party in the Park runs Oct 16–18 in Minneola; Oct 20 council night covers the Commerce Center decision.
+- Sprinkler Engineering Section A completed — E1–E24 produced and gate-certified; E4 published Oct 17, with E5 covering Oct 18.
+- Hillsboro Blueprint hub site built and tested — 714 places on day one across all seven desks, privacy audit passed.
+- Florida golf Top List finished — all 25 top courses with addresses and official sites; directory grew to 689 courses.
+- Three new channels joined Oct 17 — National Parks Blueprint, State Parks Blueprint, and 50 States Unknown.
+- Sign-ins cleared Oct 17 for GitHub, Facebook, and eBay — page work unblocked and sold-comp checks working again for the collecting watch.
+- The Blueprint List prototype built — Kept-Promise Score ratings with no stars and no paid placement; under 10 verified jobs a business shows as Unproven.
 
 ## The two missions
 
@@ -93,14 +93,6 @@ Build a long-term public presence the slow, clean way: show up for the community
 
 ## Empire registry — every public page, by desk
 
-### The Wire
-
-- MinneolaMatters — @MinneolaMatters — live · https://www.youtube.com/@MinneolaMatters
-- Central Florida News — @thisdaycentralfl — live · https://www.youtube.com/@thisdaycentralfl
-- Minneola Politics — @MinneolaPolitics — live · https://www.youtube.com/@MinneolaPolitics
-- Minneola Politics (spare) — @MinneolaPoliticsFL — spare — no content · https://www.youtube.com/@MinneolaPoliticsFL
-- Florida Storm Watch — — — live
-
 ### The Directory
 
 - Sprinkler Tips — @RTR525 — live · https://www.youtube.com/@RTR525
@@ -128,44 +120,13 @@ Build a long-term public presence the slow, clean way: show up for the community
 - Cross Climate Entertainment — — — live · https://www.facebook.com/profile.php?id=100431098919558
 - Cigar School — — — live · https://www.facebook.com/profile.php?id=108917845223798
 
-### Top Lists
+### The Wire
 
-- Jayhil Media — @JayhilMedia — live — playlists built; uploads in the daily retry rotation · https://www.youtube.com/@JayhilMedia
-- Worth the Drive — @WorthTheDriveFL — live · https://www.youtube.com/@WorthTheDriveFL
-- 50 States Unknown — @50StatesUnknown — live · https://www.youtube.com/@50StatesUnknown
-- Hillsboro Consumer — — — live · https://www.facebook.com/profile.php?id=1422194797633015
-- @jayhilmedia — @jayhilmedia — in formation
-
-### The Route
-
-- Standing the Watch — @StandingTheWatch — live · https://www.youtube.com/@StandingTheWatch
-- Badge Blueprint — @BadgeBlueprint — live — Ep1 certified Oct 17, 2026 · https://www.youtube.com/@BadgeBlueprint
-- Mystery Blueprint — @MysteryBlueprint — live — Ep1 certified Oct 17, 2026 · https://www.youtube.com/@MysteryBlueprint
-- Anomaly Blueprint — @AnomalyBlueprintFL — live — Ep1 certified Oct 17, 2026 · https://www.youtube.com/@AnomalyBlueprintFL
-- Winter Park Road — @WinterParkRoad — live · https://www.youtube.com/@WinterParkRoad
-- America in Song — @AmericaInSongStories — live · https://www.youtube.com/@AmericaInSongStories
-- @winterparkroad — @winterparkroad — live · https://www.instagram.com/winterparkroad
-
-### The Fairways
-
-- Florida Fairways — @FloridaFairwaysFL — live — premiere certified; first upload in the Oct 17 retry batch · https://www.youtube.com/@FloridaFairwaysFL
-- Golf Blueprints — @GolfBlueprints — live · https://www.youtube.com/@GolfBlueprints
-- Golf Club Blueprint — @GolfClubBlueprint — live — Ep1 certified Oct 18, 2026 · https://www.youtube.com/@GolfClubBlueprint
-
-### The Parks
-
-- National Parks Blueprint — @NationalParksBlueprint — live — launch package in production · https://www.youtube.com/@NationalParksBlueprint
-- State Parks Blueprint — @StateParksBlueprint — live — launch package in production · https://www.youtube.com/@StateParksBlueprint
-
-### The Exchange
-
-- Tax Blueprint — @TaxBlueprintTips — live · https://www.youtube.com/@TaxBlueprintTips
-- Money Matters — @moneymatters-o6k-t9i — live · https://www.youtube.com/@moneymatters-o6k-t9i
-- Money Matters (spare) — @moneymatters-o6k — spare — no content · https://www.youtube.com/@moneymatters-o6k
-- Deals Blueprint — @DealsBlueprint — live — Ep1 produced and certified Oct 17, 2026 · https://www.youtube.com/@DealsBlueprint
-- Forgotten Engines — @ForgottenEnginesFL — live — Ep1 produced and certified Oct 17, 2026 · https://www.youtube.com/@ForgottenEnginesFL
-- Glass Blueprint — @GlassBlueprint — live — Ep1 produced and certified Oct 18, 2026 · https://www.youtube.com/@GlassBlueprint
-- Career Blueprint — @CareerBlueprintHQ-y4k — live · https://www.youtube.com/channel/UC6UD508BizkdC2Q1cyE8vqA
+- MinneolaMatters — @MinneolaMatters — live · https://www.youtube.com/@MinneolaMatters
+- Central Florida News — @thisdaycentralfl — live · https://www.youtube.com/@thisdaycentralfl
+- Minneola Politics — @MinneolaPolitics — live · https://www.youtube.com/@MinneolaPolitics
+- Minneola Politics (spare) — @MinneolaPoliticsFL — spare — no content · https://www.youtube.com/@MinneolaPoliticsFL
+- Florida Storm Watch — — — live
 
 ### Network
 
@@ -190,6 +151,45 @@ Build a long-term public presence the slow, clean way: show up for the community
 - @mrhillsboro — @mrhillsboro — live
 - PracticalProTips — PracticalProTips — planned — creation queued
 - RTR525 — RTR525 — account exists — channel setup pending
+
+### Top Lists
+
+- Jayhil Media — @JayhilMedia — live — playlists built; uploads in the daily retry rotation · https://www.youtube.com/@JayhilMedia
+- Worth the Drive — @WorthTheDriveFL — live · https://www.youtube.com/@WorthTheDriveFL
+- 50 States Unknown — @50StatesUnknown — live · https://www.youtube.com/@50StatesUnknown
+- Hillsboro Consumer — — — live · https://www.facebook.com/profile.php?id=1422194797633015
+- @jayhilmedia — @jayhilmedia — in formation
+
+### The Exchange
+
+- Tax Blueprint — @TaxBlueprintTips — live · https://www.youtube.com/@TaxBlueprintTips
+- Money Matters — @moneymatters-o6k-t9i — live · https://www.youtube.com/@moneymatters-o6k-t9i
+- Money Matters (spare) — @moneymatters-o6k — spare — no content · https://www.youtube.com/@moneymatters-o6k
+- Deals Blueprint — @DealsBlueprint — live · https://www.youtube.com/@DealsBlueprint
+- Forgotten Engines — @ForgottenEnginesFL — live · https://www.youtube.com/@ForgottenEnginesFL
+- Glass Blueprint — @GlassBlueprint — live · https://www.youtube.com/@GlassBlueprint
+- Career Blueprint — @CareerBlueprintHQ-y4k — live · https://www.youtube.com/channel/UC6UD508BizkdC2Q1cyE8vqA
+
+### The Route
+
+- Standing the Watch — @StandingTheWatch — live · https://www.youtube.com/@StandingTheWatch
+- Badge Blueprint — @BadgeBlueprint — live · https://www.youtube.com/@BadgeBlueprint
+- Mystery Blueprint — @MysteryBlueprint — live · https://www.youtube.com/@MysteryBlueprint
+- Anomaly Blueprint — @AnomalyBlueprintFL — live · https://www.youtube.com/@AnomalyBlueprintFL
+- Winter Park Road — @WinterParkRoad — live · https://www.youtube.com/@WinterParkRoad
+- America in Song — @AmericaInSongStories — live · https://www.youtube.com/@AmericaInSongStories
+- @winterparkroad — @winterparkroad — live · https://www.instagram.com/winterparkroad
+
+### The Fairways
+
+- Florida Fairways — @FloridaFairwaysFL — live — premiere certified; first upload in the Oct 17 retry batch · https://www.youtube.com/@FloridaFairwaysFL
+- Golf Blueprints — @GolfBlueprints — live · https://www.youtube.com/@GolfBlueprints
+- Golf Club Blueprint — @GolfClubBlueprint — live · https://www.youtube.com/@GolfClubBlueprint
+
+### The Parks
+
+- National Parks Blueprint — @NationalParksBlueprint — live — launch package in production · https://www.youtube.com/@NationalParksBlueprint
+- State Parks Blueprint — @StateParksBlueprint — live — launch package in production · https://www.youtube.com/@StateParksBlueprint
 
 ### Hub
 
