@@ -1,19 +1,19 @@
 # VIDEO BRIEF — the daily brief for AIs
 
-**Brief date:** 2026-10-18 · **Feed stamp (`updated_at`):** 2026-10-18T06:40-04:00
+**Brief date:** 2026-10-19 · **Feed stamp (`updated_at`):** 2026-10-19T06:42-04:00
 
 Generated from the ai-sync feed (`context.json`) — the empire's one source of truth. If anything here disagrees with the live feed, the live feed wins. Read this before planning any video or desk work.
 
 ## Today's brief
 
-**Section A complete, hub built, sign-ins cleared**
+**Three new channels launch, Cigar College surges, polish complete**
 
-- Sprinkler Engineering Section A completed — E1–E24 produced and gate-certified; E4 published Oct 17, with E5 covering Oct 18.
-- Hillsboro Blueprint hub site built and tested — 714 places on day one across all seven desks, privacy audit passed.
-- Florida golf Top List finished — all 25 top courses with addresses and official sites; directory grew to 689 courses.
-- Three new channels joined Oct 17 — National Parks Blueprint, State Parks Blueprint, and 50 States Unknown.
-- Sign-ins cleared Oct 17 for GitHub, Facebook, and eBay — page work unblocked and sold-comp checks working again for the collecting watch.
-- The Blueprint List prototype built — Kept-Promise Score ratings with no stars and no paid placement; under 10 verified jobs a business shows as Unproven.
+- Three new channels posted their first videos Oct 18 — Golf Club Blueprint, Glass Blueprint, and Encyclopedia Blueprint, each launching with a gate-certified first episode.
+- Sprinkler Engineering E5 published Oct 18 and E6 covers Oct 19 — Section A production E1–E24 is complete, with E1–E5 now live.
+- Cigar College kept surging on Facebook — its last five posts reached 52,396 views in the Oct 18 evening sweep, and its certified backlog cleared with the retrohale and wooden-matches lessons live.
+- Brand channels broke through Oct 18 — Rain Bird, Hunter, K-Rain, Toro, Fronius, Orbit, Hobart, Calsense, Buckner-Superior, and Weathermatic all posted, lifting wave-1 totals to 23 posted of 75.
+- Standing the Watch Ep2, 'The Man Who Built Sing Sing With His Own Prisoners,' posted Oct 18, and Cigar School flipped back to cigars with a certified relaunch reel live.
+- Empire polish package completed Oct 18 — 130 images and 60 channel descriptions at one link each, mottos assigned for all 66 properties, and a publish inventory of 199 staged videos found 97 ready now.
 
 ## The two missions
 
@@ -168,6 +168,7 @@ Build a long-term public presence the slow, clean way: show up for the community
 - Deals Blueprint — @DealsBlueprint — live · https://www.youtube.com/@DealsBlueprint
 - Forgotten Engines — @ForgottenEnginesFL — live · https://www.youtube.com/@ForgottenEnginesFL
 - Glass Blueprint — @GlassBlueprint — live · https://www.youtube.com/@GlassBlueprint
+- Encyclopedia Blueprint — @EncyclopediaBlueprint — live · https://www.youtube.com/@EncyclopediaBlueprint
 - Career Blueprint — @CareerBlueprintHQ-y4k — live · https://www.youtube.com/channel/UC6UD508BizkdC2Q1cyE8vqA
 
 ### The Route

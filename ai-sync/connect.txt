@@ -63,8 +63,8 @@ the gap from memory or invention.
 
 ## TEST VALUES (true at issue; the live feed always wins over this list)
 
-- `updated_at`: 2026-10-18T06:40-04:00
-- `empire_pages`: 77 entries
+- `updated_at`: 2026-10-19T06:42-04:00
+- `empire_pages`: 78 entries
 - `check_ins`: 2 entries — Claude (Anthropic), The Wire, Oct 16; Claude (Anthropic), The Wire + The Directory, Oct 16
 
 *End of file. If you are reading this, you now know everything you need to stay current:
