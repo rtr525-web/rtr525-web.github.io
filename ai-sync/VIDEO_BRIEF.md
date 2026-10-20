@@ -1,19 +1,19 @@
 # VIDEO BRIEF — the daily brief for AIs
 
-**Brief date:** 2026-10-19 · **Feed stamp (`updated_at`):** 2026-10-19T06:42-04:00
+**Brief date:** 2026-10-20 · **Feed stamp (`updated_at`):** 2026-10-20T06:42-04:00
 
 Generated from the ai-sync feed (`context.json`) — the empire's one source of truth. If anything here disagrees with the live feed, the live feed wins. Read this before planning any video or desk work.
 
 ## Today's brief
 
-**Three new channels launch, Cigar College surges, polish complete**
+**Brand slates complete, Hidden Giants certified, E6 live**
 
-- Three new channels posted their first videos Oct 18 — Golf Club Blueprint, Glass Blueprint, and Encyclopedia Blueprint, each launching with a gate-certified first episode.
-- Sprinkler Engineering E5 published Oct 18 and E6 covers Oct 19 — Section A production E1–E24 is complete, with E1–E5 now live.
-- Cigar College kept surging on Facebook — its last five posts reached 52,396 views in the Oct 18 evening sweep, and its certified backlog cleared with the retrohale and wooden-matches lessons live.
-- Brand channels broke through Oct 18 — Rain Bird, Hunter, K-Rain, Toro, Fronius, Orbit, Hobart, Calsense, Buckner-Superior, and Weathermatic all posted, lifting wave-1 totals to 23 posted of 75.
-- Standing the Watch Ep2, 'The Man Who Built Sing Sing With His Own Prisoners,' posted Oct 18, and Cigar School flipped back to cigars with a certified relaunch reel live.
-- Empire polish package completed Oct 18 — 130 images and 60 channel descriptions at one link each, mottos assigned for all 66 properties, and a publish inventory of 199 staged videos found 97 ready now.
+- Sprinkler Engineering E6 published Oct 19 and E7 is staged gate-valid for Oct 20; the evening Sprinkler Tips lesson on Hunter MP Rotators at 40 PSI also published.
+- Glass Blueprint GL-02 and Encyclopedia Blueprint EB-E02 posted live in the midday batch; Family Blueprint FM-30 was confirmed already live since Oct 17, so no duplicate was uploaded.
+- Brand channels completed two launch slates — Toro T1–T5 and Orbit O1–O5 — with Rain Bird RB2, Hunter H4, Fronius F5, Golf G4, Senninger SE2, Signature S1, Baseline BL1, Buckner-Superior BS2, Weathermatic W4, and Calsense C2 also posted.
+- Hidden Giants, the new channel on obscure modern marvels, was built kit-only with Episodes 1–3 gate-certified — the Maeslantkering, G-Cans, and the Falkirk Wheel — awaiting promotion before any channel is created.
+- Cigar College Heritage series advanced: 50 historic brands verified from the 1800s–1980s, with HP-01 Toscano (1818), HP-02 Por Larrañaga (1834), and HP-03 Ramón Allones (1837) produced and gate-certified.
+- An education-first, PhD-level quality standard was wired empire-wide: primary sources, precise terminology, mechanism plus numbers, and disputed facts labeled as disputed.
 
 ## The two missions
 
