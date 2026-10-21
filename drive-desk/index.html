@@ -9,7 +9,44 @@ td,th{padding:10px 14px;border-bottom:1px solid #4a3826;text-align:left} td:nth-
 .stats{display:flex;gap:12px;flex-wrap:wrap;margin:18px 0}
 .stat{background:#2e2018;border:1px solid #6b4f2e;border-radius:10px;padding:10px 16px} .stat b{font-size:20px;display:block;color:#ffd98a}
 footer{color:#a68d5f;margin-top:20px;font-size:13px}
+
+.statusbar { display:flex; flex-wrap:wrap; gap:.4rem 1.2rem; align-items:center; justify-content:center;
+  background:#000080; color:#fff; font-family:Tahoma,Verdana,sans-serif; font-size:.86rem;
+  padding:.4rem .8rem; letter-spacing:.02em; }
+.statusbar .liveclock { color:#bfe3ff; font-variant-numeric:tabular-nums; }
+.ticker { overflow:hidden; background:#101418; color:#e8f4f4; border-top:2px solid #006666;
+  border-bottom:2px solid #006666; font-family:Tahoma,Verdana,sans-serif; font-size:.88rem; }
+.ticker-track { display:inline-flex; white-space:nowrap; padding:.35rem 0; animation:tickmove 90s linear infinite; }
+.ticker-set { padding-right:2.5rem; }
+.tsep { color:#006666; padding:0 .6rem; }
+.mv-up { color:#3ddc5a; } .mv-dn { color:#ff5a4d; } .mv-flat { color:#9fb3c8; }
+@keyframes tickmove { from { transform:translateX(0); } to { transform:translateX(-50%); } }
+.totals { display:flex; flex-wrap:wrap; gap:.7rem; justify-content:center; margin:1rem 0 .2rem; }
+.tot { background:#f7f5ec; border:2px outset #d4d0c8; padding:.5rem .9rem; min-width:130px; text-align:center; }
+.totnum { font-size:1.35rem; color:#000080; font-variant-numeric:tabular-nums; }
+.totlab { font-size:.72rem; color:#444; text-transform:uppercase; letter-spacing:.05em; }
+.movers { max-width:1020px; margin:1.6rem auto 0; padding:0 1.2rem; }
+.movers h2 { border-bottom:1px solid #7a7a7a; padding-bottom:.3rem; font-size:1.35rem; color:#000080; }
+.mrow { display:flex; align-items:center; gap:.8rem; margin:.45rem 0; font-size:.94rem; }
+.mname { flex:0 0 240px; } .mplat { color:#444; font-size:.8rem; }
+.mbar { flex:1; background:#e8e4d8; border:1px solid #7a7a7a; height:14px; }
+.mfill { display:block; height:100%; width:0; background:linear-gradient(90deg,#006666,#3ddc5a); animation:barfill 1.4s ease forwards; }
+@keyframes barfill { to { width:var(--w); } }
+.mgain { flex:0 0 170px; color:#006666; font-weight:bold; }
+.spark polyline { stroke-dasharray:100; stroke-dashoffset:100; animation:sparkdraw 1.6s ease forwards; }
+@keyframes sparkdraw { to { stroke-dashoffset:0; } }
+.newbadge { display:inline-block; background:#b3001b; color:#fff; font-family:Tahoma,Verdana,sans-serif;
+  font-size:.68rem; font-weight:bold; letter-spacing:.06em; padding:.12rem .45rem; border-radius:8px;
+  margin-left:.45rem; vertical-align:middle; animation:badgepulse 1.6s ease-in-out infinite; }
+@keyframes badgepulse { 0%,100% { opacity:1; } 50% { opacity:.45; } }
+@media (prefers-reduced-motion: reduce) {
+  .ticker-track, .mfill, .spark polyline, .newbadge { animation:none !important; }
+  .mfill { width:var(--w); } .spark polyline { stroke-dashoffset:0; }
+}
+
+.statusbar{border-radius:8px;margin-bottom:18px}
 </style></head><body><div class="wrap">
+<div class="statusbar"><span>Last updated: Wednesday, October 21, 2026 — 8:56 AM ET</span><span>Eastern now: <span class="liveclock">—</span></span></div>
 <h1>📦 Drive Inventory — Totals Only</h1>
 <p>A category-level snapshot of one Google Drive, inventoried October 20, 2026. Category totals only — no file or folder names are published.</p>
 <div class="stats">
@@ -19,5 +56,35 @@ footer{color:#a68d5f;margin-top:20px;font-size:13px}
 <div class="stat"><b>2.18 GB</b>storage charged</div>
 </div>
 <table><tr><th>Category</th><th>Files</th><th>Total size</th></tr><tr><td>Images</td><td>17,570</td><td>22.47 GB</td></tr><tr><td>Documents</td><td>3,751</td><td>5 MB</td></tr><tr><td>PDFs</td><td>107</td><td>108 MB</td></tr><tr><td>Spreadsheets</td><td>4</td><td>16 KB</td></tr><tr><td>Presentations</td><td>3</td><td>12 KB</td></tr><tr><td>Videos</td><td>4</td><td>34 MB</td></tr><tr><td>Audio</td><td>24</td><td>682 KB</td></tr><tr><td>Installers & Disk Images</td><td>12</td><td>2.01 GB</td></tr><tr><td>Other</td><td>842</td><td>39 MB</td></tr></table>
-<footer>Last updated: 2026-10-20 · Counts include legacy photo-archive files stored at zero Drive quota; “total size” is nominal file size.</footer>
-</div></body></html>
+<footer>Counts include legacy photo-archive files stored at zero Drive quota; “total size” is nominal file size.</footer>
+</div>
+
+<script>
+// Live Eastern clock in the status bar (updates every second).
+(function () {
+  var fmt = new Intl.DateTimeFormat('en-US', { timeZone: 'America/New_York',
+    hour: 'numeric', minute: '2-digit', second: '2-digit', hour12: true });
+  function tick() {
+    var t = fmt.format(new Date()) + ' ET';
+    document.querySelectorAll('.liveclock').forEach(function (el) { el.textContent = t; });
+  }
+  tick(); setInterval(tick, 1000);
+})();
+// Count-up (odometer) for headline totals: final value read from the element.
+(function () {
+  document.querySelectorAll('[data-count]').forEach(function (el) {
+    var target = parseInt(el.getAttribute('data-count'), 10);
+    if (isNaN(target)) return;
+    var t0 = null, dur = 1400;
+    function step(ts) {
+      if (!t0) t0 = ts;
+      var p = Math.min(1, (ts - t0) / dur);
+      el.textContent = Math.round(target * (1 - Math.pow(1 - p, 3))).toLocaleString('en-US');
+      if (p < 1) requestAnimationFrame(step);
+    }
+    requestAnimationFrame(step);
+  });
+})();
+</script>
+
+</body></html>
