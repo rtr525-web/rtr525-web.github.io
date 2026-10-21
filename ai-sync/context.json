@@ -1,967 +1,967 @@
 {
- "schema": "ai-sync/1.0",
- "updated_at": "2026-10-21T06:40-04:00",
- "updated_note": "Daily update, Wednesday, October 21, 2026 (America/New_York): Oct 20's Facebook backlog clear, Minneola Politics launch, and 10-channel launch kits folded into today's brief. Registry stands at 78 pages; check-ins remain 2, both Claude.",
- "owner": {
-  "name": "Robert Rang",
-  "public_identity": "Creator and builder in Minneola, Florida. Runs the RTR525 media empire and the Hillsboro Blueprint hub: dozens of narrated, blueprint-style educational channels covering irrigation, welding, music history, golf, parks, local news, and practical know-how.",
-  "location_public": "Minneola, Florida",
-  "primary_assistant": "Muse (Meta's personal AI agent) — coordinator and publisher of record. Muse holds the memory, calendar, files, and task tracking behind this public feed."
- },
- "sync": {
-  "page": "https://rtr525-web.github.io/ai-sync/",
-  "feed": "https://rtr525-web.github.io/ai-sync/context.json",
-  "dashboard": "https://rtr525-web.github.io/",
-  "how_it_works": "Fetch this feed at the start of every session. It is the empire's current public state. Anything not in this feed is either private (and stays that way) or not yet published — never guess at it."
- },
- "missions": [
-  {
-   "id": "empire-income",
-   "title": "Mission 1 — Grow the media empire into real income",
-   "summary": "Build the RTR525 channel network and the Hillsboro Blueprint hub into real, durable income: more verified channels, directories people actually use, and Top Lists they can trust. Flagships first — Sprinkler Tips, Cigar College, MinneolaMatters. Every piece passes the house quality gate before Muse publishes it.",
-   "principles": [
-    "No paid placement, ever",
-    "Verified facts or cut it",
-    "Quality gate before anything publishes",
-    "One network, seven desks — every channel feeds the hub"
-   ]
+  "schema": "ai-sync/1.0",
+  "updated_at": "2026-10-21T06:40-04:00",
+  "updated_note": "Daily update, Wednesday, October 21, 2026 (America/New_York): Oct 20's Facebook backlog clear, Minneola Politics launch, and 10-channel launch kits folded into today's brief. Registry stands at 78 pages; check-ins remain 2, both Claude.",
+  "owner": {
+    "name": "Robert Rang",
+    "public_identity": "Creator and builder in Minneola, Florida. Runs the RTR525 media empire and the Hillsboro Blueprint hub: dozens of narrated, blueprint-style educational channels covering irrigation, welding, music history, golf, parks, local news, and practical know-how.",
+    "location_public": "Minneola, Florida",
+    "primary_assistant": "Muse (Meta's personal AI agent) — coordinator and publisher of record. Muse holds the memory, calendar, files, and task tracking behind this public feed."
   },
-  {
-   "id": "civic-path",
-   "title": "Mission 2 — A clean, above-board civic path",
-   "summary": "Build a long-term public presence the slow, clean way: show up for the community now — local coverage, civic explainers, public meetings — and work toward a future run for local office later. Everything above board and on the public record: the kind of record anyone can search and find nothing to hide.",
-   "principles": [
-    "Citizen capacity only — personal time and resources",
-    "Public record only; nothing about any employer, ever",
-    "Charity work and campaign work are kept fully separate",
-    "No fundraiser before the legal registration exists"
-   ]
+  "sync": {
+    "page": "https://rtr525-web.github.io/ai-sync/",
+    "feed": "https://rtr525-web.github.io/ai-sync/context.json",
+    "dashboard": "https://rtr525-web.github.io/",
+    "how_it_works": "Fetch this feed at the start of every session. It is the empire's current public state. Anything not in this feed is either private (and stays that way) or not yet published — never guess at it."
+  },
+  "missions": [
+    {
+      "id": "empire-income",
+      "title": "Mission 1 — Grow the media empire into real income",
+      "summary": "Build the RTR525 channel network and the Hillsboro Blueprint hub into real, durable income: more verified channels, directories people actually use, and Top Lists they can trust. Flagships first — Sprinkler Tips, Cigar College, MinneolaMatters. Every piece passes the house quality gate before Muse publishes it.",
+      "principles": [
+        "No paid placement, ever",
+        "Verified facts or cut it",
+        "Quality gate before anything publishes",
+        "One network, seven desks — every channel feeds the hub"
+      ]
+    },
+    {
+      "id": "civic-path",
+      "title": "Mission 2 — A clean, above-board civic path",
+      "summary": "Build a long-term public presence the slow, clean way: show up for the community now — local coverage, civic explainers, public meetings — and work toward a future run for local office later. Everything above board and on the public record: the kind of record anyone can search and find nothing to hide.",
+      "principles": [
+        "Citizen capacity only — personal time and resources",
+        "Public record only; nothing about any employer, ever",
+        "Charity work and campaign work are kept fully separate",
+        "No fundraiser before the legal registration exists"
+      ]
+    }
+  ],
+  "desks": [
+    {
+      "name": "The Wire",
+      "charter": "Curated local and Florida news, refreshed on a schedule. Facts only, both sides on contested stories."
+    },
+    {
+      "name": "The Directory",
+      "charter": "Every place worth knowing — golf courses, parks, local services — verified and listed."
+    },
+    {
+      "name": "Top Lists",
+      "charter": "Rankings with the basis stated up front, powered by the Kept-Promise Score. No paid placement."
+    },
+    {
+      "name": "The Route",
+      "charter": "Florida travel tips and trip ideas — a fresh tip every day, rotating automatically."
+    },
+    {
+      "name": "The Fairways",
+      "charter": "Florida golf: 689 verified courses, county by county, with a Top 25 list."
+    },
+    {
+      "name": "The Parks",
+      "charter": "State and national parks, drawn and explained — Florida's parks and all 63 national parks."
+    },
+    {
+      "name": "The Exchange",
+      "charter": "Honest deals and money know-how. If money changed hands for a slot, it does not run."
+    }
+  ],
+  "empire_pages": [
+    {
+      "name": "Sprinkler Tips",
+      "platform": "YouTube",
+      "handle": "@RTR525",
+      "url": "https://www.youtube.com/@RTR525",
+      "role": "Flagship. The daily Sprinkler Engineering series plus irrigation know-how.",
+      "desk": "The Directory",
+      "status": "live"
+    },
+    {
+      "name": "MinneolaMatters",
+      "platform": "YouTube",
+      "handle": "@MinneolaMatters",
+      "url": "https://www.youtube.com/@MinneolaMatters",
+      "role": "Flagship variety station. Minneola and Central Florida local life, news, and events.",
+      "desk": "The Wire",
+      "status": "live"
+    },
+    {
+      "name": "Cigar College",
+      "platform": "YouTube",
+      "handle": "@cigarcollege",
+      "url": "https://www.youtube.com/@cigarcollege",
+      "role": "Flagship. Cigar education. Every piece ends: Education only. Nothing for sale.",
+      "desk": "Network",
+      "status": "live"
+    },
+    {
+      "name": "Jayhil Media",
+      "platform": "YouTube",
+      "handle": "@JayhilMedia",
+      "url": "https://www.youtube.com/@JayhilMedia",
+      "role": "Network variety station — the empire's umbrella channel.",
+      "desk": "Top Lists",
+      "status": "live — playlists built; uploads in the daily retry rotation"
+    },
+    {
+      "name": "Central Florida News",
+      "platform": "YouTube",
+      "handle": "@thisdaycentralfl",
+      "url": "https://www.youtube.com/@thisdaycentralfl",
+      "role": "Central Florida news and this-day-in-history segments.",
+      "desk": "The Wire",
+      "status": "live"
+    },
+    {
+      "name": "Minneola Politics",
+      "platform": "YouTube",
+      "handle": "@MinneolaPolitics",
+      "url": "https://www.youtube.com/@MinneolaPolitics",
+      "role": "Minneola civic life — council, elections, development — in plain language.",
+      "desk": "The Wire",
+      "status": "live"
+    },
+    {
+      "name": "Minneola Politics (spare)",
+      "platform": "YouTube",
+      "handle": "@MinneolaPoliticsFL",
+      "url": "https://www.youtube.com/@MinneolaPoliticsFL",
+      "role": "Spare duplicate channel, kept in reserve.",
+      "desk": "The Wire",
+      "status": "spare — no content"
+    },
+    {
+      "name": "Florida Storm Watch",
+      "platform": "YouTube",
+      "handle": null,
+      "url": null,
+      "role": "Florida storm and weather-readiness coverage.",
+      "desk": "The Wire",
+      "status": "live"
+    },
+    {
+      "name": "Tax Blueprint",
+      "platform": "YouTube",
+      "handle": "@TaxBlueprintTips",
+      "url": "https://www.youtube.com/@TaxBlueprintTips",
+      "role": "Tax education, blueprint style. General info, not tax advice.",
+      "desk": "The Exchange",
+      "status": "live"
+    },
+    {
+      "name": "Money Matters",
+      "platform": "YouTube",
+      "handle": "@moneymatters-o6k-t9i",
+      "url": "https://www.youtube.com/@moneymatters-o6k-t9i",
+      "role": "Personal-finance education.",
+      "desk": "The Exchange",
+      "status": "live"
+    },
+    {
+      "name": "Money Matters (spare)",
+      "platform": "YouTube",
+      "handle": "@moneymatters-o6k",
+      "url": "https://www.youtube.com/@moneymatters-o6k",
+      "role": "Spare duplicate channel, kept in reserve.",
+      "desk": "The Exchange",
+      "status": "spare — no content"
+    },
+    {
+      "name": "Deals Blueprint",
+      "platform": "YouTube",
+      "handle": "@DealsBlueprint",
+      "url": "https://www.youtube.com/@DealsBlueprint",
+      "role": "Store finds worth checking out at Walmart, Costco, Target and more — no prices anywhere, just the deal. Education only.",
+      "desk": "The Exchange",
+      "status": "not live yet — replacement premiere certified & staged"
+    },
+    {
+      "name": "Forgotten Engines",
+      "platform": "YouTube",
+      "handle": "@ForgottenEnginesFL",
+      "url": "https://www.youtube.com/@ForgottenEnginesFL",
+      "role": "Lost and forgotten vehicle technology — the machines that almost changed everything, drawn and explained in blueprint style.",
+      "desk": "The Exchange",
+      "status": "not live yet — premiere certified & staged"
+    },
+    {
+      "name": "Glass Blueprint",
+      "platform": "YouTube",
+      "handle": "@GlassBlueprint",
+      "url": "https://www.youtube.com/@GlassBlueprint",
+      "role": "Vintage and antique glass history — the makers, patterns, marks and colors — with the resale record told honestly: dated eBay sold comps only, never asking prices or appraisals.",
+      "desk": "The Exchange",
+      "status": "live"
+    },
+    {
+      "name": "Encyclopedia Blueprint",
+      "platform": "YouTube",
+      "handle": "@EncyclopediaBlueprint",
+      "url": "https://www.youtube.com/@EncyclopediaBlueprint",
+      "role": "One topic at a time, fully explained — the drawing, the specs, and the story behind it, in plain words. A Subject Blueprint desk channel: a single subject per episode, checked at real sources before it is drawn.",
+      "desk": "The Exchange",
+      "status": "live"
+    },
+    {
+      "name": "Career Blueprint",
+      "platform": "YouTube",
+      "handle": "@CareerBlueprintHQ-y4k",
+      "url": "https://www.youtube.com/channel/UC6UD508BizkdC2Q1cyE8vqA",
+      "role": "Career skills and second-shift know-how.",
+      "desk": "The Exchange",
+      "status": "not live yet — premiere certified & staged"
+    },
+    {
+      "name": "Arc & Anvil",
+      "platform": "YouTube",
+      "handle": "@arcandanvil-d7b",
+      "url": "https://www.youtube.com/@arcandanvil-d7b",
+      "role": "Welding craft and shop skills.",
+      "desk": "Network",
+      "status": "live"
+    },
+    {
+      "name": "Verse & Anvil",
+      "platform": "YouTube",
+      "handle": "@verseandanvil",
+      "url": "https://www.youtube.com/@verseandanvil",
+      "role": "Classic poetry, narrated.",
+      "desk": "Network",
+      "status": "live"
+    },
+    {
+      "name": "Stoic Mind",
+      "platform": "YouTube",
+      "handle": "@stoicmind-s7e",
+      "url": "https://www.youtube.com/@stoicmind-s7e",
+      "role": "Stoic philosophy in a carved-marble style.",
+      "desk": "Network",
+      "status": "live"
+    },
+    {
+      "name": "Style Blueprint",
+      "platform": "YouTube",
+      "handle": "@StyleBlueprints",
+      "url": "https://www.youtube.com/@StyleBlueprints",
+      "role": "Formal-outfit color-combination blueprints.",
+      "desk": "Network",
+      "status": "not live yet — premiere certified & staged"
+    },
+    {
+      "name": "Audi Saga",
+      "platform": "YouTube",
+      "handle": "@audisaga-m2l",
+      "url": "https://www.youtube.com/@audisaga-m2l",
+      "role": "Fictional serialized story channel.",
+      "desk": "Network",
+      "status": "live — new episodes approval-gated"
+    },
+    {
+      "name": "Justice Blueprint",
+      "platform": "YouTube",
+      "handle": "@JusticeBlueprintHQ",
+      "url": "https://www.youtube.com/@JusticeBlueprintHQ",
+      "role": "Florida law explained in general. Education only, not legal advice.",
+      "desk": "Network",
+      "status": "live"
+    },
+    {
+      "name": "Family Blueprint",
+      "platform": "YouTube",
+      "handle": "@FamilyBlueprintHQ",
+      "url": "https://www.youtube.com/@FamilyBlueprintHQ",
+      "role": "Family life and household know-how.",
+      "desk": "Network",
+      "status": "live"
+    },
+    {
+      "name": "Home Repair Blueprint",
+      "platform": "YouTube",
+      "handle": "@HomeRepairBlueprint",
+      "url": "https://www.youtube.com/@HomeRepairBlueprint",
+      "role": "Home repair, blueprint style.",
+      "desk": "The Directory",
+      "status": "not live yet — premiere certified & staged"
+    },
+    {
+      "name": "Tech Blueprint",
+      "platform": "YouTube",
+      "handle": "@TechBlueprintHQ-k3r",
+      "url": "https://www.youtube.com/channel/UCto8obQMtV26tcy6mOMpfAw",
+      "role": "Technology how-tos and computer repair.",
+      "desk": "The Directory",
+      "status": "not live yet — premiere certified & staged"
+    },
+    {
+      "name": "Built Not Born Fitness",
+      "platform": "YouTube",
+      "handle": "@builtnotbornfitness",
+      "url": "https://www.youtube.com/@builtnotbornfitness",
+      "role": "Fitness fundamentals, no hype.",
+      "desk": "Network",
+      "status": "live"
+    },
+    {
+      "name": "Standing the Watch",
+      "platform": "YouTube",
+      "handle": "@StandingTheWatch",
+      "url": "https://www.youtube.com/@StandingTheWatch",
+      "role": "Public-history channel: the long history of the correctional officer profession.",
+      "desk": "The Route",
+      "status": "live"
+    },
+    {
+      "name": "Badge Blueprint",
+      "platform": "YouTube",
+      "handle": "@BadgeBlueprint",
+      "url": "https://www.youtube.com/@BadgeBlueprint",
+      "role": "Public-history channel: the history of law enforcement and the badge.",
+      "desk": "The Route",
+      "status": "live"
+    },
+    {
+      "name": "Mystery Blueprint",
+      "platform": "YouTube",
+      "handle": "@MysteryBlueprint",
+      "url": "https://www.youtube.com/@MysteryBlueprint",
+      "role": "Unsolved mysteries and cold cases, told from the public record. Facts first; theories labeled as theories.",
+      "desk": "The Route",
+      "status": "live"
+    },
+    {
+      "name": "Anomaly Blueprint",
+      "platform": "YouTube",
+      "handle": "@AnomalyBlueprintFL",
+      "url": "https://www.youtube.com/@AnomalyBlueprintFL",
+      "role": "The world's strangest documented reports — what was reported, what was verified, and what remains unexplained.",
+      "desk": "The Route",
+      "status": "live"
+    },
+    {
+      "name": "Winter Park Road",
+      "platform": "YouTube",
+      "handle": "@WinterParkRoad",
+      "url": "https://www.youtube.com/@WinterParkRoad",
+      "role": "Florida history — Winter Park and Central Florida first, statewide from the directory.",
+      "desk": "The Route",
+      "status": "unconfirmed — no live post verified from records; live check pending"
+    },
+    {
+      "name": "America in Song",
+      "platform": "YouTube",
+      "handle": "@AmericaInSongStories",
+      "url": "https://www.youtube.com/@AmericaInSongStories",
+      "role": "American history told through its songs and stories.",
+      "desk": "The Route",
+      "status": "not live yet — premiere certified & staged"
+    },
+    {
+      "name": "Worth the Drive",
+      "platform": "YouTube",
+      "handle": "@WorthTheDriveFL",
+      "url": "https://www.youtube.com/@WorthTheDriveFL",
+      "role": "Central Florida places, honestly reviewed. No paid placements, ever; no verdict before a real visit.",
+      "desk": "Top Lists",
+      "status": "no videos yet — by design (posts after a real visit)"
+    },
+    {
+      "name": "Homemade Genius",
+      "platform": "YouTube",
+      "handle": "@HomemadeGeniusInventions",
+      "url": "https://www.youtube.com/@HomemadeGeniusInventions",
+      "role": "Homemade inventions and clever builds.",
+      "desk": "Network",
+      "status": "live"
+    },
+    {
+      "name": "Firearms News Daily",
+      "platform": "YouTube",
+      "handle": "@firearmsnewsdaily",
+      "url": "https://www.youtube.com/@firearmsnewsdaily",
+      "role": "Firearms news and education. News and updates only — no prices, no retailer links.",
+      "desk": "Network",
+      "status": "live — publishing resumed Oct 20, 2026 (news and education, no prices)"
+    },
+    {
+      "name": "Western Swing Blueprint",
+      "platform": "YouTube",
+      "handle": "@WesternSwingBlueprint",
+      "url": "https://www.youtube.com/@WesternSwingBlueprint",
+      "role": "Western swing music history, documentary style. Original narration and music; history, not imitation.",
+      "desk": "Network",
+      "status": "not live yet — premiere certified & staged"
+    },
+    {
+      "name": "ReelGroove TV",
+      "platform": "YouTube",
+      "handle": "@ReelGrooveTV",
+      "url": "https://www.youtube.com/@ReelGrooveTV",
+      "role": "Rights-cleared music videos with Liner Notes trivia cards. Every track cleared in a rights ledger before it airs.",
+      "desk": "Network",
+      "status": "not live yet — premiere certified & staged"
+    },
+    {
+      "name": "Florida Fairways",
+      "platform": "YouTube",
+      "handle": "@FloridaFairwaysFL",
+      "url": "https://www.youtube.com/@FloridaFairwaysFL",
+      "role": "Every Florida golf course, ranked and sorted county by county, with a Top 25 list.",
+      "desk": "The Fairways",
+      "status": "not live yet — premiere certified & staged"
+    },
+    {
+      "name": "National Parks Blueprint",
+      "platform": "YouTube",
+      "handle": "@NationalParksBlueprint",
+      "url": "https://www.youtube.com/@NationalParksBlueprint",
+      "role": "All 63 U.S. national parks, one by one — original maps, verified history.",
+      "desk": "The Parks",
+      "status": "not live yet — premiere certified & staged"
+    },
+    {
+      "name": "State Parks Blueprint",
+      "platform": "YouTube",
+      "handle": "@StateParksBlueprint",
+      "url": "https://www.youtube.com/@StateParksBlueprint",
+      "role": "America's state parks, drawn and explained — starting with Florida's system.",
+      "desk": "The Parks",
+      "status": "not live yet — premiere certified & staged"
+    },
+    {
+      "name": "50 States Unknown",
+      "platform": "YouTube",
+      "handle": "@50StatesUnknown",
+      "url": "https://www.youtube.com/@50StatesUnknown",
+      "role": "Little-known facts and interesting places, one state at a time. Florida first; folklore labeled as folklore.",
+      "desk": "Top Lists",
+      "status": "not live yet — premiere certified & staged"
+    },
+    {
+      "name": "Rain Bird Blueprint",
+      "platform": "YouTube",
+      "handle": "@RainBirdBlueprint",
+      "url": "https://www.youtube.com/@RainBirdBlueprint",
+      "role": "Manufacturer blueprint channel — Rain Bird irrigation products, one post a day.",
+      "desk": "The Directory",
+      "status": "live"
+    },
+    {
+      "name": "Hunter Blueprints",
+      "platform": "YouTube",
+      "handle": "@HunterBlueprints",
+      "url": "https://www.youtube.com/@HunterBlueprints",
+      "role": "Manufacturer blueprint channel — Hunter irrigation products, one post a day.",
+      "desk": "The Directory",
+      "status": "live"
+    },
+    {
+      "name": "Toro Blueprint",
+      "platform": "YouTube",
+      "handle": "@ToroBlueprint",
+      "url": "https://www.youtube.com/@ToroBlueprint",
+      "role": "Manufacturer blueprint channel — Toro irrigation products, one post a day.",
+      "desk": "The Directory",
+      "status": "live"
+    },
+    {
+      "name": "Orbit Blueprints",
+      "platform": "YouTube",
+      "handle": "@OrbitBlueprints",
+      "url": "https://www.youtube.com/@OrbitBlueprints",
+      "role": "Manufacturer blueprint channel — Orbit irrigation products, one post a day.",
+      "desk": "The Directory",
+      "status": "live"
+    },
+    {
+      "name": "K-Rain Blueprint",
+      "platform": "YouTube",
+      "handle": "@KRainBlueprint",
+      "url": "https://www.youtube.com/@KRainBlueprint",
+      "role": "Manufacturer blueprint channel — K-Rain irrigation products, one post a day.",
+      "desk": "The Directory",
+      "status": "live"
+    },
+    {
+      "name": "Calsense Blueprint",
+      "platform": "YouTube",
+      "handle": "@CalsenseBlueprint",
+      "url": "https://www.youtube.com/@CalsenseBlueprint",
+      "role": "Manufacturer blueprint channel — Calsense smart irrigation controllers, one post a day.",
+      "desk": "The Directory",
+      "status": "live"
+    },
+    {
+      "name": "Buckner-Superior Blueprint",
+      "platform": "YouTube",
+      "handle": "@BucknerSuperiorBlueprint",
+      "url": "https://www.youtube.com/@BucknerSuperiorBlueprint",
+      "role": "Manufacturer blueprint channel — Buckner-Superior irrigation products, one post a day.",
+      "desk": "The Directory",
+      "status": "live"
+    },
+    {
+      "name": "Signature Blueprint",
+      "platform": "YouTube",
+      "handle": "@SignatureBlueprint",
+      "url": "https://www.youtube.com/@SignatureBlueprint",
+      "role": "Manufacturer blueprint channel — Signature irrigation products, one post a day.",
+      "desk": "The Directory",
+      "status": "live"
+    },
+    {
+      "name": "Baseline Blueprints",
+      "platform": "YouTube",
+      "handle": "@BaselineBlueprints",
+      "url": "https://www.youtube.com/@BaselineBlueprints",
+      "role": "Manufacturer blueprint channel — Baseline irrigation controllers, one post a day.",
+      "desk": "The Directory",
+      "status": "live"
+    },
+    {
+      "name": "Weathermatic Blueprint",
+      "platform": "YouTube",
+      "handle": "@WeathermaticBlueprint",
+      "url": "https://www.youtube.com/@WeathermaticBlueprint",
+      "role": "Manufacturer blueprint channel — Weathermatic irrigation products, one post a day.",
+      "desk": "The Directory",
+      "status": "live"
+    },
+    {
+      "name": "Senninger Blueprint",
+      "platform": "YouTube",
+      "handle": "@SenningerBlueprint",
+      "url": "https://www.youtube.com/@SenningerBlueprint",
+      "role": "Manufacturer blueprint channel — Senninger irrigation products, one post a day.",
+      "desk": "The Directory",
+      "status": "live"
+    },
+    {
+      "name": "Nelson Blueprint",
+      "platform": "YouTube",
+      "handle": "@NelsonBlueprint",
+      "url": "https://www.youtube.com/@NelsonBlueprint",
+      "role": "Manufacturer blueprint channel — Nelson irrigation products, one post a day.",
+      "desk": "The Directory",
+      "status": "live"
+    },
+    {
+      "name": "Irritrol Blueprint",
+      "platform": "YouTube",
+      "handle": "@IrritrolBlueprint",
+      "url": "https://www.youtube.com/@IrritrolBlueprint",
+      "role": "Manufacturer blueprint channel — Irritrol irrigation products, one post a day.",
+      "desk": "The Directory",
+      "status": "live"
+    },
+    {
+      "name": "DIG Blueprint",
+      "platform": "YouTube",
+      "handle": "@DIGBlueprint",
+      "url": "https://www.youtube.com/@DIGBlueprint",
+      "role": "Manufacturer blueprint channel — DIG drip and solar irrigation products, one post a day.",
+      "desk": "The Directory",
+      "status": "live"
+    },
+    {
+      "name": "Netafim Blueprint",
+      "platform": "YouTube",
+      "handle": "@NetafimBlueprint",
+      "url": "https://www.youtube.com/@NetafimBlueprint",
+      "role": "Manufacturer blueprint channel — Netafim drip irrigation products, one post a day.",
+      "desk": "The Directory",
+      "status": "live"
+    },
+    {
+      "name": "Valley Blueprint",
+      "platform": "YouTube",
+      "handle": "@ValleyBlueprint",
+      "url": "https://www.youtube.com/@ValleyBlueprint",
+      "role": "Manufacturer blueprint channel — Valley center-pivot irrigation, one post a day.",
+      "desk": "The Directory",
+      "status": "not live yet — premiere certified & staged; Oct 21 attempt hit daily limit"
+    },
+    {
+      "name": "Rivulis Blueprint",
+      "platform": "YouTube",
+      "handle": "@RivulisBlueprint",
+      "url": "https://www.youtube.com/@RivulisBlueprint",
+      "role": "Manufacturer blueprint channel — Rivulis drip irrigation products, one post a day.",
+      "desk": "The Directory",
+      "status": "live"
+    },
+    {
+      "name": "Fronius Blueprint",
+      "platform": "YouTube",
+      "handle": "@FroniusBlueprint",
+      "url": "https://www.youtube.com/@FroniusBlueprint",
+      "role": "Manufacturer blueprint channel — Fronius welding power sources, one post a day.",
+      "desk": "The Directory",
+      "status": "live"
+    },
+    {
+      "name": "Hobart Blueprint",
+      "platform": "YouTube",
+      "handle": "@HobartBlueprint",
+      "url": "https://www.youtube.com/@HobartBlueprint",
+      "role": "Manufacturer blueprint channel — Hobart welding products, one post a day.",
+      "desk": "The Directory",
+      "status": "live"
+    },
+    {
+      "name": "Golf Blueprints",
+      "platform": "YouTube",
+      "handle": "@GolfBlueprints",
+      "url": "https://www.youtube.com/@GolfBlueprints",
+      "role": "Irrigation-brand golf channel (course irrigation, not course rankings).",
+      "desk": "The Fairways",
+      "status": "live"
+    },
+    {
+      "name": "Golf Club Blueprint",
+      "platform": "YouTube",
+      "handle": "@GolfClubBlueprint",
+      "url": "https://www.youtube.com/@GolfClubBlueprint",
+      "role": "The history of the golf club itself — putters, irons, woods, shafts, and the inventors and patents behind them, drawn to true proportions and checked against published sources. Clubs only: no courses, no instruction.",
+      "desk": "The Fairways",
+      "status": "not live yet — channel created Oct 18; premiere certified & staged"
+    },
+    {
+      "name": "Hillsboro Entertainment",
+      "platform": "Facebook",
+      "handle": null,
+      "url": "https://www.facebook.com/profile.php?id=304854799935117",
+      "role": "Entertainment, daily quotes, and local features.",
+      "desk": "Network",
+      "status": "live"
+    },
+    {
+      "name": "Cross Climate Entertainment",
+      "platform": "Facebook",
+      "handle": null,
+      "url": "https://www.facebook.com/profile.php?id=100431098919558",
+      "role": "Home and climate tips (renaming to Hillsboro Climate is pending).",
+      "desk": "The Directory",
+      "status": "live"
+    },
+    {
+      "name": "Cigar College",
+      "platform": "Facebook",
+      "handle": null,
+      "url": "https://www.facebook.com/profile.php?id=108870878562428",
+      "role": "Cigar education page. Education only. Nothing for sale.",
+      "desk": "Network",
+      "status": "live"
+    },
+    {
+      "name": "Cigar School",
+      "platform": "Facebook",
+      "handle": null,
+      "url": "https://www.facebook.com/profile.php?id=108917845223798",
+      "role": "Irrigation education page (Hillsboro Irrigation rename pending).",
+      "desk": "The Directory",
+      "status": "live"
+    },
+    {
+      "name": "Hillsboro Consumer",
+      "platform": "Facebook",
+      "handle": null,
+      "url": "https://www.facebook.com/profile.php?id=1422194797633015",
+      "role": "Florida consumer-protection tips.",
+      "desk": "Top Lists",
+      "status": "live"
+    },
+    {
+      "name": "@mrhillsboro",
+      "platform": "Instagram",
+      "handle": "@mrhillsboro",
+      "url": "https://www.instagram.com/mrhillsboro",
+      "role": "Main personal-creator account: workshop, projects, daily life of the empire.",
+      "desk": "Network",
+      "status": "live"
+    },
+    {
+      "name": "@winterparkroad",
+      "platform": "Instagram",
+      "handle": "@winterparkroad",
+      "url": "https://www.instagram.com/winterparkroad",
+      "role": "Florida history reels — Winter Park and Central Florida.",
+      "desk": "The Route",
+      "status": "live"
+    },
+    {
+      "name": "@wpcigars",
+      "platform": "Instagram",
+      "handle": "@wpcigars",
+      "url": "https://www.instagram.com/wpcigars",
+      "role": "Cigar education account.",
+      "desk": "Network",
+      "status": "not linked — cannot post until linked in Meta Accounts Center"
+    },
+    {
+      "name": "@jayhilmedia",
+      "platform": "Instagram",
+      "handle": "@jayhilmedia",
+      "url": null,
+      "role": "Jayhil Media brand account.",
+      "desk": "Top Lists",
+      "status": "in formation"
+    },
+    {
+      "name": "@mrminneola",
+      "platform": "TikTok",
+      "handle": "@mrminneola",
+      "url": null,
+      "role": "Mr. Minneola — local shorts and empire clips.",
+      "desk": "Network",
+      "status": "live"
+    },
+    {
+      "name": "@mrhillsboro",
+      "platform": "TikTok",
+      "handle": "@mrhillsboro",
+      "url": null,
+      "role": "Workshop and creator shorts.",
+      "desk": "Network",
+      "status": "live"
+    },
+    {
+      "name": "PracticalProTips",
+      "platform": "TikTok",
+      "handle": "PracticalProTips",
+      "url": null,
+      "role": "Tax, home, and everyday-life tips channel.",
+      "desk": "Network",
+      "status": "planned — creation queued"
+    },
+    {
+      "name": "RTR525",
+      "platform": "Rumble",
+      "handle": "RTR525",
+      "url": null,
+      "role": "Rumble home for Sprinkler Tips and Jayhil Media channels.",
+      "desk": "Network",
+      "status": "account exists — channel setup pending"
+    },
+    {
+      "name": "Empire Dashboard",
+      "platform": "Web",
+      "handle": null,
+      "url": "https://rtr525-web.github.io/",
+      "role": "Public dashboard for the whole empire: channels, stats, Road to Partner.",
+      "desk": "Hub",
+      "status": "live"
+    },
+    {
+      "name": "AI Sync",
+      "platform": "Web",
+      "handle": null,
+      "url": "https://rtr525-web.github.io/ai-sync/",
+      "role": "This sync system: the public page + context.json feed that bring any AI current.",
+      "desk": "Hub",
+      "status": "publishing"
+    },
+    {
+      "name": "Hillsboro Blueprint (hub site)",
+      "platform": "Web",
+      "handle": null,
+      "url": null,
+      "role": "The empire's front door: directory, Top Lists, news, and daily travel tips in a 1930s street-market x steampunk style.",
+      "desk": "Hub",
+      "status": "in build"
+    }
+  ],
+  "registry_note": "Compiled from empire records on Oct 16, 2026. Reconciled Oct 19, 2026: the one-channel gap was Encyclopedia Blueprint (created Oct 18, 2026), which existed on YouTube but had never been added to this registry. The YouTube universe is 62 channels — 60 governed properties in the brand system plus two audit-only spares (Minneola Politics spare, Money Matters dormant duplicate) — and this registry now carries all 62. Five channels were created the evening of Oct 16, 2026 (Western Swing Blueprint, ReelGroove TV, Florida Fairways, National Parks Blueprint, State Parks Blueprint); 50 States Unknown is in creation. Entries with url=null have no public URL in records — never guess one.",
+  "projects": [
+    {
+      "name": "Hillsboro Blueprint hub",
+      "status": "in build",
+      "summary": "One public front door for the whole empire — directory, Top Lists, curated news, and daily travel tips — styled as a 1930s street market crossed with steampunk, organized into seven desks. Self-updating from data files."
+    },
+    {
+      "name": "The Blueprint List",
+      "status": "prototype built",
+      "summary": "A ratings system with no stars: the Kept-Promise Score. A review counts only with a verified transaction; three yes/no questions (did what they said / charged what they quoted / would hire again); under 10 verified jobs a business is Unproven and unranked. No paid placement, ever."
+    },
+    {
+      "name": "Florida golf directory + Top List",
+      "status": "live, enriching",
+      "summary": "685 verified Florida golf courses across 60 counties, with a Top 25 list carrying addresses and official sites. County spotlights roll out on Florida Fairways."
+    },
+    {
+      "name": "50-state facts index",
+      "status": "in production",
+      "summary": "Little-known facts and interesting places for all 50 states, in standard categories, folklore labeled as folklore. Florida is complete; the other states roll out in waves — never padded with unverified facts."
+    },
+    {
+      "name": "Educational nonprofit (academy model)",
+      "status": "planning — nothing launched, no donations solicited",
+      "summary": "An education-first nonprofit in planning, with teach-others channel kits drafted (how to build a nonprofit, second-shift trade skills, homeowner basics). It launches only when the legal entity exists."
+    },
+    {
+      "name": "Moon and Stars collecting watch",
+      "status": "live",
+      "summary": "A background watch sweeps Whatnot and eBay every 30 minutes for L.E. Smith Moon and Stars vintage glass in good condition at genuine-deal prices, feeding the collecting content. It never bids on its own."
+    },
+    {
+      "name": "Disclosed AI creator",
+      "status": "draft",
+      "summary": "A fully disclosed AI virtual creator in draft under a written ethics charter: labeled as AI everywhere, fully synthetic, no sold intimacy, human review before every post."
+    }
+  ],
+  "rules": [
+    "Work style: short, direct, plain sentences. Robert reads and listens on his phone. Finished work over process explanations; honest failures first.",
+    "Approval first: never send, post, publish, buy, submit, delete, or change any account without Robert's explicit approval for that specific action. Muse is the publisher of record — outside AIs draft and hand off, they never publish.",
+    "Verified facts or cut it: cite the source next to every claim. Never invent names, numbers, addresses, dates, balances, or quotes.",
+    "No paid placement, ever — in any list, ranking, review, directory, or video.",
+    "Follow every platform's community guidelines, including when drafting comment and message replies.",
+    "Copyright discipline: no commercial recordings, no reproduced lyrics, no voice clones or likenesses. Public-domain material must be verified for BOTH the composition and the recording; Creative Commons only CC0/CC-BY, with the license noted.",
+    "Maps must match a cited source and carry an on-screen legend naming every symbol — or be visibly labeled schematic, not to scale.",
+    "Disclaimers travel with the content: tax = 'General info, not tax advice.' Legal = 'Education only, not legal advice.' Cigar content ends 'Education only. Nothing for sale.'",
+    "Folklore and legend are labeled as folklore.",
+    "Privacy: this public feed is the whole of what an outside AI should use. Never ask Robert for passwords, codes, private contact details, or anything about his family, health, finances, or employer — none of it belongs in empire work.",
+    "End every work session with a HANDOFF FOR MUSE block (format in the connector kit) so the work enters the record."
+  ],
+  "check_ins": [
+    {
+      "agent": "Claude (Anthropic)",
+      "desk": "The Wire",
+      "date": "2026-10-16",
+      "connected_at": "10:06 PM ET",
+      "summary": "First outside AI connected. Verified live fetch of the feed; built a read-only connector script and a VIDEO_BRIEF generator; runs an hourly scheduled feed check."
+    },
+    {
+      "agent": "Claude (Anthropic)",
+      "desk": "The Wire + The Directory",
+      "date": "2026-10-16",
+      "connected_at": "10:40 PM ET",
+      "summary": "Handoff #1: verified the updated feed, the five-AI roster, and the Oct 17 daily brief; hourly check baseline moved to the 22:26 stamp; connector scripts delivered."
+    }
+  ],
+  "check_ins_note": "The desk check-in ledger. Entries are {desk, ai, date, summary}. Muse is the only writer: when an outside AI returns a HANDOFF FOR MUSE block and Muse folds its work into the record, Muse appends that AI's check-in here and bumps updated_at. Outside AIs never edit this feed or the sync page themselves — the one-way design is deliberate; it protects the page and the record.",
+  "ai_roster": [
+    {
+      "name": "Claude",
+      "provider": "Anthropic",
+      "model": "Claude Opus 5.5",
+      "sync_status": "Synced — verified live Oct 16, 2026, 10:06 PM ET",
+      "sync_method": "Fetches context.json directly (cache-buster on every fetch); runs an hourly scheduled feed check",
+      "desks": [
+        "The Wire",
+        "The Directory"
+      ],
+      "strengths": [
+        "Live web fetch of the JSON feed",
+        "Runs Python with internet access; builds and tests connector scripts",
+        "Scheduled tasks, including an hourly feed check",
+        "Gmail, Google Drive, Calendar, Notion, Slack, and vidIQ connectors",
+        "Memory across chats"
+      ],
+      "struggles": [
+        "Its fetch tool can cache errors (it served a stale 404 for about 15 minutes on Oct 16) — always use a cache-buster",
+        "Cannot browse during voice calls",
+        "Cannot schedule more often than hourly",
+        "Cannot see its own usage meters (NOT VISIBLE)"
+      ]
+    },
+    {
+      "name": "ChatGPT",
+      "provider": "OpenAI",
+      "model": "GPT-6",
+      "sync_status": "Not connected — context.json fetch failed Oct 16, 2026, 10:19 PM ET (connect.txt loaded); retry sent; a daily 8:00 AM ET scheduled check is set but not yet verified",
+      "sync_method": "Web fetch of connect.txt / context.json; daily scheduled check (unverified)",
+      "desks": [
+        "Top Lists",
+        "The Route"
+      ],
+      "strengths": [
+        "Drafting scripts, articles, and reports",
+        "Web research with citations",
+        "Image generation and downloadable files"
+      ],
+      "struggles": [
+        "Raw JSON feed fetch failed on its first attempt",
+        "Scheduling is daily, not hourly",
+        "Cannot see its own usage meters (NOT VISIBLE)"
+      ]
+    },
+    {
+      "name": "M365 Copilot",
+      "provider": "Microsoft",
+      "model": "GPT-5-based",
+      "sync_status": "Not connected — no attempt reported yet",
+      "sync_method": "Manual only: works when Robert opens a chat; no scheduling or background monitoring",
+      "desks": [
+        "Money"
+      ],
+      "strengths": [
+        "Word, Excel, PowerPoint, and PDF files",
+        "Drafts, outlines, reports, and document review",
+        "Follows standing procedures"
+      ],
+      "struggles": [
+        "No scheduling or background monitoring",
+        "Only works when Robert opens a chat",
+        "No guaranteed memory across chats"
+      ]
+    },
+    {
+      "name": "Gemini",
+      "provider": "Google",
+      "model": "Current production model",
+      "sync_status": "Upload-only — cannot fetch the feed",
+      "sync_method": "Robert uploads context.json each session; its Sync line reads \"VIA UPLOAD — [stamp]\"",
+      "desks": [
+        "Data analysis",
+        "Fairways/Parks fact files"
+      ],
+      "strengths": [
+        "Google Search research",
+        "Python for analysis and files (CSV, PDF, XLSX, images)",
+        "Reads uploaded images and documents",
+        "Memory across chats"
+      ],
+      "struggles": [
+        "Cannot open raw .json files or unindexed URLs",
+        "Its Python has no internet access",
+        "New GitHub Pages sites are not in search results yet",
+        "No scheduling"
+      ]
+    },
+    {
+      "name": "Muse",
+      "provider": "Meta",
+      "model": "Muse (personal AI agent)",
+      "sync_status": "Coordinator — publisher of record",
+      "sync_method": "Owns and updates this feed and page; logs check-ins from the handoffs Robert forwards",
+      "desks": [
+        "All desks (coordination)"
+      ],
+      "strengths": [
+        "The only AI that publishes or updates the feed",
+        "Holds the memory, calendar, files, and task tracking behind this feed",
+        "Folds handoffs into the record and posts desk check-ins"
+      ],
+      "struggles": [
+        "No direct AI-to-AI link exists — handoffs travel through Robert"
+      ]
+    }
+  ],
+  "daily_brief": {
+    "date": "2026-10-21",
+    "headline": "Facebook backlogs cleared, MP01 live, 10-channel kits ready",
+    "items": [
+      "Sprinkler Engineering E7 published Oct 20 and E8 is staged gate-valid for Oct 21; the evening Sprinkler Tips lesson on the Hunter PGP Ultra blue nozzle tree was also produced and gate-certified.",
+      "The Facebook evening run cleared 9 of 9 verified live: Quote #10, the Cross Climate water-heater lesson, Cigar College humidor seasoning, Brand Spotlight 1-3, and Heritage 1-3.",
+      "Minneola Politics launched: all six landscape profiles were produced and gate-certified, and MP01 on the City Council published as the channel's first video; MP02 follows on the one-a-day cadence.",
+      "Ten new channels are kit-ready with Episode 1s gate-certified — Zimmatic, Reinke, Dawn, Bernard, CK Worldwide, Hidden Giants, Golf Club, Miller, Lincoln, and Patent — awaiting the serialized launch flow.",
+      "Firearms News Daily returned under a news-only, no-prices format: the Beckwith cert-denial piece and the Springfield Echelon COG piece were produced and gate-certified.",
+      "A simpler one-command gate went live across all publishing jobs, and Deals was reworked to no-prices store finds with a gate-certified replacement Episode 1."
+    ]
+  },
+  "handoff": {
+    "format": "HANDOFF FOR MUSE\nAgent: [name, provider, model]\nDesk: [desk worked]\nSync: [the feed updated_at stamp you read]\nDone: [what was completed, with links and where each fact came from]\nNeeds a decision: [anything waiting on Robert]\nBlocked: [what stopped you, or 'nothing']\nUsage after work: [figures only as actually displayed, saying where seen — otherwise NOT VISIBLE]\nFiles-links: [files created or links produced]",
+    "note": "There is no direct AI-to-AI link. Robert carries handoffs to Muse, and Muse folds them into memory and tracking. Never claim you synced with Muse directly."
   }
- ],
- "desks": [
-  {
-   "name": "The Wire",
-   "charter": "Curated local and Florida news, refreshed on a schedule. Facts only, both sides on contested stories."
-  },
-  {
-   "name": "The Directory",
-   "charter": "Every place worth knowing — golf courses, parks, local services — verified and listed."
-  },
-  {
-   "name": "Top Lists",
-   "charter": "Rankings with the basis stated up front, powered by the Kept-Promise Score. No paid placement."
-  },
-  {
-   "name": "The Route",
-   "charter": "Florida travel tips and trip ideas — a fresh tip every day, rotating automatically."
-  },
-  {
-   "name": "The Fairways",
-   "charter": "Florida golf: 689 verified courses, county by county, with a Top 25 list."
-  },
-  {
-   "name": "The Parks",
-   "charter": "State and national parks, drawn and explained — Florida's parks and all 63 national parks."
-  },
-  {
-   "name": "The Exchange",
-   "charter": "Honest deals and money know-how. If money changed hands for a slot, it does not run."
-  }
- ],
- "empire_pages": [
-  {
-   "name": "Sprinkler Tips",
-   "platform": "YouTube",
-   "handle": "@RTR525",
-   "url": "https://www.youtube.com/@RTR525",
-   "role": "Flagship. The daily Sprinkler Engineering series plus irrigation know-how.",
-   "desk": "The Directory",
-   "status": "live"
-  },
-  {
-   "name": "MinneolaMatters",
-   "platform": "YouTube",
-   "handle": "@MinneolaMatters",
-   "url": "https://www.youtube.com/@MinneolaMatters",
-   "role": "Flagship variety station. Minneola and Central Florida local life, news, and events.",
-   "desk": "The Wire",
-   "status": "live"
-  },
-  {
-   "name": "Cigar College",
-   "platform": "YouTube",
-   "handle": "@cigarcollege",
-   "url": "https://www.youtube.com/@cigarcollege",
-   "role": "Flagship. Cigar education. Every piece ends: Education only. Nothing for sale.",
-   "desk": "Network",
-   "status": "live"
-  },
-  {
-   "name": "Jayhil Media",
-   "platform": "YouTube",
-   "handle": "@JayhilMedia",
-   "url": "https://www.youtube.com/@JayhilMedia",
-   "role": "Network variety station — the empire's umbrella channel.",
-   "desk": "Top Lists",
-   "status": "live — playlists built; uploads in the daily retry rotation"
-  },
-  {
-   "name": "Central Florida News",
-   "platform": "YouTube",
-   "handle": "@thisdaycentralfl",
-   "url": "https://www.youtube.com/@thisdaycentralfl",
-   "role": "Central Florida news and this-day-in-history segments.",
-   "desk": "The Wire",
-   "status": "live"
-  },
-  {
-   "name": "Minneola Politics",
-   "platform": "YouTube",
-   "handle": "@MinneolaPolitics",
-   "url": "https://www.youtube.com/@MinneolaPolitics",
-   "role": "Minneola civic life — council, elections, development — in plain language.",
-   "desk": "The Wire",
-   "status": "live"
-  },
-  {
-   "name": "Minneola Politics (spare)",
-   "platform": "YouTube",
-   "handle": "@MinneolaPoliticsFL",
-   "url": "https://www.youtube.com/@MinneolaPoliticsFL",
-   "role": "Spare duplicate channel, kept in reserve.",
-   "desk": "The Wire",
-   "status": "spare — no content"
-  },
-  {
-   "name": "Florida Storm Watch",
-   "platform": "YouTube",
-   "handle": null,
-   "url": null,
-   "role": "Florida storm and weather-readiness coverage.",
-   "desk": "The Wire",
-   "status": "live"
-  },
-  {
-   "name": "Tax Blueprint",
-   "platform": "YouTube",
-   "handle": "@TaxBlueprintTips",
-   "url": "https://www.youtube.com/@TaxBlueprintTips",
-   "role": "Tax education, blueprint style. General info, not tax advice.",
-   "desk": "The Exchange",
-   "status": "live"
-  },
-  {
-   "name": "Money Matters",
-   "platform": "YouTube",
-   "handle": "@moneymatters-o6k-t9i",
-   "url": "https://www.youtube.com/@moneymatters-o6k-t9i",
-   "role": "Personal-finance education.",
-   "desk": "The Exchange",
-   "status": "live"
-  },
-  {
-   "name": "Money Matters (spare)",
-   "platform": "YouTube",
-   "handle": "@moneymatters-o6k",
-   "url": "https://www.youtube.com/@moneymatters-o6k",
-   "role": "Spare duplicate channel, kept in reserve.",
-   "desk": "The Exchange",
-   "status": "spare — no content"
-  },
-  {
-   "name": "Deals Blueprint",
-   "platform": "YouTube",
-   "handle": "@DealsBlueprint",
-   "url": "https://www.youtube.com/@DealsBlueprint",
-   "role": "Store finds worth checking out at Walmart, Costco, Target and more — no prices anywhere, just the deal. Education only.",
-   "desk": "The Exchange",
-   "status": "live"
-  },
-  {
-   "name": "Forgotten Engines",
-   "platform": "YouTube",
-   "handle": "@ForgottenEnginesFL",
-   "url": "https://www.youtube.com/@ForgottenEnginesFL",
-   "role": "Lost and forgotten vehicle technology — the machines that almost changed everything, drawn and explained in blueprint style.",
-   "desk": "The Exchange",
-   "status": "live"
-  },
-  {
-   "name": "Glass Blueprint",
-   "platform": "YouTube",
-   "handle": "@GlassBlueprint",
-   "url": "https://www.youtube.com/@GlassBlueprint",
-   "role": "Vintage and antique glass history — the makers, patterns, marks and colors — with the resale record told honestly: dated eBay sold comps only, never asking prices or appraisals.",
-   "desk": "The Exchange",
-   "status": "live"
-  },
-  {
-   "name": "Encyclopedia Blueprint",
-   "platform": "YouTube",
-   "handle": "@EncyclopediaBlueprint",
-   "url": "https://www.youtube.com/@EncyclopediaBlueprint",
-   "role": "One topic at a time, fully explained — the drawing, the specs, and the story behind it, in plain words. A Subject Blueprint desk channel: a single subject per episode, checked at real sources before it is drawn.",
-   "desk": "The Exchange",
-   "status": "live"
-  },
-  {
-   "name": "Career Blueprint",
-   "platform": "YouTube",
-   "handle": "@CareerBlueprintHQ-y4k",
-   "url": "https://www.youtube.com/channel/UC6UD508BizkdC2Q1cyE8vqA",
-   "role": "Career skills and second-shift know-how.",
-   "desk": "The Exchange",
-   "status": "live"
-  },
-  {
-   "name": "Arc & Anvil",
-   "platform": "YouTube",
-   "handle": "@arcandanvil-d7b",
-   "url": "https://www.youtube.com/@arcandanvil-d7b",
-   "role": "Welding craft and shop skills.",
-   "desk": "Network",
-   "status": "live"
-  },
-  {
-   "name": "Verse & Anvil",
-   "platform": "YouTube",
-   "handle": "@verseandanvil",
-   "url": "https://www.youtube.com/@verseandanvil",
-   "role": "Classic poetry, narrated.",
-   "desk": "Network",
-   "status": "live"
-  },
-  {
-   "name": "Stoic Mind",
-   "platform": "YouTube",
-   "handle": "@stoicmind-s7e",
-   "url": "https://www.youtube.com/@stoicmind-s7e",
-   "role": "Stoic philosophy in a carved-marble style.",
-   "desk": "Network",
-   "status": "live"
-  },
-  {
-   "name": "Style Blueprint",
-   "platform": "YouTube",
-   "handle": "@StyleBlueprints",
-   "url": "https://www.youtube.com/@StyleBlueprints",
-   "role": "Formal-outfit color-combination blueprints.",
-   "desk": "Network",
-   "status": "live"
-  },
-  {
-   "name": "Audi Saga",
-   "platform": "YouTube",
-   "handle": "@audisaga-m2l",
-   "url": "https://www.youtube.com/@audisaga-m2l",
-   "role": "Fictional serialized story channel.",
-   "desk": "Network",
-   "status": "live — new episodes approval-gated"
-  },
-  {
-   "name": "Justice Blueprint",
-   "platform": "YouTube",
-   "handle": "@JusticeBlueprintHQ",
-   "url": "https://www.youtube.com/@JusticeBlueprintHQ",
-   "role": "Florida law explained in general. Education only, not legal advice.",
-   "desk": "Network",
-   "status": "live"
-  },
-  {
-   "name": "Family Blueprint",
-   "platform": "YouTube",
-   "handle": "@FamilyBlueprintHQ",
-   "url": "https://www.youtube.com/@FamilyBlueprintHQ",
-   "role": "Family life and household know-how.",
-   "desk": "Network",
-   "status": "live"
-  },
-  {
-   "name": "Home Repair Blueprint",
-   "platform": "YouTube",
-   "handle": "@HomeRepairBlueprint",
-   "url": "https://www.youtube.com/@HomeRepairBlueprint",
-   "role": "Home repair, blueprint style.",
-   "desk": "The Directory",
-   "status": "live"
-  },
-  {
-   "name": "Tech Blueprint",
-   "platform": "YouTube",
-   "handle": "@TechBlueprintHQ-k3r",
-   "url": "https://www.youtube.com/channel/UCto8obQMtV26tcy6mOMpfAw",
-   "role": "Technology how-tos and computer repair.",
-   "desk": "The Directory",
-   "status": "live"
-  },
-  {
-   "name": "Built Not Born Fitness",
-   "platform": "YouTube",
-   "handle": "@builtnotbornfitness",
-   "url": "https://www.youtube.com/@builtnotbornfitness",
-   "role": "Fitness fundamentals, no hype.",
-   "desk": "Network",
-   "status": "live"
-  },
-  {
-   "name": "Standing the Watch",
-   "platform": "YouTube",
-   "handle": "@StandingTheWatch",
-   "url": "https://www.youtube.com/@StandingTheWatch",
-   "role": "Public-history channel: the long history of the correctional officer profession.",
-   "desk": "The Route",
-   "status": "live"
-  },
-  {
-   "name": "Badge Blueprint",
-   "platform": "YouTube",
-   "handle": "@BadgeBlueprint",
-   "url": "https://www.youtube.com/@BadgeBlueprint",
-   "role": "Public-history channel: the history of law enforcement and the badge.",
-   "desk": "The Route",
-   "status": "live"
-  },
-  {
-   "name": "Mystery Blueprint",
-   "platform": "YouTube",
-   "handle": "@MysteryBlueprint",
-   "url": "https://www.youtube.com/@MysteryBlueprint",
-   "role": "Unsolved mysteries and cold cases, told from the public record. Facts first; theories labeled as theories.",
-   "desk": "The Route",
-   "status": "live"
-  },
-  {
-   "name": "Anomaly Blueprint",
-   "platform": "YouTube",
-   "handle": "@AnomalyBlueprintFL",
-   "url": "https://www.youtube.com/@AnomalyBlueprintFL",
-   "role": "The world's strangest documented reports — what was reported, what was verified, and what remains unexplained.",
-   "desk": "The Route",
-   "status": "live"
-  },
-  {
-   "name": "Winter Park Road",
-   "platform": "YouTube",
-   "handle": "@WinterParkRoad",
-   "url": "https://www.youtube.com/@WinterParkRoad",
-   "role": "Florida history — Winter Park and Central Florida first, statewide from the directory.",
-   "desk": "The Route",
-   "status": "live"
-  },
-  {
-   "name": "America in Song",
-   "platform": "YouTube",
-   "handle": "@AmericaInSongStories",
-   "url": "https://www.youtube.com/@AmericaInSongStories",
-   "role": "American history told through its songs and stories.",
-   "desk": "The Route",
-   "status": "live"
-  },
-  {
-   "name": "Worth the Drive",
-   "platform": "YouTube",
-   "handle": "@WorthTheDriveFL",
-   "url": "https://www.youtube.com/@WorthTheDriveFL",
-   "role": "Central Florida places, honestly reviewed. No paid placements, ever; no verdict before a real visit.",
-   "desk": "Top Lists",
-   "status": "live"
-  },
-  {
-   "name": "Homemade Genius",
-   "platform": "YouTube",
-   "handle": "@HomemadeGeniusInventions",
-   "url": "https://www.youtube.com/@HomemadeGeniusInventions",
-   "role": "Homemade inventions and clever builds.",
-   "desk": "Network",
-   "status": "live"
-  },
-  {
-   "name": "Firearms News Daily",
-   "platform": "YouTube",
-   "handle": "@firearmsnewsdaily",
-   "url": "https://www.youtube.com/@firearmsnewsdaily",
-   "role": "Firearms news and education. News and updates only — no prices, no retailer links.",
-   "desk": "Network",
-   "status": "live — publishing resumed Oct 20, 2026 (news and education, no prices)"
-  },
-  {
-   "name": "Western Swing Blueprint",
-   "platform": "YouTube",
-   "handle": "@WesternSwingBlueprint",
-   "url": "https://www.youtube.com/@WesternSwingBlueprint",
-   "role": "Western swing music history, documentary style. Original narration and music; history, not imitation.",
-   "desk": "Network",
-   "status": "live — premiere certified; first upload in the Oct 17 retry batch"
-  },
-  {
-   "name": "ReelGroove TV",
-   "platform": "YouTube",
-   "handle": "@ReelGrooveTV",
-   "url": "https://www.youtube.com/@ReelGrooveTV",
-   "role": "Rights-cleared music videos with Liner Notes trivia cards. Every track cleared in a rights ledger before it airs.",
-   "desk": "Network",
-   "status": "live — premiere certified; first upload in the Oct 17 retry batch"
-  },
-  {
-   "name": "Florida Fairways",
-   "platform": "YouTube",
-   "handle": "@FloridaFairwaysFL",
-   "url": "https://www.youtube.com/@FloridaFairwaysFL",
-   "role": "Every Florida golf course, ranked and sorted county by county, with a Top 25 list.",
-   "desk": "The Fairways",
-   "status": "live — premiere certified; first upload in the Oct 17 retry batch"
-  },
-  {
-   "name": "National Parks Blueprint",
-   "platform": "YouTube",
-   "handle": "@NationalParksBlueprint",
-   "url": "https://www.youtube.com/@NationalParksBlueprint",
-   "role": "All 63 U.S. national parks, one by one — original maps, verified history.",
-   "desk": "The Parks",
-   "status": "live — launch package in production"
-  },
-  {
-   "name": "State Parks Blueprint",
-   "platform": "YouTube",
-   "handle": "@StateParksBlueprint",
-   "url": "https://www.youtube.com/@StateParksBlueprint",
-   "role": "America's state parks, drawn and explained — starting with Florida's system.",
-   "desk": "The Parks",
-   "status": "live — launch package in production"
-  },
-  {
-   "name": "50 States Unknown",
-   "platform": "YouTube",
-   "handle": "@50StatesUnknown",
-   "url": "https://www.youtube.com/@50StatesUnknown",
-   "role": "Little-known facts and interesting places, one state at a time. Florida first; folklore labeled as folklore.",
-   "desk": "Top Lists",
-   "status": "live"
-  },
-  {
-   "name": "Rain Bird Blueprint",
-   "platform": "YouTube",
-   "handle": "@RainBirdBlueprint",
-   "url": "https://www.youtube.com/@RainBirdBlueprint",
-   "role": "Manufacturer blueprint channel — Rain Bird irrigation products, one post a day.",
-   "desk": "The Directory",
-   "status": "live"
-  },
-  {
-   "name": "Hunter Blueprints",
-   "platform": "YouTube",
-   "handle": "@HunterBlueprints",
-   "url": "https://www.youtube.com/@HunterBlueprints",
-   "role": "Manufacturer blueprint channel — Hunter irrigation products, one post a day.",
-   "desk": "The Directory",
-   "status": "live"
-  },
-  {
-   "name": "Toro Blueprint",
-   "platform": "YouTube",
-   "handle": "@ToroBlueprint",
-   "url": "https://www.youtube.com/@ToroBlueprint",
-   "role": "Manufacturer blueprint channel — Toro irrigation products, one post a day.",
-   "desk": "The Directory",
-   "status": "live"
-  },
-  {
-   "name": "Orbit Blueprints",
-   "platform": "YouTube",
-   "handle": "@OrbitBlueprints",
-   "url": "https://www.youtube.com/@OrbitBlueprints",
-   "role": "Manufacturer blueprint channel — Orbit irrigation products, one post a day.",
-   "desk": "The Directory",
-   "status": "live"
-  },
-  {
-   "name": "K-Rain Blueprint",
-   "platform": "YouTube",
-   "handle": "@KRainBlueprint",
-   "url": "https://www.youtube.com/@KRainBlueprint",
-   "role": "Manufacturer blueprint channel — K-Rain irrigation products, one post a day.",
-   "desk": "The Directory",
-   "status": "live"
-  },
-  {
-   "name": "Calsense Blueprint",
-   "platform": "YouTube",
-   "handle": "@CalsenseBlueprint",
-   "url": "https://www.youtube.com/@CalsenseBlueprint",
-   "role": "Manufacturer blueprint channel — Calsense smart irrigation controllers, one post a day.",
-   "desk": "The Directory",
-   "status": "live"
-  },
-  {
-   "name": "Buckner-Superior Blueprint",
-   "platform": "YouTube",
-   "handle": "@BucknerSuperiorBlueprint",
-   "url": "https://www.youtube.com/@BucknerSuperiorBlueprint",
-   "role": "Manufacturer blueprint channel — Buckner-Superior irrigation products, one post a day.",
-   "desk": "The Directory",
-   "status": "live"
-  },
-  {
-   "name": "Signature Blueprint",
-   "platform": "YouTube",
-   "handle": "@SignatureBlueprint",
-   "url": "https://www.youtube.com/@SignatureBlueprint",
-   "role": "Manufacturer blueprint channel — Signature irrigation products, one post a day.",
-   "desk": "The Directory",
-   "status": "live"
-  },
-  {
-   "name": "Baseline Blueprints",
-   "platform": "YouTube",
-   "handle": "@BaselineBlueprints",
-   "url": "https://www.youtube.com/@BaselineBlueprints",
-   "role": "Manufacturer blueprint channel — Baseline irrigation controllers, one post a day.",
-   "desk": "The Directory",
-   "status": "live"
-  },
-  {
-   "name": "Weathermatic Blueprint",
-   "platform": "YouTube",
-   "handle": "@WeathermaticBlueprint",
-   "url": "https://www.youtube.com/@WeathermaticBlueprint",
-   "role": "Manufacturer blueprint channel — Weathermatic irrigation products, one post a day.",
-   "desk": "The Directory",
-   "status": "live"
-  },
-  {
-   "name": "Senninger Blueprint",
-   "platform": "YouTube",
-   "handle": "@SenningerBlueprint",
-   "url": "https://www.youtube.com/@SenningerBlueprint",
-   "role": "Manufacturer blueprint channel — Senninger irrigation products, one post a day.",
-   "desk": "The Directory",
-   "status": "live"
-  },
-  {
-   "name": "Nelson Blueprint",
-   "platform": "YouTube",
-   "handle": "@NelsonBlueprint",
-   "url": "https://www.youtube.com/@NelsonBlueprint",
-   "role": "Manufacturer blueprint channel — Nelson irrigation products, one post a day.",
-   "desk": "The Directory",
-   "status": "live"
-  },
-  {
-   "name": "Irritrol Blueprint",
-   "platform": "YouTube",
-   "handle": "@IrritrolBlueprint",
-   "url": "https://www.youtube.com/@IrritrolBlueprint",
-   "role": "Manufacturer blueprint channel — Irritrol irrigation products, one post a day.",
-   "desk": "The Directory",
-   "status": "live"
-  },
-  {
-   "name": "DIG Blueprint",
-   "platform": "YouTube",
-   "handle": "@DIGBlueprint",
-   "url": "https://www.youtube.com/@DIGBlueprint",
-   "role": "Manufacturer blueprint channel — DIG drip and solar irrigation products, one post a day.",
-   "desk": "The Directory",
-   "status": "live"
-  },
-  {
-   "name": "Netafim Blueprint",
-   "platform": "YouTube",
-   "handle": "@NetafimBlueprint",
-   "url": "https://www.youtube.com/@NetafimBlueprint",
-   "role": "Manufacturer blueprint channel — Netafim drip irrigation products, one post a day.",
-   "desk": "The Directory",
-   "status": "live"
-  },
-  {
-   "name": "Valley Blueprint",
-   "platform": "YouTube",
-   "handle": "@ValleyBlueprint",
-   "url": "https://www.youtube.com/@ValleyBlueprint",
-   "role": "Manufacturer blueprint channel — Valley center-pivot irrigation, one post a day.",
-   "desk": "The Directory",
-   "status": "live"
-  },
-  {
-   "name": "Rivulis Blueprint",
-   "platform": "YouTube",
-   "handle": "@RivulisBlueprint",
-   "url": "https://www.youtube.com/@RivulisBlueprint",
-   "role": "Manufacturer blueprint channel — Rivulis drip irrigation products, one post a day.",
-   "desk": "The Directory",
-   "status": "live"
-  },
-  {
-   "name": "Fronius Blueprint",
-   "platform": "YouTube",
-   "handle": "@FroniusBlueprint",
-   "url": "https://www.youtube.com/@FroniusBlueprint",
-   "role": "Manufacturer blueprint channel — Fronius welding power sources, one post a day.",
-   "desk": "The Directory",
-   "status": "live"
-  },
-  {
-   "name": "Hobart Blueprint",
-   "platform": "YouTube",
-   "handle": "@HobartBlueprint",
-   "url": "https://www.youtube.com/@HobartBlueprint",
-   "role": "Manufacturer blueprint channel — Hobart welding products, one post a day.",
-   "desk": "The Directory",
-   "status": "live"
-  },
-  {
-   "name": "Golf Blueprints",
-   "platform": "YouTube",
-   "handle": "@GolfBlueprints",
-   "url": "https://www.youtube.com/@GolfBlueprints",
-   "role": "Irrigation-brand golf channel (course irrigation, not course rankings).",
-   "desk": "The Fairways",
-   "status": "live"
-  },
-  {
-   "name": "Golf Club Blueprint",
-   "platform": "YouTube",
-   "handle": "@GolfClubBlueprint",
-   "url": "https://www.youtube.com/@GolfClubBlueprint",
-   "role": "The history of the golf club itself — putters, irons, woods, shafts, and the inventors and patents behind them, drawn to true proportions and checked against published sources. Clubs only: no courses, no instruction.",
-   "desk": "The Fairways",
-   "status": "live"
-  },
-  {
-   "name": "Hillsboro Entertainment",
-   "platform": "Facebook",
-   "handle": null,
-   "url": "https://www.facebook.com/profile.php?id=304854799935117",
-   "role": "Entertainment, daily quotes, and local features.",
-   "desk": "Network",
-   "status": "live"
-  },
-  {
-   "name": "Cross Climate Entertainment",
-   "platform": "Facebook",
-   "handle": null,
-   "url": "https://www.facebook.com/profile.php?id=100431098919558",
-   "role": "Home and climate tips (renaming to Hillsboro Climate is pending).",
-   "desk": "The Directory",
-   "status": "live"
-  },
-  {
-   "name": "Cigar College",
-   "platform": "Facebook",
-   "handle": null,
-   "url": "https://www.facebook.com/profile.php?id=108870878562428",
-   "role": "Cigar education page. Education only. Nothing for sale.",
-   "desk": "Network",
-   "status": "live"
-  },
-  {
-   "name": "Cigar School",
-   "platform": "Facebook",
-   "handle": null,
-   "url": "https://www.facebook.com/profile.php?id=108917845223798",
-   "role": "Irrigation education page (Hillsboro Irrigation rename pending).",
-   "desk": "The Directory",
-   "status": "live"
-  },
-  {
-   "name": "Hillsboro Consumer",
-   "platform": "Facebook",
-   "handle": null,
-   "url": "https://www.facebook.com/profile.php?id=1422194797633015",
-   "role": "Florida consumer-protection tips.",
-   "desk": "Top Lists",
-   "status": "live"
-  },
-  {
-   "name": "@mrhillsboro",
-   "platform": "Instagram",
-   "handle": "@mrhillsboro",
-   "url": "https://www.instagram.com/mrhillsboro",
-   "role": "Main personal-creator account: workshop, projects, daily life of the empire.",
-   "desk": "Network",
-   "status": "live"
-  },
-  {
-   "name": "@winterparkroad",
-   "platform": "Instagram",
-   "handle": "@winterparkroad",
-   "url": "https://www.instagram.com/winterparkroad",
-   "role": "Florida history reels — Winter Park and Central Florida.",
-   "desk": "The Route",
-   "status": "live"
-  },
-  {
-   "name": "@wpcigars",
-   "platform": "Instagram",
-   "handle": "@wpcigars",
-   "url": "https://www.instagram.com/wpcigars",
-   "role": "Cigar education account.",
-   "desk": "Network",
-   "status": "live — posting currently limited"
-  },
-  {
-   "name": "@jayhilmedia",
-   "platform": "Instagram",
-   "handle": "@jayhilmedia",
-   "url": null,
-   "role": "Jayhil Media brand account.",
-   "desk": "Top Lists",
-   "status": "in formation"
-  },
-  {
-   "name": "@mrminneola",
-   "platform": "TikTok",
-   "handle": "@mrminneola",
-   "url": null,
-   "role": "Mr. Minneola — local shorts and empire clips.",
-   "desk": "Network",
-   "status": "live"
-  },
-  {
-   "name": "@mrhillsboro",
-   "platform": "TikTok",
-   "handle": "@mrhillsboro",
-   "url": null,
-   "role": "Workshop and creator shorts.",
-   "desk": "Network",
-   "status": "live"
-  },
-  {
-   "name": "PracticalProTips",
-   "platform": "TikTok",
-   "handle": "PracticalProTips",
-   "url": null,
-   "role": "Tax, home, and everyday-life tips channel.",
-   "desk": "Network",
-   "status": "planned — creation queued"
-  },
-  {
-   "name": "RTR525",
-   "platform": "Rumble",
-   "handle": "RTR525",
-   "url": null,
-   "role": "Rumble home for Sprinkler Tips and Jayhil Media channels.",
-   "desk": "Network",
-   "status": "account exists — channel setup pending"
-  },
-  {
-   "name": "Empire Dashboard",
-   "platform": "Web",
-   "handle": null,
-   "url": "https://rtr525-web.github.io/",
-   "role": "Public dashboard for the whole empire: channels, stats, Road to Partner.",
-   "desk": "Hub",
-   "status": "live"
-  },
-  {
-   "name": "AI Sync",
-   "platform": "Web",
-   "handle": null,
-   "url": "https://rtr525-web.github.io/ai-sync/",
-   "role": "This sync system: the public page + context.json feed that bring any AI current.",
-   "desk": "Hub",
-   "status": "publishing"
-  },
-  {
-   "name": "Hillsboro Blueprint (hub site)",
-   "platform": "Web",
-   "handle": null,
-   "url": null,
-   "role": "The empire's front door: directory, Top Lists, news, and daily travel tips in a 1930s street-market x steampunk style.",
-   "desk": "Hub",
-   "status": "in build"
-  }
- ],
- "registry_note": "Compiled from empire records on Oct 16, 2026. Reconciled Oct 19, 2026: the one-channel gap was Encyclopedia Blueprint (created Oct 18, 2026), which existed on YouTube but had never been added to this registry. The YouTube universe is 62 channels — 60 governed properties in the brand system plus two audit-only spares (Minneola Politics spare, Money Matters dormant duplicate) — and this registry now carries all 62. Five channels were created the evening of Oct 16, 2026 (Western Swing Blueprint, ReelGroove TV, Florida Fairways, National Parks Blueprint, State Parks Blueprint); 50 States Unknown is in creation. Entries with url=null have no public URL in records — never guess one.",
- "projects": [
-  {
-   "name": "Hillsboro Blueprint hub",
-   "status": "in build",
-   "summary": "One public front door for the whole empire — directory, Top Lists, curated news, and daily travel tips — styled as a 1930s street market crossed with steampunk, organized into seven desks. Self-updating from data files."
-  },
-  {
-   "name": "The Blueprint List",
-   "status": "prototype built",
-   "summary": "A ratings system with no stars: the Kept-Promise Score. A review counts only with a verified transaction; three yes/no questions (did what they said / charged what they quoted / would hire again); under 10 verified jobs a business is Unproven and unranked. No paid placement, ever."
-  },
-  {
-   "name": "Florida golf directory + Top List",
-   "status": "live, enriching",
-   "summary": "685 verified Florida golf courses across 60 counties, with a Top 25 list carrying addresses and official sites. County spotlights roll out on Florida Fairways."
-  },
-  {
-   "name": "50-state facts index",
-   "status": "in production",
-   "summary": "Little-known facts and interesting places for all 50 states, in standard categories, folklore labeled as folklore. Florida is complete; the other states roll out in waves — never padded with unverified facts."
-  },
-  {
-   "name": "Educational nonprofit (academy model)",
-   "status": "planning — nothing launched, no donations solicited",
-   "summary": "An education-first nonprofit in planning, with teach-others channel kits drafted (how to build a nonprofit, second-shift trade skills, homeowner basics). It launches only when the legal entity exists."
-  },
-  {
-   "name": "Moon and Stars collecting watch",
-   "status": "live",
-   "summary": "A background watch sweeps Whatnot and eBay every 30 minutes for L.E. Smith Moon and Stars vintage glass in good condition at genuine-deal prices, feeding the collecting content. It never bids on its own."
-  },
-  {
-   "name": "Disclosed AI creator",
-   "status": "draft",
-   "summary": "A fully disclosed AI virtual creator in draft under a written ethics charter: labeled as AI everywhere, fully synthetic, no sold intimacy, human review before every post."
-  }
- ],
- "rules": [
-  "Work style: short, direct, plain sentences. Robert reads and listens on his phone. Finished work over process explanations; honest failures first.",
-  "Approval first: never send, post, publish, buy, submit, delete, or change any account without Robert's explicit approval for that specific action. Muse is the publisher of record — outside AIs draft and hand off, they never publish.",
-  "Verified facts or cut it: cite the source next to every claim. Never invent names, numbers, addresses, dates, balances, or quotes.",
-  "No paid placement, ever — in any list, ranking, review, directory, or video.",
-  "Follow every platform's community guidelines, including when drafting comment and message replies.",
-  "Copyright discipline: no commercial recordings, no reproduced lyrics, no voice clones or likenesses. Public-domain material must be verified for BOTH the composition and the recording; Creative Commons only CC0/CC-BY, with the license noted.",
-  "Maps must match a cited source and carry an on-screen legend naming every symbol — or be visibly labeled schematic, not to scale.",
-  "Disclaimers travel with the content: tax = 'General info, not tax advice.' Legal = 'Education only, not legal advice.' Cigar content ends 'Education only. Nothing for sale.'",
-  "Folklore and legend are labeled as folklore.",
-  "Privacy: this public feed is the whole of what an outside AI should use. Never ask Robert for passwords, codes, private contact details, or anything about his family, health, finances, or employer — none of it belongs in empire work.",
-  "End every work session with a HANDOFF FOR MUSE block (format in the connector kit) so the work enters the record."
- ],
- "check_ins": [
-  {
-   "agent": "Claude (Anthropic)",
-   "desk": "The Wire",
-   "date": "2026-10-16",
-   "connected_at": "10:06 PM ET",
-   "summary": "First outside AI connected. Verified live fetch of the feed; built a read-only connector script and a VIDEO_BRIEF generator; runs an hourly scheduled feed check."
-  },
-  {
-   "agent": "Claude (Anthropic)",
-   "desk": "The Wire + The Directory",
-   "date": "2026-10-16",
-   "connected_at": "10:40 PM ET",
-   "summary": "Handoff #1: verified the updated feed, the five-AI roster, and the Oct 17 daily brief; hourly check baseline moved to the 22:26 stamp; connector scripts delivered."
-  }
- ],
- "check_ins_note": "The desk check-in ledger. Entries are {desk, ai, date, summary}. Muse is the only writer: when an outside AI returns a HANDOFF FOR MUSE block and Muse folds its work into the record, Muse appends that AI's check-in here and bumps updated_at. Outside AIs never edit this feed or the sync page themselves — the one-way design is deliberate; it protects the page and the record.",
- "ai_roster": [
-  {
-   "name": "Claude",
-   "provider": "Anthropic",
-   "model": "Claude Opus 5.5",
-   "sync_status": "Synced — verified live Oct 16, 2026, 10:06 PM ET",
-   "sync_method": "Fetches context.json directly (cache-buster on every fetch); runs an hourly scheduled feed check",
-   "desks": [
-    "The Wire",
-    "The Directory"
-   ],
-   "strengths": [
-    "Live web fetch of the JSON feed",
-    "Runs Python with internet access; builds and tests connector scripts",
-    "Scheduled tasks, including an hourly feed check",
-    "Gmail, Google Drive, Calendar, Notion, Slack, and vidIQ connectors",
-    "Memory across chats"
-   ],
-   "struggles": [
-    "Its fetch tool can cache errors (it served a stale 404 for about 15 minutes on Oct 16) — always use a cache-buster",
-    "Cannot browse during voice calls",
-    "Cannot schedule more often than hourly",
-    "Cannot see its own usage meters (NOT VISIBLE)"
-   ]
-  },
-  {
-   "name": "ChatGPT",
-   "provider": "OpenAI",
-   "model": "GPT-6",
-   "sync_status": "Not connected — context.json fetch failed Oct 16, 2026, 10:19 PM ET (connect.txt loaded); retry sent; a daily 8:00 AM ET scheduled check is set but not yet verified",
-   "sync_method": "Web fetch of connect.txt / context.json; daily scheduled check (unverified)",
-   "desks": [
-    "Top Lists",
-    "The Route"
-   ],
-   "strengths": [
-    "Drafting scripts, articles, and reports",
-    "Web research with citations",
-    "Image generation and downloadable files"
-   ],
-   "struggles": [
-    "Raw JSON feed fetch failed on its first attempt",
-    "Scheduling is daily, not hourly",
-    "Cannot see its own usage meters (NOT VISIBLE)"
-   ]
-  },
-  {
-   "name": "M365 Copilot",
-   "provider": "Microsoft",
-   "model": "GPT-5-based",
-   "sync_status": "Not connected — no attempt reported yet",
-   "sync_method": "Manual only: works when Robert opens a chat; no scheduling or background monitoring",
-   "desks": [
-    "Money"
-   ],
-   "strengths": [
-    "Word, Excel, PowerPoint, and PDF files",
-    "Drafts, outlines, reports, and document review",
-    "Follows standing procedures"
-   ],
-   "struggles": [
-    "No scheduling or background monitoring",
-    "Only works when Robert opens a chat",
-    "No guaranteed memory across chats"
-   ]
-  },
-  {
-   "name": "Gemini",
-   "provider": "Google",
-   "model": "Current production model",
-   "sync_status": "Upload-only — cannot fetch the feed",
-   "sync_method": "Robert uploads context.json each session; its Sync line reads \"VIA UPLOAD — [stamp]\"",
-   "desks": [
-    "Data analysis",
-    "Fairways/Parks fact files"
-   ],
-   "strengths": [
-    "Google Search research",
-    "Python for analysis and files (CSV, PDF, XLSX, images)",
-    "Reads uploaded images and documents",
-    "Memory across chats"
-   ],
-   "struggles": [
-    "Cannot open raw .json files or unindexed URLs",
-    "Its Python has no internet access",
-    "New GitHub Pages sites are not in search results yet",
-    "No scheduling"
-   ]
-  },
-  {
-   "name": "Muse",
-   "provider": "Meta",
-   "model": "Muse (personal AI agent)",
-   "sync_status": "Coordinator — publisher of record",
-   "sync_method": "Owns and updates this feed and page; logs check-ins from the handoffs Robert forwards",
-   "desks": [
-    "All desks (coordination)"
-   ],
-   "strengths": [
-    "The only AI that publishes or updates the feed",
-    "Holds the memory, calendar, files, and task tracking behind this feed",
-    "Folds handoffs into the record and posts desk check-ins"
-   ],
-   "struggles": [
-    "No direct AI-to-AI link exists — handoffs travel through Robert"
-   ]
-  }
- ],
- "daily_brief": {
-  "date": "2026-10-21",
-  "headline": "Facebook backlogs cleared, MP01 live, 10-channel kits ready",
-  "items": [
-   "Sprinkler Engineering E7 published Oct 20 and E8 is staged gate-valid for Oct 21; the evening Sprinkler Tips lesson on the Hunter PGP Ultra blue nozzle tree was also produced and gate-certified.",
-   "The Facebook evening run cleared 9 of 9 verified live: Quote #10, the Cross Climate water-heater lesson, Cigar College humidor seasoning, Brand Spotlight 1-3, and Heritage 1-3.",
-   "Minneola Politics launched: all six landscape profiles were produced and gate-certified, and MP01 on the City Council published as the channel's first video; MP02 follows on the one-a-day cadence.",
-   "Ten new channels are kit-ready with Episode 1s gate-certified — Zimmatic, Reinke, Dawn, Bernard, CK Worldwide, Hidden Giants, Golf Club, Miller, Lincoln, and Patent — awaiting the serialized launch flow.",
-   "Firearms News Daily returned under a news-only, no-prices format: the Beckwith cert-denial piece and the Springfield Echelon COG piece were produced and gate-certified.",
-   "A simpler one-command gate went live across all publishing jobs, and Deals was reworked to no-prices store finds with a gate-certified replacement Episode 1."
-  ]
- },
- "handoff": {
-  "format": "HANDOFF FOR MUSE\nAgent: [name, provider, model]\nDesk: [desk worked]\nSync: [the feed updated_at stamp you read]\nDone: [what was completed, with links and where each fact came from]\nNeeds a decision: [anything waiting on Robert]\nBlocked: [what stopped you, or 'nothing']\nUsage after work: [figures only as actually displayed, saying where seen — otherwise NOT VISIBLE]\nFiles-links: [files created or links produced]",
-  "note": "There is no direct AI-to-AI link. Robert carries handoffs to Muse, and Muse folds them into memory and tracking. Never claim you synced with Muse directly."
- }
 }

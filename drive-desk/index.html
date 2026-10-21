@@ -43,10 +43,29 @@ footer{color:#a68d5f;margin-top:20px;font-size:13px}
   .ticker-track, .mfill, .spark polyline, .newbadge { animation:none !important; }
   .mfill { width:var(--w); } .spark polyline { stroke-dashoffset:0; }
 }
+/* batch-g pure upgrades (2026-10-21): accessibility + kinetic-number core +
+   page transitions + print, from the award-design ideas #3/#12/#14 guardrails.
+   No visual change for default visitors; everything below is progressive
+   enhancement, keyboard/print/reduced-motion support, or tabular numerals. */
+:focus-visible { outline:3px solid #F5A800; outline-offset:2px; }
+.skiplink { position:absolute; left:-9999px; top:0; z-index:99; background:#000080; color:#fff;
+  font-family:Tahoma,Verdana,sans-serif; font-size:.9rem; padding:.5rem 1rem; }
+.skiplink:focus { left:0; }
+.ticker, .mgain, .totnum, .tot, .liveclock { font-variant-numeric:tabular-nums; }
+.totnum { font-variation-settings:"wght" 650; }
+@view-transition { navigation:auto; }
+::view-transition-old(root), ::view-transition-new(root) { animation-duration:.2s; }
+@media (prefers-reduced-motion: reduce) {
+  ::view-transition-old(root), ::view-transition-new(root) { animation:none !important; }
+}
+@media print {
+  .ticker, .statusbar, .newbadge { display:none !important; }
+  .movers, .tot { break-inside:avoid; }
+}
 
 .statusbar{border-radius:8px;margin-bottom:18px}
 </style></head><body><div class="wrap">
-<div class="statusbar"><span>Last updated: Wednesday, October 21, 2026 — 8:56 AM ET</span><span>Eastern now: <span class="liveclock">—</span></span></div>
+<div class="statusbar"><span>Last updated: Wednesday, October 21, 2026 — 4:06 PM ET</span><span>Eastern now: <span class="liveclock">—</span></span></div>
 <h1>📦 Drive Inventory — Totals Only</h1>
 <p>A category-level snapshot of one Google Drive, inventoried October 20, 2026. Category totals only — no file or folder names are published.</p>
 <div class="stats">
@@ -71,16 +90,24 @@ footer{color:#a68d5f;margin-top:20px;font-size:13px}
   tick(); setInterval(tick, 1000);
 })();
 // Count-up (odometer) for headline totals: final value read from the element.
+// Batch-g (2026-10-21, award idea #3): under prefers-reduced-motion the final
+// value is set instantly with no animation; otherwise the digit weight tracks
+// the count via font-variation-settings where a variable font is in use
+// (ignored harmlessly by non-variable fonts), clearing at the final value.
 (function () {
+  var reduced = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   document.querySelectorAll('[data-count]').forEach(function (el) {
     var target = parseInt(el.getAttribute('data-count'), 10);
     if (isNaN(target)) return;
+    if (reduced) { el.textContent = target.toLocaleString('en-US'); return; }
     var t0 = null, dur = 1400;
     function step(ts) {
       if (!t0) t0 = ts;
       var p = Math.min(1, (ts - t0) / dur);
       el.textContent = Math.round(target * (1 - Math.pow(1 - p, 3))).toLocaleString('en-US');
+      el.style.fontVariationSettings = "'wght' " + Math.round(400 + 300 * p);
       if (p < 1) requestAnimationFrame(step);
+      else el.style.fontVariationSettings = "'wght' 700";
     }
     requestAnimationFrame(step);
   });
