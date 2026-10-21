@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Popular Topics — Daily Log — Empire</title>
+<link rel="icon" href="/icon-192.png"><link rel="apple-touch-icon" href="/icon-180.png">
+<style>
+.navframe { max-width:720px; margin:18px auto; background:#c3c7cb; border:3px outset #e8e8e8; box-shadow:6px 6px 0 rgba(0,0,0,.35); }
+.navtitle { display:flex; align-items:center; gap:.5rem; background:linear-gradient(90deg,#000080,#1084d0); color:#fff; font-family:Tahoma,Verdana,sans-serif; font-size:.92rem; font-weight:bold; padding:.35rem .6rem; }
+.navtoolbar { display:flex; gap:.45rem; flex-wrap:wrap; padding:.5rem .6rem .2rem; font-family:Tahoma,Verdana,sans-serif; }
+.navbtn { background:#d4d0c8; border:2px outset #f0f0f0; padding:.28rem .7rem; font-size:.85rem; color:#111; }
+.navloc { display:flex; gap:.5rem; padding:.35rem .6rem .55rem; font-family:Tahoma,Verdana,sans-serif; font-size:.88rem; color:#111; border-bottom:2px groove #f0f0f0; }
+.navurl { flex:1; background:#fff; border:2px inset #d4d0c8; padding:.25rem .5rem; color:#000; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+.navcontent { background:#ffffff; padding:20px; }
+.navstatus { display:flex; gap:.8rem; align-items:center; font-family:Tahoma,Verdana,sans-serif; font-size:.82rem; color:#111; padding:.35rem .6rem; border-top:2px groove #f0f0f0; }
+.navdone { background:#d4d0c8; border:2px inset #f0f0f0; padding:.1rem .6rem; flex:1; }
+body { background:#004f4f radial-gradient(circle at 15% 20%, rgba(255,255,255,.35) 0 1.5px, transparent 2px), radial-gradient(circle at 70% 10%, rgba(255,255,255,.3) 0 1.5px, transparent 2px), radial-gradient(circle at 85% 60%, rgba(255,255,255,.28) 0 1.5px, transparent 2px), radial-gradient(circle at 35% 80%, rgba(255,255,255,.25) 0 1.5px, transparent 2px); margin:0; font-family:Georgia,'Times New Roman',serif; color:#111; }
+h1 { font-size:22px; margin:0 0 2px; color:#000080; }
+.date { color:#444; margin:0 0 4px; font-size:15px; }
+.head { color:#006666; margin:0 0 18px; font-size:16px; font-weight:bold; }
+h2.day { font-size:19px; color:#000080; border-top:3px double #000080; padding-top:14px; margin:26px 0 2px; }
+p.searched { color:#555; font-size:13px; margin:0 0 12px; font-family:Tahoma,Verdana,sans-serif; }
+h3.lane { font-size:15px; color:#006666; margin:16px 0 8px; font-family:Tahoma,Verdana,sans-serif; text-transform:uppercase; letter-spacing:.04em; }
+ul { list-style:none; padding:0; margin:0; }
+li { background:#f7f5ec; border:2px outset #d4d0c8; padding:12px 14px; margin:0 0 10px; }
+li h4 { margin:0 0 4px; font-size:16px; color:#111; }
+li p { margin:0 0 5px; font-size:15px; line-height:1.4; }
+li p.why { color:#333; }
+.feeds { display:inline-block; background:#e8f4f4; border:1px solid #006666; color:#006666; padding:2px 10px; font-size:12px; font-weight:600; margin:2px 0 6px; font-family:Tahoma,Verdana,sans-serif; }
+.src { color:#555; font-size:12.5px; font-family:Tahoma,Verdana,sans-serif; }
+footer { color:#444; font-size:12px; margin-top:22px; border-top:3px double #000080; padding-top:10px; }
+a { color:#0000ee; }
+
+.statusbar { display:flex; flex-wrap:wrap; gap:.4rem 1.2rem; align-items:center; justify-content:center;
+  background:#000080; color:#fff; font-family:Tahoma,Verdana,sans-serif; font-size:.86rem;
+  padding:.4rem .8rem; letter-spacing:.02em; }
+.statusbar .liveclock { color:#bfe3ff; font-variant-numeric:tabular-nums; }
+.ticker { overflow:hidden; background:#101418; color:#e8f4f4; border-top:2px solid #006666;
+  border-bottom:2px solid #006666; font-family:Tahoma,Verdana,sans-serif; font-size:.88rem; }
+.ticker-track { display:inline-flex; white-space:nowrap; padding:.35rem 0; animation:tickmove 90s linear infinite; }
+.ticker-set { padding-right:2.5rem; }
+.tsep { color:#006666; padding:0 .6rem; }
+.mv-up { color:#3ddc5a; } .mv-dn { color:#ff5a4d; } .mv-flat { color:#9fb3c8; }
+@keyframes tickmove { from { transform:translateX(0); } to { transform:translateX(-50%); } }
+.totals { display:flex; flex-wrap:wrap; gap:.7rem; justify-content:center; margin:1rem 0 .2rem; }
+.tot { background:#f7f5ec; border:2px outset #d4d0c8; padding:.5rem .9rem; min-width:130px; text-align:center; }
+.totnum { font-size:1.35rem; color:#000080; font-variant-numeric:tabular-nums; }
+.totlab { font-size:.72rem; color:#444; text-transform:uppercase; letter-spacing:.05em; }
+.movers { max-width:1020px; margin:1.6rem auto 0; padding:0 1.2rem; }
+.movers h2 { border-bottom:1px solid #7a7a7a; padding-bottom:.3rem; font-size:1.35rem; color:#000080; }
+.mrow { display:flex; align-items:center; gap:.8rem; margin:.45rem 0; font-size:.94rem; }
+.mname { flex:0 0 240px; } .mplat { color:#444; font-size:.8rem; }
+.mbar { flex:1; background:#e8e4d8; border:1px solid #7a7a7a; height:14px; }
+.mfill { display:block; height:100%; width:0; background:linear-gradient(90deg,#006666,#3ddc5a); animation:barfill 1.4s ease forwards; }
+@keyframes barfill { to { width:var(--w); } }
+.mgain { flex:0 0 170px; color:#006666; font-weight:bold; }
+.spark polyline { stroke-dasharray:100; stroke-dashoffset:100; animation:sparkdraw 1.6s ease forwards; }
+@keyframes sparkdraw { to { stroke-dashoffset:0; } }
+.newbadge { display:inline-block; background:#b3001b; color:#fff; font-family:Tahoma,Verdana,sans-serif;
+  font-size:.68rem; font-weight:bold; letter-spacing:.06em; padding:.12rem .45rem; border-radius:8px;
+  margin-left:.45rem; vertical-align:middle; animation:badgepulse 1.6s ease-in-out infinite; }
+@keyframes badgepulse { 0%,100% { opacity:1; } 50% { opacity:.45; } }
+@media (prefers-reduced-motion: reduce) {
+  .ticker-track, .mfill, .spark polyline, .newbadge { animation:none !important; }
+  .mfill { width:var(--w); } .spark polyline { stroke-dashoffset:0; }
+}
+
+.navcontent .statusbar { margin:-20px -20px 16px; }
+</style></head><body>
+<div class="navframe">
+<div class="navtitle"><svg class="navmark" viewBox="0 0 40 40" width="22" height="22" aria-hidden="true"><circle cx="20" cy="20" r="18" fill="#000080"/><path d="M20 4 L22.5 15 L34 12 L24 20 L34 28 L22.5 25 L20 36 L17.5 25 L6 28 L16 20 L6 12 L17.5 15 Z" fill="#7ec8f7"/><text x="20" y="26" font-family="Georgia,serif" font-size="17" fill="#ffffff" text-anchor="middle" font-weight="bold">N</text></svg><span>Empire Navigator &mdash; Popular Topics</span></div>
+<div class="navtoolbar"><span class="navbtn">&#9664; Back</span><span class="navbtn">Forward &#9654;</span><span class="navbtn">&#8635; Reload</span><span class="navbtn">&#8962; Home</span><span class="navbtn">Search</span><span class="navbtn">Print</span></div>
+<div class="navloc"><label>Location:</label><span class="navurl">https://rtr525-web.github.io/topics/</span></div>
+<div class="navcontent">
+<div class="statusbar"><span>Last updated: Wednesday, October 21, 2026 — 1:32 PM ET</span><span>Eastern now: <span class="liveclock">—</span></span></div><h1>Popular Topics — Daily Log</h1>
+<p class="date">A working resource for the empire: what is popular today, why, and which channel it can feed.</p><p class="head">Researched fresh every morning. Every topic is real and sourced — nothing invented. Consumer prices are never listed (education-only rule).</p>
+<h2 class="day">Wednesday, October 21, 2026</h2>
+<p class="searched">Researched Wednesday, October 21, 2026 (America/New_York) — web news search + social search (Instagram / Facebook / Threads, posts since Oct 14, 2026).</p>
+<h3 class="lane">Irrigation &amp; Sprinklers</h3>
+<ul>
+<li><h4>Aurora, Colorado makes its sprinkler shutoff permanent</h4><span class="feeds">Feeds: Sprinkler Engineering · Sprinkler Tips · brand lanes (Hunter / Rain Bird / Toro)</span><p>Aurora&#x27;s city council voted Sept 28 to permanently restrict spray irrigation Oct 1–Apr 30 (residential deadline Oct 15), ban ornamental water features, and restrict new turf — while the city sits in a Stage 1 drought with reservoirs near 41% of capacity.</p><p class="why"><strong>Why it matters:</strong> A permanent seasonal shutoff in a major metro is the strongest water-rules story of the month, and contractors are warning that switching off is not the same as winterizing — exactly the teachable gap the sprinkler channels own.</p><p class="src">Source: <a href="https://www.issuewire.com/pdf/2026/10/auroras-permanent-sprinkler-shutoff-is-now-october-15-and-turning-it-off-is-not-the-same-as-winterizing-IssueWire.pdf">IssueWire release, Oct 4, 2026 (Superior Mile High Plumbing on the Aurora ordinance)</a></p></li>
+<li><h4>Denver Water: reservoirs at 67% against a 90% average</h4><span class="feeds">Feeds: Sprinkler Engineering · Valley / Toro ag lanes · Encyclopedia Blueprint</span><p>Denver Water&#x27;s Oct 12 update: the 2025-26 snowpack peaked at the lowest levels in 40 years, reservoir storage is 67% full versus a 90% average, the lawn-watering ban stays in force, and early sprinkler shutoff cut water use 34% below the five-year average.</p><p class="why"><strong>Why it matters:</strong> Hard, sourced numbers on western water scarcity — the &#x27;why efficiency matters&#x27; backdrop for every nozzle, rotor, and drip episode in the empire.</p><p class="src">Source: <a href="https://coyotegulch.blog/2026/10/14/october-12-2026-water-supply-and-water-use-update-for-denver-waters-system-denverwater-org-southplatteriver-coloradoriver-coriver-aridification/">Denver Water supply &amp; use update, Oct 12, 2026</a></p></li>
+<li><h4>Florida audits: typical irrigation systems waste 30–50% of their water</h4><span class="feeds">Feeds: Sprinkler Tips · Jayhil Media · Sprinkler Engineering</span><p>A Central Florida irrigation firm launched a system-audit initiative across Hillsborough, Marion, and Sumter counties, citing UF/IFAS Extension research that system inefficiencies and underground leaks waste 30–50% of applied water; one baseline residential cycle applies roughly 991 gallons.</p><p class="why"><strong>Why it matters:</strong> It is Florida-local, research-backed, and hands the empire a ready episode frame: audit first, replace second — distribution uniformity, leaking valves, heads sunk below grade.</p><p class="src">Source: <a href="https://pressadvantage.com/pdf/106020-systemic-audits-align-sprinkler-repair-with-water-standards/">Press Advantage release, Oct 1, 2026 (Irrigators LLC / UF-IFAS Extension research)</a></p></li>
+<li><h4>DIY sprinkler builds are pulling big engagement on Reels this week</h4><span class="feeds">Feeds: Sprinkler Engineering · Jayhil Media</span><p>Social search (posts since Oct 14) shows homemade sprinkler builds — a cross-shaped wooden spinner head on a PVC riser; screws-through-PVC spray hacks — drawing hundreds of likes and instructional comment threads on Facebook and Instagram.</p><p class="why"><strong>Why it matters:</strong> Proof the audience rewards simple, visual, build-it-yourself irrigation mechanics right now — the empire&#x27;s drawn-mechanism format answers the same curiosity with verified specs.</p><p class="src">Source: <a href="https://www.facebook.com/reel/1103560539272166/">Social search, Oct 21, 2026 — Facebook reel (Oct 19) and Instagram reel (Oct 14), DIY irrigation builds</a></p></li>
+</ul>
+<h3 class="lane">Welding &amp; Skilled Trades</h3>
+<ul>
+<li><h4>Pennsylvania launches a state-backed welding pre-apprenticeship for high schoolers</h4><span class="feeds">Feeds: Arc &amp; Anvil · Career Blueprint · Hobart Blueprint</span><p>Pennsylvania&#x27;s Department of Labor &amp; Industry launched a welding pre-apprenticeship at Pittsburgh&#x27;s Industrial Arts Workshop (announced Oct 18), training at least 15 high school students a year toward industry-recognized certifications, sponsored by Iron Workers Local 3 and U.S. Steel.</p><p class="why"><strong>Why it matters:</strong> States are racing to build welder pipelines — a careers-and-craft story that pairs process basics with a real on-ramp into the trade.</p><p class="src">Source: <a href="https://www.advanceindustry.net/education/2026/10/pa-launches-250k-welding-program-for-high-schoolers.html">Advance Industry / PennLive, Oct 18, 2026</a></p></li>
+<li><h4>GE Aerospace Foundation funds Ohio welder training — Hobart Institute included</h4><span class="feeds">Feeds: Hobart Blueprint · Arc &amp; Anvil</span><p>The GE Aerospace Foundation is directing workforce funding to southwest Ohio training programs, including about $130,000 to the Hobart Institute of Welding Technology in Troy, with roughly 200 workers expected to benefit.</p><p class="why"><strong>Why it matters:</strong> A named grant to the Hobart Institute is a direct hit for the Hobart Blueprint lane — the foundation is paying to solve the welder shortage the channel teaches into.</p><p class="src">Source: <a href="https://www.advanceindustry.com/news/2026/10/ge-aerospace-invests-500k-in-ohio-workforce-training-programs.html">Advance Industry, Oct 2, 2026</a></p></li>
+<li><h4>North Carolina&#x27;s &#x27;Weld to Work&#x27; pipeline gets a governor&#x27;s visit</h4><span class="feeds">Feeds: Arc &amp; Anvil · Career Blueprint · Lincoln / Miller Blueprint</span><p>Gov. Josh Stein visited Roanoke-Chowan Community College on Oct 20 to highlight the Weld to Work Pipeline, backed by a Southeast Crescent Regional Commission grant — aiming for up to 150 welding students a year and 270 job placements over two years with regional employers.</p><p class="why"><strong>Why it matters:</strong> A named, running program with placement numbers — ideal for a &#x27;how the pipeline actually works&#x27; explainer in the welding and career lanes.</p><p class="src">Source: <a href="https://governor.nc.gov/news/press-releases/2026/10/20/governor-stein-highlights-skilled-trades-apprenticeship-program-hertford-county">Office of the Governor, North Carolina, Oct 20, 2026</a></p></li>
+</ul>
+<h3 class="lane">Personal Finance &amp; Tax</h3>
+<ul>
+<li><h4>Year-end tax moves under the new 2026 rules — the Dec 31 clock is the story</h4><span class="feeds">Feeds: Tax Blueprint · Money Matters</span><p>Fall tax coverage is converging on a checklist to finish before Dec 31: confirm required minimum distributions, model Roth conversions before making them, and check income against the health-insurance subsidy cliff.</p><p class="why"><strong>Why it matters:</strong> Every item is a dated deadline with a dollar consequence — the exact shape of a Tax Blueprint episode, and the season for it is right now.</p><p class="src">Source: <a href="https://boomaround.com/2026/10/12/2026-year-end-tax-moves-retirees/">BoomAround, Oct 12, 2026 — &#x27;New 2026 Tax Rules: 6 Moves to Make Before Dec. 31&#x27;</a></p></li>
+<li><h4>New for 2026: a charitable deduction even if you don&#x27;t itemize</h4><span class="feeds">Feeds: Tax Blueprint</span><p>For the first time in 2026, taxpayers who take the standard deduction can deduct cash donations to qualifying charities (up to $1,000 single / $2,000 married filing jointly), and qualified charitable distributions from an IRA remain capped at $111,000 for 2026.</p><p class="why"><strong>Why it matters:</strong> A brand-new rule most filers have never heard of — high-value, verifiable, and built for the Schoolhouse Numbers treatment.</p><p class="src">Source: <a href="https://boomaround.com/2026/10/12/2026-year-end-tax-moves-retirees/">BoomAround, Oct 12, 2026 — &#x27;New 2026 Tax Rules: 6 Moves to Make Before Dec. 31&#x27; (charitable deduction + QCD limits)</a></p></li>
+<li><h4>Roth vs. Traditional IRA is trending again</h4><span class="feeds">Feeds: Tax Blueprint · Money Matters</span><p>A widely shared Roth-vs-Traditional comparison (updated Oct 21) walks the 2026 limits and income cutoffs and models what steady annual contributions become over 30 years — the evergreen question, freshly searched every fall.</p><p class="why"><strong>Why it matters:</strong> The empire&#x27;s own IRA episode (TB-01) sits in this exact conversation; a head-to-head Roth follow-up rides a live search wave.</p><p class="src">Source: <a href="https://cashcrafty.com/posts/roth-ira-vs-traditional-ira.html">CashCrafty, published Oct 19, updated Oct 21, 2026</a></p></li>
+</ul>
+<h3 class="lane">Cigars</h3>
+<ul>
+<li><h4>Plasencia ships a Florida-only Alma Fuerte Torpedo for Corona Cigar Co.</h4><span class="feeds">Feeds: Cigar College · Cigar School</span><p>Plasencia announced Oct 19 a new Alma Fuerte Torpedo Semi-Boxpress (6 x 54, Colorado Claro wrapper, Estelí fillers) made exclusively for Florida&#x27;s Corona Cigar Company, shipping the week of Oct 19 alongside a repackaged Alma del Cielo Robusto Gordo.</p><p class="why"><strong>Why it matters:</strong> A Florida retailer exclusive from a heritage grower — construction, wrapper shade, and box-press mechanics are all teachable Cigar College material.</p><p class="src">Source: <a href="https://www.cigarjournal.com/plasencia-cigars-and-corona-cigar-company-expand-product-partnership-with-alma-fuerte/">Cigar Journal, Oct 19–20, 2026</a></p></li>
+<li><h4>Concealed Carry II: a six-part cigar series built on the 1962 Cuban embargo</h4><span class="feeds">Feeds: Cigar College · Encyclopedia Blueprint</span><p>Fratello&#x27;s Concealed Carry line returned with &#x27;Fidel,&#x27; the first of six releases themed on the 1962 U.S. embargo of Cuba, presented as classified-dossier files with blend details deliberately undisclosed; shipping in October to just 35 stores.</p><p class="why"><strong>Why it matters:</strong> Cigar releases wrapped in real history — a natural bridge episode between Cigar College and the history lanes.</p><p class="src">Source: <a href="https://cigardojo.com/2026/10/concealed-carry-returns-with-cuban-embargo-themed-cigar-series/">Cigar Dojo, Oct 13–14, 2026</a></p></li>
+</ul>
+<h3 class="lane">Florida &amp; Local</h3>
+<ul>
+<li><h4>Early voting is open in Lake County — including Minneola City Hall</h4><span class="feeds">Feeds: Minneola Politics · Minneola Matters · Jayhil Media</span><p>Lake County early voting runs Oct 19–31, 10 AM–6 PM daily, at 12 sites including Minneola City Hall (gymnasium); mail ballots can be dropped at any early voting site, and Thursday Oct 22 is the last day to request a mail ballot.</p><p class="why"><strong>Why it matters:</strong> The single most useful civic fact in the county this week — Minneola Politics exists for exactly this, and the Oct 22 deadline is tomorrow.</p><p class="src">Source: <a href="https://www.lakevotes.gov/m/newsflash?cat=1">Lake County Supervisor of Elections (lakevotes.gov), posted Oct 8, 2026</a></p></li>
+<li><h4>Florida&#x27;s books closed for Nov 3 — registration edge and a governor&#x27;s race</h4><span class="feeds">Feeds: Minneola Politics</span><p>Florida closed voter registration with 13.65 million active voters and a Republican registration advantage of about 1.55 million; the Nov 3 general election decides the governor, the state cabinet, a U.S. Senate seat, and dozens of legislative races touching Lake County.</p><p class="why"><strong>Why it matters:</strong> Sets the stakes for every local explainer between now and Election Day — neutral, numbers-first civics is the Minneola Politics format.</p><p class="src">Source: <a href="https://www.lakecountyledger.com/florida-voter-registration-closes-tonight-lake-county-residents-face-hard-deadline.html">Lake County Ledger, Oct 9, 2026</a></p></li>
+</ul>
+<h3 class="lane">Fitness</h3>
+<ul>
+<li><h4>Creatine is the #1 fitness search trend of 2026 — and a Texas A&amp;M trial just went viral</h4><span class="feeds">Feeds: Built Not Born Fitness</span><p>Trend trackers put creatine monohydrate searches up about 83% year over year, ahead of every other fitness term; a 12-week Texas A&amp;M trial published in the Journal of the International Society of Sports Nutrition (Sept 2026) went viral in early October for lean-tissue gains in adults 45–65 — with researchers publicly cautioning that the &#x27;gains without training&#x27; headline overreads the data.</p><p class="why"><strong>Why it matters:</strong> A viral claim plus a sourced correction is the Built Not Born format at its best: teach what the study did, what it didn&#x27;t, and what the position stand actually says.</p><p class="src">Source: <a href="https://blog.priceplow.com/supplement-research/creatine/nutristat-viral-2026-study">Business Day, Oct 5, 2026; Rising Trends fitness index, Oct 2026; PricePlow research blog, Oct 16, 2026</a></p></li>
+</ul>
+<h3 class="lane">Firearms News</h3>
+<ul>
+<li><h4>Suppressor sales surge past 1.1 million in 2026 after the rules changed</h4><span class="feeds">Feeds: Firearms News Daily</span><p>NSSF-obtained ATF records show NFA registrations up 129% year over year in September, driven by suppressors (1.1M+ registered in 2026); after the DOJ declined to appeal the Texas ruling in Silencer Shop Foundation v. ATF, ATF guidance effective Oct 9, 2026 stopped enforcing NFA approval/registration for suppressors, SBRs, SBSs, and AOWs — sales continue on Form 4473 + NICS, and shops report same-day purchases and booming demand.</p><p class="why"><strong>Why it matters:</strong> The biggest firearms-regulation story of the year is still moving this month — news only, no prices, no retailers, per the channel rule.</p><p class="src">Source: <a href="https://thereload.com/silencers-sales-soar-past-1-1-million-in-2026/">The Reload, Oct 8, 2026 (NSSF/ATF data); Outdoor Life, Oct 5, 2026; WVLT, Oct 13, 2026</a></p></li>
+</ul>
+<h3 class="lane">History &amp; Mystery</h3>
+<ul>
+<li><h4>On this day, Oct 21, 1805: the Battle of Trafalgar</h4><span class="feeds">Feeds: Encyclopedia Blueprint · Hidden Giants</span><p>Admiral Nelson&#x27;s fleet destroyed the combined French and Spanish fleets off Cape Trafalgar 221 years ago today, securing British naval supremacy for a century — at the cost of Nelson&#x27;s life, shot during the battle.</p><p class="why"><strong>Why it matters:</strong> A same-day anniversary with a built-in hook; the tactics (breaking the line) are a drawn-diagram episode waiting to happen.</p><p class="src">Source: <a href="https://thewisestwords.com/on-this-day-in-history-21st-october/">On-this-day histories for Oct 21 (multiple, cross-checked Oct 21, 2026)</a></p></li>
+<li><h4>On this day, Oct 21, 1879: Edison&#x27;s bulb burns for 13½ hours</h4><span class="feeds">Feeds: Patent Blueprint · Progress Blueprint · Encyclopedia Blueprint</span><p>At Menlo Park, Edison&#x27;s team successfully tested a carbon-filament lamp that burned about 13½ hours — the practical incandescent breakthrough, and the subject of U.S. Patent 223,898.</p><p class="why"><strong>Why it matters:</strong> The Patent Blueprint launch episode (P1) is this very patent — the anniversary is a ready-made promotion hook for the launch wave.</p><p class="src">Source: <a href="https://scottwintersblog.com/october-21/">On-this-day histories for Oct 21 (multiple, cross-checked Oct 21, 2026)</a></p></li>
+</ul>
+<h3 class="lane">Seasonal &amp; Retail Finds</h3>
+<ul>
+<li><h4>Halloween 2026 is tracking to record spending — and it&#x27;s 10 days out</h4><span class="feeds">Feeds: Deals Blueprint · Minneola Matters · Built Not Born Fitness (treats angle)</span><p>The National Retail Federation forecasts record Halloween spending for 2026 with about 74% of Americans celebrating; top adult costume is the witch, Spider-Man leads for kids, and Spirit Halloween opened a record 1,575 stores. A separate PwC read: more than half of consumers want better-for-you treats alongside the classics.</p><p class="why"><strong>Why it matters:</strong> The seasonal clock drives the Deals &#x27;go look&#x27; format and the Haus of Boos Halloween content already in the queue — finds are named, prices are not (house rule).</p><p class="src">Source: <a href="https://www.pwc.com/us/en/industries/consumer-markets/library/halloween-spending-trends.html">NRF forecast (Sept 22, 2026) via Bee Bulletin / Retail Dive, Oct 2026; PwC Halloween 2026 consumer survey</a></p></li>
+</ul>
+<h3 class="lane">General Trending</h3>
+<ul>
+<li><h4>GTA 6 pre-orders are already an industry story</h4><span class="feeds">Feeds: Progress Blueprint · Tech Blueprint</span><p>Industry estimates circulating this week put GTA 6 pre-order revenue in the hundreds of millions before launch — a measure of how large a single game release has become.</p><p class="why"><strong>Why it matters:</strong> The scale number is the teachable part: what changed in game distribution between 2000 and 2026 is a Progress Blueprint episode frame.</p><p class="src">Source: <a href="https://www.gadgets360.com/news">Gadgets 360 trending, Oct 21, 2026</a></p></li>
+</ul>
+<footer>Education only — nothing for sale. Empire hub: <a href="/empire/">all properties</a> · Today: <a href="/today/">the day's work list</a>. One dated section per day, newest first; prior days are never overwritten.</footer>
+</div>
+<div class="navstatus"><span class="navlock">&#128274;</span><span class="navdone">Document: Done</span><span class="navzone">Empire Zone</span></div>
+</div>
+
+<script>
+// Live Eastern clock in the status bar (updates every second).
+(function () {
+  var fmt = new Intl.DateTimeFormat('en-US', { timeZone: 'America/New_York',
+    hour: 'numeric', minute: '2-digit', second: '2-digit', hour12: true });
+  function tick() {
+    var t = fmt.format(new Date()) + ' ET';
+    document.querySelectorAll('.liveclock').forEach(function (el) { el.textContent = t; });
+  }
+  tick(); setInterval(tick, 1000);
+})();
+// Count-up (odometer) for headline totals: final value read from the element.
+(function () {
+  document.querySelectorAll('[data-count]').forEach(function (el) {
+    var target = parseInt(el.getAttribute('data-count'), 10);
+    if (isNaN(target)) return;
+    var t0 = null, dur = 1400;
+    function step(ts) {
+      if (!t0) t0 = ts;
+      var p = Math.min(1, (ts - t0) / dur);
+      el.textContent = Math.round(target * (1 - Math.pow(1 - p, 3))).toLocaleString('en-US');
+      if (p < 1) requestAnimationFrame(step);
+    }
+    requestAnimationFrame(step);
+  });
+})();
+</script>
+</body></html>
