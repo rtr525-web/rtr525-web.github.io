@@ -37,11 +37,16 @@
   #checkins li { margin:6px 0; }
   footer { border-top:1px solid var(--line); margin-top:40px; padding-top:14px; color:var(--dim); font-size:13px; }
   .tablewrap { overflow-x:auto; }
+  .statusbar { display:flex; flex-wrap:wrap; gap:.4rem 1.2rem; align-items:center; justify-content:center; background:#000080; color:#fff; font-family:Tahoma,Verdana,sans-serif; font-size:.86rem; padding:.4rem .8rem; letter-spacing:.02em; border-radius:6px; margin-bottom:14px; }
+  .statusbar .liveclock { color:#bfe3ff; font-variant-numeric:tabular-nums; }
 </style>
 </head>
 <body>
 <div class="wrap">
 
+<!-- STATUSBAR:BEGIN (refreshed by the empire-pages check jobs; the ai-sync-daily-update job's surgical edit of the .stamp line below does not touch this block) -->
+<div class="statusbar"><span class="last-updated">Last updated: Wednesday, October 21, 2026 — 3:59 AM ET</span><span>Eastern now: <span class="liveclock">—</span></span></div>
+<!-- STATUSBAR:END -->
 <header>
   <h1>Robert Rang — <span class="gold">AI Sync</span></h1>
   <p class="tag">The public state of the RTR525 media empire and the Hillsboro Blueprint hub — built so any AI assistant can get current in one read.</p>
@@ -258,5 +263,34 @@ fetch('context.json').then(function(r){ return r.json(); }).then(function(d){
   el.innerHTML = out;
 }).catch(function(){ /* keep the empty state */ });
 </script>
+
+<script>
+// Live Eastern clock in the status bar (updates every second).
+(function () {
+  var fmt = new Intl.DateTimeFormat('en-US', { timeZone: 'America/New_York',
+    hour: 'numeric', minute: '2-digit', second: '2-digit', hour12: true });
+  function tick() {
+    var t = fmt.format(new Date()) + ' ET';
+    document.querySelectorAll('.liveclock').forEach(function (el) { el.textContent = t; });
+  }
+  tick(); setInterval(tick, 1000);
+})();
+// Count-up (odometer) for headline totals: final value read from the element.
+(function () {
+  document.querySelectorAll('[data-count]').forEach(function (el) {
+    var target = parseInt(el.getAttribute('data-count'), 10);
+    if (isNaN(target)) return;
+    var t0 = null, dur = 1400;
+    function step(ts) {
+      if (!t0) t0 = ts;
+      var p = Math.min(1, (ts - t0) / dur);
+      el.textContent = Math.round(target * (1 - Math.pow(1 - p, 3))).toLocaleString('en-US');
+      if (p < 1) requestAnimationFrame(step);
+    }
+    requestAnimationFrame(step);
+  });
+})();
+</script>
+
 </body>
 </html>

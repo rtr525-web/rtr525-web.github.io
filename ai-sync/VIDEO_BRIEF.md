@@ -1,19 +1,19 @@
 # VIDEO BRIEF — the daily brief for AIs
 
-**Brief date:** 2026-10-20 · **Feed stamp (`updated_at`):** 2026-10-20T06:42-04:00
+**Brief date:** 2026-10-21 · **Feed stamp (`updated_at`):** 2026-10-21T06:40-04:00
 
 Generated from the ai-sync feed (`context.json`) — the empire's one source of truth. If anything here disagrees with the live feed, the live feed wins. Read this before planning any video or desk work.
 
 ## Today's brief
 
-**Brand slates complete, Hidden Giants certified, E6 live**
+**Facebook backlogs cleared, MP01 live, 10-channel kits ready**
 
-- Sprinkler Engineering E6 published Oct 19 and E7 is staged gate-valid for Oct 20; the evening Sprinkler Tips lesson on Hunter MP Rotators at 40 PSI also published.
-- Glass Blueprint GL-02 and Encyclopedia Blueprint EB-E02 posted live in the midday batch; Family Blueprint FM-30 was confirmed already live since Oct 17, so no duplicate was uploaded.
-- Brand channels completed two launch slates — Toro T1–T5 and Orbit O1–O5 — with Rain Bird RB2, Hunter H4, Fronius F5, Golf G4, Senninger SE2, Signature S1, Baseline BL1, Buckner-Superior BS2, Weathermatic W4, and Calsense C2 also posted.
-- Hidden Giants, the new channel on obscure modern marvels, was built kit-only with Episodes 1–3 gate-certified — the Maeslantkering, G-Cans, and the Falkirk Wheel — awaiting promotion before any channel is created.
-- Cigar College Heritage series advanced: 50 historic brands verified from the 1800s–1980s, with HP-01 Toscano (1818), HP-02 Por Larrañaga (1834), and HP-03 Ramón Allones (1837) produced and gate-certified.
-- An education-first, PhD-level quality standard was wired empire-wide: primary sources, precise terminology, mechanism plus numbers, and disputed facts labeled as disputed.
+- Sprinkler Engineering E7 published Oct 20 and E8 is staged gate-valid for Oct 21; the evening Sprinkler Tips lesson on the Hunter PGP Ultra blue nozzle tree was also produced and gate-certified.
+- The Facebook evening run cleared 9 of 9 verified live: Quote #10, the Cross Climate water-heater lesson, Cigar College humidor seasoning, Brand Spotlight 1-3, and Heritage 1-3.
+- Minneola Politics launched: all six landscape profiles were produced and gate-certified, and MP01 on the City Council published as the channel's first video; MP02 follows on the one-a-day cadence.
+- Ten new channels are kit-ready with Episode 1s gate-certified — Zimmatic, Reinke, Dawn, Bernard, CK Worldwide, Hidden Giants, Golf Club, Miller, Lincoln, and Patent — awaiting the serialized launch flow.
+- Firearms News Daily returned under a news-only, no-prices format: the Beckwith cert-denial piece and the Springfield Echelon COG piece were produced and gate-certified.
+- A simpler one-command gate went live across all publishing jobs, and Deals was reworked to no-prices store finds with a gate-certified replacement Episode 1.
 
 ## The two missions
 
@@ -140,7 +140,7 @@ Build a long-term public presence the slow, clean way: show up for the community
 - Family Blueprint — @FamilyBlueprintHQ — live · https://www.youtube.com/@FamilyBlueprintHQ
 - Built Not Born Fitness — @builtnotbornfitness — live · https://www.youtube.com/@builtnotbornfitness
 - Homemade Genius — @HomemadeGeniusInventions — live · https://www.youtube.com/@HomemadeGeniusInventions
-- Firearms News Daily — @firearmsnewsdaily — dark — no uploads until after Jan 8, 2027 · https://www.youtube.com/@firearmsnewsdaily
+- Firearms News Daily — @firearmsnewsdaily — live — publishing resumed Oct 20, 2026 (news and education, no prices) · https://www.youtube.com/@firearmsnewsdaily
 - Western Swing Blueprint — @WesternSwingBlueprint — live — premiere certified; first upload in the Oct 17 retry batch · https://www.youtube.com/@WesternSwingBlueprint
 - ReelGroove TV — @ReelGrooveTV — live — premiere certified; first upload in the Oct 17 retry batch · https://www.youtube.com/@ReelGrooveTV
 - Hillsboro Entertainment — — — live · https://www.facebook.com/profile.php?id=304854799935117
