@@ -4,17 +4,31 @@
 <title>Today — Empire Work List</title>
 <link rel="icon" href="/icon-192.png"><link rel="apple-touch-icon" href="/icon-180.png">
 <style>
-body{font-family:-apple-system,Segoe UI,Roboto,sans-serif;background:#101418;color:#e8ecf1;margin:0;padding:20px}
-.wrap{max-width:640px;margin:0 auto}
-h1{font-size:22px;margin:0 0 2px} .date{color:#9fb0c3;margin:0 0 4px;font-size:15px}
-.head{color:#d8b25c;margin:0 0 18px;font-size:16px}
-ul{list-style:none;padding:0;margin:0}
-li{background:#1a212a;border:1px solid #2a3542;border-radius:12px;padding:14px 16px;margin:0 0 10px;display:flex;gap:10px;align-items:flex-start}
-.tag{flex:none;background:#243447;color:#d8b25c;border-radius:999px;padding:2px 10px;font-size:12px;font-weight:600;margin-top:1px}
-.txt{font-size:16px;line-height:1.35}
-footer{color:#7186a0;font-size:12px;margin-top:22px}
-a{color:#d8b25c}
-</style></head><body><div class="wrap">
+.navframe { max-width:720px; margin:18px auto; background:#c3c7cb; border:3px outset #e8e8e8; box-shadow:6px 6px 0 rgba(0,0,0,.35); }
+.navtitle { display:flex; align-items:center; gap:.5rem; background:linear-gradient(90deg,#000080,#1084d0); color:#fff; font-family:Tahoma,Verdana,sans-serif; font-size:.92rem; font-weight:bold; padding:.35rem .6rem; }
+.navtoolbar { display:flex; gap:.45rem; flex-wrap:wrap; padding:.5rem .6rem .2rem; font-family:Tahoma,Verdana,sans-serif; }
+.navbtn { background:#d4d0c8; border:2px outset #f0f0f0; padding:.28rem .7rem; font-size:.85rem; color:#111; }
+.navloc { display:flex; align-items:center; gap:.5rem; padding:.35rem .6rem .55rem; font-family:Tahoma,Verdana,sans-serif; font-size:.88rem; color:#111; border-bottom:2px groove #f0f0f0; }
+.navurl { flex:1; background:#fff; border:2px inset #d4d0c8; padding:.25rem .5rem; color:#000; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+.navcontent { background:#ffffff; padding:20px; }
+.navstatus { display:flex; gap:.8rem; align-items:center; font-family:Tahoma,Verdana,sans-serif; font-size:.82rem; color:#111; padding:.35rem .6rem; border-top:2px groove #f0f0f0; }
+.navdone { background:#d4d0c8; border:2px inset #f0f0f0; padding:.1rem .6rem; flex:1; }
+body { background:#004f4f radial-gradient(circle at 15% 20%, rgba(255,255,255,.35) 0 1.5px, transparent 2px), radial-gradient(circle at 70% 10%, rgba(255,255,255,.3) 0 1.5px, transparent 2px), radial-gradient(circle at 85% 60%, rgba(255,255,255,.28) 0 1.5px, transparent 2px), radial-gradient(circle at 35% 80%, rgba(255,255,255,.25) 0 1.5px, transparent 2px); margin:0; font-family:Georgia,'Times New Roman',serif; color:#111; }
+h1 { font-size:22px; margin:0 0 2px; color:#000080; }
+.date { color:#444; margin:0 0 4px; font-size:15px; }
+.head { color:#006666; margin:0 0 18px; font-size:16px; font-weight:bold; }
+ul { list-style:none; padding:0; margin:0; }
+li { background:#f7f5ec; border:2px outset #d4d0c8; padding:12px 14px; margin:0 0 10px; display:flex; gap:10px; align-items:flex-start; }
+.tag { flex:none; background:#e8f4f4; border:1px solid #006666; color:#006666; padding:2px 10px; font-size:12px; font-weight:600; margin-top:1px; font-family:Tahoma,Verdana,sans-serif; }
+.txt { font-size:16px; line-height:1.35; }
+footer { color:#444; font-size:12px; margin-top:22px; border-top:3px double #000080; padding-top:10px; }
+a { color:#0000ee; }
+</style></head><body>
+<div class="navframe">
+<div class="navtitle"><svg class="navmark" viewBox="0 0 40 40" width="22" height="22" aria-hidden="true"><circle cx="20" cy="20" r="18" fill="#000080"/><path d="M20 4 L22.5 15 L34 12 L24 20 L34 28 L22.5 25 L20 36 L17.5 25 L6 28 L16 20 L6 12 L17.5 15 Z" fill="#7ec8f7"/><text x="20" y="26" font-family="Georgia,serif" font-size="17" fill="#ffffff" text-anchor="middle" font-weight="bold">N</text></svg><span>Empire Navigator &mdash; Today</span></div>
+<div class="navtoolbar"><span class="navbtn">&#9664; Back</span><span class="navbtn">Forward &#9654;</span><span class="navbtn">&#8635; Reload</span><span class="navbtn">&#8962; Home</span><span class="navbtn">Search</span><span class="navbtn">Print</span></div>
+<div class="navloc"><label>Location:</label><span class="navurl">https://rtr525-web.github.io/today/</span></div>
+<div class="navcontent">
 <h1>Today — Empire Work List</h1>
 <p class="date">Wednesday, October 21, 2026</p><p class="head">Launch day — 10 channels go live, RB3 leads</p>
 <ul><li><span class="tag">Upload</span><span class="txt">Rain Bird RB3 retry — first upload after the 8:18 AM cap reset</span></li>
@@ -28,4 +42,7 @@ a{color:#d8b25c}
 <li><span class="tag">Upload</span><span class="txt">Sprinkler Engineering E8 posts (pre-approved slate)</span></li>
 <li><span class="tag">His hands</span><span class="txt">Waiting on Robert: link @wpcigars in Meta Accounts Center; Cigar College cover/profile phone upload</span></li></ul>
 <footer>Education only — nothing for sale. Full empire: <a href="/empire/">hub page</a>. Refreshed each morning.</footer>
-</div></body></html>
+</div>
+<div class="navstatus"><span class="navlock">&#128274;</span><span class="navdone">Document: Done</span><span class="navzone">Empire Zone</span></div>
+</div>
+</body></html>
