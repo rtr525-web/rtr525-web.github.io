@@ -1,19 +1,19 @@
 # VIDEO BRIEF — the daily brief for AIs
 
-**Brief date:** 2026-10-21 · **Feed stamp (`updated_at`):** 2026-10-21T06:40-04:00
+**Brief date:** 2026-10-22 · **Feed stamp (`updated_at`):** 2026-10-22T06:41-04:00
 
 Generated from the ai-sync feed (`context.json`) — the empire's one source of truth. If anything here disagrees with the live feed, the live feed wins. Read this before planning any video or desk work.
 
 ## Today's brief
 
-**Facebook backlogs cleared, MP01 live, 10-channel kits ready**
+**Ten YouTube posts live in one day; Oct 22 slate approved**
 
-- Sprinkler Engineering E7 published Oct 20 and E8 is staged gate-valid for Oct 21; the evening Sprinkler Tips lesson on the Hunter PGP Ultra blue nozzle tree was also produced and gate-certified.
-- The Facebook evening run cleared 9 of 9 verified live: Quote #10, the Cross Climate water-heater lesson, Cigar College humidor seasoning, Brand Spotlight 1-3, and Heritage 1-3.
-- Minneola Politics launched: all six landscape profiles were produced and gate-certified, and MP01 on the City Council published as the channel's first video; MP02 follows on the one-a-day cadence.
-- Ten new channels are kit-ready with Episode 1s gate-certified — Zimmatic, Reinke, Dawn, Bernard, CK Worldwide, Hidden Giants, Golf Club, Miller, Lincoln, and Patent — awaiting the serialized launch flow.
-- Firearms News Daily returned under a news-only, no-prices format: the Beckwith cert-denial piece and the Springfield Echelon COG piece were produced and gate-certified.
-- A simpler one-command gate went live across all publishing jobs, and Deals was reworked to no-prices store finds with a gate-certified replacement Episode 1.
+- Six YouTube posts verified live Oct 21: Rivulis R2, Netafim N1 (that channel's first video), DIG D2, Fronius F7, Toro T7, and Orbit O7.
+- The afternoon publish push added four more live: Standing the Watch F1, Calsense C3, Signature S2, and Baseline BL2; Facebook added the Cigar College cap-anatomy reel, Cross Climate CC-07, and Hillsboro quote #11.
+- Sprinkler consolidation settled: Sprinkler Blueprint (@KRainBlueprint) is the single sprinkler channel, the other sprinkler channels are delete-pending, and Golf Blueprints stays as the golf courses channel.
+- All 48 pieces on the Oct 22 slate are blanket-approved and gate-certified — retries, 12 first posts on never-published channels, launch-flow pieces, and daily next pieces.
+- A preflight build system went live across 45 production jobs to catch duration and text-fit errors before rendering, and the first long-form episode, LF-SE-001, was produced and gate-certified.
+- The Popular Topics daily log launched on the empire site, and 10 new channel ideas plus a 12-channel classic-topic lineup were kitted and parked for a decision.
 
 ## The two missions
 
@@ -95,26 +95,26 @@ Build a long-term public presence the slow, clean way: show up for the community
 
 ### The Directory
 
-- Sprinkler Tips — @RTR525 — live · https://www.youtube.com/@RTR525
-- Home Repair Blueprint — @HomeRepairBlueprint — live · https://www.youtube.com/@HomeRepairBlueprint
-- Tech Blueprint — @TechBlueprintHQ-k3r — live · https://www.youtube.com/channel/UCto8obQMtV26tcy6mOMpfAw
-- Rain Bird Blueprint — @RainBirdBlueprint — live · https://www.youtube.com/@RainBirdBlueprint
-- Hunter Blueprints — @HunterBlueprints — live · https://www.youtube.com/@HunterBlueprints
-- Toro Blueprint — @ToroBlueprint — live · https://www.youtube.com/@ToroBlueprint
-- Orbit Blueprints — @OrbitBlueprints — live · https://www.youtube.com/@OrbitBlueprints
-- K-Rain Blueprint — @KRainBlueprint — live · https://www.youtube.com/@KRainBlueprint
-- Calsense Blueprint — @CalsenseBlueprint — live · https://www.youtube.com/@CalsenseBlueprint
-- Buckner-Superior Blueprint — @BucknerSuperiorBlueprint — live · https://www.youtube.com/@BucknerSuperiorBlueprint
-- Signature Blueprint — @SignatureBlueprint — live · https://www.youtube.com/@SignatureBlueprint
-- Baseline Blueprints — @BaselineBlueprints — live · https://www.youtube.com/@BaselineBlueprints
-- Weathermatic Blueprint — @WeathermaticBlueprint — live · https://www.youtube.com/@WeathermaticBlueprint
-- Senninger Blueprint — @SenningerBlueprint — live · https://www.youtube.com/@SenningerBlueprint
-- Nelson Blueprint — @NelsonBlueprint — live · https://www.youtube.com/@NelsonBlueprint
-- Irritrol Blueprint — @IrritrolBlueprint — live · https://www.youtube.com/@IrritrolBlueprint
-- DIG Blueprint — @DIGBlueprint — live · https://www.youtube.com/@DIGBlueprint
-- Netafim Blueprint — @NetafimBlueprint — live · https://www.youtube.com/@NetafimBlueprint
-- Valley Blueprint — @ValleyBlueprint — live · https://www.youtube.com/@ValleyBlueprint
-- Rivulis Blueprint — @RivulisBlueprint — live · https://www.youtube.com/@RivulisBlueprint
+- Sprinkler Tips — @RTR525 — delete-pending — permanent deletion confirmed by Robert Oct 21, 2026 (19:37 ET; reverses the earlier same-day hide choice) · https://www.youtube.com/@RTR525
+- Home Repair Blueprint — @HomeRepairBlueprint — not live yet — premiere certified & staged · https://www.youtube.com/@HomeRepairBlueprint
+- Tech Blueprint — @TechBlueprintHQ-k3r — not live yet — premiere certified & staged · https://www.youtube.com/channel/UCto8obQMtV26tcy6mOMpfAw
+- Rain Bird Blueprint — @RainBirdBlueprint — delete-pending — permanent deletion confirmed by Robert Oct 21, 2026 (19:37 ET; reverses the earlier same-day hide choice) · https://www.youtube.com/@RainBirdBlueprint
+- Hunter Blueprints — @HunterBlueprints — delete-pending — permanent deletion confirmed by Robert Oct 21, 2026 (19:37 ET; reverses the earlier same-day hide choice) · https://www.youtube.com/@HunterBlueprints
+- Toro Blueprint — @ToroBlueprint — delete-pending — permanent deletion confirmed by Robert Oct 21, 2026 (19:37 ET; reverses the earlier same-day hide choice) · https://www.youtube.com/@ToroBlueprint
+- Orbit Blueprints — @OrbitBlueprints — delete-pending — permanent deletion confirmed by Robert Oct 21, 2026 (19:37 ET; reverses the earlier same-day hide choice) · https://www.youtube.com/@OrbitBlueprints
+- Sprinkler Blueprint — @KRainBlueprint — live · https://www.youtube.com/@KRainBlueprint
+- Calsense Blueprint — @CalsenseBlueprint — delete-pending — permanent deletion confirmed by Robert Oct 21, 2026 (19:37 ET; reverses the earlier same-day hide choice) · https://www.youtube.com/@CalsenseBlueprint
+- Buckner-Superior Blueprint — @BucknerSuperiorBlueprint — delete-pending — permanent deletion confirmed by Robert Oct 21, 2026 (19:37 ET; reverses the earlier same-day hide choice) · https://www.youtube.com/@BucknerSuperiorBlueprint
+- Signature Blueprint — @SignatureBlueprint — delete-pending — permanent deletion confirmed by Robert Oct 21, 2026 (19:37 ET; reverses the earlier same-day hide choice) · https://www.youtube.com/@SignatureBlueprint
+- Baseline Blueprints — @BaselineBlueprints — delete-pending — permanent deletion confirmed by Robert Oct 21, 2026 (19:37 ET; reverses the earlier same-day hide choice) · https://www.youtube.com/@BaselineBlueprints
+- Weathermatic Blueprint — @WeathermaticBlueprint — delete-pending — permanent deletion confirmed by Robert Oct 21, 2026 (19:37 ET; reverses the earlier same-day hide choice) · https://www.youtube.com/@WeathermaticBlueprint
+- Senninger Blueprint — @SenningerBlueprint — delete-pending — permanent deletion confirmed by Robert Oct 21, 2026 (19:37 ET; reverses the earlier same-day hide choice) · https://www.youtube.com/@SenningerBlueprint
+- Nelson Blueprint — @NelsonBlueprint — delete-pending — permanent deletion confirmed by Robert Oct 21, 2026 (19:37 ET; reverses the earlier same-day hide choice) · https://www.youtube.com/@NelsonBlueprint
+- Irritrol Blueprint — @IrritrolBlueprint — delete-pending — permanent deletion confirmed by Robert Oct 21, 2026 (19:37 ET; reverses the earlier same-day hide choice) · https://www.youtube.com/@IrritrolBlueprint
+- DIG Blueprint — @DIGBlueprint — delete-pending — permanent deletion confirmed by Robert Oct 21, 2026 (19:37 ET; reverses the earlier same-day hide choice) · https://www.youtube.com/@DIGBlueprint
+- Netafim Blueprint — @NetafimBlueprint — delete-pending — permanent deletion confirmed by Robert Oct 21, 2026 (19:37 ET; reverses the earlier same-day hide choice) · https://www.youtube.com/@NetafimBlueprint
+- Valley Blueprint — @ValleyBlueprint — delete-pending — permanent deletion confirmed by Robert Oct 21, 2026 (19:37 ET; reverses the earlier same-day hide choice) · https://www.youtube.com/@ValleyBlueprint
+- Rivulis Blueprint — @RivulisBlueprint — delete-pending — permanent deletion confirmed by Robert Oct 21, 2026 (19:37 ET; reverses the earlier same-day hide choice) · https://www.youtube.com/@RivulisBlueprint
 - Fronius Blueprint — @FroniusBlueprint — live · https://www.youtube.com/@FroniusBlueprint
 - Hobart Blueprint — @HobartBlueprint — live · https://www.youtube.com/@HobartBlueprint
 - Cross Climate Entertainment — — — live · https://www.facebook.com/profile.php?id=100431098919558
@@ -134,19 +134,19 @@ Build a long-term public presence the slow, clean way: show up for the community
 - Arc & Anvil — @arcandanvil-d7b — live · https://www.youtube.com/@arcandanvil-d7b
 - Verse & Anvil — @verseandanvil — live · https://www.youtube.com/@verseandanvil
 - Stoic Mind — @stoicmind-s7e — live · https://www.youtube.com/@stoicmind-s7e
-- Style Blueprint — @StyleBlueprints — live · https://www.youtube.com/@StyleBlueprints
+- Style Blueprint — @StyleBlueprints — not live yet — premiere certified & staged · https://www.youtube.com/@StyleBlueprints
 - Audi Saga — @audisaga-m2l — live — new episodes approval-gated · https://www.youtube.com/@audisaga-m2l
 - Justice Blueprint — @JusticeBlueprintHQ — live · https://www.youtube.com/@JusticeBlueprintHQ
 - Family Blueprint — @FamilyBlueprintHQ — live · https://www.youtube.com/@FamilyBlueprintHQ
 - Built Not Born Fitness — @builtnotbornfitness — live · https://www.youtube.com/@builtnotbornfitness
 - Homemade Genius — @HomemadeGeniusInventions — live · https://www.youtube.com/@HomemadeGeniusInventions
 - Firearms News Daily — @firearmsnewsdaily — live — publishing resumed Oct 20, 2026 (news and education, no prices) · https://www.youtube.com/@firearmsnewsdaily
-- Western Swing Blueprint — @WesternSwingBlueprint — live — premiere certified; first upload in the Oct 17 retry batch · https://www.youtube.com/@WesternSwingBlueprint
-- ReelGroove TV — @ReelGrooveTV — live — premiere certified; first upload in the Oct 17 retry batch · https://www.youtube.com/@ReelGrooveTV
+- Western Swing Blueprint — @WesternSwingBlueprint — not live yet — premiere certified & staged · https://www.youtube.com/@WesternSwingBlueprint
+- ReelGroove TV — @ReelGrooveTV — not live yet — premiere certified & staged · https://www.youtube.com/@ReelGrooveTV
 - Hillsboro Entertainment — — — live · https://www.facebook.com/profile.php?id=304854799935117
 - Cigar College — — — live · https://www.facebook.com/profile.php?id=108870878562428
 - @mrhillsboro — @mrhillsboro — live · https://www.instagram.com/mrhillsboro
-- @wpcigars — @wpcigars — live — posting currently limited · https://www.instagram.com/wpcigars
+- @wpcigars — @wpcigars — not linked — cannot post until linked in Meta Accounts Center · https://www.instagram.com/wpcigars
 - @mrminneola — @mrminneola — live
 - @mrhillsboro — @mrhillsboro — live
 - PracticalProTips — PracticalProTips — planned — creation queued
@@ -155,8 +155,8 @@ Build a long-term public presence the slow, clean way: show up for the community
 ### Top Lists
 
 - Jayhil Media — @JayhilMedia — live — playlists built; uploads in the daily retry rotation · https://www.youtube.com/@JayhilMedia
-- Worth the Drive — @WorthTheDriveFL — live · https://www.youtube.com/@WorthTheDriveFL
-- 50 States Unknown — @50StatesUnknown — live · https://www.youtube.com/@50StatesUnknown
+- Worth the Drive — @WorthTheDriveFL — no videos yet — by design (posts after a real visit) · https://www.youtube.com/@WorthTheDriveFL
+- 50 States Unknown — @50StatesUnknown — not live yet — premiere certified & staged · https://www.youtube.com/@50StatesUnknown
 - Hillsboro Consumer — — — live · https://www.facebook.com/profile.php?id=1422194797633015
 - @jayhilmedia — @jayhilmedia — in formation
 
@@ -165,11 +165,11 @@ Build a long-term public presence the slow, clean way: show up for the community
 - Tax Blueprint — @TaxBlueprintTips — live · https://www.youtube.com/@TaxBlueprintTips
 - Money Matters — @moneymatters-o6k-t9i — live · https://www.youtube.com/@moneymatters-o6k-t9i
 - Money Matters (spare) — @moneymatters-o6k — spare — no content · https://www.youtube.com/@moneymatters-o6k
-- Deals Blueprint — @DealsBlueprint — live · https://www.youtube.com/@DealsBlueprint
-- Forgotten Engines — @ForgottenEnginesFL — live · https://www.youtube.com/@ForgottenEnginesFL
+- Deals Blueprint — @DealsBlueprint — not live yet — replacement premiere certified & staged · https://www.youtube.com/@DealsBlueprint
+- Forgotten Engines — @ForgottenEnginesFL — not live yet — premiere certified & staged · https://www.youtube.com/@ForgottenEnginesFL
 - Glass Blueprint — @GlassBlueprint — live · https://www.youtube.com/@GlassBlueprint
 - Encyclopedia Blueprint — @EncyclopediaBlueprint — live · https://www.youtube.com/@EncyclopediaBlueprint
-- Career Blueprint — @CareerBlueprintHQ-y4k — live · https://www.youtube.com/channel/UC6UD508BizkdC2Q1cyE8vqA
+- Career Blueprint — @CareerBlueprintHQ-y4k — not live yet — premiere certified & staged · https://www.youtube.com/channel/UC6UD508BizkdC2Q1cyE8vqA
 
 ### The Route
 
@@ -177,20 +177,20 @@ Build a long-term public presence the slow, clean way: show up for the community
 - Badge Blueprint — @BadgeBlueprint — live · https://www.youtube.com/@BadgeBlueprint
 - Mystery Blueprint — @MysteryBlueprint — live · https://www.youtube.com/@MysteryBlueprint
 - Anomaly Blueprint — @AnomalyBlueprintFL — live · https://www.youtube.com/@AnomalyBlueprintFL
-- Winter Park Road — @WinterParkRoad — live · https://www.youtube.com/@WinterParkRoad
-- America in Song — @AmericaInSongStories — live · https://www.youtube.com/@AmericaInSongStories
+- Winter Park Road — @WinterParkRoad — unconfirmed — no live post verified from records; live check pending · https://www.youtube.com/@WinterParkRoad
+- America in Song — @AmericaInSongStories — not live yet — premiere certified & staged · https://www.youtube.com/@AmericaInSongStories
 - @winterparkroad — @winterparkroad — live · https://www.instagram.com/winterparkroad
 
 ### The Fairways
 
-- Florida Fairways — @FloridaFairwaysFL — live — premiere certified; first upload in the Oct 17 retry batch · https://www.youtube.com/@FloridaFairwaysFL
+- Florida Fairways — @FloridaFairwaysFL — not live yet — premiere certified & staged · https://www.youtube.com/@FloridaFairwaysFL
 - Golf Blueprints — @GolfBlueprints — live · https://www.youtube.com/@GolfBlueprints
-- Golf Club Blueprint — @GolfClubBlueprint — live · https://www.youtube.com/@GolfClubBlueprint
+- Golf Club Blueprint — @GolfClubBlueprint — not live yet — channel created Oct 18; premiere certified & staged · https://www.youtube.com/@GolfClubBlueprint
 
 ### The Parks
 
-- National Parks Blueprint — @NationalParksBlueprint — live — launch package in production · https://www.youtube.com/@NationalParksBlueprint
-- State Parks Blueprint — @StateParksBlueprint — live — launch package in production · https://www.youtube.com/@StateParksBlueprint
+- National Parks Blueprint — @NationalParksBlueprint — not live yet — premiere certified & staged · https://www.youtube.com/@NationalParksBlueprint
+- State Parks Blueprint — @StateParksBlueprint — not live yet — premiere certified & staged · https://www.youtube.com/@StateParksBlueprint
 
 ### Hub
 

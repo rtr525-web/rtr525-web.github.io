@@ -1,7 +1,7 @@
 {
  "schema": "ai-sync/1.0",
- "updated_at": "2026-10-21T16:24-04:00",
- "updated_note": "Daily update, Wednesday, October 21, 2026 (America/New_York): Oct 20's Facebook backlog clear, Minneola Politics launch, and 10-channel launch kits folded into today's brief. Registry stands at 78 pages; check-ins remain 2, both Claude. Registry update Oct 21, 2026 (one-channel sprinkler decision): @KRainBlueprint is now Sprinkler Blueprint, the single sprinkler channel; the other 18 sprinkler channels are marked HIDING (reversible), posting stopped.",
+ "updated_at": "2026-10-22T06:41-04:00",
+ "updated_note": "Daily update, Thursday, October 22, 2026 (America/New_York): Oct 21's ten live YouTube posts, the one-channel sprinkler decision, and the approved 48-piece Oct 22 slate folded into today's brief. Registry stands at 78 pages; check-ins remain 2, both Claude.",
  "owner": {
   "name": "Robert Rang",
   "public_identity": "Creator and builder in Minneola, Florida. Runs the RTR525 media empire and the Hillsboro Blueprint hub: dozens of narrated, blueprint-style educational channels covering irrigation, welding, music history, golf, parks, local news, and practical know-how.",
@@ -968,15 +968,15 @@
   }
  ],
  "daily_brief": {
-  "date": "2026-10-21",
-  "headline": "Facebook backlogs cleared, MP01 live, 10-channel kits ready",
+  "date": "2026-10-22",
+  "headline": "Ten YouTube posts live in one day; Oct 22 slate approved",
   "items": [
-   "Sprinkler Engineering E7 published Oct 20 and E8 is staged gate-valid for Oct 21; the evening Sprinkler Tips lesson on the Hunter PGP Ultra blue nozzle tree was also produced and gate-certified.",
-   "The Facebook evening run cleared 9 of 9 verified live: Quote #10, the Cross Climate water-heater lesson, Cigar College humidor seasoning, Brand Spotlight 1-3, and Heritage 1-3.",
-   "Minneola Politics launched: all six landscape profiles were produced and gate-certified, and MP01 on the City Council published as the channel's first video; MP02 follows on the one-a-day cadence.",
-   "Ten new channels are kit-ready with Episode 1s gate-certified — Zimmatic, Reinke, Dawn, Bernard, CK Worldwide, Hidden Giants, Golf Club, Miller, Lincoln, and Patent — awaiting the serialized launch flow.",
-   "Firearms News Daily returned under a news-only, no-prices format: the Beckwith cert-denial piece and the Springfield Echelon COG piece were produced and gate-certified.",
-   "A simpler one-command gate went live across all publishing jobs, and Deals was reworked to no-prices store finds with a gate-certified replacement Episode 1."
+   "Six YouTube posts verified live Oct 21: Rivulis R2, Netafim N1 (that channel's first video), DIG D2, Fronius F7, Toro T7, and Orbit O7.",
+   "The afternoon publish push added four more live: Standing the Watch F1, Calsense C3, Signature S2, and Baseline BL2; Facebook added the Cigar College cap-anatomy reel, Cross Climate CC-07, and Hillsboro quote #11.",
+   "Sprinkler consolidation settled: Sprinkler Blueprint (@KRainBlueprint) is the single sprinkler channel, the other sprinkler channels are delete-pending, and Golf Blueprints stays as the golf courses channel.",
+   "All 48 pieces on the Oct 22 slate are blanket-approved and gate-certified — retries, 12 first posts on never-published channels, launch-flow pieces, and daily next pieces.",
+   "A preflight build system went live across 45 production jobs to catch duration and text-fit errors before rendering, and the first long-form episode, LF-SE-001, was produced and gate-certified.",
+   "The Popular Topics daily log launched on the empire site, and 10 new channel ideas plus a 12-channel classic-topic lineup were kitted and parked for a decision."
   ]
  },
  "handoff": {

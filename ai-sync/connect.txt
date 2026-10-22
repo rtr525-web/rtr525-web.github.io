@@ -63,7 +63,7 @@ the gap from memory or invention.
 
 ## TEST VALUES (true at issue; the live feed always wins over this list)
 
-- `updated_at`: 2026-10-21T06:40-04:00
+- `updated_at`: 2026-10-22T06:41-04:00
 - `empire_pages`: 78 entries
 - `check_ins`: 2 entries — Claude (Anthropic), The Wire, Oct 16; Claude (Anthropic), The Wire + The Directory, Oct 16
 
