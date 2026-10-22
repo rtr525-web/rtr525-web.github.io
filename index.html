@@ -3,14 +3,17 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="theme-color" content="#0b0b0f">
+<meta name="theme-color" content="#121317">
 <title>Content Empire — the Empire Hub is the one empire page</title>
 <meta name="description" content="Front door to Robert Rang's independent education channel network. The Empire Hub is the one empire page: Daily Updates, every channel by category, stats and links. Education only.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 <style>
 :root{
-  --bg:#0b0b0f; --bg2:#000000;
+  --bg:#121317; --bg2:#17181c;
   --ink:#f5f5f7; --dim:#a1a1a6; --faint:#86868b;
-  --accent:#2997ff;
+  --accent:#6fd3e7;
   --hair:rgba(255,255,255,.08);
   --glass:rgba(255,255,255,.04);
   --radius:20px;
@@ -20,17 +23,17 @@ html{scroll-behavior:smooth}
 body{
   margin:0;
   background:
-    radial-gradient(1100px 520px at 50% -180px, rgba(41,151,255,.14), rgba(41,151,255,0) 62%),
+    radial-gradient(1100px 520px at 50% -180px, rgba(111,211,231,.16), rgba(111,211,231,0) 62%),
     linear-gradient(180deg, var(--bg) 0%, var(--bg2) 100%);
   background-color:var(--bg);
   color:var(--ink);
-  font-family:-apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", Inter, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family:"Archivo", -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", Inter, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   -webkit-font-smoothing:antialiased; text-rendering:optimizeLegibility;
   padding:0 20px 72px;
 }
-.empire-statusbar{display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap;background:#0d2137;color:#eaf2f8;padding:.55rem 1rem;font:600 .82rem/1.4 ui-monospace,Menlo,Consolas,monospace;letter-spacing:.04em;border-bottom:2px solid #c8a951;margin:0 -20px}
+.empire-statusbar{display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap;background:#1e1f24;color:#eaf2f8;padding:.55rem 1rem;font:600 .82rem/1.4 ui-monospace,Menlo,Consolas,monospace;letter-spacing:.04em;border-bottom:2px solid #6fd3e7;margin:0 -20px}
 .wrap{max-width:1120px;margin:0 auto}
-::selection{background:rgba(41,151,255,.35)}
+::selection{background:rgba(111,211,231,.35)}
 :focus-visible{outline:3px solid #F5A800;outline-offset:2px}
 header{padding:88px 0 8px;text-align:center}
 .eyebrow{font-size:12px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--accent)}
@@ -47,11 +50,11 @@ h1{
 .edu{display:inline-block;margin-top:1rem;padding:.3rem .9rem;border:1px solid var(--hair);border-radius:999px;background:var(--glass);color:var(--accent);font-size:.85rem;font-weight:600;letter-spacing:.08em}
 .door{background:var(--glass);border:1px solid var(--hair);border-radius:var(--radius);padding:34px 26px;margin:44px auto 0;max-width:760px;text-align:center}
 .hubbtn{
-  display:inline-block;background:var(--accent);color:#fff;text-decoration:none;
+  display:inline-block;background:var(--accent);color:#07242e;text-decoration:none;
   font-size:clamp(19px,3vw,24px);font-weight:700;letter-spacing:.01em;
   padding:16px 34px;border-radius:14px;
 }
-.hubbtn:hover{background:#3aa2ff}
+.hubbtn:hover{background:#93e2f5}
 .hubcap{color:var(--dim);font-size:.98rem;line-height:1.5;margin:16px auto 0;max-width:560px}
 .more{max-width:760px;margin:34px auto 0;text-align:center}
 .more h2{font-size:1.05rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--faint);margin:0 0 12px}
@@ -68,7 +71,7 @@ footer a{color:var(--accent)}
 </style>
 </head>
 <body>
-<div class="empire-statusbar"><span>● Last updated: Wednesday, October 21, 2026 — 7:29 PM ET</span><span class="empire-clockwrap">LIVE ET CLOCK — <span id="empire-clock">--:--:--</span></span></div>
+<div class="empire-statusbar"><span>● Last updated: Wednesday, October 21, 2026 — 9:08 PM ET</span><span class="empire-clockwrap">LIVE ET CLOCK — <span id="empire-clock">--:--:--</span></span></div>
 <script>(function(){function t(){try{document.getElementById('empire-clock').textContent=new Date().toLocaleTimeString('en-US',{timeZone:'America/New_York',hour:'2-digit',minute:'2-digit',second:'2-digit'})+' ET';}catch(e){}}t();setInterval(t,1000);})();</script>
 <div class="wrap">
 <header>
@@ -96,7 +99,7 @@ footer a{color:var(--accent)}
 </main>
 <footer>
 <p>An independent education network by Robert Rang, Minneola, Florida. Brand channels are independent education channels, not affiliated with the manufacturers they teach about.</p>
-<p>Front door generated Wednesday, October 21, 2026 — 7:29 PM ET · the <a href="https://rtr525-web.github.io/empire/">Empire Hub</a> is kept current hourly.</p>
+<p>Front door generated Wednesday, October 21, 2026 — 9:08 PM ET · the <a href="https://rtr525-web.github.io/empire/">Empire Hub</a> is kept current hourly.</p>
 </footer>
 </div>
 </body>
