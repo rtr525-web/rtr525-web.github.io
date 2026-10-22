@@ -2,6 +2,8 @@
 <html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Popular Topics — Daily Log — Empire</title>
+<meta name="description" content="Popular Topics — daily log for the empire: what is popular today, why, and which education channel it can feed.">
+<meta name="theme-color" content="#000080">
 <link rel="icon" href="/icon-192.png"><link rel="apple-touch-icon" href="/icon-180.png">
 <style>
 .navframe { max-width:720px; margin:18px auto; background:#c3c7cb; border:3px outset #e8e8e8; box-shadow:6px 6px 0 rgba(0,0,0,.35); }
@@ -29,6 +31,13 @@ li p.why { color:#333; }
 .src { color:#555; font-size:12.5px; font-family:Tahoma,Verdana,sans-serif; }
 footer { color:#444; font-size:12px; margin-top:22px; border-top:3px double #000080; padding-top:10px; }
 a { color:#0000ee; }
+/* batch-g (2026-10-21, award ideas #12/#14 guardrails): print-friendly view */
+@media print {
+  .navtoolbar, .navloc, .navstatus { display:none !important; }
+  .navframe { border:none; box-shadow:none; margin:0; max-width:none; }
+  body { background:#ffffff !important; }
+  li { break-inside:avoid; }
+}
 
 .statusbar { display:flex; flex-wrap:wrap; gap:.4rem 1.2rem; align-items:center; justify-content:center;
   background:#000080; color:#fff; font-family:Tahoma,Verdana,sans-serif; font-size:.86rem;
@@ -63,16 +72,84 @@ a { color:#0000ee; }
   .ticker-track, .mfill, .spark polyline, .newbadge { animation:none !important; }
   .mfill { width:var(--w); } .spark polyline { stroke-dashoffset:0; }
 }
+/* batch-g pure upgrades (2026-10-21): accessibility + kinetic-number core +
+   page transitions + print, from the award-design ideas #3/#12/#14 guardrails.
+   No visual change for default visitors; everything below is progressive
+   enhancement, keyboard/print/reduced-motion support, or tabular numerals. */
+:focus-visible { outline:3px solid #F5A800; outline-offset:2px; }
+.skiplink { position:absolute; left:-9999px; top:0; z-index:99; background:#000080; color:#fff;
+  font-family:Tahoma,Verdana,sans-serif; font-size:.9rem; padding:.5rem 1rem; }
+.skiplink:focus { left:0; }
+.ticker, .mgain, .totnum, .tot, .liveclock { font-variant-numeric:tabular-nums; }
+.totnum { font-variation-settings:"wght" 650; }
+@view-transition { navigation:auto; }
+::view-transition-old(root), ::view-transition-new(root) { animation-duration:.2s; }
+@media (prefers-reduced-motion: reduce) {
+  ::view-transition-old(root), ::view-transition-new(root) { animation:none !important; }
+}
+@media print {
+  .ticker, .statusbar, .newbadge { display:none !important; }
+  .movers, .tot { break-inside:avoid; }
+}
 
 .navcontent .statusbar { margin:-20px -20px 16px; }
-</style></head><body>
+</style></head><body><a class="skiplink" href="#content">Skip to content</a>
 <div class="navframe">
 <div class="navtitle"><svg class="navmark" viewBox="0 0 40 40" width="22" height="22" aria-hidden="true"><circle cx="20" cy="20" r="18" fill="#000080"/><path d="M20 4 L22.5 15 L34 12 L24 20 L34 28 L22.5 25 L20 36 L17.5 25 L6 28 L16 20 L6 12 L17.5 15 Z" fill="#7ec8f7"/><text x="20" y="26" font-family="Georgia,serif" font-size="17" fill="#ffffff" text-anchor="middle" font-weight="bold">N</text></svg><span>Empire Navigator &mdash; Popular Topics</span></div>
 <div class="navtoolbar"><span class="navbtn">&#9664; Back</span><span class="navbtn">Forward &#9654;</span><span class="navbtn">&#8635; Reload</span><span class="navbtn">&#8962; Home</span><span class="navbtn">Search</span><span class="navbtn">Print</span></div>
 <div class="navloc"><label>Location:</label><span class="navurl">https://rtr525-web.github.io/topics/</span></div>
-<div class="navcontent">
-<div class="statusbar"><span>Last updated: Wednesday, October 21, 2026 — 1:32 PM ET</span><span>Eastern now: <span class="liveclock">—</span></span></div><h1>Popular Topics — Daily Log</h1>
+<div class="navcontent" id="content">
+<div class="statusbar"><span>Last updated: Thursday, October 22, 2026 — 4:17 AM ET</span><span>Eastern now: <span class="liveclock">—</span></span></div><h1>Popular Topics — Daily Log</h1>
 <p class="date">A working resource for the empire: what is popular today, why, and which channel it can feed.</p><p class="head">Researched fresh every morning. Every topic is real and sourced — nothing invented. Consumer prices are never listed (education-only rule).</p>
+<h2 class="day">Thursday, October 22, 2026</h2>
+<p class="searched">Researched Thursday, October 22, 2026 (America/New_York) — web news search + social search (Instagram / Facebook / Threads, posts since Oct 19, 2026).</p>
+<h3 class="lane">Irrigation &amp; Sprinklers</h3>
+<ul>
+<li><h4>Fall back Nov 1: St. Johns district resets sprinklers to once a week</h4><span class="feeds">Feeds: Sprinkler Blueprint · Sprinkler Engineering · Jayhil Media</span><p>The St. Johns River Water Management District is reminding homeowners and businesses across its 18 counties to reset automatic sprinkler timers to no more than once a week starting Nov 1, matching the end of daylight saving time. In Eastern Standard Time the schedule is Saturday for odd or unnumbered addresses, Sunday for even addresses, and Tuesday for non-residential addresses.</p><p class="why"><strong>Why it matters:</strong> A dated, Florida-wide timer change that lands in nine days — the exact controller-reset walkthrough Sprinkler Blueprint teaches, and a natural follow-on to the district&#x27;s Phase III shortage coverage.</p><p class="src">Source: <a href="https://lake.wateratlas.usf.edu/news/details/19500/">St. Johns River Water Management District via Lake Water Atlas (USF)</a></p></li>
+<li><h4>October is assessment month for stressed St. Augustine lawns</h4><span class="feeds">Feeds: Sprinkler Blueprint · Jayhil Media</span><p>UF/IFAS-linked fall guidance for northeast Florida says October is the time to assess St. Augustine turf stressed by a dry summer: September was the last recommended fertilization month, late nitrogen can feed large patch fungus, and in St. Johns County Phase III restrictions (in effect since May 11, 2026) limit landscape irrigation to one day a week with no watering from 8 a.m. to 6 p.m. — and a private well does not exempt a yard.</p><p class="why"><strong>Why it matters:</strong> Hyper-local, research-backed lawn triage for the empire&#x27;s home turf type — allowed to water is not the same as needing to water is a teachable controller-and-sensor episode.</p><p class="src">Source: <a href="https://completegardening.com/the-dry-summer-may-have-stressed-some-st-augustine-lawns-and-october-is-a-time-to-assess-and-care-for-turf-1b377eda/">Complete Gardening, Oct 2026 (St. Johns County rules + UF/IFAS Extension St. Johns County fall tips)</a></p></li>
+</ul>
+<h3 class="lane">Welding &amp; Skilled Trades</h3>
+<ul>
+<li><h4>Michigan college launches a maritime welding program on a $630,876 grant</h4><span class="feeds">Feeds: Arc &amp; Anvil · Career Blueprint</span><p>Washtenaw Community College announced Oct 19 it will launch a maritime welding program with a $630,876 grant from the Michigan Department of Labor and Economic Opportunity, adding robotic welders and a proposed Marine Structural Welding and Ship Repair Certificate. The U.S. Navy is cited as needing more than 140,000 skilled maritime and advanced manufacturing workers over the next decade; the first cohort is expected in Fall 2027, serving 60–100 students a year.</p><p class="why"><strong>Why it matters:</strong> Shipbuilding welding is a distinct, high-demand specialty with public funding behind it — a careers episode and a process episode (structural and ship repair work) in one.</p><p class="src">Source: <a href="https://www.globenewswire.com/news-release/2026/10/19/3383933/0/en/washtenaw-community-college-launches-maritime-welding-program-with-630-000-grant.html">GlobeNewswire, Oct 19, 2026 (Washtenaw Community College)</a></p></li>
+</ul>
+<h3 class="lane">Personal Finance &amp; Tax</h3>
+<ul>
+<li><h4>2027 tax brackets projected up 3.2% — official IRS numbers still pending</h4><span class="feeds">Feeds: Tax Blueprint · Money Matters</span><p>Bloomberg Tax, Wolters Kluwer, and Thomson Reuters projections agree the 2027 federal brackets will rise about 3.2%, with the standard deduction projected at $16,600 for single filers, $33,200 for married filing jointly, and about $24,950 for heads of household. The seven rates (10% to 37%) stay unchanged; the IRS is expected to publish the official Revenue Procedure in late October or early November 2026.</p><p class="why"><strong>Why it matters:</strong> Every filer&#x27;s 2027 planning is waiting on one announcement — a Schoolhouse Numbers episode can teach bracket creep now and update the moment the official figures post.</p><p class="src">Source: <a href="https://jupid.com/blog/2027-tax-brackets">Jupid, Sept 18, 2026 projections summary (Wolters Kluwer / Bloomberg Tax / Thomson Reuters), updated Oct 2026</a></p></li>
+<li><h4>39 years after Black Monday, analysts preach long-term strategy at market highs</h4><span class="feeds">Feeds: Money Matters · Encyclopedia Blueprint</span><p>Coverage on Oct 22 marks 39 years since the Oct 19, 1987 crash, when the Dow fell 22.6% in one day — still its largest single-day percentage drop — yet finished that calendar year positive. Analysts note the current S&amp;P 500 bull market has roughly doubled since its October 2022 low despite inflation, rate, tariff, and geopolitical headwinds.</p><p class="why"><strong>Why it matters:</strong> A history-plus-discipline story: what a crash anniversary actually teaches about staying invested is core Money Matters material, with hard numbers to animate.</p><p class="src">Source: <a href="https://wsnext.com/221b6e4-Bull-market-Market-volatility/">WSNext, Oct 22, 2026</a></p></li>
+</ul>
+<h3 class="lane">Cigars</h3>
+<ul>
+<li><h4>La Casa Grande premieres &#x27;How You Doin!&#x27; in Las Vegas on Oct 21</h4><span class="feeds">Feeds: Cigar College · Cigar School</span><p>Bronx boutique maker La Casa Grande premiered its How You Doin! cigar at Eight Lounge at Resorts World Las Vegas on Oct 21, a collaboration between owner Paul DiSilvio and Bronx deli owner Giovanni Paolo DiFuccia. The blend is a San Andres Maduro wrapper over Dominican binder and filler (Criollo 98 and Corojo), in Toro, Robusto, and Torpedo sizes, each cigar wrapped in sandwich-inspired tissue paper.</p><p class="why"><strong>Why it matters:</strong> A culture-first release built on Arthur Avenue food tradition — wrapper, primings, and the story behind a collaboration are Cigar College&#x27;s exact format, with no selling angle needed.</p><p class="src">Source: <a href="https://cigar-coop.com/2026/10/la-casa-grande-to-release-how-you-doin-cigar-cigar-news.html">Cigar Coop, Oct 20, 2026</a></p></li>
+<li><h4>Crowned Heads Belgian Blue LE 2026 ships next week</h4><span class="feeds">Feeds: Cigar College · Encyclopedia Blueprint</span><p>Crowned Heads returns its Belgian Blue limited edition for a third straight year, this time as a 5 1/4 x 54 box-pressed robusto extra made at D&#x27;Hatuey Tabacos in Esteli. The blend keeps a Mexican San Andres wrapper over an Ecuadorian binder and Dominican and Nicaraguan fillers, with about 75% of the tobacco from the ligero priming — the highest, most potent leaves on the plant.</p><p class="why"><strong>Why it matters:</strong> A clean teachable on primings: why ligero drives strength, and why the maker says the cigar was blended for flavor first and the power followed.</p><p class="src">Source: <a href="https://halfwheel.com/crowned-heads-belgian-blue-le-2026-shipping-next-week/482136/">Halfwheel, Oct 21, 2026</a></p></li>
+</ul>
+<h3 class="lane">Florida &amp; Local</h3>
+<ul>
+<li><h4>TODAY, Oct 22, is Florida&#x27;s last day to request a mail ballot</h4><span class="feeds">Feeds: Minneola Politics · Minneola Matters · Jayhil Media</span><p>Thursday Oct 22 is the statewide deadline to request a vote-by-mail ballot for the Nov 3 general election; ballots must be received by the Supervisor of Elections by 7 p.m. on Election Day to count. As of Oct 18, 1,525,321 Florida voters had requested but not yet returned a mail ballot.</p><p class="why"><strong>Why it matters:</strong> A same-day deadline is the most useful civic fact in Florida today — short, neutral, numbers-first, and exactly what Minneola Politics is for.</p><p class="src">Source: <a href="https://www.heraldtribune.com/story/news/politics/elections/2026/10/19/florida-mail-in-ballot-deadline-election-early-voting-by-county/92326274007/">Sarasota Herald-Tribune, Oct 19, 2026</a></p></li>
+<li><h4>Early voting opens today in 11 more Florida counties, including Marion</h4><span class="feeds">Feeds: Minneola Politics · Minneola Matters</span><p>Early voting begins Thursday Oct 22 in 11 Florida counties — Citrus, Collier, DeSoto, Dixie, Hardee, Hernando, Highlands, Jackson, Levy, Marion, and Nassau — joining the 35 counties (including Lake) that opened Oct 19, two that opened Oct 21, and Duval, which opened Oct 20. The remaining 18 counties open Saturday Oct 24, the start of the mandatory statewide window.</p><p class="why"><strong>Why it matters:</strong> The staggered county-by-county rollout is itself the explainer: why your neighbor county votes today and yours starts Saturday is a Florida civics diagram waiting to be drawn.</p><p class="src">Source: <a href="https://www.tallahassee.com/story/news/politics/elections/2026/10/21/florida-early-voting-when-starts-started-dates-counties-list-voter-deadlines/92359101007/">Tallahassee Democrat, Oct 21, 2026</a></p></li>
+</ul>
+<h3 class="lane">Fitness</h3>
+<ul>
+<li><h4>Five 2026 fitness trends, checked against the actual trials</h4><span class="feeds">Feeds: Built Not Born Fitness</span><p>A research roundup updated Oct 20 checks five trending approaches against published studies: weighted vests (9 trials, 368 adults; about 2.67 kg more fat loss than usual activity), weekend-warrior training (15,079 adults with chronic conditions; 36% lower mortality risk vs inactive when 150 weekly minutes are hit), interval walking (fitness and blood-sugar gains, thigh strength up 13–17% in five months in the original trial), short exercise snacks, and creatine after menopause (7 trials, 608 women; small but real lean-mass and leg-press gains with lifting).</p><p class="why"><strong>Why it matters:</strong> Verdicts with sample sizes attached — Built Not Born&#x27;s evidence-first format applied to the trends viewers are already seeing everywhere else this week.</p><p class="src">Source: <a href="https://liftbigeatbig.com/fitness-trends-2026/">Lift Big Eat Big, verified Oct 2026 (studies 2024–2026)</a></p></li>
+</ul>
+<h3 class="lane">Firearms News</h3>
+<ul>
+<li><h4>After ATF&#x27;s Oct 9 change, state codes are the trap: Ohio and Georgia still point to the federal registry</h4><span class="feeds">Feeds: Firearms News Daily</span><p>ATF&#x27;s Oct 9, 2026 policy stopped federal enforcement of NFA approval and registration for suppressors, short-barreled rifles, short-barreled shotguns, and any-other-weapons nationwide, with transfers moving to Form 4473 plus a NICS check. State law did not move with it: Ohio still classifies suppressors and sawed-off firearms as dangerous ordnance whose main civilian exemption requires federal registration, and Georgia&#x27;s exemption likewise points back to the federal registry — so an item that is fine federally can still be a state offense if unregistered.</p><p class="why"><strong>Why it matters:</strong> The follow-up story matters more than the announcement: federal permission versus state prohibition is a two-layer diagram Firearms News Daily can teach clearly — news only, no prices, no retailers.</p><p class="src">Source: <a href="https://ccw.workmanfirearms.com/guides/ohio-suppressor-law-october-2026/">Workman Firearms CCW guide, verified Oct 14, 2026; Atlanta Patriot, Oct 11, 2026</a></p></li>
+</ul>
+<h3 class="lane">History &amp; Mystery</h3>
+<ul>
+<li><h4>On this day, Oct 22, 1836: Sam Houston inaugurated as Texas&#x27;s first elected president</h4><span class="feeds">Feeds: Encyclopedia Blueprint · Hidden Giants · Progress Blueprint</span><p>On Oct 22, 1836, Sam Houston was inaugurated as the first elected president of the independent Republic of Texas. The same date carries two more empire-ready anniversaries: in 1797 Andre-Jacques Garnerin made the first successful parachute descent from a balloon over Paris, and in 1968 Apollo 7 splashed down, proving the first crewed Apollo mission could carry astronauts toward the Moon.</p><p class="why"><strong>Why it matters:</strong> Three anniversaries on one date, each a drawn-diagram episode: a republic&#x27;s founding, the birth of the parachute, and a crewed-spaceflight proof flight.</p><p class="src">Source: <a href="https://www.usatoday.com/story/news/history/2026/10/07/today-in-history-october-22/89614320007/">USA Today, Today in History — Oct 22 (published Oct 7, 2026)</a></p></li>
+<li><h4>On this day, Oct 22, 2008: India launches Chandrayaan-1, its first lunar mission</h4><span class="feeds">Feeds: Encyclopedia Blueprint · Progress Blueprint · Sprinkler Engineering</span><p>ISRO launched Chandrayaan-1 on Oct 22, 2008, India&#x27;s first mission to the Moon, a milestone in the country&#x27;s space program and its study of the lunar surface. Oct 22 also marks the 1963 dedication of the Bhakra Dam by Prime Minister Jawaharlal Nehru, a landmark irrigation and power project — a rare date where the history and water lanes meet.</p><p class="why"><strong>Why it matters:</strong> A space first plus a dam dedication on the same date gives Encyclopedia Blueprint and the water lanes a shared anniversary episode with real engineering to draw.</p><p class="src">Source: <a href="https://www.careerindia.com/features/today-in-history-october-22-indian-events-births-observances-067439.html">Careerindia, Today in History — Oct 22, 2026</a></p></li>
+</ul>
+<h3 class="lane">Seasonal &amp; Retail Finds</h3>
+<ul>
+<li><h4>Halloween candy is the season&#x27;s biggest category — and its costs jumped 8.1% in a year</h4><span class="feeds">Feeds: Deals Blueprint · Minneola Matters</span><p>The National Retail Federation survey puts Halloween candy spending at $4.1 billion this year, with 96% of Halloween shoppers intending to buy candy, while Bureau of Labor Statistics data shows candy and chewing gum costs up 8.1% year over year in August — more than twice the overall consumer price increase. Shoppers are adapting by comparing prices, hunting coupons, and starting earlier; discount stores are the top destination at 39% of shoppers. Halloween itself falls on Saturday Oct 31 this year.</p><p class="why"><strong>Why it matters:</strong> Nine days out, the find is the strategy, not a product: where the season&#x27;s spending concentrates and how households stretch it — named finds, no consumer prices listed, per house rule.</p><p class="src">Source: <a href="https://www.indexbox.io/blog/halloween-candy-prices-jump-81-as-americans-spend-41-billion-on-treats/">IndexBox, Oct 11, 2026 (NRF survey + BLS data via FOX Business)</a></p></li>
+</ul>
+<h3 class="lane">General Trending</h3>
+<ul>
+<li><h4>Ukraine talks move: Russia &#x27;ready in principle&#x27; to resume, trilateral round floated for Nov 10</h4><span class="feeds">Feeds: Progress Blueprint · Encyclopedia Blueprint</span><p>Russia said Oct 22 it is ready in principle to resume peace talks after U.S. envoy Steve Witkoff met President Putin in St. Petersburg on Oct 21, following talks with President Zelensky in Oslo. Zelensky said Ukraine would accept freezing the war along the current front line as a practical path to ending it, with security guarantees discussed after; a Kremlin aide floated a trilateral U.S.–Russia–Ukraine round around Nov 10 in Abu Dhabi. Kyiv came under a fresh missile attack the same night, injuring six.</p><p class="why"><strong>Why it matters:</strong> The day&#x27;s biggest world story, reported Oct 22 — a front-line freeze proposal is a map-based explainer Progress Blueprint can draw without taking a side.</p><p class="src">Source: <a href="https://tob.news/russia-signals-readiness-to-resume-ukraine-peace-talks/">The Business Standard (tob.news), Oct 22, 2026</a></p></li>
+<li><h4>World Series opens tomorrow: Brewers vs. Rays, and someone wins a first title</h4><span class="feeds">Feeds: Jayhil Media · Minneola Matters · Progress Blueprint</span><p>Game 1 of the 2026 World Series is Friday Oct 23 at 8 p.m. ET in Milwaukee, with the Brewers — in their first Fall Classic since 1982 after sweeping the defending champion Dodgers — hosting the Tampa Bay Rays, in their third World Series since 2008. Neither franchise has ever won a championship, so a first-time champion is guaranteed; Games 3–5 shift to Tampa Bay starting Monday Oct 26.</p><p class="why"><strong>Why it matters:</strong> A Florida team playing for a first title, starting tomorrow night — timely, local-adjacent, and a clean schedule-and-history explainer for the general lanes.</p><p class="src">Source: <a href="https://www.usatoday.com/story/sports/mlb/playoffs/2026/10/19/when-world-series-schedule-brewers-vs-rays/92339372007/">USA Today, Oct 19, 2026 (2026 World Series schedule)</a></p></li>
+<li><h4>EA shuts down BioWare and cancels the next Mass Effect, weeks after going private</h4><span class="feeds">Feeds: Progress Blueprint · Tech Blueprint</span><p>Gadgets 360&#x27;s Oct 22 trending coverage reports Electronic Arts is shutting down BioWare, cancelling the next Mass Effect game, and laying off about 400 workers, weeks after EA went private. The same trending page notes Google adding Personal Intelligence to Gemini on Android Auto and a reported iPhone software update adding Apple Pencil support.</p><p class="why"><strong>Why it matters:</strong> A major studio closure is the business-of-games story of the day — how a franchise studio is built, bought, and wound down is a Progress Blueprint frame.</p><p class="src">Source: <a href="https://www.gadgets360.com/news">Gadgets 360 trending news, Oct 22, 2026</a></p></li>
+</ul>
 <h2 class="day">Wednesday, October 21, 2026</h2>
 <p class="searched">Researched Wednesday, October 21, 2026 (America/New_York) — web news search + social search (Instagram / Facebook / Threads, posts since Oct 14, 2026).</p>
 <h3 class="lane">Irrigation &amp; Sprinklers</h3>
@@ -142,16 +219,24 @@ a { color:#0000ee; }
   tick(); setInterval(tick, 1000);
 })();
 // Count-up (odometer) for headline totals: final value read from the element.
+// Batch-g (2026-10-21, award idea #3): under prefers-reduced-motion the final
+// value is set instantly with no animation; otherwise the digit weight tracks
+// the count via font-variation-settings where a variable font is in use
+// (ignored harmlessly by non-variable fonts), clearing at the final value.
 (function () {
+  var reduced = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   document.querySelectorAll('[data-count]').forEach(function (el) {
     var target = parseInt(el.getAttribute('data-count'), 10);
     if (isNaN(target)) return;
+    if (reduced) { el.textContent = target.toLocaleString('en-US'); return; }
     var t0 = null, dur = 1400;
     function step(ts) {
       if (!t0) t0 = ts;
       var p = Math.min(1, (ts - t0) / dur);
       el.textContent = Math.round(target * (1 - Math.pow(1 - p, 3))).toLocaleString('en-US');
+      el.style.fontVariationSettings = "'wght' " + Math.round(400 + 300 * p);
       if (p < 1) requestAnimationFrame(step);
+      else el.style.fontVariationSettings = "'wght' 700";
     }
     requestAnimationFrame(step);
   });
