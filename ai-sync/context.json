@@ -1,7 +1,7 @@
 {
  "schema": "ai-sync/1.0",
- "updated_at": "2026-10-22T06:41-04:00",
- "updated_note": "Daily update, Thursday, October 22, 2026 (America/New_York): Oct 21's ten live YouTube posts, the one-channel sprinkler decision, and the approved 48-piece Oct 22 slate folded into today's brief. Registry stands at 78 pages; check-ins remain 2, both Claude.",
+ "updated_at": "2026-10-23T06:40-04:00",
+ "updated_note": "Daily update, Friday, October 23, 2026 (America/New_York): Oct 22's 24-piece publish day, the completed Sprinkler Blueprint rename, and the empire's first TikTok post folded into today's brief. Registry stands at 78 pages; check-ins remain 2, both Claude.",
  "owner": {
   "name": "Robert Rang",
   "public_identity": "Creator and builder in Minneola, Florida. Runs the RTR525 media empire and the Hillsboro Blueprint hub: dozens of narrated, blueprint-style educational channels covering irrigation, welding, music history, golf, parks, local news, and practical know-how.",
@@ -77,7 +77,7 @@
    "role": "Flagship. The daily Sprinkler Engineering series plus irrigation know-how.",
    "desk": "The Directory",
    "status": "delete-pending — permanent deletion confirmed by Robert Oct 21, 2026 (19:37 ET; reverses the earlier same-day hide choice)",
-   "note": "Hidden under Robert's one-channel sprinkler decision (Oct 21, 2026): posting stopped, catalog stays live, hide is reversible in Studio. All sprinkler content now posts to Sprinkler Blueprint (@KRainBlueprint)."
+   "note": "Hidden under Robert's one-channel sprinkler decision (Oct 21, 2026): posting stopped, catalog stays live, hide is reversible in Studio. All sprinkler content now posts to Sprinkler Blueprint (@SprinklerBlueprint)."
   },
   {
    "name": "MinneolaMatters",
@@ -447,7 +447,7 @@
    "role": "Manufacturer blueprint channel — Rain Bird irrigation products, one post a day.",
    "desk": "The Directory",
    "status": "delete-pending — permanent deletion confirmed by Robert Oct 21, 2026 (19:37 ET; reverses the earlier same-day hide choice)",
-   "note": "Hidden under Robert's one-channel sprinkler decision (Oct 21, 2026): posting stopped, catalog stays live, hide is reversible in Studio. All sprinkler content now posts to Sprinkler Blueprint (@KRainBlueprint)."
+   "note": "Hidden under Robert's one-channel sprinkler decision (Oct 21, 2026): posting stopped, catalog stays live, hide is reversible in Studio. All sprinkler content now posts to Sprinkler Blueprint (@SprinklerBlueprint)."
   },
   {
    "name": "Hunter Blueprints",
@@ -457,7 +457,7 @@
    "role": "Manufacturer blueprint channel — Hunter irrigation products, one post a day.",
    "desk": "The Directory",
    "status": "delete-pending — permanent deletion confirmed by Robert Oct 21, 2026 (19:37 ET; reverses the earlier same-day hide choice)",
-   "note": "Hidden under Robert's one-channel sprinkler decision (Oct 21, 2026): posting stopped, catalog stays live, hide is reversible in Studio. All sprinkler content now posts to Sprinkler Blueprint (@KRainBlueprint)."
+   "note": "Hidden under Robert's one-channel sprinkler decision (Oct 21, 2026): posting stopped, catalog stays live, hide is reversible in Studio. All sprinkler content now posts to Sprinkler Blueprint (@SprinklerBlueprint)."
   },
   {
    "name": "Toro Blueprint",
@@ -467,7 +467,7 @@
    "role": "Manufacturer blueprint channel — Toro irrigation products, one post a day.",
    "desk": "The Directory",
    "status": "delete-pending — permanent deletion confirmed by Robert Oct 21, 2026 (19:37 ET; reverses the earlier same-day hide choice)",
-   "note": "Hidden under Robert's one-channel sprinkler decision (Oct 21, 2026): posting stopped, catalog stays live, hide is reversible in Studio. All sprinkler content now posts to Sprinkler Blueprint (@KRainBlueprint)."
+   "note": "Hidden under Robert's one-channel sprinkler decision (Oct 21, 2026): posting stopped, catalog stays live, hide is reversible in Studio. All sprinkler content now posts to Sprinkler Blueprint (@SprinklerBlueprint)."
   },
   {
    "name": "Orbit Blueprints",
@@ -477,17 +477,17 @@
    "role": "Manufacturer blueprint channel — Orbit irrigation products, one post a day.",
    "desk": "The Directory",
    "status": "delete-pending — permanent deletion confirmed by Robert Oct 21, 2026 (19:37 ET; reverses the earlier same-day hide choice)",
-   "note": "Hidden under Robert's one-channel sprinkler decision (Oct 21, 2026): posting stopped, catalog stays live, hide is reversible in Studio. All sprinkler content now posts to Sprinkler Blueprint (@KRainBlueprint)."
+   "note": "Hidden under Robert's one-channel sprinkler decision (Oct 21, 2026): posting stopped, catalog stays live, hide is reversible in Studio. All sprinkler content now posts to Sprinkler Blueprint (@SprinklerBlueprint)."
   },
   {
    "name": "Sprinkler Blueprint",
    "platform": "YouTube",
-   "handle": "@KRainBlueprint",
-   "url": "https://www.youtube.com/@KRainBlueprint",
-   "role": "THE single sprinkler channel — ALL sprinkler content (modern brands, historic, sprinkler patents) posts here. Formerly K-Rain Blueprint; rename to Sprinkler Blueprint confirmed by Robert Oct 21, 2026 (Studio rename pending; handle @KRainBlueprint until the attempted change to @SprinklerBlueprint lands). Home of K1 RPS75, 1,046 views — most-viewed sprinkler video in the empire.",
+   "handle": "@SprinklerBlueprint",
+   "url": "https://www.youtube.com/@SprinklerBlueprint",
+   "role": "THE single sprinkler channel — ALL sprinkler content (modern brands, historic, sprinkler patents) posts here. Formerly K-Rain Blueprint; renamed Sprinkler Blueprint, with the name and @SprinklerBlueprint handle confirmed Oct 22, 2026. Home of the K-Rain RPS75 video — the most-viewed sprinkler video in the empire.",
    "desk": "The Directory",
    "status": "live",
-   "note": "Survivor of the one-channel sprinkler decision (Oct 21, 2026). All other sprinkler channels are being hidden (reversible), never deleted."
+   "note": "Survivor of the one-channel sprinkler decision (Oct 21, 2026). Rename completed Oct 22, 2026. Two Sprinkler Tips videos have moved here; the remaining moves and the sprinkler channel deletions wait on a Robert-present sitting."
   },
   {
    "name": "Calsense Blueprint",
@@ -497,7 +497,7 @@
    "role": "Manufacturer blueprint channel — Calsense smart irrigation controllers, one post a day.",
    "desk": "The Directory",
    "status": "delete-pending — permanent deletion confirmed by Robert Oct 21, 2026 (19:37 ET; reverses the earlier same-day hide choice)",
-   "note": "Hidden under Robert's one-channel sprinkler decision (Oct 21, 2026): posting stopped, catalog stays live, hide is reversible in Studio. All sprinkler content now posts to Sprinkler Blueprint (@KRainBlueprint)."
+   "note": "Hidden under Robert's one-channel sprinkler decision (Oct 21, 2026): posting stopped, catalog stays live, hide is reversible in Studio. All sprinkler content now posts to Sprinkler Blueprint (@SprinklerBlueprint)."
   },
   {
    "name": "Buckner-Superior Blueprint",
@@ -507,7 +507,7 @@
    "role": "Manufacturer blueprint channel — Buckner-Superior irrigation products, one post a day.",
    "desk": "The Directory",
    "status": "delete-pending — permanent deletion confirmed by Robert Oct 21, 2026 (19:37 ET; reverses the earlier same-day hide choice)",
-   "note": "Hidden under Robert's one-channel sprinkler decision (Oct 21, 2026): posting stopped, catalog stays live, hide is reversible in Studio. All sprinkler content now posts to Sprinkler Blueprint (@KRainBlueprint)."
+   "note": "Hidden under Robert's one-channel sprinkler decision (Oct 21, 2026): posting stopped, catalog stays live, hide is reversible in Studio. All sprinkler content now posts to Sprinkler Blueprint (@SprinklerBlueprint)."
   },
   {
    "name": "Signature Blueprint",
@@ -517,7 +517,7 @@
    "role": "Manufacturer blueprint channel — Signature irrigation products, one post a day.",
    "desk": "The Directory",
    "status": "delete-pending — permanent deletion confirmed by Robert Oct 21, 2026 (19:37 ET; reverses the earlier same-day hide choice)",
-   "note": "Hidden under Robert's one-channel sprinkler decision (Oct 21, 2026): posting stopped, catalog stays live, hide is reversible in Studio. All sprinkler content now posts to Sprinkler Blueprint (@KRainBlueprint)."
+   "note": "Hidden under Robert's one-channel sprinkler decision (Oct 21, 2026): posting stopped, catalog stays live, hide is reversible in Studio. All sprinkler content now posts to Sprinkler Blueprint (@SprinklerBlueprint)."
   },
   {
    "name": "Baseline Blueprints",
@@ -527,7 +527,7 @@
    "role": "Manufacturer blueprint channel — Baseline irrigation controllers, one post a day.",
    "desk": "The Directory",
    "status": "delete-pending — permanent deletion confirmed by Robert Oct 21, 2026 (19:37 ET; reverses the earlier same-day hide choice)",
-   "note": "Hidden under Robert's one-channel sprinkler decision (Oct 21, 2026): posting stopped, catalog stays live, hide is reversible in Studio. All sprinkler content now posts to Sprinkler Blueprint (@KRainBlueprint)."
+   "note": "Hidden under Robert's one-channel sprinkler decision (Oct 21, 2026): posting stopped, catalog stays live, hide is reversible in Studio. All sprinkler content now posts to Sprinkler Blueprint (@SprinklerBlueprint)."
   },
   {
    "name": "Weathermatic Blueprint",
@@ -537,7 +537,7 @@
    "role": "Manufacturer blueprint channel — Weathermatic irrigation products, one post a day.",
    "desk": "The Directory",
    "status": "delete-pending — permanent deletion confirmed by Robert Oct 21, 2026 (19:37 ET; reverses the earlier same-day hide choice)",
-   "note": "Hidden under Robert's one-channel sprinkler decision (Oct 21, 2026): posting stopped, catalog stays live, hide is reversible in Studio. All sprinkler content now posts to Sprinkler Blueprint (@KRainBlueprint)."
+   "note": "Hidden under Robert's one-channel sprinkler decision (Oct 21, 2026): posting stopped, catalog stays live, hide is reversible in Studio. All sprinkler content now posts to Sprinkler Blueprint (@SprinklerBlueprint)."
   },
   {
    "name": "Senninger Blueprint",
@@ -547,7 +547,7 @@
    "role": "Manufacturer blueprint channel — Senninger irrigation products, one post a day.",
    "desk": "The Directory",
    "status": "delete-pending — permanent deletion confirmed by Robert Oct 21, 2026 (19:37 ET; reverses the earlier same-day hide choice)",
-   "note": "Hidden under Robert's one-channel sprinkler decision (Oct 21, 2026): posting stopped, catalog stays live, hide is reversible in Studio. All sprinkler content now posts to Sprinkler Blueprint (@KRainBlueprint)."
+   "note": "Hidden under Robert's one-channel sprinkler decision (Oct 21, 2026): posting stopped, catalog stays live, hide is reversible in Studio. All sprinkler content now posts to Sprinkler Blueprint (@SprinklerBlueprint)."
   },
   {
    "name": "Nelson Blueprint",
@@ -557,7 +557,7 @@
    "role": "Manufacturer blueprint channel — Nelson irrigation products, one post a day.",
    "desk": "The Directory",
    "status": "delete-pending — permanent deletion confirmed by Robert Oct 21, 2026 (19:37 ET; reverses the earlier same-day hide choice)",
-   "note": "Hidden under Robert's one-channel sprinkler decision (Oct 21, 2026): posting stopped, catalog stays live, hide is reversible in Studio. All sprinkler content now posts to Sprinkler Blueprint (@KRainBlueprint)."
+   "note": "Hidden under Robert's one-channel sprinkler decision (Oct 21, 2026): posting stopped, catalog stays live, hide is reversible in Studio. All sprinkler content now posts to Sprinkler Blueprint (@SprinklerBlueprint)."
   },
   {
    "name": "Irritrol Blueprint",
@@ -567,7 +567,7 @@
    "role": "Manufacturer blueprint channel — Irritrol irrigation products, one post a day.",
    "desk": "The Directory",
    "status": "delete-pending — permanent deletion confirmed by Robert Oct 21, 2026 (19:37 ET; reverses the earlier same-day hide choice)",
-   "note": "Hidden under Robert's one-channel sprinkler decision (Oct 21, 2026): posting stopped, catalog stays live, hide is reversible in Studio. All sprinkler content now posts to Sprinkler Blueprint (@KRainBlueprint)."
+   "note": "Hidden under Robert's one-channel sprinkler decision (Oct 21, 2026): posting stopped, catalog stays live, hide is reversible in Studio. All sprinkler content now posts to Sprinkler Blueprint (@SprinklerBlueprint)."
   },
   {
    "name": "DIG Blueprint",
@@ -577,7 +577,7 @@
    "role": "Manufacturer blueprint channel — DIG drip and solar irrigation products, one post a day.",
    "desk": "The Directory",
    "status": "delete-pending — permanent deletion confirmed by Robert Oct 21, 2026 (19:37 ET; reverses the earlier same-day hide choice)",
-   "note": "Hidden under Robert's one-channel sprinkler decision (Oct 21, 2026): posting stopped, catalog stays live, hide is reversible in Studio. All sprinkler content now posts to Sprinkler Blueprint (@KRainBlueprint)."
+   "note": "Hidden under Robert's one-channel sprinkler decision (Oct 21, 2026): posting stopped, catalog stays live, hide is reversible in Studio. All sprinkler content now posts to Sprinkler Blueprint (@SprinklerBlueprint)."
   },
   {
    "name": "Netafim Blueprint",
@@ -587,7 +587,7 @@
    "role": "Manufacturer blueprint channel — Netafim drip irrigation products, one post a day.",
    "desk": "The Directory",
    "status": "delete-pending — permanent deletion confirmed by Robert Oct 21, 2026 (19:37 ET; reverses the earlier same-day hide choice)",
-   "note": "Hidden under Robert's one-channel sprinkler decision (Oct 21, 2026): posting stopped, catalog stays live, hide is reversible in Studio. All sprinkler content now posts to Sprinkler Blueprint (@KRainBlueprint)."
+   "note": "Hidden under Robert's one-channel sprinkler decision (Oct 21, 2026): posting stopped, catalog stays live, hide is reversible in Studio. All sprinkler content now posts to Sprinkler Blueprint (@SprinklerBlueprint)."
   },
   {
    "name": "Valley Blueprint",
@@ -597,7 +597,7 @@
    "role": "Manufacturer blueprint channel — Valley center-pivot irrigation, one post a day.",
    "desk": "The Directory",
    "status": "delete-pending — permanent deletion confirmed by Robert Oct 21, 2026 (19:37 ET; reverses the earlier same-day hide choice)",
-   "note": "Hidden under Robert's one-channel sprinkler decision (Oct 21, 2026): posting stopped, catalog stays live, hide is reversible in Studio. All sprinkler content now posts to Sprinkler Blueprint (@KRainBlueprint)."
+   "note": "Hidden under Robert's one-channel sprinkler decision (Oct 21, 2026): posting stopped, catalog stays live, hide is reversible in Studio. All sprinkler content now posts to Sprinkler Blueprint (@SprinklerBlueprint)."
   },
   {
    "name": "Rivulis Blueprint",
@@ -607,7 +607,7 @@
    "role": "Manufacturer blueprint channel — Rivulis drip irrigation products, one post a day.",
    "desk": "The Directory",
    "status": "delete-pending — permanent deletion confirmed by Robert Oct 21, 2026 (19:37 ET; reverses the earlier same-day hide choice)",
-   "note": "Hidden under Robert's one-channel sprinkler decision (Oct 21, 2026): posting stopped, catalog stays live, hide is reversible in Studio. All sprinkler content now posts to Sprinkler Blueprint (@KRainBlueprint)."
+   "note": "Hidden under Robert's one-channel sprinkler decision (Oct 21, 2026): posting stopped, catalog stays live, hide is reversible in Studio. All sprinkler content now posts to Sprinkler Blueprint (@SprinklerBlueprint)."
   },
   {
    "name": "Fronius Blueprint",
@@ -968,15 +968,15 @@
   }
  ],
  "daily_brief": {
-  "date": "2026-10-22",
-  "headline": "Ten YouTube posts live in one day; Oct 22 slate approved",
+  "date": "2026-10-23",
+  "headline": "24 pieces published Oct 22; Sprinkler Blueprint rename lands",
   "items": [
-   "Six YouTube posts verified live Oct 21: Rivulis R2, Netafim N1 (that channel's first video), DIG D2, Fronius F7, Toro T7, and Orbit O7.",
-   "The afternoon publish push added four more live: Standing the Watch F1, Calsense C3, Signature S2, and Baseline BL2; Facebook added the Cigar College cap-anatomy reel, Cross Climate CC-07, and Hillsboro quote #11.",
-   "Sprinkler consolidation settled: Sprinkler Blueprint (@KRainBlueprint) is the single sprinkler channel, the other sprinkler channels are delete-pending, and Golf Blueprints stays as the golf courses channel.",
-   "All 48 pieces on the Oct 22 slate are blanket-approved and gate-certified — retries, 12 first posts on never-published channels, launch-flow pieces, and daily next pieces.",
-   "A preflight build system went live across 45 production jobs to catch duration and text-fit errors before rendering, and the first long-form episode, LF-SE-001, was produced and gate-certified.",
-   "The Popular Topics daily log launched on the empire site, and 10 new channel ideas plus a 12-channel classic-topic lineup were kitted and parked for a decision."
+   "Sprinkler Blueprint rename completed — the name and the @SprinklerBlueprint handle both took, K5 posted, and the K-Rain slate K1-K5 is now complete.",
+   "First TikTok post live: National Parks E01 on @mrminneola; its YouTube version paused on the daily upload limit and retries next.",
+   "A 24-piece publish day across Facebook, Instagram and YouTube — including the full 12-piece Cigar College pool, three Minneola reels, Florida Consumer Tip #6, and Cross Climate CC-08.",
+   "Florida Counties History launched as a subsection on Cross Climate Entertainment with its index post live; its first two County of the Day pieces, Lake and Sumter, are gate-certified.",
+   "New certified banks landed: all 11 Lake County farm reels and the complete 14-piece Encyclopedia Blueprint bank, plus a repair that certified Mystery Blueprint MB-10.",
+   "A new publishing funnel is in force — Sprinkler Blueprint first at one a day, then the channel with the fewest uploads — and a daily 4 AM check now uploads certified work private or draft even when it does not publish."
   ]
  },
  "handoff": {

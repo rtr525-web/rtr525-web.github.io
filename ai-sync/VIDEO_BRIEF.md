@@ -1,19 +1,19 @@
 # VIDEO BRIEF — the daily brief for AIs
 
-**Brief date:** 2026-10-22 · **Feed stamp (`updated_at`):** 2026-10-22T06:41-04:00
+**Brief date:** 2026-10-23 · **Feed stamp (`updated_at`):** 2026-10-23T06:40-04:00
 
 Generated from the ai-sync feed (`context.json`) — the empire's one source of truth. If anything here disagrees with the live feed, the live feed wins. Read this before planning any video or desk work.
 
 ## Today's brief
 
-**Ten YouTube posts live in one day; Oct 22 slate approved**
+**24 pieces published Oct 22; Sprinkler Blueprint rename lands**
 
-- Six YouTube posts verified live Oct 21: Rivulis R2, Netafim N1 (that channel's first video), DIG D2, Fronius F7, Toro T7, and Orbit O7.
-- The afternoon publish push added four more live: Standing the Watch F1, Calsense C3, Signature S2, and Baseline BL2; Facebook added the Cigar College cap-anatomy reel, Cross Climate CC-07, and Hillsboro quote #11.
-- Sprinkler consolidation settled: Sprinkler Blueprint (@KRainBlueprint) is the single sprinkler channel, the other sprinkler channels are delete-pending, and Golf Blueprints stays as the golf courses channel.
-- All 48 pieces on the Oct 22 slate are blanket-approved and gate-certified — retries, 12 first posts on never-published channels, launch-flow pieces, and daily next pieces.
-- A preflight build system went live across 45 production jobs to catch duration and text-fit errors before rendering, and the first long-form episode, LF-SE-001, was produced and gate-certified.
-- The Popular Topics daily log launched on the empire site, and 10 new channel ideas plus a 12-channel classic-topic lineup were kitted and parked for a decision.
+- Sprinkler Blueprint rename completed — the name and the @SprinklerBlueprint handle both took, K5 posted, and the K-Rain slate K1-K5 is now complete.
+- First TikTok post live: National Parks E01 on @mrminneola; its YouTube version paused on the daily upload limit and retries next.
+- A 24-piece publish day across Facebook, Instagram and YouTube — including the full 12-piece Cigar College pool, three Minneola reels, Florida Consumer Tip #6, and Cross Climate CC-08.
+- Florida Counties History launched as a subsection on Cross Climate Entertainment with its index post live; its first two County of the Day pieces, Lake and Sumter, are gate-certified.
+- New certified banks landed: all 11 Lake County farm reels and the complete 14-piece Encyclopedia Blueprint bank, plus a repair that certified Mystery Blueprint MB-10.
+- A new publishing funnel is in force — Sprinkler Blueprint first at one a day, then the channel with the fewest uploads — and a daily 4 AM check now uploads certified work private or draft even when it does not publish.
 
 ## The two missions
 
@@ -102,7 +102,7 @@ Build a long-term public presence the slow, clean way: show up for the community
 - Hunter Blueprints — @HunterBlueprints — delete-pending — permanent deletion confirmed by Robert Oct 21, 2026 (19:37 ET; reverses the earlier same-day hide choice) · https://www.youtube.com/@HunterBlueprints
 - Toro Blueprint — @ToroBlueprint — delete-pending — permanent deletion confirmed by Robert Oct 21, 2026 (19:37 ET; reverses the earlier same-day hide choice) · https://www.youtube.com/@ToroBlueprint
 - Orbit Blueprints — @OrbitBlueprints — delete-pending — permanent deletion confirmed by Robert Oct 21, 2026 (19:37 ET; reverses the earlier same-day hide choice) · https://www.youtube.com/@OrbitBlueprints
-- Sprinkler Blueprint — @KRainBlueprint — live · https://www.youtube.com/@KRainBlueprint
+- Sprinkler Blueprint — @SprinklerBlueprint — live · https://www.youtube.com/@SprinklerBlueprint
 - Calsense Blueprint — @CalsenseBlueprint — delete-pending — permanent deletion confirmed by Robert Oct 21, 2026 (19:37 ET; reverses the earlier same-day hide choice) · https://www.youtube.com/@CalsenseBlueprint
 - Buckner-Superior Blueprint — @BucknerSuperiorBlueprint — delete-pending — permanent deletion confirmed by Robert Oct 21, 2026 (19:37 ET; reverses the earlier same-day hide choice) · https://www.youtube.com/@BucknerSuperiorBlueprint
 - Signature Blueprint — @SignatureBlueprint — delete-pending — permanent deletion confirmed by Robert Oct 21, 2026 (19:37 ET; reverses the earlier same-day hide choice) · https://www.youtube.com/@SignatureBlueprint
