@@ -1,19 +1,19 @@
 # VIDEO BRIEF — the daily brief for AIs
 
-**Brief date:** 2026-10-24 · **Feed stamp (`updated_at`):** 2026-10-24T06:40-04:00
+**Brief date:** 2026-10-25 · **Feed stamp (`updated_at`):** 2026-10-25T06:40-04:00
 
 Generated from the ai-sync feed (`context.json`) — the empire's one source of truth. If anything here disagrees with the live feed, the live feed wins. Read this before planning any video or desk work.
 
 ## Today's brief
 
-**Approve-all opens the gate: 53 pieces cleared for Oct 24**
+**Florida Nature launches as the certified bank deepens**
 
-- A late-day approve-all opened the publishing gate — blanket approval covers the 46-piece Oct 23 slate and the 53-piece Oct 24 slate, with standing holds still excluded.
-- No posts went live Oct 23 while the gate was closed — the daily progression check recorded 0 posted across 86 channels — so the approved backlog rolls forward, with the Cigar College Boveda tip and Daily Quote #12 first.
-- Overnight production deepened the certified bank: State Parks Blueprint E09-E18 and 50 States Unknown E08-E16, plus Badge Blueprint E12-E14, all gate-certified and staged.
-- Facebook reach surged: Cigar College's Ash Anatomy climbed to 14,129 views, lifting the recent-posts total to 21,286 views across the pages.
-- Sprinkler Engineering runway holds: E10 covers Oct 23 and E11 Blass Labyrinth covers Oct 24, with E8-E24 staged; the YouTube login is now saved for the next serialized Studio window.
-- A defect in State Parks E18 Rainbow Springs was caught on audit and repaired the same night — re-certified with video and audio matching in full.
+- Florida Nature, a new Facebook Page, launched Oct 24 — welcome post live, 13 blueprint nature reels produced and gate-certified, and a two-year Florida events calendar built with 92 entries.
+- Facebook reach kept climbing: Cigar College's Ash Anatomy reached 18,569 views, lifting the pages' recent-posts total to 24,099 views.
+- Overnight production deepened the certified bank: State Parks Blueprint through E28 and 50 States Unknown through E27, all gate-certified and staged, plus a certified Schadenfreude comedy pack of three reels.
+- The Oct 24 slate was fully approved (53 pieces) but YouTube uploads stayed blocked by Studio's 'Verify it's you' step — the Golf Club, Fronius and Standing the Watch attempts all held at that wall; the blocker is execution only.
+- Sprinkler Engineering runway held: E11 Blass Labyrinth covered Oct 24 and E12 Toro Stator covers Oct 25, with E8-E24 staged.
+- A 57-piece slate for Oct 25 was compiled and gate-verified — every piece VALID, with the two uncertified pieces still held out pending a decision.
 
 ## The two missions
 
@@ -119,6 +119,7 @@ Build a long-term public presence the slow, clean way: show up for the community
 - Hobart Blueprint — @HobartBlueprint — live · https://www.youtube.com/@HobartBlueprint
 - Cross Climate Entertainment — — — live · https://www.facebook.com/profile.php?id=100431098919558
 - Cigar School — — — live · https://www.facebook.com/profile.php?id=108917845223798
+- Sprinkler Blueprint — — — live · https://www.facebook.com/profile.php?id=1410648828798683
 
 ### The Wire
 
@@ -191,6 +192,7 @@ Build a long-term public presence the slow, clean way: show up for the community
 
 - National Parks Blueprint — @NationalParksBlueprint — not live yet — premiere certified & staged · https://www.youtube.com/@NationalParksBlueprint
 - State Parks Blueprint — @StateParksBlueprint — not live yet — premiere certified & staged · https://www.youtube.com/@StateParksBlueprint
+- Florida Nature — — — live · https://www.facebook.com/profile.php?id=1456367594217608
 
 ### Hub
 

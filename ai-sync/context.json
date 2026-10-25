@@ -1,7 +1,7 @@
 {
  "schema": "ai-sync/1.0",
- "updated_at": "2026-10-24T06:40-04:00",
- "updated_note": "Daily update, Saturday, October 24, 2026 (America/New_York): Oct 23's late-day approve-all, the deepened certified backlog, and the Facebook reach surge folded into today's brief. Registry stands at 78 pages; check-ins remain 2, both Claude.",
+ "updated_at": "2026-10-25T06:40-04:00",
+ "updated_note": "Daily update, Sunday, October 25, 2026 (America/New_York): Florida Nature's launch, the Oct 24 Studio execution block, and the deepened certified bank folded into today's brief. Registry grows to 80 pages with two new Facebook Pages — Florida Nature and Sprinkler Blueprint; check-ins remain 2, both Claude.",
  "owner": {
   "name": "Robert Rang",
   "public_identity": "Creator and builder in Minneola, Florida. Runs the RTR525 media empire and the Hillsboro Blueprint hub: dozens of narrated, blueprint-style educational channels covering irrigation, welding, music history, golf, parks, local news, and practical know-how.",
@@ -789,6 +789,24 @@
    "role": "The empire's front door: directory, Top Lists, news, and daily travel tips in a 1930s street-market x steampunk style.",
    "desk": "Hub",
    "status": "in build"
+  },
+  {
+   "name": "Florida Nature",
+   "platform": "Facebook",
+   "handle": null,
+   "url": "https://www.facebook.com/profile.php?id=1456367594217608",
+   "role": "Florida nature education — springs, wildlife, trails and water, one short lesson a day, plus blueprint event reels for Lake, Seminole and Orange counties.",
+   "desk": "The Parks",
+   "status": "live"
+  },
+  {
+   "name": "Sprinkler Blueprint",
+   "platform": "Facebook",
+   "handle": null,
+   "url": "https://www.facebook.com/profile.php?id=1410648828798683",
+   "role": "Facebook home of Sprinkler Blueprint — the K-Rain reel series and all sprinkler education, mirroring the YouTube channel.",
+   "desk": "The Directory",
+   "status": "live"
   }
  ],
  "registry_note": "Compiled from empire records on Oct 16, 2026. Reconciled Oct 19, 2026: the one-channel gap was Encyclopedia Blueprint (created Oct 18, 2026), which existed on YouTube but had never been added to this registry. The YouTube universe is 62 channels — 60 governed properties in the brand system plus two audit-only spares (Minneola Politics spare, Money Matters dormant duplicate) — and this registry now carries all 62. Five channels were created the evening of Oct 16, 2026 (Western Swing Blueprint, ReelGroove TV, Florida Fairways, National Parks Blueprint, State Parks Blueprint); 50 States Unknown is in creation. Entries with url=null have no public URL in records — never guess one.",
@@ -968,15 +986,15 @@
   }
  ],
  "daily_brief": {
-  "date": "2026-10-24",
-  "headline": "Approve-all opens the gate: 53 pieces cleared for Oct 24",
+  "date": "2026-10-25",
+  "headline": "Florida Nature launches as the certified bank deepens",
   "items": [
-   "A late-day approve-all opened the publishing gate — blanket approval covers the 46-piece Oct 23 slate and the 53-piece Oct 24 slate, with standing holds still excluded.",
-   "No posts went live Oct 23 while the gate was closed — the daily progression check recorded 0 posted across 86 channels — so the approved backlog rolls forward, with the Cigar College Boveda tip and Daily Quote #12 first.",
-   "Overnight production deepened the certified bank: State Parks Blueprint E09-E18 and 50 States Unknown E08-E16, plus Badge Blueprint E12-E14, all gate-certified and staged.",
-   "Facebook reach surged: Cigar College's Ash Anatomy climbed to 14,129 views, lifting the recent-posts total to 21,286 views across the pages.",
-   "Sprinkler Engineering runway holds: E10 covers Oct 23 and E11 Blass Labyrinth covers Oct 24, with E8-E24 staged; the YouTube login is now saved for the next serialized Studio window.",
-   "A defect in State Parks E18 Rainbow Springs was caught on audit and repaired the same night — re-certified with video and audio matching in full."
+   "Florida Nature, a new Facebook Page, launched Oct 24 — welcome post live, 13 blueprint nature reels produced and gate-certified, and a two-year Florida events calendar built with 92 entries.",
+   "Facebook reach kept climbing: Cigar College's Ash Anatomy reached 18,569 views, lifting the pages' recent-posts total to 24,099 views.",
+   "Overnight production deepened the certified bank: State Parks Blueprint through E28 and 50 States Unknown through E27, all gate-certified and staged, plus a certified Schadenfreude comedy pack of three reels.",
+   "The Oct 24 slate was fully approved (53 pieces) but YouTube uploads stayed blocked by Studio's 'Verify it's you' step — the Golf Club, Fronius and Standing the Watch attempts all held at that wall; the blocker is execution only.",
+   "Sprinkler Engineering runway held: E11 Blass Labyrinth covered Oct 24 and E12 Toro Stator covers Oct 25, with E8-E24 staged.",
+   "A 57-piece slate for Oct 25 was compiled and gate-verified — every piece VALID, with the two uncertified pieces still held out pending a decision."
   ]
  },
  "handoff": {
