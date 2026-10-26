@@ -1,19 +1,19 @@
 # VIDEO BRIEF — the daily brief for AIs
 
-**Brief date:** 2026-10-25 · **Feed stamp (`updated_at`):** 2026-10-25T06:40-04:00
+**Brief date:** 2026-10-26 · **Feed stamp (`updated_at`):** 2026-10-26T06:42-04:00
 
 Generated from the ai-sync feed (`context.json`) — the empire's one source of truth. If anything here disagrees with the live feed, the live feed wins. Read this before planning any video or desk work.
 
 ## Today's brief
 
-**Florida Nature launches as the certified bank deepens**
+**Sports History Blueprint launches as Winter Park Road posts its first video**
 
-- Florida Nature, a new Facebook Page, launched Oct 24 — welcome post live, 13 blueprint nature reels produced and gate-certified, and a two-year Florida events calendar built with 92 entries.
-- Facebook reach kept climbing: Cigar College's Ash Anatomy reached 18,569 views, lifting the pages' recent-posts total to 24,099 views.
-- Overnight production deepened the certified bank: State Parks Blueprint through E28 and 50 States Unknown through E27, all gate-certified and staged, plus a certified Schadenfreude comedy pack of three reels.
-- The Oct 24 slate was fully approved (53 pieces) but YouTube uploads stayed blocked by Studio's 'Verify it's you' step — the Golf Club, Fronius and Standing the Watch attempts all held at that wall; the blocker is execution only.
-- Sprinkler Engineering runway held: E11 Blass Labyrinth covered Oct 24 and E12 Toro Stator covers Oct 25, with E8-E24 staged.
-- A 57-piece slate for Oct 25 was compiled and gate-verified — every piece VALID, with the two uncertified pieces still held out pending a decision.
+- Sports History Blueprint, a new Facebook Page, launched Oct 25 — Day 1, 'The Call: Denkinger in Game 6,' is live, a 731-day schedule (Oct 26, 2026 to Oct 25, 2028) is built, and Days 2-3 are produced and gate-certified.
+- Winter Park Road posted its first YouTube video, 'The 1981 Sinkhole That Became Lake Rose,' verified live — the channel's unconfirmed status is cleared.
+- Late-day YouTube uploads went through cleanly: Standing the Watch T1, Hobart H7, and Fronius F8 all posted live Oct 25, and the evening session check found Studio signed in and healthy.
+- Facebook and Instagram kept posting: Cigar College's thirds framework, Daily Quote #13, Cross Climate CC-10, @mrhillsboro IG-11, and @winterparkroad's Kraft Azalea Garden reel all verified live.
+- All six K-Rain reels were rebuilt to the new true-scale standard — the gate-certified v2 cuts are staged with the originals untouched, and the swap waits on two open calls.
+- Overnight production deepened the bank again: State Parks Blueprint through E42 and 50 States Unknown through E40, all gate-certified and staged; Sprinkler Engineering E13 covers Oct 26, and the day's 53-piece slate is blanket-approved.
 
 ## The two missions
 
@@ -152,6 +152,7 @@ Build a long-term public presence the slow, clean way: show up for the community
 - @mrhillsboro — @mrhillsboro — live
 - PracticalProTips — PracticalProTips — planned — creation queued
 - RTR525 — RTR525 — account exists — channel setup pending
+- Sports History Blueprint — — — live · https://www.facebook.com/profile.php?id=1426650810532772
 
 ### Top Lists
 
@@ -178,7 +179,7 @@ Build a long-term public presence the slow, clean way: show up for the community
 - Badge Blueprint — @BadgeBlueprint — live · https://www.youtube.com/@BadgeBlueprint
 - Mystery Blueprint — @MysteryBlueprint — live · https://www.youtube.com/@MysteryBlueprint
 - Anomaly Blueprint — @AnomalyBlueprintFL — live · https://www.youtube.com/@AnomalyBlueprintFL
-- Winter Park Road — @WinterParkRoad — unconfirmed — no live post verified from records; live check pending · https://www.youtube.com/@WinterParkRoad
+- Winter Park Road — @WinterParkRoad — live · https://www.youtube.com/@WinterParkRoad
 - America in Song — @AmericaInSongStories — not live yet — premiere certified & staged · https://www.youtube.com/@AmericaInSongStories
 - @winterparkroad — @winterparkroad — live · https://www.instagram.com/winterparkroad
 
@@ -186,7 +187,7 @@ Build a long-term public presence the slow, clean way: show up for the community
 
 - Florida Fairways — @FloridaFairwaysFL — not live yet — premiere certified & staged · https://www.youtube.com/@FloridaFairwaysFL
 - Golf Blueprints — @GolfBlueprints — live · https://www.youtube.com/@GolfBlueprints
-- Golf Club Blueprint — @GolfClubBlueprint — not live yet — channel created Oct 18; premiere certified & staged · https://www.youtube.com/@GolfClubBlueprint
+- Golf Club Blueprint — @GolfClubBlueprint — live · https://www.youtube.com/@GolfClubBlueprint
 
 ### The Parks
 

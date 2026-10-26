@@ -1,7 +1,7 @@
 {
  "schema": "ai-sync/1.0",
- "updated_at": "2026-10-25T06:40-04:00",
- "updated_note": "Daily update, Sunday, October 25, 2026 (America/New_York): Florida Nature's launch, the Oct 24 Studio execution block, and the deepened certified bank folded into today's brief. Registry grows to 80 pages with two new Facebook Pages — Florida Nature and Sprinkler Blueprint; check-ins remain 2, both Claude.",
+ "updated_at": "2026-10-26T06:42-04:00",
+ "updated_note": "Daily update, Monday, October 26, 2026 (America/New_York): Sports History Blueprint's launch, Winter Park Road's first live video, and Oct 25's verified posts folded into today's brief. Registry grows to 81 pages with the new Sports History Blueprint Facebook Page; Winter Park Road and Golf Club Blueprint move to live; check-ins remain 2, both Claude.",
  "owner": {
   "name": "Robert Rang",
   "public_identity": "Creator and builder in Minneola, Florida. Runs the RTR525 media empire and the Hillsboro Blueprint hub: dozens of narrated, blueprint-style educational channels covering irrigation, welding, music history, golf, parks, local news, and practical know-how.",
@@ -347,7 +347,7 @@
    "url": "https://www.youtube.com/@WinterParkRoad",
    "role": "Florida history — Winter Park and Central Florida first, statewide from the directory.",
    "desk": "The Route",
-   "status": "unconfirmed — no live post verified from records; live check pending"
+   "status": "live"
   },
   {
    "name": "America in Song",
@@ -644,7 +644,7 @@
    "url": "https://www.youtube.com/@GolfClubBlueprint",
    "role": "The history of the golf club itself — putters, irons, woods, shafts, and the inventors and patents behind them, drawn to true proportions and checked against published sources. Clubs only: no courses, no instruction.",
    "desk": "The Fairways",
-   "status": "not live yet — channel created Oct 18; premiere certified & staged"
+   "status": "live"
   },
   {
    "name": "Hillsboro Entertainment",
@@ -806,6 +806,15 @@
    "url": "https://www.facebook.com/profile.php?id=1410648828798683",
    "role": "Facebook home of Sprinkler Blueprint — the K-Rain reel series and all sprinkler education, mirroring the YouTube channel.",
    "desk": "The Directory",
+   "status": "live"
+  },
+  {
+   "name": "Sports History Blueprint",
+   "platform": "Facebook",
+   "handle": null,
+   "url": "https://www.facebook.com/profile.php?id=1426650810532772",
+   "role": "Sports history — one short lesson a day: the games, records, and rule changes that built the sports we watch. Education only. Facebook is its home — there is no Sports History YouTube channel. A 731-day schedule runs Oct 26, 2026 to Oct 25, 2028.",
+   "desk": "Network",
    "status": "live"
   }
  ],
@@ -986,15 +995,15 @@
   }
  ],
  "daily_brief": {
-  "date": "2026-10-25",
-  "headline": "Florida Nature launches as the certified bank deepens",
+  "date": "2026-10-26",
+  "headline": "Sports History Blueprint launches as Winter Park Road posts its first video",
   "items": [
-   "Florida Nature, a new Facebook Page, launched Oct 24 — welcome post live, 13 blueprint nature reels produced and gate-certified, and a two-year Florida events calendar built with 92 entries.",
-   "Facebook reach kept climbing: Cigar College's Ash Anatomy reached 18,569 views, lifting the pages' recent-posts total to 24,099 views.",
-   "Overnight production deepened the certified bank: State Parks Blueprint through E28 and 50 States Unknown through E27, all gate-certified and staged, plus a certified Schadenfreude comedy pack of three reels.",
-   "The Oct 24 slate was fully approved (53 pieces) but YouTube uploads stayed blocked by Studio's 'Verify it's you' step — the Golf Club, Fronius and Standing the Watch attempts all held at that wall; the blocker is execution only.",
-   "Sprinkler Engineering runway held: E11 Blass Labyrinth covered Oct 24 and E12 Toro Stator covers Oct 25, with E8-E24 staged.",
-   "A 57-piece slate for Oct 25 was compiled and gate-verified — every piece VALID, with the two uncertified pieces still held out pending a decision."
+   "Sports History Blueprint, a new Facebook Page, launched Oct 25 — Day 1, 'The Call: Denkinger in Game 6,' is live, a 731-day schedule (Oct 26, 2026 to Oct 25, 2028) is built, and Days 2-3 are produced and gate-certified.",
+   "Winter Park Road posted its first YouTube video, 'The 1981 Sinkhole That Became Lake Rose,' verified live — the channel's unconfirmed status is cleared.",
+   "Late-day YouTube uploads went through cleanly: Standing the Watch T1, Hobart H7, and Fronius F8 all posted live Oct 25, and the evening session check found Studio signed in and healthy.",
+   "Facebook and Instagram kept posting: Cigar College's thirds framework, Daily Quote #13, Cross Climate CC-10, @mrhillsboro IG-11, and @winterparkroad's Kraft Azalea Garden reel all verified live.",
+   "All six K-Rain reels were rebuilt to the new true-scale standard — the gate-certified v2 cuts are staged with the originals untouched, and the swap waits on two open calls.",
+   "Overnight production deepened the bank again: State Parks Blueprint through E42 and 50 States Unknown through E40, all gate-certified and staged; Sprinkler Engineering E13 covers Oct 26, and the day's 53-piece slate is blanket-approved."
   ]
  },
  "handoff": {
