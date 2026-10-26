@@ -1,0 +1,32 @@
+[
+ {
+  "id": "appr-slate-20261026",
+  "label": "Video slate — daily posts",
+  "date": "2026-10-26",
+  "status": "APPROVED"
+ },
+ {
+  "id": "appr-swap-20261025",
+  "label": "Video replacement swap",
+  "date": "2026-10-25",
+  "status": "WAITING"
+ },
+ {
+  "id": "appr-pages-20261025",
+  "label": "New Facebook Page setup",
+  "date": "2026-10-25",
+  "status": "WAITING"
+ },
+ {
+  "id": "appr-poetry-20261025",
+  "label": "Poetry video release",
+  "date": "2026-10-25",
+  "status": "WAITING"
+ },
+ {
+  "id": "appr-series-20261024",
+  "label": "Series final cuts review",
+  "date": "2026-10-24",
+  "status": "WAITING"
+ }
+]
