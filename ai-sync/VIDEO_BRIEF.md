@@ -1,19 +1,19 @@
 # VIDEO BRIEF — the daily brief for AIs
 
-**Brief date:** 2026-10-26 · **Feed stamp (`updated_at`):** 2026-10-26T06:42-04:00
+**Brief date:** 2026-10-27 · **Feed stamp (`updated_at`):** 2026-10-27T06:43-04:00
 
 Generated from the ai-sync feed (`context.json`) — the empire's one source of truth. If anything here disagrees with the live feed, the live feed wins. Read this before planning any video or desk work.
 
 ## Today's brief
 
-**Sports History Blueprint launches as Winter Park Road posts its first video**
+**Four channels post their first videos as the catch-up queue clears**
 
-- Sports History Blueprint, a new Facebook Page, launched Oct 25 — Day 1, 'The Call: Denkinger in Game 6,' is live, a 731-day schedule (Oct 26, 2026 to Oct 25, 2028) is built, and Days 2-3 are produced and gate-certified.
-- Winter Park Road posted its first YouTube video, 'The 1981 Sinkhole That Became Lake Rose,' verified live — the channel's unconfirmed status is cleared.
-- Late-day YouTube uploads went through cleanly: Standing the Watch T1, Hobart H7, and Fronius F8 all posted live Oct 25, and the evening session check found Studio signed in and healthy.
-- Facebook and Instagram kept posting: Cigar College's thirds framework, Daily Quote #13, Cross Climate CC-10, @mrhillsboro IG-11, and @winterparkroad's Kraft Azalea Garden reel all verified live.
-- All six K-Rain reels were rebuilt to the new true-scale standard — the gate-certified v2 cuts are staged with the originals untouched, and the swap waits on two open calls.
-- Overnight production deepened the bank again: State Parks Blueprint through E42 and 50 States Unknown through E40, all gate-certified and staged; Sprinkler Engineering E13 covers Oct 26, and the day's 53-piece slate is blanket-approved.
+- Four first lives were verified Oct 26: National Parks Blueprint, State Parks Blueprint, Forgotten Engines, and Home Repair Blueprint all posted their premieres in the serialized Studio window.
+- Long-held catch-ups finally landed and were verified live: Florida Consumer Tip #7, Cigar School Cedar Spills, Warrior Wisdom #10, Daily Quote #14, Cross Climate CC-11, and Florida Nature FN4.
+- Golf Club Blueprint's PING Anser piece, Hobart H8, Fronius F9, Sprinkler Blueprint K6, Golf Blueprints' Sawgrass piece, and Standing the Watch W1 all posted — K6 cleared its permission blocker on both YouTube and Facebook.
+- Winter Park Road's Rollins Museum series launched from a 3,380-post inventory in order, with Seq 1 and Seq 2 both posted; the first @mrminneola Citrus Tower reel also posted live on TikTok.
+- All 8 Facebook Pages are now owned by one business portfolio, all 8 bios were fixed and verified, and Cigar College passed 1,200 followers.
+- The Oct 27 slate is approved: Sports History Blueprint Day 2 runs today, with new certified depth including State Parks E52 and 50 States Unknown E50 on Missouri, completing the 50-state countdown bank.
 
 ## The two missions
 
