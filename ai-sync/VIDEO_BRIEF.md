@@ -1,19 +1,19 @@
 # VIDEO BRIEF — the daily brief for AIs
 
-**Brief date:** 2026-10-27 · **Feed stamp (`updated_at`):** 2026-10-27T06:43-04:00
+**Brief date:** 2026-10-28 · **Feed stamp (`updated_at`):** 2026-10-28T06:40-04:00
 
 Generated from the ai-sync feed (`context.json`) — the empire's one source of truth. If anything here disagrees with the live feed, the live feed wins. Read this before planning any video or desk work.
 
 ## Today's brief
 
-**Four channels post their first videos as the catch-up queue clears**
+**Oct 27 wave lands across the network as the Oct 28 slate is approved**
 
-- Four first lives were verified Oct 26: National Parks Blueprint, State Parks Blueprint, Forgotten Engines, and Home Repair Blueprint all posted their premieres in the serialized Studio window.
-- Long-held catch-ups finally landed and were verified live: Florida Consumer Tip #7, Cigar School Cedar Spills, Warrior Wisdom #10, Daily Quote #14, Cross Climate CC-11, and Florida Nature FN4.
-- Golf Club Blueprint's PING Anser piece, Hobart H8, Fronius F9, Sprinkler Blueprint K6, Golf Blueprints' Sawgrass piece, and Standing the Watch W1 all posted — K6 cleared its permission blocker on both YouTube and Facebook.
-- Winter Park Road's Rollins Museum series launched from a 3,380-post inventory in order, with Seq 1 and Seq 2 both posted; the first @mrminneola Citrus Tower reel also posted live on TikTok.
-- All 8 Facebook Pages are now owned by one business portfolio, all 8 bios were fixed and verified, and Cigar College passed 1,200 followers.
-- The Oct 27 slate is approved: Sports History Blueprint Day 2 runs today, with new certified depth including State Parks E52 and 50 States Unknown E50 on Missouri, completing the 50-state countdown bank.
+- Oct 27 Facebook posts were verified across the network: Cigar College tunneling, Cigar School topic 11, Cross Climate CC-12, Florida Consumer Tip #8, Warrior Wisdom #11, Daily Quote #15, and Sports History Blueprint Day 2.
+- Sprinkler Blueprint K7 posted on YouTube, and the evening wave catch-up posted Florida Nature FN5 and Sprinkler SE E8 on Facebook, completing FN1 to FN5 on the Florida Nature Page.
+- Instagram posted Rollins Museum Seq 3 and Seq 4, IG-13 garage zones, and the Winter Park Scenic Boat Tour reel; the first @mrminneola Mount Dora Lighthouse reel posted on TikTok.
+- Standing the Watch O1 posted on YouTube, and new certified production staged State Parks E63 and E64, National Parks E17 and E18, Money Matters MM-19, and the Firearms News Daily Sten piece.
+- All 8 Facebook Pages now have verified bios and real brand pictures; Facebook waves now run daily at 6:00 AM, 11:00 AM, and 4:00 PM ET, with gate-certified empire posts pre-approved by default.
+- Cigar School launched its 12-reel Seed to Roll series — SR-01 to SR-03 are certified and approved for Oct 28 — and Farming Blueprint's launch kit is ready while its Page creation waits out a Facebook cooldown.
 
 ## The two missions
 
@@ -194,6 +194,7 @@ Build a long-term public presence the slow, clean way: show up for the community
 - National Parks Blueprint — @NationalParksBlueprint — not live yet — premiere certified & staged · https://www.youtube.com/@NationalParksBlueprint
 - State Parks Blueprint — @StateParksBlueprint — not live yet — premiere certified & staged · https://www.youtube.com/@StateParksBlueprint
 - Florida Nature — — — live · https://www.facebook.com/profile.php?id=1456367594217608
+- Farming Blueprint — — — planned — page not created yet; Robert creates it on his phone (name + category only, no bio), then Muse verifies and posts
 
 ### Hub
 
