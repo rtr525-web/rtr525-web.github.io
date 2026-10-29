@@ -1,19 +1,19 @@
 # VIDEO BRIEF — the daily brief for AIs
 
-**Brief date:** 2026-10-28 · **Feed stamp (`updated_at`):** 2026-10-28T06:40-04:00
+**Brief date:** 2026-10-29 · **Feed stamp (`updated_at`):** 2026-10-29T06:39-04:00
 
 Generated from the ai-sync feed (`context.json`) — the empire's one source of truth. If anything here disagrees with the live feed, the live feed wins. Read this before planning any video or desk work.
 
 ## Today's brief
 
-**Oct 27 wave lands across the network as the Oct 28 slate is approved**
+**Golf History launches as Page #9 as Oct 28 waves post across the network**
 
-- Oct 27 Facebook posts were verified across the network: Cigar College tunneling, Cigar School topic 11, Cross Climate CC-12, Florida Consumer Tip #8, Warrior Wisdom #11, Daily Quote #15, and Sports History Blueprint Day 2.
-- Sprinkler Blueprint K7 posted on YouTube, and the evening wave catch-up posted Florida Nature FN5 and Sprinkler SE E8 on Facebook, completing FN1 to FN5 on the Florida Nature Page.
-- Instagram posted Rollins Museum Seq 3 and Seq 4, IG-13 garage zones, and the Winter Park Scenic Boat Tour reel; the first @mrminneola Mount Dora Lighthouse reel posted on TikTok.
-- Standing the Watch O1 posted on YouTube, and new certified production staged State Parks E63 and E64, National Parks E17 and E18, Money Matters MM-19, and the Firearms News Daily Sten piece.
-- All 8 Facebook Pages now have verified bios and real brand pictures; Facebook waves now run daily at 6:00 AM, 11:00 AM, and 4:00 PM ET, with gate-certified empire posts pre-approved by default.
-- Cigar School launched its 12-reel Seed to Roll series — SR-01 to SR-03 are certified and approved for Oct 28 — and Farming Blueprint's launch kit is ready while its Page creation waits out a Facebook cooldown.
+- Golf History launched live as the ninth Facebook Page — bio, profile picture and cover saved — with three launch reels posted: Pittsburgh Persimmon, Calamity Jane and the Stimpmeter; the TPC Sawgrass and Valve-in-Head reels remain queued.
+- Facebook Wave 2 posted four reels: Cigar College Churchill, Cigar School Seed to Roll SR-01, Sprinkler Blueprint K7 tree bubblers, and Sports History Blueprint Day 3, the Earthquake Series.
+- Daily lanes added more verified posts: Cigar College Connecticut shade and CC-13 Soft Spots, Cross Climate's front-loader door rule, Florida Consumer Tip #9 on keeping receipts, Daily Quote #16, and Hillsboro Entertainment's Mount Dora Donnelly Street reel.
+- YouTube posted Golf Club Blueprint GCC-03, Golf Blueprints Stimpmeter, K-Rain K8, the fixed Fronius F10 cut and Hobart H9; Instagram posted Rollins Museum Sequences 5 and 6 and IG-14 on fire-extinguisher placement.
+- Overnight production staged and gate-certified new parks depth — State Parks E65 to E74 and National Parks E19 to E28 — plus the Firearms News Daily BAR piece and Money Matters MM-20; Sprinkler Engineering E16 covers October 29.
+- New Page kits were built for Blue Collar Blueprint, The Overwhelmed Octopus and Asked & Answered, while Page creation stays blocked by a Page-policies error with a Meta support case open; October 29 runs as the first fully automatic day under standing pre-approval, with 53 gate-verified pieces approved and standing holds excluded.
 
 ## The two missions
 
@@ -188,13 +188,14 @@ Build a long-term public presence the slow, clean way: show up for the community
 - Florida Fairways — @FloridaFairwaysFL — not live yet — premiere certified & staged · https://www.youtube.com/@FloridaFairwaysFL
 - Golf Blueprints — @GolfBlueprints — live · https://www.youtube.com/@GolfBlueprints
 - Golf Club Blueprint — @GolfClubBlueprint — live · https://www.youtube.com/@GolfClubBlueprint
+- Golf History — — — live · https://www.facebook.com/profile.php?id=61595712732803
 
 ### The Parks
 
 - National Parks Blueprint — @NationalParksBlueprint — not live yet — premiere certified & staged · https://www.youtube.com/@NationalParksBlueprint
 - State Parks Blueprint — @StateParksBlueprint — not live yet — premiere certified & staged · https://www.youtube.com/@StateParksBlueprint
 - Florida Nature — — — live · https://www.facebook.com/profile.php?id=1456367594217608
-- Farming Blueprint — — — planned — page not created yet; Robert creates it on his phone (name + category only, no bio), then Muse verifies and posts
+- Farming Blueprint — — — planned — page not created yet; creation blocked Oct 28, 2026 with a Page-policies error and a Meta support case is open; Robert creates it, then Muse verifies and posts
 
 ### Hub
 

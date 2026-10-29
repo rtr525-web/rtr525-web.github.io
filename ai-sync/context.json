@@ -1,7 +1,7 @@
 {
  "schema": "ai-sync/1.0",
- "updated_at": "2026-10-28T06:40-04:00",
- "updated_note": "Daily update, Wednesday, October 28, 2026 (America/New_York): Oct 27 wave posts verified across Facebook, YouTube, Instagram and TikTok; Facebook waves and standing pre-approval are live. Registry is now 82 pages with Farming Blueprint added as planned; check-ins remain 2, both Claude.",
+ "updated_at": "2026-10-29T06:39-04:00",
+ "updated_note": "Daily update, Thursday, October 29, 2026 (America/New_York): Golf History launched live as Facebook Page #9 with three reels posted; Oct 28 waves and daily lanes posted across Facebook, YouTube and Instagram, and overnight production added certified parks depth. Registry is now 83 pages with Golf History added as live; check-ins remain 2, both Claude.",
  "owner": {
   "name": "Robert Rang",
   "public_identity": "Creator and builder in Minneola, Florida. Runs the RTR525 media empire and the Hillsboro Blueprint hub: dozens of narrated, blueprint-style educational channels covering irrigation, welding, music history, golf, parks, local news, and practical know-how.",
@@ -824,7 +824,16 @@
    "url": null,
    "role": "Farming education, blueprint style — soil, water, seasons, and how Florida grows (Central Florida citrus, cattle, sod, irrigation). One short lesson a day. Education only. Launch kit built Oct 27, 2026.",
    "desk": "The Parks",
-   "status": "planned — page not created yet; Robert creates it on his phone (name + category only, no bio), then Muse verifies and posts"
+   "status": "planned — page not created yet; creation blocked Oct 28, 2026 with a Page-policies error and a Meta support case is open; Robert creates it, then Muse verifies and posts"
+  },
+  {
+   "name": "Golf History",
+   "platform": "Facebook",
+   "handle": null,
+   "url": "https://www.facebook.com/profile.php?id=61595712732803",
+   "role": "Golf education page — how golf actually works: the courses, the clubs, and the engineering underneath both. One narrated blueprint reel a day. Education only. Carries both golf lanes (courses and club history).",
+   "desk": "The Fairways",
+   "status": "live"
   }
  ],
  "registry_note": "Compiled from empire records on Oct 16, 2026. Reconciled Oct 19, 2026: the one-channel gap was Encyclopedia Blueprint (created Oct 18, 2026), which existed on YouTube but had never been added to this registry. The YouTube universe is 62 channels — 60 governed properties in the brand system plus two audit-only spares (Minneola Politics spare, Money Matters dormant duplicate) — and this registry now carries all 62. Five channels were created the evening of Oct 16, 2026 (Western Swing Blueprint, ReelGroove TV, Florida Fairways, National Parks Blueprint, State Parks Blueprint); 50 States Unknown is in creation. Entries with url=null have no public URL in records — never guess one.",
@@ -1004,15 +1013,15 @@
   }
  ],
  "daily_brief": {
-  "date": "2026-10-28",
-  "headline": "Oct 27 wave lands across the network as the Oct 28 slate is approved",
+  "date": "2026-10-29",
+  "headline": "Golf History launches as Page #9 as Oct 28 waves post across the network",
   "items": [
-   "Oct 27 Facebook posts were verified across the network: Cigar College tunneling, Cigar School topic 11, Cross Climate CC-12, Florida Consumer Tip #8, Warrior Wisdom #11, Daily Quote #15, and Sports History Blueprint Day 2.",
-   "Sprinkler Blueprint K7 posted on YouTube, and the evening wave catch-up posted Florida Nature FN5 and Sprinkler SE E8 on Facebook, completing FN1 to FN5 on the Florida Nature Page.",
-   "Instagram posted Rollins Museum Seq 3 and Seq 4, IG-13 garage zones, and the Winter Park Scenic Boat Tour reel; the first @mrminneola Mount Dora Lighthouse reel posted on TikTok.",
-   "Standing the Watch O1 posted on YouTube, and new certified production staged State Parks E63 and E64, National Parks E17 and E18, Money Matters MM-19, and the Firearms News Daily Sten piece.",
-   "All 8 Facebook Pages now have verified bios and real brand pictures; Facebook waves now run daily at 6:00 AM, 11:00 AM, and 4:00 PM ET, with gate-certified empire posts pre-approved by default.",
-   "Cigar School launched its 12-reel Seed to Roll series — SR-01 to SR-03 are certified and approved for Oct 28 — and Farming Blueprint's launch kit is ready while its Page creation waits out a Facebook cooldown."
+   "Golf History launched live as the ninth Facebook Page — bio, profile picture and cover saved — with three launch reels posted: Pittsburgh Persimmon, Calamity Jane and the Stimpmeter; the TPC Sawgrass and Valve-in-Head reels remain queued.",
+   "Facebook Wave 2 posted four reels: Cigar College Churchill, Cigar School Seed to Roll SR-01, Sprinkler Blueprint K7 tree bubblers, and Sports History Blueprint Day 3, the Earthquake Series.",
+   "Daily lanes added more verified posts: Cigar College Connecticut shade and CC-13 Soft Spots, Cross Climate's front-loader door rule, Florida Consumer Tip #9 on keeping receipts, Daily Quote #16, and Hillsboro Entertainment's Mount Dora Donnelly Street reel.",
+   "YouTube posted Golf Club Blueprint GCC-03, Golf Blueprints Stimpmeter, K-Rain K8, the fixed Fronius F10 cut and Hobart H9; Instagram posted Rollins Museum Sequences 5 and 6 and IG-14 on fire-extinguisher placement.",
+   "Overnight production staged and gate-certified new parks depth — State Parks E65 to E74 and National Parks E19 to E28 — plus the Firearms News Daily BAR piece and Money Matters MM-20; Sprinkler Engineering E16 covers October 29.",
+   "New Page kits were built for Blue Collar Blueprint, The Overwhelmed Octopus and Asked & Answered, while Page creation stays blocked by a Page-policies error with a Meta support case open; October 29 runs as the first fully automatic day under standing pre-approval, with 53 gate-verified pieces approved and standing holds excluded."
   ]
  },
  "handoff": {
