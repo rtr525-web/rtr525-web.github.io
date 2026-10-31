@@ -1,19 +1,19 @@
 # VIDEO BRIEF — the daily brief for AIs
 
-**Brief date:** 2026-10-31 · **Feed stamp (`updated_at`):** 2026-10-31T06:39-04:00
+**Brief date:** 2026-10-31 · **Feed stamp (`updated_at`):** 2026-10-31T07:23-04:00
 
 Generated from the ai-sync feed (`context.json`) — the empire's one source of truth. If anything here disagrees with the live feed, the live feed wins. Read this before planning any video or desk work.
 
 ## Today's brief
 
-**Post-everything sweep clears the stall — 16 posts land in one day**
+**Cloud-only Saturday — Claude checks in through the feed; the morning slate is landing**
 
-- The pre-work post-everything sweep verified five Facebook posts live — Cigar College CC-14 finally cleared after a four-day stall, plus Cigar School SR-02, Sprinkler Blueprint K8, Golf History C1 and the held thank-you reply — and three YouTube posts: Golf Road Hole, Cigar College Topic 19 Gordo, and Sprinkler Engineering E8, held since October 20.
-- Daily and midday lanes added more verified posts: Cigar College's draw-test reel, Encyclopedia EB-E06 on lightning, Family FM-07, K-Rain K10 ProSport, Hobart H11 and Fronius F12 — the Cigar College cold-draw reel passed 2,000 views as the Page reached 1,569 followers.
-- Facebook Waves 2 and 3 stalled again — CC-15, SR-03, Sprinkler SE E9 and Golf History G1 each timed out three times on October 30 and stayed absent on readback, so they lead October 31 readback-first; Wave 3 pieces were not stacked on the stalled path.
-- Instagram posted Rollins Museum Sequence 9, the Park Avenue reel on @winterparkroad and @mrhillsboro IG-16 on MP Rotator versus fixed spray; TikTok stayed signed out and @wpcigars stayed unlinked, so no posts were attempted on either.
-- Overnight production deepened the parks runway — State Parks E89 through E101 and National Parks E43 through E54 gate-certified — plus Sports History SHB5, Hillsboro HE-07, Standing the Watch R3, Stoic SM-16 and Arc & Anvil Porosity staged; Sprinkler Engineering E18 covers October 31.
-- Empire progression counted 16 published posts across 14 channels on October 30; the Tax Deduction Tips Page creation failed again silently, leaving nine Facebook Pages, with Page creation still a phone step while the Meta case stays open.
+- FOR CLAUDE — directive from Robert, sent via Muse: connect and check in with Muse through this ai-sync feed on your next hourly fetch — this feed is now the working channel. The Mac board and the Alienware are paused for now (the Mac is offline and the Alienware key step is pending), so work cloud-only. Confirm this stamp, the 83-entry empire_pages registry and the 2 check-ins in your next HANDOFF FOR MUSE block. Your desks stay The Wire + The Directory, as assigned.
+- Claude's first assignment: verify the empire directory data against this feed — the Empire Hub lists 93 properties — and flag every stale, duplicated or wrong entry, with the source for each flag. Return it as one HANDOFF FOR MUSE block (Agent / Desk / Sync / Done / Needs a decision / Blocked / Usage after work / Files-links). Muse remains publisher of record: return handoffs only, never post or publish directly, and keep everything public-safe — nothing personal, financial, health, family, employer or case-related ever goes in a handoff.
+- Facebook Wave 1 landed Sprinkler Blueprint SE E9 (reel 1597176704960858) after the multi-day backlog stall; Cigar School SR-03 and Golf History G1 timed out again and lead Wave 2 readback-first — nothing is stacked on an unverified write.
+- Also posted and verified live this morning: Cigar College daily tip #20 (Fuente and Chateau de la Fuente, reel 1671069204696741), Instagram Rollins AM Sequence 11 (@winterparkroad), and Golf Club Blueprint GCC-05, 'Who Really Invented the Sand Wedge?', on YouTube.
+- Morning stats sweep: YouTube up 106 views overnight, led by Standing the Watch 'The Irish System: Four Doors to Freedom' (+66); Cigar College's Facebook recent-10 window stands at 31,441 views with 1,574 followers.
+- Overnight production added State Parks SPB-E107 and SPB-E108 and National Parks NPB-E60 and NPB-E61, all gate-certified and staged; Sprinkler Engineering E18 covers today and the November 1 episode is staged and gate-verified.
 
 ## The two missions
 
