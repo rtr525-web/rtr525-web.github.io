@@ -1,19 +1,19 @@
 # VIDEO BRIEF — the daily brief for AIs
 
-**Brief date:** 2026-10-31 · **Feed stamp (`updated_at`):** 2026-10-31T07:23-04:00
+**Brief date:** 2026-11-01 · **Feed stamp (`updated_at`):** 2026-11-01T06:39-05:00
 
 Generated from the ai-sync feed (`context.json`) — the empire's one source of truth. If anything here disagrees with the live feed, the live feed wins. Read this before planning any video or desk work.
 
 ## Today's brief
 
-**Cloud-only Saturday — Claude checks in through the feed; the morning slate is landing**
+**18 posts land on Halloween — YouTube carries the day while the Facebook backlog clears late**
 
-- FOR CLAUDE — directive from Robert, sent via Muse: connect and check in with Muse through this ai-sync feed on your next hourly fetch — this feed is now the working channel. The Mac board and the Alienware are paused for now (the Mac is offline and the Alienware key step is pending), so work cloud-only. Confirm this stamp, the 83-entry empire_pages registry and the 2 check-ins in your next HANDOFF FOR MUSE block. Your desks stay The Wire + The Directory, as assigned.
-- Claude's first assignment: verify the empire directory data against this feed — the Empire Hub lists 93 properties — and flag every stale, duplicated or wrong entry, with the source for each flag. Return it as one HANDOFF FOR MUSE block (Agent / Desk / Sync / Done / Needs a decision / Blocked / Usage after work / Files-links). Muse remains publisher of record: return handoffs only, never post or publish directly, and keep everything public-safe — nothing personal, financial, health, family, employer or case-related ever goes in a handoff.
-- Facebook Wave 1 landed Sprinkler Blueprint SE E9 (reel 1597176704960858) after the multi-day backlog stall; Cigar School SR-03 and Golf History G1 timed out again and lead Wave 2 readback-first — nothing is stacked on an unverified write.
-- Also posted and verified live this morning: Cigar College daily tip #20 (Fuente and Chateau de la Fuente, reel 1671069204696741), Instagram Rollins AM Sequence 11 (@winterparkroad), and Golf Club Blueprint GCC-05, 'Who Really Invented the Sand Wedge?', on YouTube.
-- Morning stats sweep: YouTube up 106 views overnight, led by Standing the Watch 'The Irish System: Four Doors to Freedom' (+66); Cigar College's Facebook recent-10 window stands at 31,441 views with 1,574 followers.
-- Overnight production added State Parks SPB-E107 and SPB-E108 and National Parks NPB-E60 and NPB-E61, all gate-certified and staged; Sprinkler Engineering E18 covers today and the November 1 episode is staged and gate-verified.
+- Published and verified on October 31: eight YouTube posts — Golf Club Blueprint GCC-05, Money Matters MM-15, Verse & Anvil VA-15 (Sonnet 18), Jayhil Media JH-01, Golf Blueprints GBC-04 (Old Tom Morris), Sprinkler Blueprint K11, Fronius F13 and Hobart H12.
+- Facebook: Wave 1's Sprinkler SE E9 landed late, and Cigar School SR-03 and Golf History G1 were reconciled as live late landings from the same wave. Waves 2 and 3 timed out on the connector, then six Wave 3 pieces were found live through daily lanes and late landings — only Cigar College CC-15 remains unverified, and it stays readback-first.
+- Instagram: Rollins Sequences 11 and 12 are live on @winterparkroad, plus IG-17 on @mrhillsboro. Cigar College's Facebook page reached 1,587 followers, with a 31,441-view recent-10 window in the morning sweep.
+- Parks production finished Florida's Southeast region — SPB-E109 Windley Key made 23 of 23 — and kept building overnight: SPB-E110 to E112 and NPB-E63 to E65 are gate-certified and staged. NPB-E61 Pinnacles is flagged truncated and held from posting pending a re-render.
+- New systems from October 31: a fast layout checker now screens every clip in seconds before it can post, @mrminneola on TikTok moved to an every-two-hours cadence (today's approved Bok Tower piece posts once the sign-in holds — that step is Robert's), and a two-year posting schedule covering the whole empire was built.
+- The Claude directive in this feed stands: Claude works cloud-only on The Wire + The Directory and returns handoffs only, in the official format; Muse remains publisher of record. Registry holds at 83 pages; check-ins remain 2, both Claude.
 
 ## The two missions
 
@@ -218,3 +218,5 @@ Blocked: [what stopped you, or 'nothing']
 Usage after work: [figures only as actually displayed, saying where seen — otherwise NOT VISIBLE]
 Files-links: [files created or links produced]
 ```
+
+There is no direct AI-to-AI link. Robert carries handoffs to Muse, and Muse folds them into memory and tracking. Never claim you synced with Muse directly.
