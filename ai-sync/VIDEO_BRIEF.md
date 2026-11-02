@@ -1,19 +1,19 @@
 # VIDEO BRIEF — the daily brief for AIs
 
-**Brief date:** 2026-11-01 · **Feed stamp (`updated_at`):** 2026-11-01T06:39-05:00
+**Brief date:** 2026-11-02 · **Feed stamp (`updated_at`):** 2026-11-02T06:39-05:00
 
 Generated from the ai-sync feed (`context.json`) — the empire's one source of truth. If anything here disagrees with the live feed, the live feed wins. Read this before planning any video or desk work.
 
 ## Today's brief
 
-**18 posts land on Halloween — YouTube carries the day while the Facebook backlog clears late**
+**TikTok breaks through and ten YouTube posts land — Nov 1 delivers on every platform**
 
-- Published and verified on October 31: eight YouTube posts — Golf Club Blueprint GCC-05, Money Matters MM-15, Verse & Anvil VA-15 (Sonnet 18), Jayhil Media JH-01, Golf Blueprints GBC-04 (Old Tom Morris), Sprinkler Blueprint K11, Fronius F13 and Hobart H12.
-- Facebook: Wave 1's Sprinkler SE E9 landed late, and Cigar School SR-03 and Golf History G1 were reconciled as live late landings from the same wave. Waves 2 and 3 timed out on the connector, then six Wave 3 pieces were found live through daily lanes and late landings — only Cigar College CC-15 remains unverified, and it stays readback-first.
-- Instagram: Rollins Sequences 11 and 12 are live on @winterparkroad, plus IG-17 on @mrhillsboro. Cigar College's Facebook page reached 1,587 followers, with a 31,441-view recent-10 window in the morning sweep.
-- Parks production finished Florida's Southeast region — SPB-E109 Windley Key made 23 of 23 — and kept building overnight: SPB-E110 to E112 and NPB-E63 to E65 are gate-certified and staged. NPB-E61 Pinnacles is flagged truncated and held from posting pending a re-render.
-- New systems from October 31: a fast layout checker now screens every clip in seconds before it can post, @mrminneola on TikTok moved to an every-two-hours cadence (today's approved Bok Tower piece posts once the sign-in holds — that step is Robert's), and a two-year posting schedule covering the whole empire was built.
-- The Claude directive in this feed stands: Claude works cloud-only on The Wire + The Directory and returns handoffs only, in the official format; Muse remains publisher of record. Registry holds at 83 pages; check-ins remain 2, both Claude.
+- Published and verified on YouTube on November 1 — ten posts: Golf Club Blueprint GCC-06 (Callaway Big Bertha), Money Matters MM-23, Stoic Mind SM-17, Verse & Anvil VA-17 (Sonnet 30), Sprinkler Blueprint K12, Fronius F14, Hobart H13, Arc & Anvil Topic 22, Firearms News Daily Flintlock, and State Parks SPB-E109 Windley Key.
+- Facebook: Cigar College CC-16 Robusto and the Lancero both landed on time through native scheduling, Sprinkler SE E11 and Golf History G2 were verified as late landings, and the daily Cigar College relighting reel posted. The connector stall held SE E12, SE E13, Toro and CC-15 — all carry to the next waves readback-first, with no duplicates fired.
+- Instagram and TikTok: Rollins Museum Sequences 13 and 14 are live on @winterparkroad. On TikTok, Bok Tower posted in the evening and Sugarloaf Mountain was produced, posted, and re-posted verified live — @mrminneola now shows 7 videos, and its ready buffer is back to zero, so fresh production is today's job.
+- Production: State Parks SPB-E113 to E120 are gate-certified and staged, completing Florida's 11 state trails and the full parks roster in staged form; Small Engine EN2 to EN5 and Pool Systems PS2 to PS5 were also certified. The new 30-day content buffer rule was adopted — baseline 394 ready pieces across 102 lanes, with only 2 lanes at the floor.
+- Cigar College's Lancero video crossed 1,000 views (1,306) and the page reached 1,666 followers. Daily engagement sessions launched for every channel — Cigar College, the other Facebook Pages, Instagram, YouTube and TikTok — quality replies in Robert's voice, education only.
+- Today's November 2 slate was pre-approved in the new 5 PM approvals block: seven Facebook posts are natively scheduled, the pre-launch check passed the slate, and standing holds stay held. Registry holds at 83 pages; check-ins remain 2, both Claude.
 
 ## The two missions
 
