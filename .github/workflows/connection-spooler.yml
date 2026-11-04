@@ -1,0 +1,28 @@
+name: Connection Spooler
+on:
+  schedule:
+    - cron: "17 */2 * * *"   # every 2 hours
+  workflow_dispatch:
+  push:
+    branches: [main]
+permissions:
+  contents: write
+concurrency: { group: spooler, cancel-in-progress: false }
+jobs:
+  spool:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check connections
+        id: check
+        run: python3 tools/spooler.py --live
+        continue-on-error: true
+      - name: Commit status
+        run: |
+          git config user.name "connection-spooler"
+          git config user.email "actions@users.noreply.github.com"
+          git add ai-sync/status.json
+          git diff --cached --quiet || { git commit -m "Spooler: connection status $(date -u +%FT%TZ) [skip ci]"; git push; }
+      - name: Fail if broken
+        if: steps.check.outcome == 'failure'
+        run: exit 1

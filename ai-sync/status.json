@@ -1,0 +1,55 @@
+{
+  "checked_at": "2026-11-04T03:26:37+00:00",
+  "overall": "LIVE",
+  "feed_updated_at": "2026-11-03T06:39-05:00",
+  "feed_age_hours": 15.8,
+  "stale_threshold_hours": 36,
+  "empire_pages_count": 83,
+  "checks": [
+    {
+      "path": "",
+      "local": "ok"
+    },
+    {
+      "path": "ai-sync/",
+      "local": "ok"
+    },
+    {
+      "path": "ai-sync/context.json",
+      "local": "ok"
+    },
+    {
+      "path": "ai-sync/connect.txt",
+      "local": "ok"
+    },
+    {
+      "path": "empire/",
+      "local": "ok"
+    },
+    {
+      "path": "empire/approvals.json",
+      "local": "ok"
+    },
+    {
+      "path": "empire/messages.json",
+      "local": "ok"
+    },
+    {
+      "path": "today/",
+      "local": "ok"
+    },
+    {
+      "path": "topics/",
+      "local": "ok"
+    },
+    {
+      "path": "drive-desk/",
+      "local": "ok"
+    },
+    {
+      "path": "manifest.webmanifest",
+      "local": "ok"
+    }
+  ],
+  "problems": []
+}
