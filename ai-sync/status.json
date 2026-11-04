@@ -1,8 +1,8 @@
 {
-  "checked_at": "2026-11-04T03:36:35+00:00",
+  "checked_at": "2026-11-04T12:07:35+00:00",
   "overall": "LIVE",
   "feed_updated_at": "2026-11-03T06:39-05:00",
-  "feed_age_hours": 16.0,
+  "feed_age_hours": 24.5,
   "stale_threshold_hours": 36,
   "empire_pages_count": 83,
   "checks": [
