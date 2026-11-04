@@ -1,54 +1,65 @@
 {
-  "checked_at": "2026-11-04T03:26:37+00:00",
+  "checked_at": "2026-11-04T03:36:35+00:00",
   "overall": "LIVE",
   "feed_updated_at": "2026-11-03T06:39-05:00",
-  "feed_age_hours": 15.8,
+  "feed_age_hours": 16.0,
   "stale_threshold_hours": 36,
   "empire_pages_count": 83,
   "checks": [
     {
       "path": "",
-      "local": "ok"
+      "local": "ok",
+      "live": 200
     },
     {
       "path": "ai-sync/",
-      "local": "ok"
+      "local": "ok",
+      "live": 200
     },
     {
       "path": "ai-sync/context.json",
-      "local": "ok"
+      "local": "ok",
+      "live": 200
     },
     {
       "path": "ai-sync/connect.txt",
-      "local": "ok"
+      "local": "ok",
+      "live": 200
     },
     {
       "path": "empire/",
-      "local": "ok"
+      "local": "ok",
+      "live": 200
     },
     {
       "path": "empire/approvals.json",
-      "local": "ok"
+      "local": "ok",
+      "live": 200
     },
     {
       "path": "empire/messages.json",
-      "local": "ok"
+      "local": "ok",
+      "live": 200
     },
     {
       "path": "today/",
-      "local": "ok"
+      "local": "ok",
+      "live": 200
     },
     {
       "path": "topics/",
-      "local": "ok"
+      "local": "ok",
+      "live": 200
     },
     {
       "path": "drive-desk/",
-      "local": "ok"
+      "local": "ok",
+      "live": 200
     },
     {
       "path": "manifest.webmanifest",
-      "local": "ok"
+      "local": "ok",
+      "live": 200
     }
   ],
   "problems": []
