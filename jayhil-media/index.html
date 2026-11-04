@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Jayhil Media</title>
+<meta name="description" content="Jayhil Media — an independent network of 80+ educational channels and Pages from Minneola, Florida.">
+<meta property="og:title" content="Jayhil Media">
+<meta property="og:description" content="An independent network of 80+ narrated, blueprint-style educational channels and Pages from Minneola, Florida.">
+<meta property="og:type" content="website">
+<link rel="icon" href="../icon-192.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #f6f3ec; --surface: #ffffff; --surface-2: #efe9dd; --ink: #1b1d22; --muted: #5d6270;
+    --accent: #a8401a; --accent-2: #d0692f; --accent-ink: #ffffff; --line: #e2dccf;
+    --hero-1: #1b1d22; --hero-2: #3a2418; --hero-ink: #f6f3ec;
+    --shadow: 0 1px 2px rgba(0,0,0,.04), 0 8px 24px rgba(0,0,0,.06);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) { --bg: #121418; --surface: #1a1d23; --surface-2: #20242b; --ink: #ece9e2; --muted: #a2a7b2;
+            --accent: #e57a45; --accent-2: #f0a06e; --accent-ink: #121418; --line: #2b3038;
+            --hero-1: #0c0d10; --hero-2: #2a1a11; --hero-ink: #f3efe6;
+            --shadow: 0 1px 2px rgba(0,0,0,.3), 0 8px 24px rgba(0,0,0,.35); }
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body { margin: 0; background: var(--bg); color: var(--ink);
+         font: 17px/1.65 Inter, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; -webkit-font-smoothing: antialiased; }
+  h1, h2, h3 { font-family: Fraunces, Georgia, serif; letter-spacing: -.01em; }
+  a { color: var(--accent); }
+  .wrap { max-width: 1040px; margin: 0 auto; padding: 0 16px; }
+
+  /* Nav */
+  nav { position: sticky; top: 0; z-index: 10; background: color-mix(in srgb, var(--bg) 88%, transparent);
+        backdrop-filter: blur(10px); border-bottom: 1px solid var(--line); }
+  nav .wrap { display: flex; align-items: center; justify-content: space-between; height: 60px; gap: 16px; }
+  .brand { font-family: Fraunces, Georgia, serif; font-weight: 700; font-size: 20px; color: var(--ink); text-decoration: none; }
+  .brand span { color: var(--accent); }
+  nav ul { display: flex; gap: 22px; list-style: none; margin: 0; padding: 0; font-size: 15px; font-weight: 500; }
+  nav ul a { color: var(--muted); text-decoration: none; }
+  nav ul a:hover { color: var(--ink); }
+  @media (max-width: 680px) { nav ul li:not(:last-child) { display: none; } }
+
+  /* Hero */
+  .hero { background: radial-gradient(1200px 500px at 85% -10%, var(--hero-2), transparent 60%), var(--hero-1);
+          color: var(--hero-ink); padding: 96px 0 88px; }
+  .eyebrow { color: var(--accent-2); font-weight: 700; letter-spacing: .14em; text-transform: uppercase; font-size: 12px; }
+  .hero h1 { font-size: clamp(44px, 8vw, 80px); line-height: 1; margin: 14px 0 20px; }
+  .hero p { font-size: clamp(18px, 2.3vw, 21px); color: color-mix(in srgb, var(--hero-ink) 78%, transparent); max-width: 640px; margin: 0 0 32px; }
+  .btn { display: inline-flex; align-items: center; gap: 8px; background: var(--accent); color: var(--accent-ink);
+         text-decoration: none; font-weight: 600; padding: 13px 22px; border-radius: 999px; border: 0; font-size: 16px;
+         cursor: pointer; font-family: inherit; transition: transform .15s, background .15s; }
+  .btn:hover { transform: translateY(-1px); background: var(--accent-2); }
+  .btn.ghost { background: transparent; color: var(--hero-ink); border: 1.5px solid color-mix(in srgb, var(--hero-ink) 40%, transparent); margin-left: 10px; }
+  .btn.ghost:hover { background: color-mix(in srgb, var(--hero-ink) 10%, transparent); }
+
+  /* Stats band */
+  .stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1px; background: var(--line);
+           border: 1px solid var(--line); border-radius: 16px; overflow: hidden; margin-top: -44px; box-shadow: var(--shadow); }
+  .stats div { background: var(--surface); padding: 22px 20px; }
+  .stats b { display: block; font-family: Fraunces, Georgia, serif; font-size: 36px; line-height: 1.1; color: var(--accent); }
+  .stats span { color: var(--muted); font-size: 14px; }
+  @media (max-width: 760px) { .stats { grid-template-columns: repeat(2, 1fr); } }
+
+  section { padding: 80px 0 0; }
+  .section-head { max-width: 640px; margin-bottom: 32px; }
+  .section-head h2 { font-size: clamp(30px, 4vw, 40px); line-height: 1.15; margin: 8px 0 12px; }
+  .section-head p { color: var(--muted); margin: 0; }
+
+  .grid { display: grid; gap: 16px; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); }
+  .card { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 22px; box-shadow: var(--shadow); }
+  .card h3 { margin: 0 0 6px; font-size: 19px; }
+  .card p { margin: 0; color: var(--muted); font-size: 15px; }
+  .card .num { font-family: Fraunces, Georgia, serif; font-size: 34px; color: var(--accent); line-height: 1.1; margin-bottom: 6px; }
+
+  .story { display: grid; grid-template-columns: 1.1fr .9fr; gap: 40px; align-items: center; }
+  .story p { font-size: 18px; margin: 0 0 16px; }
+  .pillars { list-style: none; margin: 0; padding: 0; display: grid; gap: 12px; }
+  .pillars li { background: var(--surface-2); border-radius: 12px; padding: 14px 16px; font-size: 15px; }
+  .pillars strong { display: block; font-size: 16px; }
+  @media (max-width: 760px) { .story { grid-template-columns: 1fr; } }
+
+  /* Media links */
+  .media a { display: flex; align-items: center; gap: 14px; text-decoration: none; color: var(--ink); transition: border-color .15s, transform .15s; }
+  .media a:hover { border-color: var(--accent); transform: translateY(-2px); }
+  .icon { flex: none; width: 44px; height: 44px; border-radius: 12px; display: grid; place-items: center; color: #fff; }
+  .icon svg { width: 22px; height: 22px; fill: currentColor; }
+  .yt { background: #e62117; } .fb { background: #1877f2; } .ig { background: linear-gradient(45deg,#f9a825,#e1306c,#833ab4); } .web { background: var(--accent); }
+  .media small { display: block; color: var(--muted); font-size: 13px; }
+  .media strong { font-size: 16px; }
+
+  /* Contact */
+  .contact { display: grid; grid-template-columns: .8fr 1.2fr; gap: 40px; }
+  @media (max-width: 760px) { .contact { grid-template-columns: 1fr; } }
+  form { display: grid; gap: 14px; }
+  .row { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+  @media (max-width: 560px) { .row { grid-template-columns: 1fr; } }
+  label { display: grid; gap: 6px; font-size: 14px; font-weight: 600; }
+  input, select, textarea { font: inherit; font-size: 16px; color: var(--ink); background: var(--bg); border: 1px solid var(--line);
+                            border-radius: 10px; padding: 12px 14px; width: 100%; }
+  input:focus, select:focus, textarea:focus { outline: 2px solid var(--accent); outline-offset: 1px; border-color: transparent; }
+  textarea { min-height: 130px; resize: vertical; }
+  .fine { color: var(--muted); font-size: 13px; margin: 0; }
+  .status { font-weight: 600; margin: 0; }
+  .hp { position: absolute; left: -9999px; }
+
+  footer { margin-top: 96px; border-top: 1px solid var(--line); padding: 32px 0 48px; color: var(--muted); font-size: 14px; }
+  footer .wrap { display: flex; flex-wrap: wrap; gap: 12px; justify-content: space-between; }
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="wrap">
+    <a class="brand" href="#top">Jayhil<span>.</span>Media</a>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#work">Accomplishments</a></li>
+      <li><a href="#media">Channels</a></li>
+      <li><a class="btn" style="padding:8px 16px;font-size:14px" href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header class="hero" id="top">
+  <div class="wrap">
+    <div class="eyebrow">Independent media · Minneola, Florida</div>
+    <h1>Jayhil Media</h1>
+    <p>An independent network of 80+ narrated, blueprint-style educational channels and Pages — practical know-how, Florida news, parks, golf, history and more.</p>
+    <a class="btn" href="#media">Watch &amp; follow</a><a class="btn ghost" href="#contact">Get in touch</a>
+  </div>
+</header>
+
+<main>
+  <div class="wrap">
+    <div class="stats">
+      <div><b>62</b><span>YouTube channels</span></div>
+      <div><b>10+</b><span>Facebook Pages</span></div>
+      <div><b>41</b><span>pieces published in one day</span></div>
+      <div><b>400+</b><span>pieces ready to publish</span></div>
+    </div>
+  </div>
+
+  <section id="about">
+    <div class="wrap story">
+      <div>
+        <div class="eyebrow" style="color:var(--accent)">Our story</div>
+        <h2 style="font-size:clamp(30px,4vw,40px);line-height:1.15;margin:8px 0 16px">From one channel to a network</h2>
+        <p>It started with one creator in Minneola, Florida, teaching practical things clearly — sprinkler repair, welding, golf, local news — in a consistent "blueprint" style.</p>
+        <p>Channel by channel the network grew. In October 2026 it was organized into one registry and seven desks, with a simple rule: nothing publishes until its facts are verified. By November 2026 it had passed 80 channels and Pages.</p>
+      </div>
+      <ul class="pillars">
+        <li><strong>No paid placement, ever</strong>In any list, ranking, review or video.</li>
+        <li><strong>Verified facts or cut it</strong>Every piece passes a quality check first.</li>
+        <li><strong>Clear labels</strong>Education is labeled education; folklore is labeled folklore.</li>
+        <li><strong>Respect for creators</strong>Properly licensed media only.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="work">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="eyebrow" style="color:var(--accent)">Accomplishments</div>
+        <h2>What we've built</h2>
+      </div>
+      <div class="grid">
+        <div class="card"><div class="num">41</div><h3>Record publishing day</h3><p>19 YouTube, 16 Facebook, 1 Instagram and 5 TikTok pieces on Nov 3, 2026 — every one verified.</p></div>
+        <div class="card"><div class="num">685</div><h3>Florida golf directory</h3><p>Verified courses across 60 counties, with a Top 25 list.</p></div>
+        <div class="card"><div class="num">63</div><h3>National parks</h3><p>Every U.S. national park drawn and explained, plus Florida's state parks.</p></div>
+        <div class="card"><div class="num">1,470</div><h3>Breakout reel</h3><p>Cigar College's Gordo reel became the network's first to pass 1,000 views.</p></div>
+        <div class="card"><div class="num">7</div><h3>Editorial desks</h3><p>The Wire, The Directory, Top Lists, The Route, The Fairways, The Parks and The Exchange.</p></div>
+        <div class="card"><div class="num">50</div><h3>State facts index</h3><p>Little-known facts for every state — Florida complete, the rest rolling out.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="media">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="eyebrow" style="color:var(--accent)">Watch &amp; follow</div>
+        <h2>Our channels</h2>
+        <p>A few of the flagships. Every channel is free to watch.</p>
+      </div>
+      <div class="grid media">
+        <a class="card" href="https://www.youtube.com/@JayhilMedia"><span class="icon yt"><svg viewBox="0 0 24 24"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.6 12 3.6 12 3.6s-7.5 0-9.4.5A3 3 0 0 0 .5 6.2 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.5 9.4.5 9.4.5s7.5 0 9.4-.5a3 3 0 0 0 2.1-2.1A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.8zM9.6 15.6V8.4l6.2 3.6-6.2 3.6z"/></svg></span><span><strong>Jayhil Media</strong><small>YouTube · network station</small></span></a>
+        <a class="card" href="https://www.youtube.com/@cigarcollege"><span class="icon yt"><svg viewBox="0 0 24 24"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.6 12 3.6 12 3.6s-7.5 0-9.4.5A3 3 0 0 0 .5 6.2 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.5 9.4.5 9.4.5s7.5 0 9.4-.5a3 3 0 0 0 2.1-2.1A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.8zM9.6 15.6V8.4l6.2 3.6-6.2 3.6z"/></svg></span><span><strong>Cigar College</strong><small>YouTube · cigar education</small></span></a>
+        <a class="card" href="https://www.youtube.com/@MinneolaMatters"><span class="icon yt"><svg viewBox="0 0 24 24"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.6 12 3.6 12 3.6s-7.5 0-9.4.5A3 3 0 0 0 .5 6.2 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.5 9.4.5 9.4.5s7.5 0 9.4-.5a3 3 0 0 0 2.1-2.1A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.8zM9.6 15.6V8.4l6.2 3.6-6.2 3.6z"/></svg></span><span><strong>MinneolaMatters</strong><small>YouTube · local news</small></span></a>
+        <a class="card" href="https://www.youtube.com/@SprinklerBlueprint"><span class="icon yt"><svg viewBox="0 0 24 24"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.6 12 3.6 12 3.6s-7.5 0-9.4.5A3 3 0 0 0 .5 6.2 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.5 9.4.5 9.4.5s7.5 0 9.4-.5a3 3 0 0 0 2.1-2.1A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.8zM9.6 15.6V8.4l6.2 3.6-6.2 3.6z"/></svg></span><span><strong>Sprinkler Blueprint</strong><small>YouTube · irrigation how-to</small></span></a>
+        <a class="card" href="https://www.facebook.com/profile.php?id=108870878562428"><span class="icon fb"><svg viewBox="0 0 24 24"><path d="M24 12a12 12 0 1 0-13.9 11.9v-8.4H7.1V12h3V9.4c0-3 1.8-4.7 4.5-4.7 1.3 0 2.7.2 2.7.2v2.9h-1.5c-1.5 0-2 .9-2 1.9V12h3.4l-.5 3.5h-2.9v8.4A12 12 0 0 0 24 12z"/></svg></span><span><strong>Cigar College</strong><small>Facebook</small></span></a>
+        <a class="card" href="https://www.facebook.com/profile.php?id=1410648828798683"><span class="icon fb"><svg viewBox="0 0 24 24"><path d="M24 12a12 12 0 1 0-13.9 11.9v-8.4H7.1V12h3V9.4c0-3 1.8-4.7 4.5-4.7 1.3 0 2.7.2 2.7.2v2.9h-1.5c-1.5 0-2 .9-2 1.9V12h3.4l-.5 3.5h-2.9v8.4A12 12 0 0 0 24 12z"/></svg></span><span><strong>Sprinkler Blueprint</strong><small>Facebook</small></span></a>
+        <a class="card" href="https://www.facebook.com/profile.php?id=1456367594217608"><span class="icon fb"><svg viewBox="0 0 24 24"><path d="M24 12a12 12 0 1 0-13.9 11.9v-8.4H7.1V12h3V9.4c0-3 1.8-4.7 4.5-4.7 1.3 0 2.7.2 2.7.2v2.9h-1.5c-1.5 0-2 .9-2 1.9V12h3.4l-.5 3.5h-2.9v8.4A12 12 0 0 0 24 12z"/></svg></span><span><strong>Florida Nature</strong><small>Facebook</small></span></a>
+        <a class="card" href="https://www.instagram.com/winterparkroad"><span class="icon ig"><svg viewBox="0 0 24 24"><path d="M12 2.2c3.2 0 3.6 0 4.8.1 3.3.1 4.8 1.7 4.9 4.9.1 1.3.1 1.6.1 4.8s0 3.6-.1 4.8c-.1 3.2-1.7 4.8-4.9 4.9-1.3.1-1.6.1-4.8.1s-3.6 0-4.8-.1c-3.3-.1-4.8-1.7-4.9-4.9C2.2 15.6 2.2 15.2 2.2 12s0-3.6.1-4.8C2.4 3.9 3.9 2.4 7.2 2.3 8.4 2.2 8.8 2.2 12 2.2zm0 4.7a5.1 5.1 0 1 0 0 10.2 5.1 5.1 0 0 0 0-10.2zm0 8.4a3.3 3.3 0 1 1 0-6.6 3.3 3.3 0 0 1 0 6.6zm5.3-9.8a1.2 1.2 0 1 0 0 2.4 1.2 1.2 0 0 0 0-2.4z"/></svg></span><span><strong>@winterparkroad</strong><small>Instagram · art &amp; culture</small></span></a>
+        <a class="card" href="https://rtr525-web.github.io/"><span class="icon web"><svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zm6.9 6h-3a15.7 15.7 0 0 0-1.4-3.6A8 8 0 0 1 18.9 8zM12 4c.8 1.2 1.5 2.5 1.9 4h-3.8c.4-1.5 1.1-2.8 1.9-4zM4.3 14a8 8 0 0 1 0-4h3.4a16.5 16.5 0 0 0 0 4H4.3zm.8 2h3a15.7 15.7 0 0 0 1.4 3.6A8 8 0 0 1 5.1 16zm3-8h-3a8 8 0 0 1 4.4-3.6A15.7 15.7 0 0 0 8.1 8zM12 20c-.8-1.2-1.5-2.5-1.9-4h3.8c-.4 1.5-1.1 2.8-1.9 4zm2.3-6H9.7a14.7 14.7 0 0 1 0-4h4.6a14.7 14.7 0 0 1 0 4zm.3 5.6c.6-1.1 1.1-2.3 1.4-3.6h3a8 8 0 0 1-4.4 3.6zm1.7-5.6a16.5 16.5 0 0 0 0-4h3.4a8 8 0 0 1 0 4h-3.4z"/></svg></span><span><strong>Network hub</strong><small>rtr525-web.github.io</small></span></a>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="wrap contact">
+      <div>
+        <div class="eyebrow" style="color:var(--accent)">Contact</div>
+        <h2 style="font-size:clamp(30px,4vw,40px);line-height:1.15;margin:8px 0 16px">Work with us</h2>
+        <p style="color:var(--muted)">Partnerships, collaborations, corrections or press — send a request and we'll get back to you.</p>
+        <p class="fine">We only use your details to reply to your request. We never sell or share them.</p>
+      </div>
+      <form class="card" id="contact-form" action="FORM_ENDPOINT" method="POST">
+        <div class="row">
+          <label>Name<input name="name" autocomplete="name" required></label>
+          <label>Email<input name="email" type="email" autocomplete="email" required></label>
+        </div>
+        <div class="row">
+          <label>Organization <span class="fine">(optional)</span><input name="organization" autocomplete="organization"></label>
+          <label>Reason
+            <select name="reason" required>
+              <option value="">Choose one…</option>
+              <option>Partnership or sponsorship</option>
+              <option>Collaboration</option>
+              <option>Press or media</option>
+              <option>Correction</option>
+              <option>Other</option>
+            </select>
+          </label>
+        </div>
+        <label>Message<textarea name="message" required></textarea></label>
+        <input class="hp" name="_gotcha" tabindex="-1" autocomplete="off" aria-hidden="true">
+        <div><button class="btn" type="submit">Send request</button></div>
+        <p class="status" id="form-status" role="status"></p>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>© 2026 Jayhil Media · Minneola, Florida</span>
+    <span>Independent; not affiliated with any brand mentioned.</span>
+  </div>
+</footer>
+
+<script>
+  // Sends the form without leaving the page; works with Formspree-style endpoints that accept JSON.
+  const form = document.getElementById('contact-form');
+  const status = document.getElementById('form-status');
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    if (form.action.includes('FORM_ENDPOINT')) { status.textContent = 'The contact form is not connected yet.'; return; }
+    status.textContent = 'Sending…';
+    try {
+      const res = await fetch(form.action, { method: 'POST', body: new FormData(form), headers: { Accept: 'application/json' } });
+      if (!res.ok) throw new Error();
+      form.reset(); status.textContent = 'Thanks — your request was sent. We\'ll be in touch.';
+    } catch { status.textContent = 'Sorry, that didn\'t send. Please try again in a moment.'; }
+  });
+</script>
+</body>
+</html>
