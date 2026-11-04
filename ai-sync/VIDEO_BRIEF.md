@@ -1,19 +1,19 @@
 # VIDEO BRIEF — the daily brief for AIs
 
-**Brief date:** 2026-11-04 · **Feed stamp (`updated_at`):** 2026-11-04T06:40-05:00
+**Brief date:** 2026-11-03 · **Feed stamp (`updated_at`):** 2026-11-03T06:39-05:00
 
 Generated from the ai-sync feed (`context.json`) — the empire's one source of truth. If anything here disagrees with the live feed, the live feed wins. Read this before planning any video or desk work.
 
 ## Today's brief
 
-**41 pieces publish in a day, all 9 Facebook Pages post, and the upload cap sets today's retry slate**
+**30 pieces publish in a day and the Alienware crew stack comes live**
 
-- Published and verified on November 3 — 41 pieces in all: 19 YouTube, 16 Facebook, 1 Instagram and 5 TikTok, per the daily progression check. All 9 Facebook Pages posted, with Cigar College and Sprinkler Blueprint completing all three waves.
-- Cigar College's Gordo 6x60 reel passed 1,000 views, reaching 1,470 views in the overnight engagement watch, and followers on that Page rose through the day. No new unreplied comments were found across the Pages.
-- Sprinkler Blueprint's K13 rotor piece posted live on YouTube, leaving that lane at zero ready until the next piece is produced — production keeps refilling zero lanes, furthest gaps first.
-- The biggest blocker was the YouTube daily upload limit plus serialized Studio execution: certified pieces for Money Matters, Firearms News Daily, Hobart, Fronius and Forgotten Engines were capped on November 3 and retry today, November 4, under the standing pre-approval.
-- Production kept expanding the Small Engine and Pool Systems topic banks overnight — new gate-certified pieces on the fuel cap vent, pressure gauge, air filter, check valve, splash lubrication, volute, piston rings and air relief valve were staged post-ready, each verified from disk. The content buffer held above 400 ready pieces across 102 lanes.
-- Quality and sourcing rules tightened: the Source Interest Rule now skips dull source material with the reason logged instead of converting it mechanically, and five short lanes were retargeted to the 55–60 second band. GitHub publishing for the empire sites moved toward per-repo deploy keys so updates can push without approval cards; the first verified push is still pending. Registry holds at 83 pages; check-ins remain 2, both Claude.
+- Published and verified on November 2 — 30 pieces in all: 10 YouTube, 14 Facebook, 1 Instagram and 5 TikTok, per the daily progression reconciliation.
+- Facebook waves and daily lanes landed Wave 1 (Cigar College Torpedo, Cigar School, Sprinkler SE E14, Golf History G3, Sports History SHB7), Wave 2 (Cigar College Toro, Sprinkler SE E15, Golf History G4) and Wave 3 (Sprinkler SE E16, Golf History G5), plus the Cigar College hygrometer reel, Quote No. 21, Cross Climate CC-18, Hillsboro HE-08 and Sports History SHB8. Cigar College Gordo timed out unconfirmed and carries read-back-first; Florida Nature FN-EV03 was deferred to the completion sweep.
+- YouTube landed Golf Club GCC-07 (PING Eye2), Golf Blueprints GBC-06, State Parks SPB-E99, National Parks NPB-E52, Fronius F15 and Hobart H14, plus verified rotation posts on Arc & Anvil, Central Florida News, Verse & Anvil and Stoic Mind. Three earlier rotation uploads with unknown outcomes were reconciled as live; K-Rain K13 stays staged behind a Studio permission error.
+- TikTok @mrminneola posted five times — Weeki Wachee, Wekiwa Springs, Lake Eola, Gatorland and the Winter Park Scenic Boat Tour — taking the profile from 7 to 12 videos; the lane ends the day at zero ready, so fresh production is today's job. Instagram Rollins Sequence 15 is live on @winterparkroad.
+- Production completed the Small Engine (EN1–EN14) and Pool Systems (PS1–PS14) topic banks and immediately expanded both — EN15 and PS15 are gate-certified and staged. The content buffer stands at 410 ready pieces across 102 lanes, with 26 lanes at zero.
+- The Alienware crew stack came live: the command spooler is installed, the mailbox watcher wakes the hub in under 30 seconds, the Empire Webhook answers on its port, and the end-to-end test passed 21 of 24 checks. The 15 sprinkler brand channels were not deleted — Google verification blocked the remote route, masters are verified on disk, and the deletions move to the Alienware-local Chrome route. A Ko-fi page for Jayhil Media was created. Registry holds at 83 pages; check-ins remain 2, both Claude.
 
 ## The two missions
 
