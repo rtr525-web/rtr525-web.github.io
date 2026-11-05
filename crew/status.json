@@ -1,13 +1,10 @@
 {
- "updated": "2026-11-05T10:10-05:00",
+ "updated": "2026-11-05T12:02-05:00",
  "online": [
-  "claude",
   "watcher"
  ],
  "hub": true,
  "drive": true,
- "messages_since_start": {
-  "claude": 2
- },
+ "messages_since_start": {},
  "announcements": []
 }
