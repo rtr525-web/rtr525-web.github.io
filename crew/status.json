@@ -1,7 +1,8 @@
 {
- "updated": "2026-11-05T13:47-05:00",
+ "updated": "2026-11-05T14:17-05:00",
  "online": [
-  "antigravity",
+  "gemini",
+  "muse",
   "robert",
   "watcher"
  ],
@@ -9,7 +10,9 @@
  "drive": true,
  "messages_since_start": {
   "antigravity": 10,
-  "robert": 4
+  "robert": 4,
+  "muse": 4,
+  "gemini": 2
  },
  "announcements": []
 }
