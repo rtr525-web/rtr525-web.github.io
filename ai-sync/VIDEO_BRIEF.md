@@ -1,19 +1,19 @@
 # VIDEO BRIEF — the daily brief for AIs
 
-**Brief date:** 2026-11-04 · **Feed stamp (`updated_at`):** 2026-11-04T06:40-05:00
+**Brief date:** 2026-11-05 · **Feed stamp (`updated_at`):** 2026-11-05T06:41-05:00
 
 Generated from the ai-sync feed (`context.json`) — the empire's one source of truth. If anything here disagrees with the live feed, the live feed wins. Read this before planning any video or desk work.
 
 ## Today's brief
 
-**41 pieces publish in a day, all 9 Facebook Pages post, and the upload cap sets today's retry slate**
+**Two new shoe Pages launch live, 27 pieces publish, and a draft store catalog is built**
 
-- Published and verified on November 3 — 41 pieces in all: 19 YouTube, 16 Facebook, 1 Instagram and 5 TikTok, per the daily progression check. All 9 Facebook Pages posted, with Cigar College and Sprinkler Blueprint completing all three waves.
-- Cigar College's Gordo 6x60 reel passed 1,000 views, reaching 1,470 views in the overnight engagement watch, and followers on that Page rose through the day. No new unreplied comments were found across the Pages.
-- Sprinkler Blueprint's K13 rotor piece posted live on YouTube, leaving that lane at zero ready until the next piece is produced — production keeps refilling zero lanes, furthest gaps first.
-- The biggest blocker was the YouTube daily upload limit plus serialized Studio execution: certified pieces for Money Matters, Firearms News Daily, Hobart, Fronius and Forgotten Engines were capped on November 3 and retry today, November 4, under the standing pre-approval.
-- Production kept expanding the Small Engine and Pool Systems topic banks overnight — new gate-certified pieces on the fuel cap vent, pressure gauge, air filter, check valve, splash lubrication, volute, piston rings and air relief valve were staged post-ready, each verified from disk. The content buffer held above 400 ready pieces across 102 lanes.
-- Quality and sourcing rules tightened: the Source Interest Rule now skips dull source material with the reason logged instead of converting it mechanically, and five short lanes were retargeted to the 55–60 second band. GitHub publishing for the empire sites moved toward per-repo deploy keys so updates can push without approval cards; the first verified push is still pending. Registry holds at 83 pages; check-ins remain 2, both Claude.
+- Published on November 4 — 27 pieces in the daily progression check, with 22 of 97 channels posting and 2 new properties going live. Running totals reached 246 published pieces and 186 channel-days posted.
+- Two new Facebook Pages launched and were verified live: Shoe Education, with the 52-second Sneakers reel, and Shoe University, with the 54-second Banned Shoe reel. Both Pages were wired into the three daily Facebook waves, the hourly posting driver, the pre-approval digest and the daily inbox check — the waves now cover 11 Pages and 33 slots a day, starting today.
+- Facebook waves on November 4 finished at 14 of 33 verified posts, with Hillsboro Entertainment and Sprinkler Blueprint completing their sets. Wave slots with no approved, gate-certified piece stayed empty, and the Sprinkler Wave 3 piece was left read-back-first so a late landing is never duplicated.
+- The biggest blocker stayed the YouTube daily upload limit plus serialized Studio execution, which capped 9 channels on November 4. Certified pieces carried forward retry under the standing pre-approval.
+- Production kept building the bench: the Small Engine and Pool Systems banks extended past 40 topics each with new gate-certified pieces staged, and the content buffer held at 412 ready pieces across 102 lanes, with zero lanes refilled furthest gaps first.
+- The Jayhil Media store was connected and a draft catalog of 13 products in 5 collections was built for review — no selling until a paid plan is chosen. A shared memory hub for the crew was also created, and a daily crew sync block was added to keep the hub, the empire pages and the store current. Registry grows to 85 pages; check-ins remain 2, both Claude.
 
 ## The two missions
 
@@ -153,6 +153,8 @@ Build a long-term public presence the slow, clean way: show up for the community
 - PracticalProTips — PracticalProTips — planned — creation queued
 - RTR525 — RTR525 — account exists — channel setup pending
 - Sports History Blueprint — — — live · https://www.facebook.com/profile.php?id=1426650810532772
+- Shoe Education — — — live · https://www.facebook.com/profile.php?id=1485858774600864
+- Shoe University — — — live · https://www.facebook.com/profile.php?id=1451166331406983
 
 ### Top Lists
 

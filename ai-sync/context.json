@@ -1,7 +1,7 @@
 {
  "schema": "ai-sync/1.0",
- "updated_at": "2026-11-04T06:40-05:00",
- "updated_note": "Daily update, Wednesday, November 4, 2026: November 3 published 41 verified pieces — 19 YouTube, 16 Facebook, 1 Instagram and 5 TikTok — with all 9 Facebook Pages posting, the Cigar College Gordo reel passing 1,000 views, and Sprinkler K13 posted live. The YouTube daily upload limit capped several certified pieces, which retry today; production kept expanding the Small Engine and Pool Systems banks and the buffer held above 400 ready pieces. Registry holds at 83 pages; check-ins remain 2, both Claude.",
+ "updated_at": "2026-11-05T06:41-05:00",
+ "updated_note": "Daily update, Thursday, November 5, 2026: November 4 launched two new Facebook Pages — Shoe Education and Shoe University — each with a verified launch reel live, and published 27 pieces across the network. The Jayhil Media store was connected with a draft catalog built for review, production held the buffer at 412 ready pieces, and the YouTube daily limit remained the biggest blocker. Registry grows to 85 pages with the two shoe Pages; check-ins remain 2, both Claude.",
  "owner": {
   "name": "Robert Rang",
   "public_identity": "Creator and builder in Minneola, Florida. Runs the RTR525 media empire and the Hillsboro Blueprint hub: dozens of narrated, blueprint-style educational channels covering irrigation, welding, music history, golf, parks, local news, and practical know-how.",
@@ -834,6 +834,24 @@
    "role": "Golf education page — how golf actually works: the courses, the clubs, and the engineering underneath both. One narrated blueprint reel a day. Education only. Carries both golf lanes (courses and club history).",
    "desk": "The Fairways",
    "status": "live"
+  },
+  {
+   "name": "Shoe Education",
+   "platform": "Facebook",
+   "handle": null,
+   "url": "https://www.facebook.com/profile.php?id=1485858774600864",
+   "role": "The history of the shoes that changed the world — taught one story at a time. Education only.",
+   "desk": "Network",
+   "status": "live"
+  },
+  {
+   "name": "Shoe University",
+   "platform": "Facebook",
+   "handle": null,
+   "url": "https://www.facebook.com/profile.php?id=1451166331406983",
+   "role": "Advanced shoe marketing, decoded — the athletes, the campaigns, and the shoes that created the trends. Education only.",
+   "desk": "Network",
+   "status": "live"
   }
  ],
  "registry_note": "Compiled from empire records on Oct 16, 2026. Reconciled Oct 19, 2026: the one-channel gap was Encyclopedia Blueprint (created Oct 18, 2026), which existed on YouTube but had never been added to this registry. The YouTube universe is 62 channels — 60 governed properties in the brand system plus two audit-only spares (Minneola Politics spare, Money Matters dormant duplicate) — and this registry now carries all 62. Five channels were created the evening of Oct 16, 2026 (Western Swing Blueprint, ReelGroove TV, Florida Fairways, National Parks Blueprint, State Parks Blueprint); 50 States Unknown is in creation. Entries with url=null have no public URL in records — never guess one.",
@@ -1013,15 +1031,15 @@
   }
  ],
  "daily_brief": {
-  "date": "2026-11-04",
-  "headline": "41 pieces publish in a day, all 9 Facebook Pages post, and the upload cap sets today's retry slate",
+  "date": "2026-11-05",
+  "headline": "Two new shoe Pages launch live, 27 pieces publish, and a draft store catalog is built",
   "items": [
-   "Published and verified on November 3 — 41 pieces in all: 19 YouTube, 16 Facebook, 1 Instagram and 5 TikTok, per the daily progression check. All 9 Facebook Pages posted, with Cigar College and Sprinkler Blueprint completing all three waves.",
-   "Cigar College's Gordo 6x60 reel passed 1,000 views, reaching 1,470 views in the overnight engagement watch, and followers on that Page rose through the day. No new unreplied comments were found across the Pages.",
-   "Sprinkler Blueprint's K13 rotor piece posted live on YouTube, leaving that lane at zero ready until the next piece is produced — production keeps refilling zero lanes, furthest gaps first.",
-   "The biggest blocker was the YouTube daily upload limit plus serialized Studio execution: certified pieces for Money Matters, Firearms News Daily, Hobart, Fronius and Forgotten Engines were capped on November 3 and retry today, November 4, under the standing pre-approval.",
-   "Production kept expanding the Small Engine and Pool Systems topic banks overnight — new gate-certified pieces on the fuel cap vent, pressure gauge, air filter, check valve, splash lubrication, volute, piston rings and air relief valve were staged post-ready, each verified from disk. The content buffer held above 400 ready pieces across 102 lanes.",
-   "Quality and sourcing rules tightened: the Source Interest Rule now skips dull source material with the reason logged instead of converting it mechanically, and five short lanes were retargeted to the 55–60 second band. GitHub publishing for the empire sites moved toward per-repo deploy keys so updates can push without approval cards; the first verified push is still pending. Registry holds at 83 pages; check-ins remain 2, both Claude."
+   "Published on November 4 — 27 pieces in the daily progression check, with 22 of 97 channels posting and 2 new properties going live. Running totals reached 246 published pieces and 186 channel-days posted.",
+   "Two new Facebook Pages launched and were verified live: Shoe Education, with the 52-second Sneakers reel, and Shoe University, with the 54-second Banned Shoe reel. Both Pages were wired into the three daily Facebook waves, the hourly posting driver, the pre-approval digest and the daily inbox check — the waves now cover 11 Pages and 33 slots a day, starting today.",
+   "Facebook waves on November 4 finished at 14 of 33 verified posts, with Hillsboro Entertainment and Sprinkler Blueprint completing their sets. Wave slots with no approved, gate-certified piece stayed empty, and the Sprinkler Wave 3 piece was left read-back-first so a late landing is never duplicated.",
+   "The biggest blocker stayed the YouTube daily upload limit plus serialized Studio execution, which capped 9 channels on November 4. Certified pieces carried forward retry under the standing pre-approval.",
+   "Production kept building the bench: the Small Engine and Pool Systems banks extended past 40 topics each with new gate-certified pieces staged, and the content buffer held at 412 ready pieces across 102 lanes, with zero lanes refilled furthest gaps first.",
+   "The Jayhil Media store was connected and a draft catalog of 13 products in 5 collections was built for review — no selling until a paid plan is chosen. A shared memory hub for the crew was also created, and a daily crew sync block was added to keep the hub, the empire pages and the store current. Registry grows to 85 pages; check-ins remain 2, both Claude."
   ]
  },
  "handoff": {
