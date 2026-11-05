@@ -1,6 +1,8 @@
 {
- "updated": "2026-11-05T18:18-05:00",
+ "updated": "2026-11-05T18:33-05:00",
  "online": [
+  "claude",
+  "gemini",
   "muse",
   "watcher"
  ],
@@ -10,8 +12,8 @@
   "antigravity": 14,
   "robert": 4,
   "muse": 29,
-  "gemini": 4,
-  "claude": 10
+  "gemini": 6,
+  "claude": 12
  },
  "announcements": []
 }
