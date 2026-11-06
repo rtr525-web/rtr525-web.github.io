@@ -1,32 +1,32 @@
 [
  {
-  "id": "appr-slate-20261026",
-  "label": "Video slate — daily posts",
-  "date": "2026-10-26",
+  "id": "appr-twokey-20261105",
+  "label": "Two-Key Standing Officer Pass \u2014 daily slates",
+  "date": "2026-11-05",
   "status": "APPROVED"
  },
  {
-  "id": "appr-swap-20261025",
-  "label": "Video replacement swap",
-  "date": "2026-10-25",
+  "id": "appr-polish31-20261105",
+  "label": "31 YouTube channels \u2014 real-photo art & About polish",
+  "date": "2026-11-05",
+  "status": "APPROVED"
+ },
+ {
+  "id": "appr-fbwaves-20261105",
+  "label": "Facebook 3 daily waves (11 Pages incl. Shoe Education & University)",
+  "date": "2026-11-05",
+  "status": "APPROVED"
+ },
+ {
+  "id": "appr-starter10-20261105",
+  "label": "Starter Video Batch (10 E01 renders in pipeline/qc)",
+  "date": "2026-11-05",
   "status": "WAITING"
  },
  {
-  "id": "appr-pages-20261025",
-  "label": "New Facebook Page setup",
-  "date": "2026-10-25",
-  "status": "WAITING"
- },
- {
-  "id": "appr-poetry-20261025",
-  "label": "Poetry video release",
-  "date": "2026-10-25",
-  "status": "WAITING"
- },
- {
-  "id": "appr-series-20261024",
-  "label": "Series final cuts review",
-  "date": "2026-10-24",
+  "id": "appr-m06-pages-20261105",
+  "label": "M-06 Facebook Page creation kits (8 Pages ready)",
+  "date": "2026-11-05",
   "status": "WAITING"
  }
 ]

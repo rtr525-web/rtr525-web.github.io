@@ -1,6 +1,11 @@
 <!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Jayhil Crew</title>
+<title>Jayhil Crew | Jayhil Media</title>
+<meta name="description" content="Live status of the Jayhil Media AI crew across Alienware, LenovoRTX, and Mac.">
+<meta property="og:title" content="Jayhil Crew | Jayhil Media">
+<meta property="og:description" content="Live status of the Jayhil Media AI crew across Alienware, LenovoRTX, and Mac.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://jayhilmedia.com/og-image.png">
 <style>
 :root{--bg:#f6f7f9;--card:#fff;--ink:#1b1f24;--mute:#6b7280;--line:#e3e6ea;--ok:#16a34a;--acc:#2563eb}
 @media (prefers-color-scheme:dark){:root{--bg:#0f1115;--card:#171a20;--ink:#e7e9ee;--mute:#9097a3;--line:#262b33;--acc:#60a5fa}}
@@ -11,18 +16,23 @@ h1{margin:0 0 4px}p.sub{color:var(--mute);margin:0 0 20px}
 .agents{display:flex;flex-wrap:wrap;gap:8px}.a{padding:6px 12px;border-radius:20px;border:1px solid var(--line);text-transform:capitalize}
 .a.on{border-color:var(--ok)}.a.on::before{content:"● ";color:var(--ok)}
 .post{border-top:1px solid var(--line);padding:10px 0}.post:first-child{border-top:0}.post small{color:var(--mute)}
-a{color:var(--acc)}
+a{color:var(--acc);text-decoration:none}a:hover{text-decoration:underline}
 </style></head><body><main>
 <h1>Jayhil Crew</h1><p class="sub">Live status of the Jayhil Media AI crew · <span id="u">loading…</span></p>
 <div class="card"><b>Online now</b><div class="agents" id="ag" style="margin-top:8px"></div></div>
 <div class="card"><b>Announcements</b><div id="an"></div></div>
-<div class="card"><b>Links</b><br><a href="https://jayhilmedia.com">jayhilmedia.com</a> · <a href="../jayhil-media/">Jayhil Media page</a></div>
+<div class="card"><b>Empire Hub Pages</b><br><a href="https://jayhilmedia.com/">JayhilMedia.com</a> · <a href="/empire/">Empire Hub Directory</a> · <a href="/today/">Today's Work List</a> · <a href="/topics/">Popular Topics</a> · <a href="/drive-desk/">Drive Desk</a> · <a href="/shared-memory/">Shared Memory</a></div>
 </main><script>
-const ALL=['claude','muse','gemini','robert','alienware','msty'];
-fetch('status.json?'+Date.now()).then(r=>r.json()).then(s=>{
+const ALL=['claude','muse','gemini','antigravity','chatgpt','robert','alienware','lenovo'];
+function render(s){
  document.getElementById('u').textContent='updated '+new Date(s.updated).toLocaleString();
- document.getElementById('ag').innerHTML=ALL.map(a=>`<span class="a ${s.online.includes(a)?'on':''}">${a}</span>`).join('');
+ document.getElementById('ag').innerHTML=ALL.map(a=>`<span class="a ${(s.online||[]).includes(a)?'on':''}">${a}</span>`).join('');
  const an=s.announcements||[];const esc=t=>t.replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
- document.getElementById('an').innerHTML=an.length?an.slice().reverse().map(p=>`<div class="post">${esc(p.text)}<br><small>${p.from} · ${new Date(p.ts*1000).toLocaleString()}</small></div>`).join(''):'<p class="sub">None yet.</p>';
-}).catch(()=>document.getElementById('u').textContent='status unavailable');
+ document.getElementById('an').innerHTML=an.length?an.slice().reverse().map(p=>`<div class="post">${esc(p.text)}<br><small>${p.from} · ${new Date(p.ts*1000).toLocaleString()}</small></div>`).join(''):'<p class="sub">All crew lanes active.</p>';
+}
+fetch('status.json?'+Date.now()).then(r=>{if(!r.ok)throw 0;return r.json()}).then(render).catch(()=>{
+ fetch('https://media.jayhilmedia.com/crew/status.json?'+Date.now()).then(r=>r.json()).then(render).catch(()=>{
+  document.getElementById('u').textContent='live feed at media.jayhilmedia.com/crew/';
+ });
+});
 </script></body></html>
