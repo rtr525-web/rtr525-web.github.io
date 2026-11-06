@@ -18,8 +18,14 @@
   "status": "APPROVED"
  },
  {
+  "id": "appr-generic-industry-20261105",
+  "label": "Generic Industry Consolidation (Zimmatic/Reinke/Dawn -> Sprinkler Blueprint; Bernard/CK/Miller/Lincoln -> Arc & Anvil; Patent -> Homemade Genius; Hidden Giants/Progress -> Encyclopedia Blueprint)",
+  "date": "2026-11-05",
+  "status": "APPROVED"
+ },
+ {
   "id": "appr-starter10-20261105",
-  "label": "Starter Video Batch (10 E01 renders in pipeline/qc)",
+  "label": "Starter Video Batch (29 QC-passed E01/E02 renders in pipeline/ready)",
   "date": "2026-11-05",
   "status": "WAITING"
  },
