@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Jayhil Media</title>
 <meta name="description" content="Jayhil Media — an independent network of 50+ fact-checked educational channels from Minneola, Florida.">
 <meta property="og:title" content="Jayhil Media">
@@ -54,7 +54,7 @@
   nav ul a:hover { opacity: 1; text-decoration: none; }
   .pill { display: inline-block; background: var(--accent); color: #fff !important; opacity: 1 !important;
           padding: 5px 13px; border-radius: 980px; font-weight: 500; }
-  @media (max-width: 640px) { nav ul li:not(:last-child) { display: none; } }
+  /* iPhone touch-scroll nav enabled */
 
   /* Hero */
   .hero { padding: 120px 0 40px; overflow: hidden; }
@@ -158,23 +158,355 @@
   .reveal.in { opacity: 1; transform: none; }
   @media (prefers-reduced-motion: reduce) { .reveal { opacity: 1; transform: none; transition: none; } .orb::before { animation: none; } }
 </style>
+<style id="jm-apple-system">
+:root {
+  --jm-bg: #ffffff;
+  --jm-bg-alt: #f5f5f7;
+  --jm-card: #ffffff;
+  --jm-ink: #1d1d1f;
+  --jm-muted: #6e6e73;
+  --jm-line: #d2d2d7;
+  --jm-accent: #c2410c;
+  --jm-accent-2: #f97316;
+  --jm-link: #0066cc;
+  --jm-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  --jm-shadow-hover: 0 16px 38px rgba(0, 0, 0, 0.11);
+  /* Map legacy page variables to Apple Cupertino tokens */
+  --bg: var(--jm-bg) !important;
+  --bg-alt: var(--jm-bg-alt) !important;
+  --bg0: var(--jm-bg) !important;
+  --bg1: var(--jm-bg-alt) !important;
+  --bg2: var(--jm-card) !important;
+  --bg3: var(--jm-bg-alt) !important;
+  --panel: var(--jm-card) !important;
+  --card: var(--jm-card) !important;
+  --ink: var(--jm-ink) !important;
+  --dim: var(--jm-muted) !important;
+  --faint: var(--jm-muted) !important;
+  --mute: var(--jm-muted) !important;
+  --muted: var(--jm-muted) !important;
+  --line: var(--jm-line) !important;
+  --accent: var(--jm-accent) !important;
+  --accent2: var(--jm-accent-2) !important;
+  --gold: var(--jm-accent) !important;
+  --gold2: var(--jm-accent-2) !important;
+  --link: var(--jm-link) !important;
+  color-scheme: light dark;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --jm-bg: #000000;
+    --jm-bg-alt: #0b0b0d;
+    --jm-card: #1c1c1e;
+    --jm-ink: #f5f5f7;
+    --jm-muted: #a1a1a6;
+    --jm-line: #2c2c2e;
+    --jm-accent: #f97316;
+    --jm-accent-2: #fb923c;
+    --jm-link: #2997ff;
+    --jm-shadow: 0 6px 24px rgba(0, 0, 0, 0.45);
+    --jm-shadow-hover: 0 18px 42px rgba(0, 0, 0, 0.65);
+  }
+}
+* { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0 !important;
+  padding: 0 0 env(safe-area-inset-bottom) 0 !important;
+  background: var(--jm-bg) !important;
+  background-image: none !important;
+  color: var(--jm-ink) !important;
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "SF Pro Display", "Inter", "Segoe UI", Roboto, sans-serif !important;
+  font-size: 17px;
+  line-height: 1.5;
+  letter-spacing: -0.011em;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+a { color: var(--jm-link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Universal Apple Frosted-Glass Navigation Bar (iPhone & Desktop friendly) */
+nav.jm-apple-nav {
+  position: sticky !important;
+  top: 0 !important;
+  z-index: 9999 !important;
+  height: auto !important;
+  min-height: 52px !important;
+  background: color-mix(in srgb, var(--jm-bg) 78%, transparent) !important;
+  backdrop-filter: saturate(180%) blur(20px) !important;
+  -webkit-backdrop-filter: saturate(180%) blur(20px) !important;
+  border-bottom: 1px solid color-mix(in srgb, var(--jm-line) 65%, transparent) !important;
+  padding: 0 max(16px, env(safe-area-inset-right)) 0 max(16px, env(safe-area-inset-left)) !important;
+}
+nav.jm-apple-nav .jm-nav-inner {
+  max-width: 1120px;
+  margin: 0 auto;
+  min-height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+}
+nav.jm-apple-nav .jm-brand {
+  flex: 0 0 auto;
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  font-weight: 700;
+  font-size: 17px;
+  letter-spacing: -0.02em;
+  color: var(--jm-ink) !important;
+  text-decoration: none !important;
+  padding: 6px 0;
+}
+nav.jm-apple-nav .jm-brand-dot {
+  width: 26px;
+  height: 26px;
+  border-radius: 8px;
+  background: linear-gradient(135deg, #f97316, #c2410c);
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 800;
+  display: inline-grid;
+  place-items: center;
+  letter-spacing: -0.03em;
+}
+nav.jm-apple-nav .jm-links {
+  display: flex !important;
+  align-items: center;
+  gap: 6px;
+  list-style: none !important;
+  margin: 0 !important;
+  padding: 6px 0 !important;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+  white-space: nowrap;
+}
+nav.jm-apple-nav .jm-links::-webkit-scrollbar { display: none; }
+nav.jm-apple-nav .jm-links li {
+  display: inline-flex !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  background: transparent !important;
+  border: 0 !important;
+  box-shadow: none !important;
+}
+nav.jm-apple-nav .jm-links a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 36px;
+  padding: 6px 13px;
+  border-radius: 980px;
+  font-size: 13.5px;
+  font-weight: 600;
+  color: var(--jm-ink) !important;
+  opacity: 0.82;
+  text-decoration: none !important;
+  transition: background 0.2s, opacity 0.2s, color 0.2s;
+}
+nav.jm-apple-nav .jm-links a:hover {
+  opacity: 1;
+  background: color-mix(in srgb, var(--jm-ink) 8%, transparent);
+}
+nav.jm-apple-nav .jm-links a.active {
+  opacity: 1;
+  background: var(--jm-accent) !important;
+  color: #ffffff !important;
+}
+
+/* Statusbar & Live Clock — clean Apple pill telemetry bar */
+.statusbar, .empire-statusbar {
+  display: flex !important;
+  flex-wrap: wrap;
+  gap: 6px 18px !important;
+  align-items: center;
+  justify-content: center;
+  background: var(--jm-bg-alt) !important;
+  color: var(--jm-muted) !important;
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Inter", sans-serif !important;
+  font-size: 12.5px !important;
+  font-weight: 500 !important;
+  padding: 8px 16px !important;
+  margin: 0 !important;
+  border-radius: 0 !important;
+  border-bottom: 1px solid color-mix(in srgb, var(--jm-line) 65%, transparent) !important;
+  font-variant-numeric: tabular-nums;
+}
+.statusbar .liveclock, .empire-statusbar #empire-clock {
+  color: var(--jm-accent) !important;
+  font-weight: 600;
+}
+
+/* Remove legacy Windows 95 / Netscape browser chrome on /today/ and /topics/ */
+.navtitle, .navtoolbar, .navloc, .navstatus, nav.back {
+  display: none !important;
+}
+.navframe {
+  max-width: 1000px !important;
+  margin: 0 auto !important;
+  background: transparent !important;
+  border: 0 !important;
+  box-shadow: none !important;
+  padding: 0 max(20px, env(safe-area-inset-right)) 48px max(20px, env(safe-area-inset-left)) !important;
+}
+.navcontent {
+  background: transparent !important;
+  padding: 36px 0 0 !important;
+}
+.navcontent .statusbar {
+  border-radius: 980px !important;
+  border: 1px solid var(--jm-line) !important;
+  margin: 0 0 28px 0 !important;
+  padding: 8px 18px !important;
+}
+.navcontent h1, main h1 {
+  font-size: clamp(36px, 6vw, 56px) !important;
+  line-height: 1.06 !important;
+  font-weight: 800 !important;
+  letter-spacing: -0.035em !important;
+  color: var(--jm-ink) !important;
+  margin: 0 0 8px !important;
+}
+.navcontent .date, .stamp {
+  font-size: 14px !important;
+  font-weight: 600 !important;
+  color: var(--jm-accent) !important;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin: 0 0 8px !important;
+}
+.navcontent .head {
+  font-size: clamp(18px, 2.2vw, 22px) !important;
+  font-weight: 500 !important;
+  color: var(--jm-muted) !important;
+  margin: 0 0 28px !important;
+  line-height: 1.4;
+}
+.navcontent ul > li {
+  background: var(--jm-card) !important;
+  border: 1px solid color-mix(in srgb, var(--jm-line) 70%, transparent) !important;
+  border-radius: 20px !important;
+  padding: 18px 22px !important;
+  margin: 0 0 14px !important;
+  box-shadow: var(--jm-shadow) !important;
+  color: var(--jm-ink) !important;
+}
+.navcontent .tag, .navcontent .feeds {
+  background: color-mix(in srgb, var(--jm-accent) 14%, transparent) !important;
+  border: 1px solid color-mix(in srgb, var(--jm-accent) 30%, transparent) !important;
+  color: var(--jm-accent) !important;
+  border-radius: 980px !important;
+  padding: 4px 12px !important;
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Inter", sans-serif !important;
+  font-size: 12px !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.03em;
+}
+.navcontent h2.day {
+  font-size: 26px !important;
+  font-weight: 700 !important;
+  letter-spacing: -0.025em;
+  color: var(--jm-ink) !important;
+  border-top: 1px solid var(--jm-line) !important;
+  padding-top: 28px !important;
+  margin: 36px 0 6px !important;
+}
+.navcontent h3.lane {
+  color: var(--jm-accent) !important;
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", sans-serif !important;
+  font-size: 13px !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.08em !important;
+  margin: 22px 0 10px !important;
+}
+.navcontent li h4 { color: var(--jm-ink) !important; font-size: 17px !important; font-weight: 700 !important; }
+.navcontent li p, .navcontent li p.why { color: var(--jm-ink) !important; font-size: 15.5px !important; }
+.navcontent .src { color: var(--jm-muted) !important; }
+
+/* Upgrade /empire/ totals, movers, filter input, and cards to Apple Cupertino */
+.totals { gap: 14px !important; margin: 24px 0 8px !important; }
+.tot {
+  background: var(--jm-card) !important;
+  border: 1px solid color-mix(in srgb, var(--jm-line) 70%, transparent) !important;
+  border-radius: 20px !important;
+  padding: 16px 20px !important;
+  min-width: 140px !important;
+  box-shadow: var(--jm-shadow) !important;
+}
+.totnum {
+  font-size: 28px !important;
+  font-weight: 800 !important;
+  letter-spacing: -0.035em !important;
+  color: var(--jm-ink) !important;
+}
+.totlab {
+  font-size: 11.5px !important;
+  font-weight: 600 !important;
+  color: var(--jm-muted) !important;
+  margin-top: 4px;
+}
+.movers h2 {
+  color: var(--jm-ink) !important;
+  border-bottom: 1px solid var(--jm-line) !important;
+}
+.mbar {
+  background: var(--jm-bg-alt) !important;
+  border: 1px solid var(--jm-line) !important;
+  border-radius: 980px !important;
+  overflow: hidden;
+  height: 12px !important;
+}
+.mfill {
+  background: linear-gradient(90deg, var(--jm-accent), var(--jm-accent-2)) !important;
+  border-radius: 980px;
+}
+.mgain { color: var(--jm-accent) !important; }
+.toc {
+  top: 52px !important;
+  background: color-mix(in srgb, var(--jm-bg) 82%, transparent) !important;
+  backdrop-filter: saturate(180%) blur(18px) !important;
+  -webkit-backdrop-filter: saturate(180%) blur(18px) !important;
+}
+#filter, input, select, textarea {
+  font-size: 17px !important; /* Prevents iOS Safari auto-zoom on tap */
+  border-radius: 14px !important;
+}
+.cbtn, .card, .stat {
+  background: var(--jm-card) !important;
+  border: 1px solid color-mix(in srgb, var(--jm-line) 70%, transparent) !important;
+  border-radius: 22px !important;
+  box-shadow: var(--jm-shadow) !important;
+}
+a.cbtn:hover {
+  box-shadow: var(--jm-shadow-hover) !important;
+  border-color: var(--jm-accent) !important;
+}
+table {
+  background: var(--jm-card) !important;
+  border-radius: 18px !important;
+}
+th, td {
+  border-bottom: 1px solid color-mix(in srgb, var(--jm-line) 65%, transparent) !important;
+}
+.rawwrap, .tablewrap {
+  overflow-x: auto !important;
+  -webkit-overflow-scrolling: touch !important;
+  border-radius: 20px !important;
+  border: 1px solid var(--jm-line) !important;
+  background: var(--jm-card) !important;
+}
+@media (max-width: 640px) {
+  .mrow { flex-wrap: wrap; gap: 6px !important; }
+  .mname { flex: 1 1 100% !important; }
+  .mgain { flex: 0 0 auto !important; }
+}
+</style>
 </head>
 <body>
+<nav class="jm-apple-nav" aria-label="Jayhil Media Network"><div class="jm-nav-inner"><a class="jm-brand" href="https://jayhilmedia.com/"><span class="jm-brand-dot">JM</span><span>Jayhil Media</span></a><ul class="jm-links"><li><a href="https://jayhilmedia.com/" class="active">Home</a></li><li><a href="/empire/">Empire Hub</a></li><li><a href="/winter-park-road/">Winter Park Road</a></li><li><a href="/today/">Today</a></li><li><a href="/topics/">Topics</a></li><li><a href="/crew/">Crew</a></li><li><a href="/shared-memory/">Shared Memory</a></li><li><a href="/drive-desk/">Drive Desk</a></li><li><a href="/ai-sync/">AI Sync</a></li></ul></div></nav>
 
-<nav>
-  <div class="wrap">
-    <a class="brand" href="#top">Jayhil Media</a>
-    <ul>
-      <li><a href="#story">Story</a></li>
-      <li><a href="#channels">Channels</a></li>
-      <li><a href="/winter-park-road/">Winter Park Road</a></li>
-      <li><a href="/empire/">Empire Hub</a></li>
-      <li><a href="/today/">Today</a></li>
-      <li><a href="/crew/">Crew</a></li>
-      <li><a class="pill" href="#contact">Contact</a></li>
-    </ul>
-  </div>
-</nav>
 
 <header class="hero center" id="top">
   <div class="wrap">
