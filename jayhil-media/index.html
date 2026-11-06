@@ -2,20 +2,13 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Jayhil Media</title>
-<meta name="description" content="Jayhil Media — an independent network of 50+ fact-checked educational channels from Minneola, Florida.">
+<meta name="description" content="Jayhil Media — an independent network of 80+ educational channels and Pages from Minneola, Florida.">
 <meta property="og:title" content="Jayhil Media">
-<meta property="og:description" content="An independent network of 50+ fact-checked educational channels from Minneola, Florida.">
+<meta property="og:description" content="An independent network of 80+ narrated, blueprint-style educational channels and Pages from Minneola, Florida.">
 <meta property="og:type" content="website">
-<meta property="og:image" content="https://jayhilmedia.com/og-image.png">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="630">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="https://jayhilmedia.com/og-image.png">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='32' fill='%23c2410c'/%3E%3Ctext x='32' y='43' font-family='Arial,sans-serif' font-size='30' font-weight='700' fill='%23fff' text-anchor='middle'%3EJM%3C/text%3E%3C/svg%3E">
-<link rel="canonical" href="https://jayhilmedia.com/">
-<meta property="og:url" content="https://jayhilmedia.com/">
+<link rel="icon" href="../icon-192.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -54,7 +47,7 @@
   nav ul a:hover { opacity: 1; text-decoration: none; }
   .pill { display: inline-block; background: var(--accent); color: #fff !important; opacity: 1 !important;
           padding: 5px 13px; border-radius: 980px; font-weight: 500; }
-  /* iPhone touch-scroll nav enabled */
+  @media (max-width: 640px) { nav ul li:not(:last-child) { display: none; } }
 
   /* Hero */
   .hero { padding: 120px 0 40px; overflow: hidden; }
@@ -158,362 +151,28 @@
   .reveal.in { opacity: 1; transform: none; }
   @media (prefers-reduced-motion: reduce) { .reveal { opacity: 1; transform: none; transition: none; } .orb::before { animation: none; } }
 </style>
-<style id="jm-apple-system">
-:root {
-  --jm-bg: #ffffff;
-  --jm-bg-alt: #f5f5f7;
-  --jm-card: #ffffff;
-  --jm-ink: #1d1d1f;
-  --jm-muted: #6e6e73;
-  --jm-line: #d2d2d7;
-  --jm-accent: #c2410c;
-  --jm-accent-2: #f97316;
-  --jm-link: #0066cc;
-  --jm-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
-  --jm-shadow-hover: 0 16px 38px rgba(0, 0, 0, 0.11);
-  /* Map legacy page variables to Apple Cupertino tokens */
-  --bg: var(--jm-bg) !important;
-  --bg-alt: var(--jm-bg-alt) !important;
-  --bg0: var(--jm-bg) !important;
-  --bg1: var(--jm-bg-alt) !important;
-  --bg2: var(--jm-card) !important;
-  --bg3: var(--jm-bg-alt) !important;
-  --panel: var(--jm-card) !important;
-  --card: var(--jm-card) !important;
-  --ink: var(--jm-ink) !important;
-  --dim: var(--jm-muted) !important;
-  --faint: var(--jm-muted) !important;
-  --mute: var(--jm-muted) !important;
-  --muted: var(--jm-muted) !important;
-  --line: var(--jm-line) !important;
-  --accent: var(--jm-accent) !important;
-  --accent2: var(--jm-accent-2) !important;
-  --gold: var(--jm-accent) !important;
-  --gold2: var(--jm-accent-2) !important;
-  --link: var(--jm-link) !important;
-  color-scheme: light dark;
-}
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) {
-    --jm-bg: #000000;
-    --jm-bg-alt: #0b0b0d;
-    --jm-card: #1c1c1e;
-    --jm-ink: #f5f5f7;
-    --jm-muted: #a1a1a6;
-    --jm-line: #2c2c2e;
-    --jm-accent: #f97316;
-    --jm-accent-2: #fb923c;
-    --jm-link: #2997ff;
-    --jm-shadow: 0 6px 24px rgba(0, 0, 0, 0.45);
-    --jm-shadow-hover: 0 18px 42px rgba(0, 0, 0, 0.65);
-  }
-}
-* { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
-html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
-body {
-  margin: 0 !important;
-  padding: 0 0 env(safe-area-inset-bottom) 0 !important;
-  background: var(--jm-bg) !important;
-  background-image: none !important;
-  color: var(--jm-ink) !important;
-  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "SF Pro Display", "Inter", "Segoe UI", Roboto, sans-serif !important;
-  font-size: 17px;
-  line-height: 1.5;
-  letter-spacing: -0.011em;
-  -webkit-font-smoothing: antialiased;
-  overflow-x: hidden;
-}
-a { color: var(--jm-link); text-decoration: none; }
-a:hover { text-decoration: underline; }
-
-/* Universal Apple Frosted-Glass Navigation Bar (iPhone & Desktop friendly) */
-nav.jm-apple-nav {
-  position: sticky !important;
-  top: 0 !important;
-  z-index: 9999 !important;
-  height: auto !important;
-  min-height: 52px !important;
-  background: color-mix(in srgb, var(--jm-bg) 78%, transparent) !important;
-  backdrop-filter: saturate(180%) blur(20px) !important;
-  -webkit-backdrop-filter: saturate(180%) blur(20px) !important;
-  border-bottom: 1px solid color-mix(in srgb, var(--jm-line) 65%, transparent) !important;
-  padding: 0 max(16px, env(safe-area-inset-right)) 0 max(16px, env(safe-area-inset-left)) !important;
-}
-nav.jm-apple-nav .jm-nav-inner {
-  max-width: 1120px;
-  margin: 0 auto;
-  min-height: 52px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 14px;
-}
-nav.jm-apple-nav .jm-brand {
-  flex: 0 0 auto;
-  display: inline-flex;
-  align-items: center;
-  gap: 9px;
-  font-weight: 700;
-  font-size: 17px;
-  letter-spacing: -0.02em;
-  color: var(--jm-ink) !important;
-  text-decoration: none !important;
-  padding: 6px 0;
-}
-nav.jm-apple-nav .jm-brand-dot {
-  width: 26px;
-  height: 26px;
-  border-radius: 8px;
-  background: linear-gradient(135deg, #f97316, #c2410c);
-  color: #ffffff;
-  font-size: 12px;
-  font-weight: 800;
-  display: inline-grid;
-  place-items: center;
-  letter-spacing: -0.03em;
-}
-nav.jm-apple-nav .jm-links {
-  display: flex !important;
-  align-items: center;
-  gap: 6px;
-  list-style: none !important;
-  margin: 0 !important;
-  padding: 6px 0 !important;
-  overflow-x: auto;
-  -webkit-overflow-scrolling: touch;
-  scrollbar-width: none;
-  white-space: nowrap;
-}
-nav.jm-apple-nav .jm-links::-webkit-scrollbar { display: none; }
-nav.jm-apple-nav .jm-links li {
-  display: inline-flex !important;
-  margin: 0 !important;
-  padding: 0 !important;
-  background: transparent !important;
-  border: 0 !important;
-  box-shadow: none !important;
-}
-nav.jm-apple-nav .jm-links a {
-  display: inline-flex;
-  align-items: center;
-  min-height: 36px;
-  padding: 6px 13px;
-  border-radius: 980px;
-  font-size: 13.5px;
-  font-weight: 600;
-  color: var(--jm-ink) !important;
-  opacity: 0.82;
-  text-decoration: none !important;
-  transition: background 0.2s, opacity 0.2s, color 0.2s;
-}
-nav.jm-apple-nav .jm-links a:hover {
-  opacity: 1;
-  background: color-mix(in srgb, var(--jm-ink) 8%, transparent);
-}
-nav.jm-apple-nav .jm-links a.active {
-  opacity: 1;
-  background: var(--jm-accent) !important;
-  color: #ffffff !important;
-}
-
-/* Statusbar & Live Clock — clean Apple pill telemetry bar */
-.statusbar, .empire-statusbar {
-  display: flex !important;
-  flex-wrap: wrap;
-  gap: 6px 18px !important;
-  align-items: center;
-  justify-content: center;
-  background: var(--jm-bg-alt) !important;
-  color: var(--jm-muted) !important;
-  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Inter", sans-serif !important;
-  font-size: 12.5px !important;
-  font-weight: 500 !important;
-  padding: 8px 16px !important;
-  margin: 0 !important;
-  border-radius: 0 !important;
-  border-bottom: 1px solid color-mix(in srgb, var(--jm-line) 65%, transparent) !important;
-  font-variant-numeric: tabular-nums;
-}
-.statusbar .liveclock, .empire-statusbar #empire-clock {
-  color: var(--jm-accent) !important;
-  font-weight: 600;
-}
-
-/* Remove legacy Windows 95 / Netscape browser chrome on /today/ and /topics/ */
-.navtitle, .navtoolbar, .navloc, .navstatus, nav.back {
-  display: none !important;
-}
-.navframe {
-  max-width: 1000px !important;
-  margin: 0 auto !important;
-  background: transparent !important;
-  border: 0 !important;
-  box-shadow: none !important;
-  padding: 0 max(20px, env(safe-area-inset-right)) 48px max(20px, env(safe-area-inset-left)) !important;
-}
-.navcontent {
-  background: transparent !important;
-  padding: 36px 0 0 !important;
-}
-.navcontent .statusbar {
-  border-radius: 980px !important;
-  border: 1px solid var(--jm-line) !important;
-  margin: 0 0 28px 0 !important;
-  padding: 8px 18px !important;
-}
-.navcontent h1, main h1 {
-  font-size: clamp(36px, 6vw, 56px) !important;
-  line-height: 1.06 !important;
-  font-weight: 800 !important;
-  letter-spacing: -0.035em !important;
-  color: var(--jm-ink) !important;
-  margin: 0 0 8px !important;
-}
-.navcontent .date, .stamp {
-  font-size: 14px !important;
-  font-weight: 600 !important;
-  color: var(--jm-accent) !important;
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
-  margin: 0 0 8px !important;
-}
-.navcontent .head {
-  font-size: clamp(18px, 2.2vw, 22px) !important;
-  font-weight: 500 !important;
-  color: var(--jm-muted) !important;
-  margin: 0 0 28px !important;
-  line-height: 1.4;
-}
-.navcontent ul > li {
-  background: var(--jm-card) !important;
-  border: 1px solid color-mix(in srgb, var(--jm-line) 70%, transparent) !important;
-  border-radius: 20px !important;
-  padding: 18px 22px !important;
-  margin: 0 0 14px !important;
-  box-shadow: var(--jm-shadow) !important;
-  color: var(--jm-ink) !important;
-}
-.navcontent .tag, .navcontent .feeds {
-  background: color-mix(in srgb, var(--jm-accent) 14%, transparent) !important;
-  border: 1px solid color-mix(in srgb, var(--jm-accent) 30%, transparent) !important;
-  color: var(--jm-accent) !important;
-  border-radius: 980px !important;
-  padding: 4px 12px !important;
-  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Inter", sans-serif !important;
-  font-size: 12px !important;
-  font-weight: 700 !important;
-  letter-spacing: 0.03em;
-}
-.navcontent h2.day {
-  font-size: 26px !important;
-  font-weight: 700 !important;
-  letter-spacing: -0.025em;
-  color: var(--jm-ink) !important;
-  border-top: 1px solid var(--jm-line) !important;
-  padding-top: 28px !important;
-  margin: 36px 0 6px !important;
-}
-.navcontent h3.lane {
-  color: var(--jm-accent) !important;
-  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", sans-serif !important;
-  font-size: 13px !important;
-  font-weight: 700 !important;
-  letter-spacing: 0.08em !important;
-  margin: 22px 0 10px !important;
-}
-.navcontent li h4 { color: var(--jm-ink) !important; font-size: 17px !important; font-weight: 700 !important; }
-.navcontent li p, .navcontent li p.why { color: var(--jm-ink) !important; font-size: 15.5px !important; }
-.navcontent .src { color: var(--jm-muted) !important; }
-
-/* Upgrade /empire/ totals, movers, filter input, and cards to Apple Cupertino */
-.totals { gap: 14px !important; margin: 24px 0 8px !important; }
-.tot {
-  background: var(--jm-card) !important;
-  border: 1px solid color-mix(in srgb, var(--jm-line) 70%, transparent) !important;
-  border-radius: 20px !important;
-  padding: 16px 20px !important;
-  min-width: 140px !important;
-  box-shadow: var(--jm-shadow) !important;
-}
-.totnum {
-  font-size: 28px !important;
-  font-weight: 800 !important;
-  letter-spacing: -0.035em !important;
-  color: var(--jm-ink) !important;
-}
-.totlab {
-  font-size: 11.5px !important;
-  font-weight: 600 !important;
-  color: var(--jm-muted) !important;
-  margin-top: 4px;
-}
-.movers h2 {
-  color: var(--jm-ink) !important;
-  border-bottom: 1px solid var(--jm-line) !important;
-}
-.mbar {
-  background: var(--jm-bg-alt) !important;
-  border: 1px solid var(--jm-line) !important;
-  border-radius: 980px !important;
-  overflow: hidden;
-  height: 12px !important;
-}
-.mfill {
-  background: linear-gradient(90deg, var(--jm-accent), var(--jm-accent-2)) !important;
-  border-radius: 980px;
-}
-.mgain { color: var(--jm-accent) !important; }
-.toc {
-  top: 52px !important;
-  background: color-mix(in srgb, var(--jm-bg) 82%, transparent) !important;
-  backdrop-filter: saturate(180%) blur(18px) !important;
-  -webkit-backdrop-filter: saturate(180%) blur(18px) !important;
-}
-#filter, input, select, textarea {
-  font-size: 17px !important; /* Prevents iOS Safari auto-zoom on tap */
-  border-radius: 14px !important;
-}
-.cbtn, .card, .stat {
-  background: var(--jm-card) !important;
-  border: 1px solid color-mix(in srgb, var(--jm-line) 70%, transparent) !important;
-  border-radius: 22px !important;
-  box-shadow: var(--jm-shadow) !important;
-}
-a.cbtn:hover {
-  box-shadow: var(--jm-shadow-hover) !important;
-  border-color: var(--jm-accent) !important;
-}
-table {
-  background: var(--jm-card) !important;
-  border-radius: 18px !important;
-}
-th, td {
-  border-bottom: 1px solid color-mix(in srgb, var(--jm-line) 65%, transparent) !important;
-}
-.rawwrap, .tablewrap {
-  overflow-x: auto !important;
-  -webkit-overflow-scrolling: touch !important;
-  border-radius: 20px !important;
-  border: 1px solid var(--jm-line) !important;
-  background: var(--jm-card) !important;
-}
-@media (max-width: 640px) {
-  .mrow { flex-wrap: wrap; gap: 6px !important; }
-  .mname { flex: 1 1 100% !important; }
-  .mgain { flex: 0 0 auto !important; }
-}
-</style>
 </head>
 <body>
-<nav class="jm-apple-nav" aria-label="Jayhil Media Network"><div class="jm-nav-inner"><a class="jm-brand" href="https://jayhilmedia.com/"><span class="jm-brand-dot">JM</span><span>Jayhil Media</span></a><ul class="jm-links"><li><a href="https://jayhilmedia.com/" class="active">Home</a></li><li><a href="/empire/">Empire Hub</a></li><li><a href="/winter-park-road/">Winter Park Road</a></li><li><a href="/today/">Today</a></li><li><a href="/topics/">Topics</a></li><li><a href="/crew/">Crew</a></li><li><a href="/shared-memory/">Shared Memory</a></li><li><a href="/drive-desk/">Drive Desk</a></li><li><a href="/ai-sync/">AI Sync</a></li></ul></div></nav>
+
+<nav>
+  <div class="wrap">
+    <a class="brand" href="#top">Jayhil Media</a>
+    <ul>
+      <li><a href="#story">Story</a></li>
+      <li><a href="#work">Highlights</a></li>
+      <li><a href="#channels">Channels</a></li>
+      <li><a class="pill" href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
 
 <header class="hero center" id="top">
   <div class="wrap">
     <p class="kicker reveal">Independent. Educational. Made in Florida.</p>
     <h1 class="reveal">Jayhil Media</h1>
-    <p class="reveal">Fifty-plus channels that teach real things — from sprinkler repair to national parks — all built on verified facts.</p>
+    <p class="reveal">Eighty-plus channels and Pages that teach real things — from sprinkler repair to national parks — all built on verified facts.</p>
     <div class="ctas reveal"><a class="btn" href="#channels">Watch now</a><a class="chev" href="#story">Our story</a></div>
-    <div class="orb reveal" aria-hidden="true"><span>50+</span></div>
+    <div class="orb reveal" aria-hidden="true"><span>80+</span></div>
   </div>
 </header>
 
@@ -522,8 +181,8 @@ th, td {
     <h2 class="reveal">A network that <span class="grad">never stops learning.</span></h2>
     <p class="lead reveal">Every day, new verified lessons go out across YouTube, Facebook, Instagram and TikTok.</p>
     <div class="bigstats reveal">
-      <div><b>50+</b><span>channels</span></div>
-      <div><b>11</b><span>Facebook Pages</span></div>
+      <div><b>62</b><span>YouTube channels</span></div>
+      <div><b>10+</b><span>Facebook Pages</span></div>
       <div><b>41</b><span>pieces in a single day</span></div>
       <div><b>400+</b><span>lessons ready to publish</span></div>
     </div>
@@ -580,26 +239,9 @@ th, td {
       <a class="ch reveal" href="https://www.facebook.com/profile.php?id=108870878562428"><span class="ico fb"><svg viewBox="0 0 24 24"><path d="M24 12a12 12 0 1 0-13.9 11.9v-8.4H7.1V12h3V9.4c0-3 1.8-4.7 4.5-4.7 1.3 0 2.7.2 2.7.2v2.9h-1.5c-1.5 0-2 .9-2 1.9V12h3.4l-.5 3.5h-2.9v8.4A12 12 0 0 0 24 12z"/></svg></span><span><strong>Cigar College</strong><small>Facebook</small></span></a>
       <a class="ch reveal" href="https://www.facebook.com/profile.php?id=1410648828798683"><span class="ico fb"><svg viewBox="0 0 24 24"><path d="M24 12a12 12 0 1 0-13.9 11.9v-8.4H7.1V12h3V9.4c0-3 1.8-4.7 4.5-4.7 1.3 0 2.7.2 2.7.2v2.9h-1.5c-1.5 0-2 .9-2 1.9V12h3.4l-.5 3.5h-2.9v8.4A12 12 0 0 0 24 12z"/></svg></span><span><strong>Sprinkler Blueprint</strong><small>Facebook</small></span></a>
       <a class="ch reveal" href="https://www.facebook.com/profile.php?id=1456367594217608"><span class="ico fb"><svg viewBox="0 0 24 24"><path d="M24 12a12 12 0 1 0-13.9 11.9v-8.4H7.1V12h3V9.4c0-3 1.8-4.7 4.5-4.7 1.3 0 2.7.2 2.7.2v2.9h-1.5c-1.5 0-2 .9-2 1.9V12h3.4l-.5 3.5h-2.9v8.4A12 12 0 0 0 24 12z"/></svg></span><span><strong>Florida Nature</strong><small>Facebook</small></span></a>
-      <a class="ch reveal" href="https://www.youtube.com/@WinterParkRoad"><span class="ico yt"><svg viewBox="0 0 24 24"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.6 12 3.6 12 3.6s-7.5 0-9.4.5A3 3 0 0 0 .5 6.2 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.5 9.4.5 9.4.5s7.5 0 9.4-.5a3 3 0 0 0 2.1-2.1A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.8zM9.6 15.6V8.4l6.2 3.6-6.2 3.6z"/></svg></span><span><strong>Winter Park Road</strong><small>YouTube · Winter Park &amp; Central FL history</small></span></a>
-      <a class="ch reveal" href="https://www.instagram.com/winterparkroad"><span class="ico ig"><svg viewBox="0 0 24 24"><path d="M12 2.2c3.2 0 3.6 0 4.8.1 3.3.1 4.8 1.7 4.9 4.9.1 1.3.1 1.6.1 4.8s0 3.6-.1 4.8c-.1 3.2-1.7 4.8-4.9 4.9-1.3.1-1.6.1-4.8.1s-3.6 0-4.8-.1c-3.3-.1-4.8-1.7-4.9-4.9C2.2 15.6 2.2 15.2 2.2 12s0-3.6.1-4.8C2.4 3.9 3.9 2.4 7.2 2.3 8.4 2.2 8.8 2.2 12 2.2zm0 4.7a5.1 5.1 0 1 0 0 10.2 5.1 5.1 0 0 0 0-10.2zm0 8.4a3.3 3.3 0 1 1 0-6.6 3.3 3.3 0 0 1 0 6.6zm5.3-9.8a1.2 1.2 0 1 0 0 2.4 1.2 1.2 0 0 0 0-2.4z"/></svg></span><span><strong>@winterparkroad</strong><small>Instagram · Winter Park local history</small></span></a>
-      <a class="ch reveal" href="/winter-park-road/"><span class="ico web"><svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm6.9 9h-3a15.6 15.6 0 0 0-1.2-5A8 8 0 0 1 18.9 11zM12 4a13.6 13.6 0 0 1 1.9 7h-3.8A13.6 13.6 0 0 1 12 4zM4.3 13h3a15.6 15.6 0 0 0 1.2 5A8 8 0 0 1 4.3 13zm3-2h-3a8 8 0 0 1 4.2-5 15.6 15.6 0 0 0-1.2 5zm4.7 9a13.6 13.6 0 0 1-1.9-7h3.8A13.6 13.6 0 0 1 12 20zm2.7-2a15.6 15.6 0 0 0 1.2-5h3a8 8 0 0 1-4.2 5z"/></svg></span><span><strong>Winter Park Road Guide</strong><small>jayhilmedia.com/winter-park-road</small></span></a>
+      <a class="ch reveal" href="https://www.instagram.com/winterparkroad"><span class="ico ig"><svg viewBox="0 0 24 24"><path d="M12 2.2c3.2 0 3.6 0 4.8.1 3.3.1 4.8 1.7 4.9 4.9.1 1.3.1 1.6.1 4.8s0 3.6-.1 4.8c-.1 3.2-1.7 4.8-4.9 4.9-1.3.1-1.6.1-4.8.1s-3.6 0-4.8-.1c-3.3-.1-4.8-1.7-4.9-4.9C2.2 15.6 2.2 15.2 2.2 12s0-3.6.1-4.8C2.4 3.9 3.9 2.4 7.2 2.3 8.4 2.2 8.8 2.2 12 2.2zm0 4.7a5.1 5.1 0 1 0 0 10.2 5.1 5.1 0 0 0 0-10.2zm0 8.4a3.3 3.3 0 1 1 0-6.6 3.3 3.3 0 0 1 0 6.6zm5.3-9.8a1.2 1.2 0 1 0 0 2.4 1.2 1.2 0 0 0 0-2.4z"/></svg></span><span><strong>@winterparkroad</strong><small>Instagram · Art &amp; culture</small></span></a>
+      <a class="ch reveal" href="https://rtr525-web.github.io/"><span class="ico web"><svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zm6.9 6h-3a15.7 15.7 0 0 0-1.4-3.6A8 8 0 0 1 18.9 8zM12 4c.8 1.2 1.5 2.5 1.9 4h-3.8c.4-1.5 1.1-2.8 1.9-4zM4.3 14a8 8 0 0 1 0-4h3.4a16.5 16.5 0 0 0 0 4H4.3zm.8 2h3a15.7 15.7 0 0 0 1.4 3.6A8 8 0 0 1 5.1 16zm3-8h-3a8 8 0 0 1 4.4-3.6A15.7 15.7 0 0 0 8.1 8zM12 20c-.8-1.2-1.5-2.5-1.9-4h3.8c-.4 1.5-1.1 2.8-1.9 4zm2.3-6H9.7a14.7 14.7 0 0 1 0-4h4.6a14.7 14.7 0 0 1 0 4zm.3 5.6c.6-1.1 1.1-2.3 1.4-3.6h3a8 8 0 0 1-4.4 3.6zm1.7-5.6a16.5 16.5 0 0 0 0-4h3.4a8 8 0 0 1 0 4h-3.4z"/></svg></span><span><strong>Network hub</strong><small>rtr525-web.github.io</small></span></a>
     </div>
-  </div>
-</section>
-
-<section id="network" class="center">
-  <div class="wrap">
-    <h2 class="reveal">The network, live.</h2>
-    <p class="lead reveal">Jayhil Media runs 50+ channels across YouTube, Facebook, Instagram and TikTok, with new narrated, fact-checked lessons every day. Explore them:</p>
-    <div class="channels">
-      <a class="ch reveal" href="/empire/"><span class="ico web"><svg viewBox="0 0 24 24"><path d="M4 4h6v6H4V4zm10 0h6v6h-6V4zM4 14h6v6H4v-6zm10 0h6v6h-6v-6z"/></svg></span><span><strong>Empire Hub Directory</strong><small>All 95 properties, AI Answering Machine &amp; stats</small></span></a>
-      <a class="ch reveal" href="/winter-park-road/"><span class="ico web"><svg viewBox="0 0 24 24"><path d="M12 2C8.1 2 5 5.1 5 9c0 5.2 7 13 7 13s7-7.8 7-13c0-3.9-3.1-7-7-7zm0 9.5a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5z"/></svg></span><span><strong>Winter Park Road</strong><small>Historic Winter Park &amp; Central FL landmarks</small></span></a>
-      <a class="ch reveal" href="/today/"><span class="ico web"><svg viewBox="0 0 24 24"><path d="M19 4h-1V2h-2v2H8V2H6v2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 16H5V10h14v10z"/></svg></span><span><strong>Today — Work List</strong><small>What posted &amp; what is queued today</small></span></a>
-      <a class="ch reveal" href="/topics/"><span class="ico web"><svg viewBox="0 0 24 24"><path d="M4 6h16v2H4V6zm0 5h16v2H4v-2zm0 5h10v2H4v-2z"/></svg></span><span><strong>Popular Topics</strong><small>Daily researched topics &amp; verified sources</small></span></a>
-      <a class="ch reveal" href="/crew/"><span class="ico web"><svg viewBox="0 0 24 24"><path d="M16 11c1.7 0 3-1.3 3-3s-1.3-3-3-3-3 1.3-3 3 1.3 3 3 3zm-8 0c1.7 0 3-1.3 3-3S9.7 5 8 5 5 6.3 5 8s1.3 3 3 3zm0 2c-2.3 0-7 1.2-7 3.5V19h14v-2.5c0-2.3-4.7-3.5-7-3.5zm8 0c-.3 0-.6 0-1 .1 1.2.8 2 2 2 3.4V19h6v-2.5c0-2.3-4.7-3.5-7-3.5z"/></svg></span><span><strong>AI Crew Board</strong><small>Live status of all 8 AI &amp; server seats</small></span></a>
-      <a class="ch reveal" href="/shared-memory/"><span class="ico web"><svg viewBox="0 0 24 24"><path d="M12 2L4 5v6.1c0 5 3.4 9.7 8 10.9 4.6-1.2 8-5.9 8-10.9V5l-8-3zm-1 14l-4-4 1.4-1.4 2.6 2.6 5.6-5.6L18 9l-7 7z"/></svg></span><span><strong>Shared Memory Hub</strong><small>Standing rules, ethics screen &amp; visual standards</small></span></a>
-    </div>
-    <p class="lead reveal">250+ verified lessons published · 11 Facebook Pages posting daily · new Shoe Education and Shoe University Pages · every video is fact-checked before it posts.</p>
   </div>
 </section>
 
@@ -608,7 +250,7 @@ th, td {
     <h2 class="reveal">Let's talk.</h2>
     <p class="lead reveal">Partnerships, collaborations, press or corrections — we'd love to hear from you.</p>
     <div class="formcard reveal">
-      <form id="contact-form" action="https://formsubmit.co/JayhilMedia@gmail.com" method="POST">
+      <form id="contact-form" action="FORM_ENDPOINT" method="POST">
         <div class="row">
           <label>Name<input name="name" autocomplete="name" required></label>
           <label>Email<input name="email" type="email" autocomplete="email" required></label>
@@ -628,9 +270,7 @@ th, td {
           </label>
         </div>
         <label>Message<textarea name="message" required></textarea></label>
-        <input class="hp" name="_honey" tabindex="-1" autocomplete="off" aria-hidden="true">
-        <input type="hidden" name="_subject" value="New message from jayhilmedia.com">
-        <input type="hidden" name="_next" value="https://jayhilmedia.com/?sent=1#contact">
+        <input class="hp" name="_gotcha" tabindex="-1" autocomplete="off" aria-hidden="true">
         <button class="btn" type="submit">Send request</button>
         <p class="status" id="form-status" role="status"></p>
         <p class="fine">We only use your details to reply. We never sell or share them.</p>
@@ -643,7 +283,6 @@ th, td {
   <div class="wrap">
     <span>© 2026 Jayhil Media · Minneola, Florida</span>
     <span>Independent; not affiliated with any brand mentioned.</span>
-    <span><a href="https://www.youtube.com/@JayhilMedia">YouTube</a> · <a href="https://www.facebook.com/profile.php?id=108870878562428">Facebook</a> · <a href="https://www.instagram.com/winterparkroad">Instagram</a> · <a href="https://www.tiktok.com/@mrminneola">TikTok</a> · <a href="/empire/">Empire Hub</a> · <a href="/today/">Today</a> · <a href="/topics/">Topics</a> · <a href="/shared-memory/">Shared Memory</a> · <a href="/crew/">Crew</a> · <a href="/privacy">Privacy</a> · <a href="/terms">Terms</a> · <a href="#contact">Corrections</a></span>
   </div>
 </footer>
 
@@ -654,10 +293,19 @@ th, td {
   }), { threshold: 0.12 });
   document.querySelectorAll('.reveal').forEach(el => io.observe(el));
 
-  // Show a thank-you after the form service sends the visitor back here
-  if (new URLSearchParams(location.search).get('sent') === '1') {
-    document.getElementById('form-status').textContent = 'Thanks \u2014 your request was sent. We\'ll be in touch.';
-  }
+  // Sends the form without leaving the page (Formspree-style endpoint)
+  const form = document.getElementById('contact-form');
+  const status = document.getElementById('form-status');
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    if (form.action.includes('FORM_ENDPOINT')) { status.textContent = 'The contact form is not connected yet.'; return; }
+    status.textContent = 'Sending…';
+    try {
+      const res = await fetch(form.action, { method: 'POST', body: new FormData(form), headers: { Accept: 'application/json' } });
+      if (!res.ok) throw new Error();
+      form.reset(); status.textContent = 'Thanks — your request was sent. We\'ll be in touch.';
+    } catch { status.textContent = 'Sorry, that didn\'t send. Please try again in a moment.'; }
+  });
 </script>
 </body>
 </html>

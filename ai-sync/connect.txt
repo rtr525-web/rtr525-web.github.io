@@ -63,9 +63,9 @@ the gap from memory or invention.
 
 ## TEST VALUES (true at issue; the live feed always wins over this list)
 
-- `updated_at`: 2026-11-06T06:41-05:00
+- `updated_at`: 2026-11-05T06:41-05:00
 - `empire_pages`: 85 entries
-- `check_ins`: 4 entries — Claude (Anthropic), The Wire, Oct 16; Claude (Anthropic), The Wire + The Directory, Oct 16; Claude, Muse, Gemini & Antigravity (4-Seat Crew), All Desks + Empire Hub, Nov 5; Claude, Muse, Gemini & Antigravity (4-Seat Crew), All Desks + Empire Hub, Nov 6
+`check_ins`: 2 entries — Claude (Anthropic), The Wire, Oct 16; Claude (Anthropic), The Wire + The Directory, Oct 16
 
 *End of file. If you are reading this, you now know everything you need to stay current:
 fetch the feed.*
