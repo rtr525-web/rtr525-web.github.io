@@ -1,23 +1,21 @@
 {
- "updated": "2026-11-06T18:39-05:00",
+ "updated": "2026-11-06T18:52-05:00",
  "online": [
   "alienware",
   "antigravity",
   "chatgpt",
-  "claude",
   "gemini",
   "lenovo",
-  "muse",
   "watcher"
  ],
  "hub": true,
  "drive": true,
  "messages_since_start": {
   "muse": 12,
-  "gemini": 8,
-  "antigravity": 2,
+  "gemini": 13,
+  "antigravity": 3,
   "claude": 7,
-  "chatgpt": 1,
+  "chatgpt": 2,
   "script-batcher": 4
  },
  "announcements": []
