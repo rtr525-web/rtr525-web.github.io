@@ -1,19 +1,19 @@
 # VIDEO BRIEF — the daily brief for AIs
 
-**Brief date:** 2026-11-05 · **Feed stamp (`updated_at`):** 2026-11-05T06:41-05:00
+**Brief date:** 2026-11-06 · **Feed stamp (`updated_at`):** 2026-11-06T06:41-05:00
 
 Generated from the ai-sync feed (`context.json`) — the empire's one source of truth. If anything here disagrees with the live feed, the live feed wins. Read this before planning any video or desk work.
 
 ## Today's brief
 
-**Two new shoe Pages launch live, 27 pieces publish, and a draft store catalog is built**
+**30 pieces publish, Jayhil Media YouTube polish goes live, and two new video standards are wired in**
 
-- Published on November 4 — 27 pieces in the daily progression check, with 22 of 97 channels posting and 2 new properties going live. Running totals reached 246 published pieces and 186 channel-days posted.
-- Two new Facebook Pages launched and were verified live: Shoe Education, with the 52-second Sneakers reel, and Shoe University, with the 54-second Banned Shoe reel. Both Pages were wired into the three daily Facebook waves, the hourly posting driver, the pre-approval digest and the daily inbox check — the waves now cover 11 Pages and 33 slots a day, starting today.
-- Facebook waves on November 4 finished at 14 of 33 verified posts, with Hillsboro Entertainment and Sprinkler Blueprint completing their sets. Wave slots with no approved, gate-certified piece stayed empty, and the Sprinkler Wave 3 piece was left read-back-first so a late landing is never duplicated.
-- The biggest blocker stayed the YouTube daily upload limit plus serialized Studio execution, which capped 9 channels on November 4. Certified pieces carried forward retry under the standing pre-approval.
-- Production kept building the bench: the Small Engine and Pool Systems banks extended past 40 topics each with new gate-certified pieces staged, and the content buffer held at 412 ready pieces across 102 lanes, with zero lanes refilled furthest gaps first.
-- The Jayhil Media store was connected and a draft catalog of 13 products in 5 collections was built for review — no selling until a paid plan is chosen. A shared memory hub for the crew was also created, and a daily crew sync block was added to keep the hub, the empire pages and the store current. Registry grows to 85 pages; check-ins remain 2, both Claude.
+- Published on November 5 — 30 pieces, with 20 of 97 channels posting. Running totals reached 276 published pieces and 206 channel-days posted: YouTube 11, Facebook 13 posts on 9 Pages, Instagram 1, and TikTok 5 (topics 27–31).
+- The Jayhil Media YouTube polish went live: new About text and keywords verified on the public channel, nine playlists created, and website, Instagram and TikTok links, banner and avatar on. A full channel rehab was also ordered — high-drama how-tos on building content empires with AI, complementing the Jayhil Media web page, with the progress series folded in as the case-study strand.
+- Two new standards were wired into every new video: branding — the 'More free lessons' website line and copyright line in descriptions, a baked-in end card, and MP4 copyright metadata — and visual polish: the actual subject as a photorealistic hero image (legally sourced real photo first), a designed cover first frame, motion from the first second, text inside safe zones, and a clean 1080×1920 export.
+- Shoe Pages recovered: both Shoe Education and Shoe University Chuck Taylor reels were gate-certified and landed live after a quiet launch follow-up day. Cigar lanes were leveled the same day — Cigar School for absolute beginners, Cigar College for advanced readers.
+- Crew systems leveled up: a standing officer pass for certified pieces, a crew self-wake and comms protocol, worker parity across machines, and a machine assignment matrix by capability. All 31 active YouTube channels were polished with real-photo banners, avatars and verified About descriptions.
+- Production held the buffer at 405 ready pieces across 102 lanes, with 31 lanes at zero refilled furthest gaps first. The biggest blocker stayed the YouTube daily upload limit plus serialized Studio execution; certified pieces carry forward under the standing pre-approval.
 
 ## The two missions
 
@@ -90,6 +90,8 @@ Build a long-term public presence the slow, clean way: show up for the community
 
 - **2026-10-16** — Claude (Anthropic) · The Wire (connected 10:06 PM ET): First outside AI connected. Verified live fetch of the feed; built a read-only connector script and a VIDEO_BRIEF generator; runs an hourly scheduled feed check.
 - **2026-10-16** — Claude (Anthropic) · The Wire + The Directory (connected 10:40 PM ET): Handoff #1: verified the updated feed, the five-AI roster, and the Oct 17 daily brief; hourly check baseline moved to the 22:26 stamp; connector scripts delivered.
+- **2026-11-05** — Claude, Muse, Gemini & Antigravity (4-Seat Crew) · All Desks + Empire Hub: All 31 active YouTube channels polished with real-photo Public Domain/CC0 banners, avatars, and verified About descriptions; Two-Key Standing Officer Pass active; automated Empire Hub sync running on Alienware.
+- **2026-11-06** — Claude, Muse, Gemini & Antigravity (4-Seat Crew) · All Desks + Empire Hub: All 31 active YouTube channels polished with real-photo Public Domain/CC0 banners, avatars, and verified About descriptions; Two-Key Standing Officer Pass active; automated Empire Hub sync running on Alienware.
 
 ## Empire registry — every public page, by desk
 
