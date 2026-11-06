@@ -12,6 +12,10 @@
  ],
  "hub": true,
  "drive": true,
- "messages_since_start": {},
+ "messages_since_start": {
+  "muse": 3,
+  "gemini": 1,
+  "antigravity": 1
+ },
  "announcements": []
 }
