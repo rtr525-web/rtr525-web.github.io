@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Winter Park Road — Historic Winter Park &amp; Central Florida | Jayhil Media</title>
+<meta name="description" content="Winter Park Road roams Winter Park and Central Florida — the historic places, the verified stories behind them, and the day trips worth taking. Real photography and archival history by Jayhil Media.">
+<meta name="theme-color" content="#0d1520">
+<meta property="og:title" content="Winter Park Road — Historic Winter Park &amp; Central Florida | Jayhil Media">
+<meta property="og:description" content="Street by street, landmark by landmark: verified local history of Winter Park and Central Florida with real archival photography.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://jayhilmedia.com/winter-park-road/">
+<meta property="og:image" content="https://media.jayhilmedia.com/crew/assets/channels/UCmejZbuwCYXwiu8934UQteQ_banner.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://media.jayhilmedia.com/crew/assets/channels/UCmejZbuwCYXwiu8934UQteQ_banner.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #0b1118;
+    --bg-alt: #111a24;
+    --card: #16212e;
+    --card-hover: #1c2a3b;
+    --ink: #f4f6f8;
+    --muted: #9fb0c4;
+    --gold: #e5a93c;
+    --accent: #4ecdc4;
+    --line: rgba(255, 255, 255, 0.1);
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+  a { color: var(--gold); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+
+  .empire-statusbar {
+    display: flex; justify-content: space-between; gap: 1rem; flex-wrap: wrap;
+    background: #070b10; color: #dbe7f3; padding: 0.55rem 1.25rem;
+    font: 600 0.82rem/1.4 ui-monospace, Menlo, Consolas, monospace;
+    letter-spacing: 0.04em; border-bottom: 2px solid var(--gold);
+  }
+  .empire-statusbar a { color: var(--gold); }
+
+  nav.topnav {
+    position: sticky; top: 0; z-index: 50;
+    background: rgba(11, 17, 24, 0.88);
+    backdrop-filter: saturate(180%) blur(18px);
+    border-bottom: 1px solid var(--line);
+  }
+  nav.topnav .wrap {
+    max-width: 1140px; margin: 0 auto; padding: 0 24px;
+    height: 58px; display: flex; align-items: center; justify-content: space-between;
+  }
+  .brand {
+    display: flex; align-items: center; gap: 12px;
+    font-family: "Archivo", sans-serif; font-weight: 700; font-size: 18px; color: var(--ink);
+  }
+  .brand img {
+    width: 36px; height: 36px; border-radius: 50%; object-fit: cover;
+    border: 2px solid var(--gold);
+  }
+  nav.topnav ul {
+    display: flex; gap: 22px; list-style: none; margin: 0; padding: 0; font-size: 14px;
+  }
+  nav.topnav a { color: var(--muted); font-weight: 500; }
+  nav.topnav a:hover { color: var(--ink); text-decoration: none; }
+  .pill-btn {
+    background: var(--gold); color: #0b1118 !important; padding: 7px 16px;
+    border-radius: 999px; font-weight: 700 !important;
+  }
+
+  .hero {
+    position: relative;
+    padding: 84px 24px 72px;
+    background:
+      linear-gradient(180deg, rgba(11, 17, 24, 0.72) 0%, rgba(11, 17, 24, 0.92) 75%, var(--bg) 100%),
+      url("https://media.jayhilmedia.com/crew/assets/channels/UCmejZbuwCYXwiu8934UQteQ_banner.jpg") center/cover no-repeat;
+    border-bottom: 1px solid var(--line);
+    text-align: center;
+  }
+  .hero .wrap { max-width: 920px; margin: 0 auto; }
+  .hero-ava {
+    width: 108px; height: 108px; border-radius: 50%; object-fit: cover;
+    border: 3px solid var(--gold); box-shadow: 0 12px 32px rgba(0,0,0,0.55);
+    margin-bottom: 18px;
+  }
+  .kicker {
+    display: inline-block; padding: 5px 14px; border-radius: 999px;
+    background: rgba(229, 169, 60, 0.14); border: 1px solid rgba(229, 169, 60, 0.4);
+    color: var(--gold); font-size: 12px; font-weight: 700; letter-spacing: 0.12em;
+    text-transform: uppercase; margin-bottom: 14px;
+  }
+  h1 {
+    font-family: "Archivo", sans-serif;
+    font-size: clamp(38px, 6.5vw, 68px);
+    line-height: 1.06; letter-spacing: -0.025em; margin: 0 0 16px;
+  }
+  .hero p.lead {
+    font-size: clamp(17px, 2.2vw, 22px);
+    color: #d5e0ec; max-width: 720px; margin: 0 auto 28px;
+  }
+  .cta-row {
+    display: flex; flex-wrap: wrap; gap: 14px; justify-content: center;
+  }
+  .btn {
+    display: inline-flex; align-items: center; gap: 10px;
+    padding: 13px 26px; border-radius: 999px; font-weight: 700; font-size: 16px;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  .btn:hover { transform: translateY(-2px); text-decoration: none; }
+  .btn-yt { background: #ff0000; color: #fff; box-shadow: 0 8px 24px rgba(255, 0, 0, 0.28); }
+  .btn-ig { background: linear-gradient(45deg, #feda75, #d62976 50%, #4f5bd5); color: #fff; }
+  .btn-sec { background: rgba(255,255,255,0.08); color: var(--ink); border: 1px solid var(--line); }
+
+  .section { padding: 68px 24px; max-width: 1140px; margin: 0 auto; }
+  .section-head { text-align: center; max-width: 760px; margin: 0 auto 44px; }
+  .section-head h2 {
+    font-family: "Archivo", sans-serif; font-size: clamp(28px, 4vw, 42px);
+    margin: 0 0 10px; letter-spacing: -0.02em;
+  }
+  .section-head p { color: var(--muted); font-size: 17px; margin: 0; }
+
+  .stats-strip {
+    display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px;
+    margin-bottom: 56px;
+  }
+  @media (max-width: 760px) { .stats-strip { grid-template-columns: repeat(2, 1fr); } }
+  .stat-box {
+    background: var(--card); border: 1px solid var(--line); border-radius: 18px;
+    padding: 22px; text-align: center;
+  }
+  .stat-box b {
+    display: block; font-family: "Archivo", sans-serif; font-size: 34px; color: var(--gold);
+  }
+  .stat-box span { font-size: 13px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.06em; }
+
+  .banner-showcase {
+    background: var(--card); border: 1px solid var(--line); border-radius: 22px;
+    overflow: hidden; margin-bottom: 56px;
+    box-shadow: 0 18px 42px rgba(0,0,0,0.35);
+  }
+  .banner-showcase img {
+    width: 100%; max-height: 400px; object-fit: cover; display: block;
+  }
+  .banner-caption {
+    padding: 18px 24px; display: flex; flex-wrap: wrap; justify-content: space-between;
+    align-items: center; gap: 12px; font-size: 14px; color: var(--muted);
+    background: rgba(0,0,0,0.25);
+  }
+  .badge-real {
+    display: inline-block; padding: 4px 12px; border-radius: 999px;
+    background: rgba(78, 205, 196, 0.15); border: 1px solid rgba(78, 205, 196, 0.4);
+    color: var(--accent); font-weight: 700; font-size: 12px;
+  }
+
+  .grid {
+    display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 20px;
+  }
+  .ep-card {
+    background: var(--card); border: 1px solid var(--line); border-radius: 18px;
+    padding: 22px 24px; display: flex; flex-direction: column; justify-content: space-between;
+    transition: transform 0.2s, border-color 0.2s, background 0.2s;
+  }
+  .ep-card:hover {
+    transform: translateY(-3px); border-color: var(--gold); background: var(--card-hover);
+  }
+  .ep-top { display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px; }
+  .ep-num {
+    font-family: ui-monospace, Menlo, Consolas, monospace; font-size: 12px; font-weight: 700;
+    color: var(--gold); background: rgba(229, 169, 60, 0.12); padding: 3px 10px; border-radius: 999px;
+  }
+  .ep-tag {
+    font-size: 11px; font-weight: 700; letter-spacing: 0.05em; text-transform: uppercase;
+    padding: 3px 9px; border-radius: 999px; background: rgba(78, 205, 196, 0.14); color: var(--accent);
+  }
+  .ep-card h3 {
+    font-family: "Archivo", sans-serif; font-size: 19px; margin: 0 0 8px; color: var(--ink);
+  }
+  .ep-card p { font-size: 14px; color: var(--muted); margin: 0 0 16px; }
+  .ep-links {
+    display: flex; gap: 12px; font-size: 13px; font-weight: 600; border-top: 1px solid var(--line);
+    padding-top: 12px;
+  }
+
+  footer {
+    background: #070b10; border-top: 1px solid var(--line);
+    padding: 40px 24px; text-align: center; color: var(--muted); font-size: 14px;
+  }
+  footer .wrap { max-width: 1140px; margin: 0 auto; }
+  footer .links { display: flex; flex-wrap: wrap; gap: 16px; justify-content: center; margin-bottom: 14px; }
+</style>
+</head>
+<body>
+
+<div class="empire-statusbar">
+  <span>● Last updated: Thursday, November 5, 2026 — 9:53 PM ET</span>
+  <span><a href="https://jayhilmedia.com/">Jayhil Media</a> · <a href="/empire/">Empire Hub</a> · <a href="/today/">Today</a> · <a href="/crew/">Crew</a></span>
+</div>
+
+<nav class="topnav">
+  <div class="wrap">
+    <a class="brand" href="https://jayhilmedia.com/">
+      <img src="https://media.jayhilmedia.com/crew/assets/channels/UCmejZbuwCYXwiu8934UQteQ_avatar.png" alt="Winter Park Road">
+      <span>Winter Park Road</span>
+    </a>
+    <ul>
+      <li><a href="#landmarks">Landmarks &amp; Reels</a></li>
+      <li><a href="#standard">Real-Photo Standard</a></li>
+      <li><a href="/empire/">Empire Hub</a></li>
+      <li><a class="pill-btn" href="https://www.youtube.com/@WinterParkRoad" target="_blank" rel="noopener">YouTube</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="wrap">
+    <img class="hero-ava" src="https://media.jayhilmedia.com/crew/assets/channels/UCmejZbuwCYXwiu8934UQteQ_avatar.png" alt="Winter Park Road Avatar">
+    <div><span class="kicker">Winter Park &amp; Central Florida History</span></div>
+    <h1>Winter Park Road</h1>
+    <p class="lead">Street by street, landmark by landmark — the historic places of Winter Park and Central Florida, the verified stories behind them, and the day trips worth taking.</p>
+    <div class="cta-row">
+      <a class="btn btn-yt" href="https://www.youtube.com/@WinterParkRoad" target="_blank" rel="noopener">Watch on YouTube (@WinterParkRoad)</a>
+      <a class="btn btn-ig" href="https://www.instagram.com/winterparkroad" target="_blank" rel="noopener">Follow @winterparkroad on Instagram</a>
+      <a class="btn btn-sec" href="/empire/#cat-local-and-news">View in Empire Hub</a>
+    </div>
+  </div>
+</header>
+
+<main class="section">
+  <div class="stats-strip">
+    <div class="stat-box"><b>613</b><span>Verified Florida Historic Sites</span></div>
+    <div class="stat-box"><b>259</b><span>Sourced Landmark Stories</span></div>
+    <div class="stat-box"><b>100%</b><span>Real Archival Photography</span></div>
+    <div class="stat-box"><b>3× / wk</b><span>Tue · Thu · Sun Drops</span></div>
+  </div>
+
+  <div class="banner-showcase" id="standard">
+    <img src="https://media.jayhilmedia.com/crew/assets/channels/UCmejZbuwCYXwiu8934UQteQ_banner.jpg" alt="Historic Rollins College &amp; Virginia Inn, Winter Park, Florida">
+    <div class="banner-caption">
+      <div>
+        <span class="badge-real">REAL PHOTOGRAPHY &amp; ARCHIVAL HISTORY</span>
+        <strong style="color:var(--ink);margin-left:8px;">Visual Standard (Nov 5, 2026):</strong> Every Winter Park Road feature uses authentic archival photography (State Archives of Florida / Florida Memory, Library of Congress, USGS, and Wikimedia Commons PD/CC0) with animated pan-and-zoom — no blueprint line drawings or synthetic stand-ins.
+      </div>
+      <span>Channel ID: <code>UCmejZbuwCYXwiu8934UQteQ</code></span>
+    </div>
+  </div>
+
+  <div class="section-head" id="landmarks">
+    <h2>Season 1 — Winter Park Landmarks</h2>
+    <p>Verified historical stories from Winter Park, Florida — cross-posted across YouTube Shorts and Instagram Reels, plus monthly deep-dive documentaries.</p>
+  </div>
+
+  <div class="grid">
+    <article class="ep-card">
+      <div>
+        <div class="ep-top"><span class="ep-num">WPR #01 · 1981</span><span class="ep-tag">Real-Photo Remake</span></div>
+        <h3>The 1981 Sinkhole That Became Lake Rose</h3>
+        <p>In May 1981, a massive karst sinkhole opened on West Fairbanks Avenue in Winter Park, swallowing a three-bedroom house, five Porsches, a camper, and the deep end of the municipal Olympic pool — becoming Lake Rose.</p>
+      </div>
+      <div class="ep-links">
+        <a href="https://www.youtube.com/@WinterParkRoad" target="_blank" rel="noopener">YouTube (@WinterParkRoad) →</a>
+        <a href="https://www.instagram.com/reel/DeiTSflj4gk/" target="_blank" rel="noopener">Instagram Reel →</a>
+      </div>
+    </article>
+
+    <article class="ep-card">
+      <div>
+        <div class="ep-top"><span class="ep-num">WPR #02 · 1881</span><span class="ep-tag">Historic District</span></div>
+        <h3>Hannibal Square — The West Side That Built Winter Park</h3>
+        <p>Founded in 1881 for the Black families, carpenters, masons, and citrus workers who built Winter Park's railroads, streets, and estates — and whose votes in 1887 secured the town's charter.</p>
+      </div>
+      <div class="ep-links">
+        <a href="https://www.youtube.com/@WinterParkRoad" target="_blank" rel="noopener">YouTube →</a>
+        <a href="https://www.instagram.com/winterparkroad" target="_blank" rel="noopener">Instagram →</a>
+      </div>
+    </article>
+
+    <article class="ep-card">
+      <div>
+        <div class="ep-top"><span class="ep-num">WPR #03 · 1950</span><span class="ep-tag">Museum &amp; Gardens</span></div>
+        <h3>Albin Polasek — The Sculptor Who Worked With One Hand</h3>
+        <p>After suffering a paralyzing stroke at age 70 upon retiring to Lake Osceola in Winter Park, Czech-American sculptor Albin Polasek carved and modeled over a dozen monumental works using only his right hand.</p>
+      </div>
+      <div class="ep-links">
+        <a href="https://www.youtube.com/@WinterParkRoad" target="_blank" rel="noopener">YouTube →</a>
+        <a href="https://www.instagram.com/winterparkroad" target="_blank" rel="noopener">Instagram →</a>
+      </div>
+    </article>
+
+    <article class="ep-card">
+      <div>
+        <div class="ep-top"><span class="ep-num">WPR #04 · 1933 / 2000</span><span class="ep-tag">Architecture</span></div>
+        <h3>Casa Feliz — The 750-Ton House They Hauled Across Town</h3>
+        <p>Designed by architect James Gamble Rogers II in 1933 using reclaimed 19th-century Andalusian-style brick, the Barbour estate was saved from demolition in 2000 by rolling all 750 tons down Interlachen Avenue.</p>
+      </div>
+      <div class="ep-links">
+        <a href="https://www.youtube.com/@WinterParkRoad" target="_blank" rel="noopener">YouTube →</a>
+        <a href="https://www.instagram.com/winterparkroad" target="_blank" rel="noopener">Instagram →</a>
+      </div>
+    </article>
+
+    <article class="ep-card">
+      <div>
+        <div class="ep-top"><span class="ep-num">WPR #05 · 1930s</span><span class="ep-tag">Chain of Lakes</span></div>
+        <h3>Genius Drive &amp; The Peacocks of Wind Song</h3>
+        <p>How industrialist Charles Hosmer Morse's granddaughter Jeannette Genius McKean turned a winding lakeside lane between Lake Mizell and Lake Virginia into a sanctuary for art and free-roaming peafowl.</p>
+      </div>
+      <div class="ep-links">
+        <a href="https://www.youtube.com/@WinterParkRoad" target="_blank" rel="noopener">YouTube →</a>
+        <a href="https://www.instagram.com/winterparkroad" target="_blank" rel="noopener">Instagram →</a>
+      </div>
+    </article>
+
+    <article class="ep-card">
+      <div>
+        <div class="ep-top"><span class="ep-num">WPR #06 · 1932</span><span class="ep-tag">Rollins College</span></div>
+        <h3>Annie Russell Theatre — Florida's Historic Stage</h3>
+        <p>Built in 1932 on the Rollins College campus in Spanish Colonial Revival style for legendary stage actress Annie Russell — the longest continuously operating theater in Florida.</p>
+      </div>
+      <div class="ep-links">
+        <a href="https://www.youtube.com/@WinterParkRoad" target="_blank" rel="noopener">YouTube →</a>
+        <a href="https://www.instagram.com/winterparkroad" target="_blank" rel="noopener">Instagram →</a>
+      </div>
+    </article>
+
+    <article class="ep-card">
+      <div>
+        <div class="ep-top"><span class="ep-num">WPR #07 · 1938</span><span class="ep-tag">Lake Maitland</span></div>
+        <h3>Kraft Azalea Garden — The Exedra on Lake Maitland</h3>
+        <p>Opened in 1938 on a shaded 5.2-acre peninsula jutting into Lake Maitland, anchored by giant bald cypresses and the neoclassical marble Exedra monument donated by Judge Leonard Wood.</p>
+      </div>
+      <div class="ep-links">
+        <a href="https://www.youtube.com/@WinterParkRoad" target="_blank" rel="noopener">YouTube →</a>
+        <a href="https://www.instagram.com/winterparkroad" target="_blank" rel="noopener">Instagram →</a>
+      </div>
+    </article>
+
+    <article class="ep-card">
+      <div>
+        <div class="ep-top"><span class="ep-num">WPR #08 · 1940</span><span class="ep-tag">Botanical History</span></div>
+        <h3>Theodore Mead's 5,000 Orchids — Mead Botanical Garden</h3>
+        <p>Naturalist Theodore L. Mead spent five decades hybridizing orchids, caladiums, and amaryllis in Oviedo and Winter Park before his friends established the 47-acre Mead Botanical Garden in 1940.</p>
+      </div>
+      <div class="ep-links">
+        <a href="https://www.youtube.com/@WinterParkRoad" target="_blank" rel="noopener">YouTube →</a>
+        <a href="https://www.instagram.com/winterparkroad" target="_blank" rel="noopener">Instagram →</a>
+      </div>
+    </article>
+
+    <article class="ep-card">
+      <div>
+        <div class="ep-top"><span class="ep-num">WPR #09 · 1938</span><span class="ep-tag">Chain of Lakes</span></div>
+        <h3>The Scenic Boat Tour — Running the Logging Canals Since 1938</h3>
+        <p>Captain Walt Meloon launched the Winter Park Scenic Boat Tour in 1938, guiding open pontoon boats through the narrow brick-walled 19th-century sawdust-and-timber logging canals connecting Lakes Osceola, Virginia, and Maitland.</p>
+      </div>
+      <div class="ep-links">
+        <a href="https://www.youtube.com/@WinterParkRoad" target="_blank" rel="noopener">YouTube →</a>
+        <a href="https://www.instagram.com/reel/DfA12xjDo_c/" target="_blank" rel="noopener">Instagram Reel →</a>
+      </div>
+    </article>
+
+    <article class="ep-card">
+      <div>
+        <div class="ep-top"><span class="ep-num">WPR #10 · 1942</span><span class="ep-tag">Park Avenue</span></div>
+        <h3>The Morse Museum's Tiffany Treasure</h3>
+        <p>When Louis Comfort Tiffany's Long Island estate Laurelton Hall burned in 1957, Hugh and Jeannette McKean rescued its surviving leaded-glass windows, lamps, and the entire 1893 World's Columbian Exposition chapel for Winter Park.</p>
+      </div>
+      <div class="ep-links">
+        <a href="https://www.youtube.com/@WinterParkRoad" target="_blank" rel="noopener">YouTube →</a>
+        <a href="https://www.instagram.com/reel/DfF_k5XjNMn/" target="_blank" rel="noopener">Instagram Reel →</a>
+      </div>
+    </article>
+
+    <article class="ep-card">
+      <div>
+        <div class="ep-top"><span class="ep-num">WPR #11 · 1882</span><span class="ep-tag">Downtown</span></div>
+        <h3>Park Avenue — Winter Park's Brick Living Room</h3>
+        <p>Laid out alongside the South Florida Railroad tracks in 1882 with an open central park on one side and brick storefronts on the other — how one tree-canopied street stayed the heart of Winter Park for 140 years.</p>
+      </div>
+      <div class="ep-links">
+        <a href="https://www.youtube.com/@WinterParkRoad" target="_blank" rel="noopener">YouTube →</a>
+        <a href="https://www.instagram.com/reel/DfIkC1HjgWx/" target="_blank" rel="noopener">Instagram Reel →</a>
+      </div>
+    </article>
+
+    <article class="ep-card">
+      <div>
+        <div class="ep-top"><span class="ep-num">WPR #12 · 1885</span><span class="ep-tag">Higher Education</span></div>
+        <h3>Rollins College — Florida's First College &amp; Mister Rogers' Alma Mater</h3>
+        <p>Founded by New England Congregationalists in 1885 on the shores of Lake Virginia — where Fred Rogers graduated in 1951 with a degree in music composition and found the life philosophy behind Mister Rogers' Neighborhood.</p>
+      </div>
+      <div class="ep-links">
+        <a href="https://www.youtube.com/@WinterParkRoad" target="_blank" rel="noopener">YouTube →</a>
+        <a href="https://www.instagram.com/reel/DfLI4wkj5UG/" target="_blank" rel="noopener">Instagram Reel →</a>
+      </div>
+    </article>
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="links">
+      <a href="https://jayhilmedia.com/">Jayhil Media Home</a>
+      <a href="/empire/">Empire Hub</a>
+      <a href="/today/">Today</a>
+      <a href="/topics/">Topics</a>
+      <a href="/shared-memory/">Shared Memory</a>
+      <a href="/crew/">Crew Status</a>
+      <a href="https://www.youtube.com/@WinterParkRoad" target="_blank" rel="noopener">YouTube (@WinterParkRoad)</a>
+      <a href="https://www.instagram.com/winterparkroad" target="_blank" rel="noopener">Instagram (@winterparkroad)</a>
+    </div>
+    <p>© 2026 Jayhil Media · Minneola &amp; Winter Park, Florida · Independent educational local history network.</p>
+  </div>
+</footer>
+
+</body>
+</html>
