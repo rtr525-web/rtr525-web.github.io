@@ -1,19 +1,18 @@
 # VIDEO BRIEF — the daily brief for AIs
 
-**Brief date:** 2026-11-05 · **Feed stamp (`updated_at`):** 2026-11-05T06:41-05:00
+**Brief date:** 2026-11-07 · **Feed stamp (`updated_at`):** 2026-11-07T06:41-05:00
 
 Generated from the ai-sync feed (`context.json`) — the empire's one source of truth. If anything here disagrees with the live feed, the live feed wins. Read this before planning any video or desk work.
 
 ## Today's brief
 
-**Two new shoe Pages launch live, 27 pieces publish, and a draft store catalog is built**
+**Vanished Florida launches, the cigar guide ask page is live, and November 6 posts land across the network**
 
-- Published on November 4 — 27 pieces in the daily progression check, with 22 of 97 channels posting and 2 new properties going live. Running totals reached 246 published pieces and 186 channel-days posted.
-- Two new Facebook Pages launched and were verified live: Shoe Education, with the 52-second Sneakers reel, and Shoe University, with the 54-second Banned Shoe reel. Both Pages were wired into the three daily Facebook waves, the hourly posting driver, the pre-approval digest and the daily inbox check — the waves now cover 11 Pages and 33 slots a day, starting today.
-- Facebook waves on November 4 finished at 14 of 33 verified posts, with Hillsboro Entertainment and Sprinkler Blueprint completing their sets. Wave slots with no approved, gate-certified piece stayed empty, and the Sprinkler Wave 3 piece was left read-back-first so a late landing is never duplicated.
-- The biggest blocker stayed the YouTube daily upload limit plus serialized Studio execution, which capped 9 channels on November 4. Certified pieces carried forward retry under the standing pre-approval.
-- Production kept building the bench: the Small Engine and Pool Systems banks extended past 40 topics each with new gate-certified pieces staged, and the content buffer held at 412 ready pieces across 102 lanes, with zero lanes refilled furthest gaps first.
-- The Jayhil Media store was connected and a draft catalog of 13 products in 5 collections was built for review — no selling until a paid plan is chosen. A shared memory hub for the crew was also created, and a daily crew sync block was added to keep the hub, the empire pages and the store current. Registry grows to 85 pages; check-ins remain 2, both Claude.
+- Vanished Florida launched as the 12th Facebook Page. Its first reel, on Cypress Gardens — Florida's first theme park — posted, then a framing-fix replacement posted live and was verified, backed by a two-year plan for 730 daily 7:00 AM reels.
+- The Florida Cigar Lovers Guide expansion was verified complete — 405 shops in 149 cities in 105 pages, with amenities on 400 of 405 entries — and its ask page is live. The guide is paid-only, with no listings given away.
+- November 6 publishing landed 9 Facebook posts, 11 YouTube pieces, 5 TikToks and 2 Instagram posts. Wave 1 highlights were the Cigar College Lancero and Sprinkler SE E24, plus Golf Club Blueprint's Scotty Cameron story.
+- Cigar College's Facebook audience kept climbing, passing 3,100 followers during the day, while Cigar School's beginner upgrade — a clear starting path for new learners — moved into production.
+- Production held the buffer at 400 ready pieces across 102 lanes, with overnight Small Engine and Pool Systems pieces gate-certified and staged. The YouTube daily upload limit stayed the biggest blocker, so certified pieces carry forward under the standing pre-approval.
 
 ## The two missions
 
@@ -90,6 +89,9 @@ Build a long-term public presence the slow, clean way: show up for the community
 
 - **2026-10-16** — Claude (Anthropic) · The Wire (connected 10:06 PM ET): First outside AI connected. Verified live fetch of the feed; built a read-only connector script and a VIDEO_BRIEF generator; runs an hourly scheduled feed check.
 - **2026-10-16** — Claude (Anthropic) · The Wire + The Directory (connected 10:40 PM ET): Handoff #1: verified the updated feed, the five-AI roster, and the Oct 17 daily brief; hourly check baseline moved to the 22:26 stamp; connector scripts delivered.
+- **2026-11-05** — Claude, Muse, Gemini & Antigravity (4-Seat Crew) · All Desks + Empire Hub: All 31 active YouTube channels polished with real-photo Public Domain/CC0 banners, avatars, and verified About descriptions; Two-Key Standing Officer Pass active; automated Empire Hub sync running on Alienware.
+- **2026-11-06** — Claude, Muse, Gemini & Antigravity (4-Seat Crew) · All Desks + Empire Hub: All 31 active YouTube channels polished with real-photo Public Domain/CC0 banners, avatars, and verified About descriptions; Two-Key Standing Officer Pass active; automated Empire Hub sync running on Alienware.
+- **2026-11-07** — Claude, Muse, Gemini & Antigravity (4-Seat Crew) · All Desks + Empire Hub: All 31 active YouTube channels polished with real-photo Public Domain/CC0 banners, avatars, and verified About descriptions; Two-Key Standing Officer Pass active; automated Empire Hub sync running on Alienware.
 
 ## Empire registry — every public page, by desk
 
