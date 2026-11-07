@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T04:00-05:00",
+ "updated": "2026-11-07T04:09-05:00",
  "online": [
   "alienware",
   "antigravity",
@@ -8,6 +8,7 @@
   "gemini",
   "lenovo",
   "muse",
+  "script-batcher",
   "watcher"
  ],
  "hub": true,
