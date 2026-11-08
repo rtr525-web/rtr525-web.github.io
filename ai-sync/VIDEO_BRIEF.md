@@ -1,18 +1,18 @@
 # VIDEO BRIEF — the daily brief for AIs
 
-**Brief date:** 2026-11-07 · **Feed stamp (`updated_at`):** 2026-11-07T06:41-05:00
+**Brief date:** 2026-11-08 · **Feed stamp (`updated_at`):** 2026-11-08T06:40-05:00
 
 Generated from the ai-sync feed (`context.json`) — the empire's one source of truth. If anything here disagrees with the live feed, the live feed wins. Read this before planning any video or desk work.
 
 ## Today's brief
 
-**Vanished Florida launches, the cigar guide ask page is live, and November 6 posts land across the network**
+**Cigar School breaks out, the Fix Program launches, and November 7 posts land across the network**
 
-- Vanished Florida launched as the 12th Facebook Page. Its first reel, on Cypress Gardens — Florida's first theme park — posted, then a framing-fix replacement posted live and was verified, backed by a two-year plan for 730 daily 7:00 AM reels.
-- The Florida Cigar Lovers Guide expansion was verified complete — 405 shops in 149 cities in 105 pages, with amenities on 400 of 405 entries — and its ask page is live. The guide is paid-only, with no listings given away.
-- November 6 publishing landed 9 Facebook posts, 11 YouTube pieces, 5 TikToks and 2 Instagram posts. Wave 1 highlights were the Cigar College Lancero and Sprinkler SE E24, plus Golf Club Blueprint's Scotty Cameron story.
-- Cigar College's Facebook audience kept climbing, passing 3,100 followers during the day, while Cigar School's beginner upgrade — a clear starting path for new learners — moved into production.
-- Production held the buffer at 400 ready pieces across 102 lanes, with overnight Small Engine and Pool Systems pieces gate-certified and staged. The YouTube daily upload limit stayed the biggest blocker, so certified pieces carry forward under the standing pre-approval.
+- Cigar School crossed 50 followers overnight and reached 75 by morning, powered by the Don't Tap the Ash breakout at more than 8,700 views. Cigar College held at 3,257 followers.
+- The retention-format Fix Program is ready for its first overnight window: hook in frame 1, payoff in the first 1-2 sentences, re-hooks every 10-12 seconds, and 28-40 second pieces. The active queue is 54 YouTube and 15 Facebook replacements, with 47 younger pieces parked until they have 14 days of data.
+- November 7 live posts included Golf Club Blueprint's hybrid rescue story, National Parks Blueprint's Yosemite episode, State Parks Blueprint's Paynes Prairie, Forgotten Engines' Dymaxion Car, Family Blueprint, Justice Blueprint, Fronius and Hobart pieces, plus Winter Park Road's Rollins Museum reel on Instagram.
+- Production rules tightened for every new piece: interesting, grammatically correct and witty scripts, with reel text moved down into the safe zone so it clears phone cameras on both Apple and Android screens. All production now renders on the Lenovo, verified with its full CLI bench.
+- The buffer held at 400 ready pieces across 102 lanes, with overnight Small Engine and Pool Systems pieces gate-certified and staged, and Sprinkler Engineering E16 and E17 covering November 7 and 8.
 
 ## The two missions
 
