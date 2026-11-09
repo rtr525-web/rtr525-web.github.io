@@ -1,18 +1,18 @@
 # VIDEO BRIEF — the daily brief for AIs
 
-**Brief date:** 2026-11-08 · **Feed stamp (`updated_at`):** 2026-11-08T06:40-05:00
+**Brief date:** 2026-11-09 · **Feed stamp (`updated_at`):** 2026-11-09T06:41-05:00
 
 Generated from the ai-sync feed (`context.json`) — the empire's one source of truth. If anything here disagrees with the live feed, the live feed wins. Read this before planning any video or desk work.
 
 ## Today's brief
 
-**Cigar School breaks out, the Fix Program launches, and November 7 posts land across the network**
+**November 8 posts land across Facebook, the surge trio completes, and Cigar College keeps climbing**
 
-- Cigar School crossed 50 followers overnight and reached 75 by morning, powered by the Don't Tap the Ash breakout at more than 8,700 views. Cigar College held at 3,257 followers.
-- The retention-format Fix Program is ready for its first overnight window: hook in frame 1, payoff in the first 1-2 sentences, re-hooks every 10-12 seconds, and 28-40 second pieces. The active queue is 54 YouTube and 15 Facebook replacements, with 47 younger pieces parked until they have 14 days of data.
-- November 7 live posts included Golf Club Blueprint's hybrid rescue story, National Parks Blueprint's Yosemite episode, State Parks Blueprint's Paynes Prairie, Forgotten Engines' Dymaxion Car, Family Blueprint, Justice Blueprint, Fronius and Hobart pieces, plus Winter Park Road's Rollins Museum reel on Instagram.
-- Production rules tightened for every new piece: interesting, grammatically correct and witty scripts, with reel text moved down into the safe zone so it clears phone cameras on both Apple and Android screens. All production now renders on the Lenovo, verified with its full CLI bench.
-- The buffer held at 400 ready pieces across 102 lanes, with overnight Small Engine and Pool Systems pieces gate-certified and staged, and Sprinkler Engineering E16 and E17 covering November 7 and 8.
+- November 8 Facebook posts verified live at the end-of-day check: Cigar College posted Straight Cut and Cap Line, Hillsboro Entertainment posted Clermont Waterfront Park and Daily Quote #27, Florida Consumer posted Tip #21, and Sports History Blueprint posted Magic's Announcement.
+- The overnight surge is complete: Florida Nature FN7, Florida's Only Bird: The Scrub-Jay, was staged and gate-certified, joining Cigar College CC-24 and Florida Consumer Tip #21. Sprinkler Engineering E17 covered November 8 and E18 covers November 9.
+- Follower growth continued on Facebook: Cigar College reached 3,497 followers and Cigar School reached 347. Florida Nature stands at 15 pieces produced, all 15 gate-certified, with 11 posted.
+- Amazon Associates was approved for the Cigar College store, opening the affiliate path for the cigar lanes. Every affiliate link carries the required disclosure: As an Amazon Associate, Cigar College earns from qualifying purchases.
+- The content buffer heads into the new week at 394 ready pieces across 102 lanes. The public Today and Shared Memory pages remain removed by design — the Empire Hub and this sync feed are the public record.
 
 ## The two missions
 
