@@ -608,7 +608,7 @@ th, td {
 
 </div>
 <script>
-fetch('context.json').then(function(r){ return r.json(); }).then(function(d){
+fetch(window.EMPIRE_CONTEXT_URL || 'context.json').then(function(r){ return r.json(); }).then(function(d){
   var list = (d && d.check_ins) || [];
   if (!list.length) return;
   var el = document.getElementById('checkin-list');
@@ -649,5 +649,6 @@ fetch('context.json').then(function(r){ return r.json(); }).then(function(d){
 })();
 </script>
 
+<script>window.EMPIRE_CONTEXT_URL = 'https://dl.dropboxusercontent.com/scl/fi/ktm05mt8efyzjjokm7zow/context.json?rlkey=szirq65g0hndykz7qb9rktm8d';</script>
 </body>
 </html>
