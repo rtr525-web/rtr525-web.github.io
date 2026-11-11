@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11T04:44-05:00",
+ "updated": "2026-11-11T04:59-05:00",
  "online": [
   "alienware",
   "antigravity",
@@ -7,6 +7,7 @@
   "claude",
   "gemini",
   "lenovo",
+  "mac",
   "muse",
   "script-batcher",
   "watcher"
@@ -14,9 +15,11 @@
  "hub": true,
  "drive": true,
  "messages_since_start": {
-  "muse": 39,
+  "muse": 41,
   "antigravity": 1,
-  "script-batcher": 5
+  "script-batcher": 5,
+  "claude": 2,
+  "gemini": 2
  },
  "announcements": []
 }
