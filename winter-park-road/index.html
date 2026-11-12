@@ -20,6 +20,41 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "NewsMediaOrganization",
+      "@id": "https://jayhilmedia.com/#organization",
+      "name": "Jayhil Media",
+      "url": "https://jayhilmedia.com/",
+      "logo": "https://jayhilmedia.com/og-image.png",
+      "description": "An independent network of 50+ fact-checked educational channels from Minneola, Florida.",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Minneola",
+        "addressRegion": "FL",
+        "addressCountry": "US"
+      },
+      "sameAs": [
+        "https://www.youtube.com/@JayhilMedia",
+        "https://www.youtube.com/@cigarcollege",
+        "https://www.youtube.com/@WinterParkRoad",
+        "https://www.instagram.com/winterparkroad",
+        "https://www.facebook.com/profile.php?id=108870878562428"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://jayhilmedia.com/#website",
+      "url": "https://jayhilmedia.com/",
+      "name": "Jayhil Media",
+      "publisher": {"@id": "https://jayhilmedia.com/#organization"}
+    }
+  ]
+}
+</script>
 <style id="jm-apple-system">
 :root {
   /* Apple Cupertino High-End Design Tokens */
@@ -480,17 +515,137 @@ h2 {
   50% { transform: translateY(-16px) scale(1.025); }
 }
 
+/* 10. Award-Winning Cool Features: Scroll Progress Bar & Dynamic Spotlight */
+#jm-scroll-progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 3px;
+  width: 0%;
+  background: linear-gradient(90deg, #f59e0b, #ea580c 55%, #ec4899 100%);
+  z-index: 100000;
+  pointer-events: none;
+  transition: width 0.08s ease-out;
+  box-shadow: 0 0 12px rgba(245, 158, 11, 0.85);
+}
+.spotlight-card {
+  position: relative;
+  overflow: hidden;
+}
+.spotlight-card::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: radial-gradient(400px circle at var(--mouse-x, -500px) var(--mouse-y, -500px), rgba(245, 158, 11, 0.14), transparent 50%);
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.35s ease;
+}
+.spotlight-card:hover::after {
+  opacity: 1;
+}
+
+/* 11. Mobile Perfection (iPhone SE to Pro Max) */
+@media (max-width: 640px) {
+  .hero { padding: 48px 0 20px !important; }
+  section { padding: 56px 0 !important; }
+  .wrap {
+    padding-left: max(16px, env(safe-area-inset-left)) !important;
+    padding-right: max(16px, env(safe-area-inset-right)) !important;
+  }
+  .ctas {
+    flex-direction: column !important;
+    gap: 12px !important;
+    width: 100%;
+    max-width: 340px;
+    margin: 0 auto;
+  }
+  .btn, button.btn, .btn-secondary, .chev {
+    width: 100% !important;
+    min-height: 48px !important;
+  }
+  .bigstats, .totals {
+    grid-template-columns: 1fr 1fr !important;
+    gap: 12px !important;
+  }
+  .tiles, .channels, .principles {
+    grid-template-columns: 1fr !important;
+    gap: 14px !important;
+  }
+  .orb {
+    height: 230px !important;
+    margin: 36px auto 0 !important;
+  }
+  .orb::before {
+    width: 220px !important;
+    height: 220px !important;
+  }
+  .orb span {
+    font-size: 46px !important;
+  }
+  .formcard {
+    padding: 24px 18px !important;
+  }
+  .row {
+    grid-template-columns: 1fr !important;
+  }
+}
+@media (max-width: 360px) {
+  .orb { height: 180px !important; }
+  .orb::before { width: 170px !important; height: 170px !important; }
+  .orb span { font-size: 36px !important; }
+  h1 { font-size: 34px !important; }
+  h2 { font-size: 26px !important; }
+}
+
 @media (prefers-reduced-motion: reduce) {
   * { animation: none !important; transition: none !important; }
   .reveal { opacity: 1 !important; transform: none !important; }
 }
 </style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "NewsMediaOrganization",
+      "@id": "https://jayhilmedia.com/#organization",
+      "name": "Jayhil Media",
+      "url": "https://jayhilmedia.com/",
+      "logo": "https://jayhilmedia.com/og-image.png",
+      "description": "An independent network of 50+ fact-checked educational channels from Minneola, Florida.",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Minneola",
+        "addressRegion": "FL",
+        "addressCountry": "US"
+      },
+      "sameAs": [
+        "https://www.youtube.com/@JayhilMedia",
+        "https://www.youtube.com/@cigarcollege",
+        "https://www.youtube.com/@WinterParkRoad",
+        "https://www.instagram.com/winterparkroad",
+        "https://www.facebook.com/profile.php?id=108870878562428"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://jayhilmedia.com/#website",
+      "url": "https://jayhilmedia.com/",
+      "name": "Jayhil Media",
+      "publisher": {"@id": "https://jayhilmedia.com/#organization"}
+    }
+  ]
+}
+</script>
 </head>
 <body>
+<div id="jm-scroll-progress" aria-hidden="true"></div>
 <nav class="jm-apple-nav" aria-label="Jayhil Media Network"><div class="jm-nav-inner"><a class="jm-brand" href="https://jayhilmedia.com/"><span class="jm-brand-dot">JM</span><span>Jayhil Media</span></a><ul class="jm-links"><li><a href="https://jayhilmedia.com/">Home</a></li><li><a href="/winter-park-road/" class="active">Winter Park Road</a></li><li><a href="/topics/">Topics</a></li></ul></div></nav>
 
 <div class="statusbar">
-  <span>● Last updated: Wednesday, November 11, 2026 — 9:52 PM ET</span>
+  <span>● Last updated: Wednesday, November 11, 2026 — 10:01 PM ET</span>
   <span>Winter Park &amp; Central Florida Archival History</span>
 </div>
 
@@ -504,9 +659,9 @@ h2 {
       <a class="btn" href="https://www.youtube.com/@WinterParkRoad" target="_blank" rel="noopener">Watch on YouTube</a>
       <a class="btn btn-secondary" href="https://www.instagram.com/winterparkroad" target="_blank" rel="noopener">Instagram (@winterparkroad)</a>
       
-    </div>
+    <button class="btn btn-secondary share-btn" onclick="jmShare()" aria-label="Share Winter Park Road"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="margin-right:7px"><path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"/><polyline points="16 6 12 2 8 6"/><line x1="12" y1="2" x2="12" y2="15"/></svg><span id="share-txt">Share</span></button></div>
 
-    <div class="showcase-card">
+    <div class="showcase-card spotlight-card">
       <img src="https://media.jayhilmedia.com/crew/assets/channels/UCmejZbuwCYXwiu8934UQteQ_banner.jpg" alt="Historic Rollins College &amp; Virginia Inn, Winter Park, Florida">
       <div class="showcase-body">
         <div>
@@ -537,7 +692,7 @@ h2 {
     <h2>Season 1 Landmarks.</h2>
     <p class="sublead">Twelve verified Winter Park stories across YouTube Shorts and Instagram Reels.</p>
     <div class="tiles">
-      <article class="tile">
+      <article class="tile spotlight-card">
         <div>
           <div class="tile-meta"><span class="tile-num">WPR #01 · May 1981</span><span class="tile-badge">Lake Rose</span></div>
           <h3>The 1981 Sinkhole That Became Lake Rose</h3>
@@ -549,7 +704,7 @@ h2 {
         </div>
       </article>
 
-      <article class="tile">
+      <article class="tile spotlight-card">
         <div>
           <div class="tile-meta"><span class="tile-num">WPR #02 · 1881</span><span class="tile-badge">Historic District</span></div>
           <h3>Hannibal Square — The West Side That Built Winter Park</h3>
@@ -561,7 +716,7 @@ h2 {
         </div>
       </article>
 
-      <article class="tile">
+      <article class="tile spotlight-card">
         <div>
           <div class="tile-meta"><span class="tile-num">WPR #03 · 1950</span><span class="tile-badge">Lake Osceola</span></div>
           <h3>Albin Polasek — The Sculptor Who Worked With One Hand</h3>
@@ -573,7 +728,7 @@ h2 {
         </div>
       </article>
 
-      <article class="tile">
+      <article class="tile spotlight-card">
         <div>
           <div class="tile-meta"><span class="tile-num">WPR #04 · 1933 / 2000</span><span class="tile-badge">Architecture</span></div>
           <h3>Casa Feliz — The 750-Ton House They Hauled Across Town</h3>
@@ -585,7 +740,7 @@ h2 {
         </div>
       </article>
 
-      <article class="tile">
+      <article class="tile spotlight-card">
         <div>
           <div class="tile-meta"><span class="tile-num">WPR #05 · 1930s</span><span class="tile-badge">Chain of Lakes</span></div>
           <h3>Genius Drive &amp; The Peacocks of Wind Song</h3>
@@ -597,7 +752,7 @@ h2 {
         </div>
       </article>
 
-      <article class="tile">
+      <article class="tile spotlight-card">
         <div>
           <div class="tile-meta"><span class="tile-num">WPR #06 · 1932</span><span class="tile-badge">Rollins Campus</span></div>
           <h3>Annie Russell Theatre — Florida's Historic Stage</h3>
@@ -609,7 +764,7 @@ h2 {
         </div>
       </article>
 
-      <article class="tile">
+      <article class="tile spotlight-card">
         <div>
           <div class="tile-meta"><span class="tile-num">WPR #07 · 1938</span><span class="tile-badge">Lake Maitland</span></div>
           <h3>Kraft Azalea Garden — The Exedra on Lake Maitland</h3>
@@ -621,7 +776,7 @@ h2 {
         </div>
       </article>
 
-      <article class="tile">
+      <article class="tile spotlight-card">
         <div>
           <div class="tile-meta"><span class="tile-num">WPR #08 · 1940</span><span class="tile-badge">Botanical</span></div>
           <h3>Theodore Mead's 5,000 Orchids — Mead Botanical Garden</h3>
@@ -633,7 +788,7 @@ h2 {
         </div>
       </article>
 
-      <article class="tile">
+      <article class="tile spotlight-card">
         <div>
           <div class="tile-meta"><span class="tile-num">WPR #09 · 1938</span><span class="tile-badge">Logging Canals</span></div>
           <h3>The Scenic Boat Tour — Running the Canals Since 1938</h3>
@@ -645,7 +800,7 @@ h2 {
         </div>
       </article>
 
-      <article class="tile">
+      <article class="tile spotlight-card">
         <div>
           <div class="tile-meta"><span class="tile-num">WPR #10 · 1942</span><span class="tile-badge">Park Avenue</span></div>
           <h3>The Morse Museum's Tiffany Treasure</h3>
@@ -657,7 +812,7 @@ h2 {
         </div>
       </article>
 
-      <article class="tile">
+      <article class="tile spotlight-card">
         <div>
           <div class="tile-meta"><span class="tile-num">WPR #11 · 1882</span><span class="tile-badge">Downtown</span></div>
           <h3>Park Avenue — Winter Park's Brick Living Room</h3>
@@ -669,7 +824,7 @@ h2 {
         </div>
       </article>
 
-      <article class="tile">
+      <article class="tile spotlight-card">
         <div>
           <div class="tile-meta"><span class="tile-num">WPR #12 · 1885</span><span class="tile-badge">Lake Virginia</span></div>
           <h3>Rollins College — Florida's First College &amp; Mister Rogers</h3>
@@ -691,5 +846,45 @@ h2 {
   </div>
 </footer>
 
+<script id="jm-apple-fx">
+// Scroll progress bar
+window.addEventListener('scroll', () => {
+  const winScroll = document.documentElement.scrollTop || document.body.scrollTop;
+  const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  const scrolled = height > 0 ? (winScroll / height) * 100 : 0;
+  const bar = document.getElementById('jm-scroll-progress');
+  if (bar) bar.style.width = scrolled + '%';
+}, { passive: true });
+
+// Spotlight cursor tracking across cards
+document.addEventListener('pointermove', (e) => {
+  document.querySelectorAll('.spotlight-card, .card, .tile, .ch').forEach(el => {
+    const rect = el.getBoundingClientRect();
+    el.style.setProperty('--mouse-x', `${e.clientX - rect.left}px`);
+    el.style.setProperty('--mouse-y', `${e.clientY - rect.top}px`);
+  });
+}, { passive: true });
+
+// Native Share API or Clipboard Fallback
+function jmShare() {
+  const data = {
+    title: document.title || 'Jayhil Media',
+    text: 'Independent network of 50+ fact-checked educational channels.',
+    url: window.location.href
+  };
+  if (navigator.share) {
+    navigator.share(data).catch(() => {});
+  } else {
+    navigator.clipboard.writeText(window.location.href).then(() => {
+      const el = document.getElementById('share-txt');
+      if (el) {
+        const orig = el.textContent;
+        el.textContent = 'Copied ✓';
+        setTimeout(() => el.textContent = orig, 2200);
+      }
+    });
+  }
+}
+</script>
 </body>
 </html>

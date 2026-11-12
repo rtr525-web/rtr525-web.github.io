@@ -101,6 +101,89 @@ a { color:#0000ee; }
 <meta property="og:image" content="https://jayhilmedia.com/og-image.png">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="https://jayhilmedia.com/og-image.png">
+<style>
+/* Apple Newsroom Live Topic Search */
+.topic-search-wrap {
+  max-width: 680px;
+  margin: 0 auto 36px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+}
+.search-input-box {
+  position: relative;
+  width: 100%;
+}
+.search-icon {
+  position: absolute;
+  left: 18px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--jm-accent);
+  pointer-events: none;
+}
+#topic-search {
+  width: 100%;
+  padding-left: 48px !important;
+  background: rgba(22, 22, 26, 0.75) !important;
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.12) !important;
+  border-radius: 980px !important;
+  font-size: 16px !important;
+}
+.search-meta {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 13px;
+  color: var(--jm-muted);
+}
+.search-badge {
+  background: rgba(245, 158, 11, 0.12);
+  border: 1px solid rgba(245, 158, 11, 0.3);
+  color: var(--jm-accent);
+  padding: 4px 14px;
+  border-radius: 980px;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+}
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "NewsMediaOrganization",
+      "@id": "https://jayhilmedia.com/#organization",
+      "name": "Jayhil Media",
+      "url": "https://jayhilmedia.com/",
+      "logo": "https://jayhilmedia.com/og-image.png",
+      "description": "An independent network of 50+ fact-checked educational channels from Minneola, Florida.",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Minneola",
+        "addressRegion": "FL",
+        "addressCountry": "US"
+      },
+      "sameAs": [
+        "https://www.youtube.com/@JayhilMedia",
+        "https://www.youtube.com/@cigarcollege",
+        "https://www.youtube.com/@WinterParkRoad",
+        "https://www.instagram.com/winterparkroad",
+        "https://www.facebook.com/profile.php?id=108870878562428"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://jayhilmedia.com/#website",
+      "url": "https://jayhilmedia.com/",
+      "name": "Jayhil Media",
+      "publisher": {"@id": "https://jayhilmedia.com/#organization"}
+    }
+  ]
+}
+</script>
 <style id="jm-apple-system">
 :root {
   /* Apple Cupertino High-End Design Tokens */
@@ -561,12 +644,132 @@ h2 {
   50% { transform: translateY(-16px) scale(1.025); }
 }
 
+/* 10. Award-Winning Cool Features: Scroll Progress Bar & Dynamic Spotlight */
+#jm-scroll-progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 3px;
+  width: 0%;
+  background: linear-gradient(90deg, #f59e0b, #ea580c 55%, #ec4899 100%);
+  z-index: 100000;
+  pointer-events: none;
+  transition: width 0.08s ease-out;
+  box-shadow: 0 0 12px rgba(245, 158, 11, 0.85);
+}
+.spotlight-card {
+  position: relative;
+  overflow: hidden;
+}
+.spotlight-card::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: radial-gradient(400px circle at var(--mouse-x, -500px) var(--mouse-y, -500px), rgba(245, 158, 11, 0.14), transparent 50%);
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.35s ease;
+}
+.spotlight-card:hover::after {
+  opacity: 1;
+}
+
+/* 11. Mobile Perfection (iPhone SE to Pro Max) */
+@media (max-width: 640px) {
+  .hero { padding: 48px 0 20px !important; }
+  section { padding: 56px 0 !important; }
+  .wrap {
+    padding-left: max(16px, env(safe-area-inset-left)) !important;
+    padding-right: max(16px, env(safe-area-inset-right)) !important;
+  }
+  .ctas {
+    flex-direction: column !important;
+    gap: 12px !important;
+    width: 100%;
+    max-width: 340px;
+    margin: 0 auto;
+  }
+  .btn, button.btn, .btn-secondary, .chev {
+    width: 100% !important;
+    min-height: 48px !important;
+  }
+  .bigstats, .totals {
+    grid-template-columns: 1fr 1fr !important;
+    gap: 12px !important;
+  }
+  .tiles, .channels, .principles {
+    grid-template-columns: 1fr !important;
+    gap: 14px !important;
+  }
+  .orb {
+    height: 230px !important;
+    margin: 36px auto 0 !important;
+  }
+  .orb::before {
+    width: 220px !important;
+    height: 220px !important;
+  }
+  .orb span {
+    font-size: 46px !important;
+  }
+  .formcard {
+    padding: 24px 18px !important;
+  }
+  .row {
+    grid-template-columns: 1fr !important;
+  }
+}
+@media (max-width: 360px) {
+  .orb { height: 180px !important; }
+  .orb::before { width: 170px !important; height: 170px !important; }
+  .orb span { font-size: 36px !important; }
+  h1 { font-size: 34px !important; }
+  h2 { font-size: 26px !important; }
+}
+
 @media (prefers-reduced-motion: reduce) {
   * { animation: none !important; transition: none !important; }
   .reveal { opacity: 1 !important; transform: none !important; }
 }
 </style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "NewsMediaOrganization",
+      "@id": "https://jayhilmedia.com/#organization",
+      "name": "Jayhil Media",
+      "url": "https://jayhilmedia.com/",
+      "logo": "https://jayhilmedia.com/og-image.png",
+      "description": "An independent network of 50+ fact-checked educational channels from Minneola, Florida.",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Minneola",
+        "addressRegion": "FL",
+        "addressCountry": "US"
+      },
+      "sameAs": [
+        "https://www.youtube.com/@JayhilMedia",
+        "https://www.youtube.com/@cigarcollege",
+        "https://www.youtube.com/@WinterParkRoad",
+        "https://www.instagram.com/winterparkroad",
+        "https://www.facebook.com/profile.php?id=108870878562428"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://jayhilmedia.com/#website",
+      "url": "https://jayhilmedia.com/",
+      "name": "Jayhil Media",
+      "publisher": {"@id": "https://jayhilmedia.com/#organization"}
+    }
+  ]
+}
+</script>
 </head><body>
+<div id="jm-scroll-progress" aria-hidden="true"></div>
 <nav class="jm-apple-nav" aria-label="Jayhil Media Network"><div class="jm-nav-inner"><a class="jm-brand" href="https://jayhilmedia.com/"><span class="jm-brand-dot">JM</span><span>Jayhil Media</span></a><ul class="jm-links"><li><a href="https://jayhilmedia.com/">Home</a></li><li><a href="/winter-park-road/">Winter Park Road</a></li><li><a href="/topics/" class="active">Topics</a></li></ul></div></nav>
 
 <a class="skiplink" href="#content">Skip to content</a>
@@ -575,7 +778,7 @@ h2 {
 <div class="navtoolbar"><span class="navbtn">&#9664; Back</span><span class="navbtn">Forward &#9654;</span><span class="navbtn">&#8635; Reload</span><span class="navbtn">&#8962; Home</span><span class="navbtn">Search</span><span class="navbtn">Print</span></div>
 <div class="navloc"><label>Location:</label><span class="navurl">https://rtr525-web.github.io/topics/</span></div>
 <div class="navcontent" id="content">
-<div class="statusbar"><span>Last updated: Wednesday, November 11, 2026 — 9:52 PM ET</span><span>Eastern now: <span class="liveclock">—</span></span></div><h1>Popular Topics — Daily Log</h1>
+<div class="statusbar"><span>Last updated: Wednesday, November 11, 2026 — 10:01 PM ET</span><span>Eastern now: <span class="liveclock">—</span></span></div><h1>Popular Topics — Daily Log</h1>
 <p class="date">A working resource for the empire: what is popular today, why, and which channel it can feed.</p><p class="head">Researched fresh every morning. Every topic is real and sourced — nothing invented. Consumer prices are never listed (education-only rule).</p>
 <h2 class="day">Wednesday, November 11, 2026</h2>
 <p class="searched">Researched Wednesday, November 11, 2026 (America/New_York) — web news search + social search (Instagram / Facebook / Threads, posts since Nov 1, 2026).</p>
@@ -1730,5 +1933,70 @@ h2 {
     requestAnimationFrame(step);
   });
 })();
+</script>
+
+<script id="jm-topic-search-js">
+(function(){
+  const input = document.getElementById('topic-search');
+  if (!input) return;
+  window.addEventListener('keydown', (e) => {
+    if (e.key === '/' && document.activeElement !== input) {
+      e.preventDefault();
+      input.focus();
+    }
+  });
+  input.addEventListener('input', () => {
+    const q = input.value.toLowerCase().trim();
+    let visible = 0;
+    document.querySelectorAll('.navcontent ul > li').forEach(li => {
+      const match = !q || li.textContent.toLowerCase().includes(q);
+      li.style.display = match ? 'block' : 'none';
+      if (match) visible++;
+    });
+    const badge = document.getElementById('topic-count');
+    if (badge) badge.textContent = q ? `${visible} verified matches` : 'All verified research active';
+  });
+})();
+</script>
+
+<script id="jm-apple-fx">
+// Scroll progress bar
+window.addEventListener('scroll', () => {
+  const winScroll = document.documentElement.scrollTop || document.body.scrollTop;
+  const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  const scrolled = height > 0 ? (winScroll / height) * 100 : 0;
+  const bar = document.getElementById('jm-scroll-progress');
+  if (bar) bar.style.width = scrolled + '%';
+}, { passive: true });
+
+// Spotlight cursor tracking across cards
+document.addEventListener('pointermove', (e) => {
+  document.querySelectorAll('.spotlight-card, .card, .tile, .ch').forEach(el => {
+    const rect = el.getBoundingClientRect();
+    el.style.setProperty('--mouse-x', `${e.clientX - rect.left}px`);
+    el.style.setProperty('--mouse-y', `${e.clientY - rect.top}px`);
+  });
+}, { passive: true });
+
+// Native Share API or Clipboard Fallback
+function jmShare() {
+  const data = {
+    title: document.title || 'Jayhil Media',
+    text: 'Independent network of 50+ fact-checked educational channels.',
+    url: window.location.href
+  };
+  if (navigator.share) {
+    navigator.share(data).catch(() => {});
+  } else {
+    navigator.clipboard.writeText(window.location.href).then(() => {
+      const el = document.getElementById('share-txt');
+      if (el) {
+        const orig = el.textContent;
+        el.textContent = 'Copied ✓';
+        setTimeout(() => el.textContent = orig, 2200);
+      }
+    });
+  }
+}
 </script>
 </body></html>

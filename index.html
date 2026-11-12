@@ -19,6 +19,41 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "NewsMediaOrganization",
+      "@id": "https://jayhilmedia.com/#organization",
+      "name": "Jayhil Media",
+      "url": "https://jayhilmedia.com/",
+      "logo": "https://jayhilmedia.com/og-image.png",
+      "description": "An independent network of 50+ fact-checked educational channels from Minneola, Florida.",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Minneola",
+        "addressRegion": "FL",
+        "addressCountry": "US"
+      },
+      "sameAs": [
+        "https://www.youtube.com/@JayhilMedia",
+        "https://www.youtube.com/@cigarcollege",
+        "https://www.youtube.com/@WinterParkRoad",
+        "https://www.instagram.com/winterparkroad",
+        "https://www.facebook.com/profile.php?id=108870878562428"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://jayhilmedia.com/#website",
+      "url": "https://jayhilmedia.com/",
+      "name": "Jayhil Media",
+      "publisher": {"@id": "https://jayhilmedia.com/#organization"}
+    }
+  ]
+}
+</script>
 <style id="jm-apple-system">
 :root {
   /* Apple Cupertino High-End Design Tokens */
@@ -479,13 +514,133 @@ h2 {
   50% { transform: translateY(-16px) scale(1.025); }
 }
 
+/* 10. Award-Winning Cool Features: Scroll Progress Bar & Dynamic Spotlight */
+#jm-scroll-progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 3px;
+  width: 0%;
+  background: linear-gradient(90deg, #f59e0b, #ea580c 55%, #ec4899 100%);
+  z-index: 100000;
+  pointer-events: none;
+  transition: width 0.08s ease-out;
+  box-shadow: 0 0 12px rgba(245, 158, 11, 0.85);
+}
+.spotlight-card {
+  position: relative;
+  overflow: hidden;
+}
+.spotlight-card::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: radial-gradient(400px circle at var(--mouse-x, -500px) var(--mouse-y, -500px), rgba(245, 158, 11, 0.14), transparent 50%);
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.35s ease;
+}
+.spotlight-card:hover::after {
+  opacity: 1;
+}
+
+/* 11. Mobile Perfection (iPhone SE to Pro Max) */
+@media (max-width: 640px) {
+  .hero { padding: 48px 0 20px !important; }
+  section { padding: 56px 0 !important; }
+  .wrap {
+    padding-left: max(16px, env(safe-area-inset-left)) !important;
+    padding-right: max(16px, env(safe-area-inset-right)) !important;
+  }
+  .ctas {
+    flex-direction: column !important;
+    gap: 12px !important;
+    width: 100%;
+    max-width: 340px;
+    margin: 0 auto;
+  }
+  .btn, button.btn, .btn-secondary, .chev {
+    width: 100% !important;
+    min-height: 48px !important;
+  }
+  .bigstats, .totals {
+    grid-template-columns: 1fr 1fr !important;
+    gap: 12px !important;
+  }
+  .tiles, .channels, .principles {
+    grid-template-columns: 1fr !important;
+    gap: 14px !important;
+  }
+  .orb {
+    height: 230px !important;
+    margin: 36px auto 0 !important;
+  }
+  .orb::before {
+    width: 220px !important;
+    height: 220px !important;
+  }
+  .orb span {
+    font-size: 46px !important;
+  }
+  .formcard {
+    padding: 24px 18px !important;
+  }
+  .row {
+    grid-template-columns: 1fr !important;
+  }
+}
+@media (max-width: 360px) {
+  .orb { height: 180px !important; }
+  .orb::before { width: 170px !important; height: 170px !important; }
+  .orb span { font-size: 36px !important; }
+  h1 { font-size: 34px !important; }
+  h2 { font-size: 26px !important; }
+}
+
 @media (prefers-reduced-motion: reduce) {
   * { animation: none !important; transition: none !important; }
   .reveal { opacity: 1 !important; transform: none !important; }
 }
 </style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "NewsMediaOrganization",
+      "@id": "https://jayhilmedia.com/#organization",
+      "name": "Jayhil Media",
+      "url": "https://jayhilmedia.com/",
+      "logo": "https://jayhilmedia.com/og-image.png",
+      "description": "An independent network of 50+ fact-checked educational channels from Minneola, Florida.",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Minneola",
+        "addressRegion": "FL",
+        "addressCountry": "US"
+      },
+      "sameAs": [
+        "https://www.youtube.com/@JayhilMedia",
+        "https://www.youtube.com/@cigarcollege",
+        "https://www.youtube.com/@WinterParkRoad",
+        "https://www.instagram.com/winterparkroad",
+        "https://www.facebook.com/profile.php?id=108870878562428"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://jayhilmedia.com/#website",
+      "url": "https://jayhilmedia.com/",
+      "name": "Jayhil Media",
+      "publisher": {"@id": "https://jayhilmedia.com/#organization"}
+    }
+  ]
+}
+</script>
 </head>
 <body>
+<div id="jm-scroll-progress" aria-hidden="true"></div>
 <nav class="jm-apple-nav" aria-label="Jayhil Media Network"><div class="jm-nav-inner"><a class="jm-brand" href="https://jayhilmedia.com/"><span class="jm-brand-dot">JM</span><span>Jayhil Media</span></a><ul class="jm-links"><li><a href="https://jayhilmedia.com/" class="active">Home</a></li><li><a href="/winter-park-road/">Winter Park Road</a></li><li><a href="/topics/">Topics</a></li></ul></div></nav>
 
 <header class="hero center" id="top">
@@ -493,7 +648,7 @@ h2 {
     <p class="kicker reveal">Independent. Educational. Made in Florida.</p>
     <h1 class="reveal">Jayhil Media</h1>
     <p class="reveal">Fifty-plus channels that teach real things — from sprinkler repair to national parks — all built on verified facts.</p>
-    <div class="ctas reveal"><a class="btn" href="#channels">Watch now</a><a class="chev" href="#story">Our story</a></div>
+    <div class="ctas reveal"><a class="btn" href="#channels">Watch now</a><a class="chev" href="#story">Our story</a><button class="btn btn-secondary share-btn" onclick="jmShare()" aria-label="Share Jayhil Media"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="margin-right:7px"><path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"/><polyline points="16 6 12 2 8 6"/><line x1="12" y1="2" x2="12" y2="15"/></svg><span id="share-txt">Share</span></button></div>
     <div class="orb reveal" aria-hidden="true"><span>50+</span></div>
   </div>
 </header>
@@ -529,12 +684,12 @@ h2 {
     <h2 class="reveal">Highlights.</h2>
     <p class="lead reveal">What a small, focused network can build.</p>
     <div class="tiles">
-      <div class="tile reveal"><div class="n grad">314+</div><h3>Published so far</h3><p>Verified pieces published across the network — 20 of them on Nov 7, 2026 alone.</p></div>
-      <div class="tile reveal"><div class="n grad">685</div><h3>Florida golf, mapped</h3><p>Verified courses across 60 counties, with a Top 25 list.</p></div>
-      <div class="tile reveal"><div class="n grad">63</div><h3>Every national park</h3><p>Drawn and explained — plus Florida's state parks.</p></div>
-      <div class="tile reveal"><div class="n grad">23,071</div><h3>Breakout reel</h3><p>Views for Cigar School's "Don't Tap the Ash" — the network's top reel.</p></div>
-      <div class="tile reveal"><div class="n grad">50</div><h3>States of facts</h3><p>Little-known facts for every state, rolling out now.</p></div>
-      <div class="tile reveal"><div class="n grad">7</div><h3>Editorial desks</h3><p>Each with its own beat, all feeding one network.</p></div>
+      <div class="tile reveal spotlight-card"><div class="n grad">314+</div><h3>Published so far</h3><p>Verified pieces published across the network — 20 of them on Nov 7, 2026 alone.</p></div>
+      <div class="tile reveal spotlight-card"><div class="n grad">685</div><h3>Florida golf, mapped</h3><p>Verified courses across 60 counties, with a Top 25 list.</p></div>
+      <div class="tile reveal spotlight-card"><div class="n grad">63</div><h3>Every national park</h3><p>Drawn and explained — plus Florida's state parks.</p></div>
+      <div class="tile reveal spotlight-card"><div class="n grad">23,071</div><h3>Breakout reel</h3><p>Views for Cigar School's "Don't Tap the Ash" — the network's top reel.</p></div>
+      <div class="tile reveal spotlight-card"><div class="n grad">50</div><h3>States of facts</h3><p>Little-known facts for every state, rolling out now.</p></div>
+      <div class="tile reveal spotlight-card"><div class="n grad">7</div><h3>Editorial desks</h3><p>Each with its own beat, all feeding one network.</p></div>
     </div>
   </div>
 </section>
@@ -553,17 +708,24 @@ h2 {
   <div class="wrap">
     <h2 class="reveal">Watch and follow.</h2>
     <p class="lead reveal">Start with the flagships. Every channel is free.</p>
+    <div class="channel-filter-bar reveal">
+      <button class="cf-pill active" onclick="filterChannels('all', this)">All Properties</button>
+      <button class="cf-pill" onclick="filterChannels('yt', this)">YouTube Video</button>
+      <button class="cf-pill" onclick="filterChannels('fb', this)">Facebook Chronicles</button>
+      <button class="cf-pill" onclick="filterChannels('ig', this)">Instagram &amp; Visual</button>
+      <button class="cf-pill" onclick="filterChannels('web', this)">Flagships &amp; Guides</button>
+    </div>
     <div class="channels">
-      <a class="ch reveal" href="https://www.youtube.com/@JayhilMedia"><span class="ico yt"><svg viewBox="0 0 24 24"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.6 12 3.6 12 3.6s-7.5 0-9.4.5A3 3 0 0 0 .5 6.2 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.5 9.4.5 9.4.5s7.5 0 9.4-.5a3 3 0 0 0 2.1-2.1A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.8zM9.6 15.6V8.4l6.2 3.6-6.2 3.6z"/></svg></span><span><strong>Jayhil Media</strong><small>YouTube · Network station</small></span></a>
-      <a class="ch reveal" href="https://www.youtube.com/@cigarcollege"><span class="ico yt"><svg viewBox="0 0 24 24"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.6 12 3.6 12 3.6s-7.5 0-9.4.5A3 3 0 0 0 .5 6.2 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.5 9.4.5 9.4.5s7.5 0 9.4-.5a3 3 0 0 0 2.1-2.1A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.8zM9.6 15.6V8.4l6.2 3.6-6.2 3.6z"/></svg></span><span><strong>Cigar College</strong><small>YouTube · Cigar education</small></span></a>
-      <a class="ch reveal" href="https://www.youtube.com/@MinneolaMatters"><span class="ico yt"><svg viewBox="0 0 24 24"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.6 12 3.6 12 3.6s-7.5 0-9.4.5A3 3 0 0 0 .5 6.2 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.5 9.4.5 9.4.5s7.5 0 9.4-.5a3 3 0 0 0 2.1-2.1A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.8zM9.6 15.6V8.4l6.2 3.6-6.2 3.6z"/></svg></span><span><strong>MinneolaMatters</strong><small>YouTube · Local news</small></span></a>
-      <a class="ch reveal" href="https://www.youtube.com/@SprinklerBlueprint"><span class="ico yt"><svg viewBox="0 0 24 24"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.6 12 3.6 12 3.6s-7.5 0-9.4.5A3 3 0 0 0 .5 6.2 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.5 9.4.5 9.4.5s7.5 0 9.4-.5a3 3 0 0 0 2.1-2.1A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.8zM9.6 15.6V8.4l6.2 3.6-6.2 3.6z"/></svg></span><span><strong>Sprinkler Blueprint</strong><small>YouTube · Irrigation how-to</small></span></a>
-      <a class="ch reveal" href="https://www.facebook.com/profile.php?id=108870878562428"><span class="ico fb"><svg viewBox="0 0 24 24"><path d="M24 12a12 12 0 1 0-13.9 11.9v-8.4H7.1V12h3V9.4c0-3 1.8-4.7 4.5-4.7 1.3 0 2.7.2 2.7.2v2.9h-1.5c-1.5 0-2 .9-2 1.9V12h3.4l-.5 3.5h-2.9v8.4A12 12 0 0 0 24 12z"/></svg></span><span><strong>Cigar College</strong><small>Facebook</small></span></a>
-      <a class="ch reveal" href="https://www.facebook.com/profile.php?id=1410648828798683"><span class="ico fb"><svg viewBox="0 0 24 24"><path d="M24 12a12 12 0 1 0-13.9 11.9v-8.4H7.1V12h3V9.4c0-3 1.8-4.7 4.5-4.7 1.3 0 2.7.2 2.7.2v2.9h-1.5c-1.5 0-2 .9-2 1.9V12h3.4l-.5 3.5h-2.9v8.4A12 12 0 0 0 24 12z"/></svg></span><span><strong>Sprinkler Blueprint</strong><small>Facebook</small></span></a>
-      <a class="ch reveal" href="https://www.facebook.com/profile.php?id=1456367594217608"><span class="ico fb"><svg viewBox="0 0 24 24"><path d="M24 12a12 12 0 1 0-13.9 11.9v-8.4H7.1V12h3V9.4c0-3 1.8-4.7 4.5-4.7 1.3 0 2.7.2 2.7.2v2.9h-1.5c-1.5 0-2 .9-2 1.9V12h3.4l-.5 3.5h-2.9v8.4A12 12 0 0 0 24 12z"/></svg></span><span><strong>Florida Nature</strong><small>Facebook</small></span></a>
-      <a class="ch reveal" href="https://www.youtube.com/@WinterParkRoad"><span class="ico yt"><svg viewBox="0 0 24 24"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.6 12 3.6 12 3.6s-7.5 0-9.4.5A3 3 0 0 0 .5 6.2 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.5 9.4.5 9.4.5s7.5 0 9.4-.5a3 3 0 0 0 2.1-2.1A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.8zM9.6 15.6V8.4l6.2 3.6-6.2 3.6z"/></svg></span><span><strong>Winter Park Road</strong><small>YouTube · Winter Park &amp; Central FL history</small></span></a>
-      <a class="ch reveal" href="https://www.instagram.com/winterparkroad"><span class="ico ig"><svg viewBox="0 0 24 24"><path d="M12 2.2c3.2 0 3.6 0 4.8.1 3.3.1 4.8 1.7 4.9 4.9.1 1.3.1 1.6.1 4.8s0 3.6-.1 4.8c-.1 3.2-1.7 4.8-4.9 4.9-1.3.1-1.6.1-4.8.1s-3.6 0-4.8-.1c-3.3-.1-4.8-1.7-4.9-4.9C2.2 15.6 2.2 15.2 2.2 12s0-3.6.1-4.8C2.4 3.9 3.9 2.4 7.2 2.3 8.4 2.2 8.8 2.2 12 2.2zm0 4.7a5.1 5.1 0 1 0 0 10.2 5.1 5.1 0 0 0 0-10.2zm0 8.4a3.3 3.3 0 1 1 0-6.6 3.3 3.3 0 0 1 0 6.6zm5.3-9.8a1.2 1.2 0 1 0 0 2.4 1.2 1.2 0 0 0 0-2.4z"/></svg></span><span><strong>@winterparkroad</strong><small>Instagram · Winter Park local history</small></span></a>
-      <a class="ch reveal" href="/winter-park-road/"><span class="ico web"><svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm6.9 9h-3a15.6 15.6 0 0 0-1.2-5A8 8 0 0 1 18.9 11zM12 4a13.6 13.6 0 0 1 1.9 7h-3.8A13.6 13.6 0 0 1 12 4zM4.3 13h3a15.6 15.6 0 0 0 1.2 5A8 8 0 0 1 4.3 13zm3-2h-3a8 8 0 0 1 4.2-5 15.6 15.6 0 0 0-1.2 5zm4.7 9a13.6 13.6 0 0 1-1.9-7h3.8A13.6 13.6 0 0 1 12 20zm2.7-2a15.6 15.6 0 0 0 1.2-5h3a8 8 0 0 1-4.2 5z"/></svg></span><span><strong>Winter Park Road Guide</strong><small>jayhilmedia.com/winter-park-road</small></span></a>
+      <a class="ch reveal spotlight-card" href="https://www.youtube.com/@JayhilMedia"><span class="ico yt"><svg viewBox="0 0 24 24"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.6 12 3.6 12 3.6s-7.5 0-9.4.5A3 3 0 0 0 .5 6.2 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.5 9.4.5 9.4.5s7.5 0 9.4-.5a3 3 0 0 0 2.1-2.1A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.8zM9.6 15.6V8.4l6.2 3.6-6.2 3.6z"/></svg></span><span><strong>Jayhil Media</strong><small>YouTube · Network station</small></span></a>
+      <a class="ch reveal spotlight-card" href="https://www.youtube.com/@cigarcollege"><span class="ico yt"><svg viewBox="0 0 24 24"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.6 12 3.6 12 3.6s-7.5 0-9.4.5A3 3 0 0 0 .5 6.2 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.5 9.4.5 9.4.5s7.5 0 9.4-.5a3 3 0 0 0 2.1-2.1A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.8zM9.6 15.6V8.4l6.2 3.6-6.2 3.6z"/></svg></span><span><strong>Cigar College</strong><small>YouTube · Cigar education</small></span></a>
+      <a class="ch reveal spotlight-card" href="https://www.youtube.com/@MinneolaMatters"><span class="ico yt"><svg viewBox="0 0 24 24"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.6 12 3.6 12 3.6s-7.5 0-9.4.5A3 3 0 0 0 .5 6.2 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.5 9.4.5 9.4.5s7.5 0 9.4-.5a3 3 0 0 0 2.1-2.1A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.8zM9.6 15.6V8.4l6.2 3.6-6.2 3.6z"/></svg></span><span><strong>MinneolaMatters</strong><small>YouTube · Local news</small></span></a>
+      <a class="ch reveal spotlight-card" href="https://www.youtube.com/@SprinklerBlueprint"><span class="ico yt"><svg viewBox="0 0 24 24"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.6 12 3.6 12 3.6s-7.5 0-9.4.5A3 3 0 0 0 .5 6.2 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.5 9.4.5 9.4.5s7.5 0 9.4-.5a3 3 0 0 0 2.1-2.1A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.8zM9.6 15.6V8.4l6.2 3.6-6.2 3.6z"/></svg></span><span><strong>Sprinkler Blueprint</strong><small>YouTube · Irrigation how-to</small></span></a>
+      <a class="ch reveal spotlight-card" href="https://www.facebook.com/profile.php?id=108870878562428"><span class="ico fb"><svg viewBox="0 0 24 24"><path d="M24 12a12 12 0 1 0-13.9 11.9v-8.4H7.1V12h3V9.4c0-3 1.8-4.7 4.5-4.7 1.3 0 2.7.2 2.7.2v2.9h-1.5c-1.5 0-2 .9-2 1.9V12h3.4l-.5 3.5h-2.9v8.4A12 12 0 0 0 24 12z"/></svg></span><span><strong>Cigar College</strong><small>Facebook</small></span></a>
+      <a class="ch reveal spotlight-card" href="https://www.facebook.com/profile.php?id=1410648828798683"><span class="ico fb"><svg viewBox="0 0 24 24"><path d="M24 12a12 12 0 1 0-13.9 11.9v-8.4H7.1V12h3V9.4c0-3 1.8-4.7 4.5-4.7 1.3 0 2.7.2 2.7.2v2.9h-1.5c-1.5 0-2 .9-2 1.9V12h3.4l-.5 3.5h-2.9v8.4A12 12 0 0 0 24 12z"/></svg></span><span><strong>Sprinkler Blueprint</strong><small>Facebook</small></span></a>
+      <a class="ch reveal spotlight-card" href="https://www.facebook.com/profile.php?id=1456367594217608"><span class="ico fb"><svg viewBox="0 0 24 24"><path d="M24 12a12 12 0 1 0-13.9 11.9v-8.4H7.1V12h3V9.4c0-3 1.8-4.7 4.5-4.7 1.3 0 2.7.2 2.7.2v2.9h-1.5c-1.5 0-2 .9-2 1.9V12h3.4l-.5 3.5h-2.9v8.4A12 12 0 0 0 24 12z"/></svg></span><span><strong>Florida Nature</strong><small>Facebook</small></span></a>
+      <a class="ch reveal spotlight-card" href="https://www.youtube.com/@WinterParkRoad"><span class="ico yt"><svg viewBox="0 0 24 24"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.6 12 3.6 12 3.6s-7.5 0-9.4.5A3 3 0 0 0 .5 6.2 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.5 9.4.5 9.4.5s7.5 0 9.4-.5a3 3 0 0 0 2.1-2.1A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.8zM9.6 15.6V8.4l6.2 3.6-6.2 3.6z"/></svg></span><span><strong>Winter Park Road</strong><small>YouTube · Winter Park &amp; Central FL history</small></span></a>
+      <a class="ch reveal spotlight-card" href="https://www.instagram.com/winterparkroad"><span class="ico ig"><svg viewBox="0 0 24 24"><path d="M12 2.2c3.2 0 3.6 0 4.8.1 3.3.1 4.8 1.7 4.9 4.9.1 1.3.1 1.6.1 4.8s0 3.6-.1 4.8c-.1 3.2-1.7 4.8-4.9 4.9-1.3.1-1.6.1-4.8.1s-3.6 0-4.8-.1c-3.3-.1-4.8-1.7-4.9-4.9C2.2 15.6 2.2 15.2 2.2 12s0-3.6.1-4.8C2.4 3.9 3.9 2.4 7.2 2.3 8.4 2.2 8.8 2.2 12 2.2zm0 4.7a5.1 5.1 0 1 0 0 10.2 5.1 5.1 0 0 0 0-10.2zm0 8.4a3.3 3.3 0 1 1 0-6.6 3.3 3.3 0 0 1 0 6.6zm5.3-9.8a1.2 1.2 0 1 0 0 2.4 1.2 1.2 0 0 0 0-2.4z"/></svg></span><span><strong>@winterparkroad</strong><small>Instagram · Winter Park local history</small></span></a>
+      <a class="ch reveal spotlight-card" href="/winter-park-road/"><span class="ico web"><svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm6.9 9h-3a15.6 15.6 0 0 0-1.2-5A8 8 0 0 1 18.9 11zM12 4a13.6 13.6 0 0 1 1.9 7h-3.8A13.6 13.6 0 0 1 12 4zM4.3 13h3a15.6 15.6 0 0 0 1.2 5A8 8 0 0 1 4.3 13zm3-2h-3a8 8 0 0 1 4.2-5 15.6 15.6 0 0 0-1.2 5zm4.7 9a13.6 13.6 0 0 1-1.9-7h3.8A13.6 13.6 0 0 1 12 20zm2.7-2a15.6 15.6 0 0 0 1.2-5h3a8 8 0 0 1-4.2 5z"/></svg></span><span><strong>Winter Park Road Guide</strong><small>jayhilmedia.com/winter-park-road</small></span></a>
     </div>
   </div>
 </section>
@@ -574,8 +736,8 @@ h2 {
     <p class="lead reveal">Jayhil Media runs 50+ channels across YouTube, Facebook, Instagram and TikTok, with new narrated, fact-checked lessons every day. Explore them:</p>
     <div class="channels">
       
-      <a class="ch reveal" href="/winter-park-road/"><span class="ico web"><svg viewBox="0 0 24 24"><path d="M12 2C8.1 2 5 5.1 5 9c0 5.2 7 13 7 13s7-7.8 7-13c0-3.9-3.1-7-7-7zm0 9.5a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5z"/></svg></span><span><strong>Winter Park Road</strong><small>Historic Winter Park &amp; Central FL landmarks</small></span></a>
-      <a class="ch reveal" href="/topics/"><span class="ico web"><svg viewBox="0 0 24 24"><path d="M4 6h16v2H4V6zm0 5h16v2H4v-2zm0 5h10v2H4v-2z"/></svg></span><span><strong>Popular Topics</strong><small>Daily researched topics &amp; verified sources</small></span></a>
+      <a class="ch reveal spotlight-card" href="/winter-park-road/"><span class="ico web"><svg viewBox="0 0 24 24"><path d="M12 2C8.1 2 5 5.1 5 9c0 5.2 7 13 7 13s7-7.8 7-13c0-3.9-3.1-7-7-7zm0 9.5a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5z"/></svg></span><span><strong>Winter Park Road</strong><small>Historic Winter Park &amp; Central FL landmarks</small></span></a>
+      <a class="ch reveal spotlight-card" href="/topics/"><span class="ico web"><svg viewBox="0 0 24 24"><path d="M4 6h16v2H4V6zm0 5h16v2H4v-2zm0 5h10v2H4v-2z"/></svg></span><span><strong>Popular Topics</strong><small>Daily researched topics &amp; verified sources</small></span></a>
       
     </div>
     <p class="lead reveal">314+ verified lessons published · 11 Facebook Pages posting daily · new Shoe Education and Shoe University Pages · every video is fact-checked before it posts.</p>
@@ -586,7 +748,7 @@ h2 {
   <div class="wrap">
     <h2 class="reveal">Let's talk.</h2>
     <p class="lead reveal">Partnerships, collaborations, press or corrections — we'd love to hear from you.</p>
-    <div class="formcard reveal">
+    <div class="formcard reveal spotlight-card">
       <form id="contact-form" action="https://formsubmit.co/JayhilMedia@gmail.com" method="POST">
         <div class="row">
           <label>Name<input name="name" autocomplete="name" required></label>
@@ -638,6 +800,60 @@ h2 {
   if (new URLSearchParams(location.search).get('sent') === '1') {
     document.getElementById('form-status').textContent = 'Thanks \u2014 your request was sent. We\'ll be in touch.';
   }
+
+function filterChannels(cat, btn) {
+  document.querySelectorAll('.cf-pill').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  document.querySelectorAll('.channels .ch').forEach(el => {
+    if (cat === 'all') {
+      el.style.display = 'flex';
+    } else {
+      const hasClass = el.querySelector('.' + cat) !== null;
+      el.style.display = hasClass ? 'flex' : 'none';
+    }
+  });
+}
+
+</script>
+<script id="jm-apple-fx">
+// Scroll progress bar
+window.addEventListener('scroll', () => {
+  const winScroll = document.documentElement.scrollTop || document.body.scrollTop;
+  const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  const scrolled = height > 0 ? (winScroll / height) * 100 : 0;
+  const bar = document.getElementById('jm-scroll-progress');
+  if (bar) bar.style.width = scrolled + '%';
+}, { passive: true });
+
+// Spotlight cursor tracking across cards
+document.addEventListener('pointermove', (e) => {
+  document.querySelectorAll('.spotlight-card, .card, .tile, .ch').forEach(el => {
+    const rect = el.getBoundingClientRect();
+    el.style.setProperty('--mouse-x', `${e.clientX - rect.left}px`);
+    el.style.setProperty('--mouse-y', `${e.clientY - rect.top}px`);
+  });
+}, { passive: true });
+
+// Native Share API or Clipboard Fallback
+function jmShare() {
+  const data = {
+    title: document.title || 'Jayhil Media',
+    text: 'Independent network of 50+ fact-checked educational channels.',
+    url: window.location.href
+  };
+  if (navigator.share) {
+    navigator.share(data).catch(() => {});
+  } else {
+    navigator.clipboard.writeText(window.location.href).then(() => {
+      const el = document.getElementById('share-txt');
+      if (el) {
+        const orig = el.textContent;
+        el.textContent = 'Copied ✓';
+        setTimeout(() => el.textContent = orig, 2200);
+      }
+    });
+  }
+}
 </script>
 </body>
 </html>
