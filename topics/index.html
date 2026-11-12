@@ -103,18 +103,23 @@ a { color:#0000ee; }
 <meta name="twitter:image" content="https://jayhilmedia.com/og-image.png">
 <style id="jm-apple-system">
 :root {
-  --jm-bg: #ffffff;
-  --jm-bg-alt: #f5f5f7;
-  --jm-card: #ffffff;
-  --jm-ink: #1d1d1f;
-  --jm-muted: #6e6e73;
-  --jm-line: #d2d2d7;
-  --jm-accent: #c2410c;
-  --jm-accent-2: #f97316;
-  --jm-link: #0066cc;
-  --jm-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
-  --jm-shadow-hover: 0 16px 38px rgba(0, 0, 0, 0.11);
-  /* Map legacy page variables to Apple Cupertino tokens */
+  /* Apple Cupertino High-End Design Tokens */
+  --jm-bg: #000000;
+  --jm-bg-alt: #0a0a0c;
+  --jm-card: rgba(22, 22, 26, 0.72);
+  --jm-card-solid: #151518;
+  --jm-ink: #f5f5f7;
+  --jm-muted: #86868b;
+  --jm-line: rgba(255, 255, 255, 0.09);
+  --jm-accent: #f59e0b;
+  --jm-accent-2: #ea580c;
+  --jm-gold-grad: linear-gradient(135deg, #fbbf24 0%, #f59e0b 50%, #ea580c 100%);
+  --jm-titanium-grad: linear-gradient(180deg, #ffffff 40%, rgba(255, 255, 255, 0.65) 100%);
+  --jm-link: #2997ff;
+  --jm-shadow: 0 12px 32px -4px rgba(0, 0, 0, 0.65);
+  --jm-shadow-hover: 0 24px 50px -10px rgba(0, 0, 0, 0.85);
+
+  /* Map legacy tokens seamlessly */
   --bg: var(--jm-bg) !important;
   --bg-alt: var(--jm-bg-alt) !important;
   --bg0: var(--jm-bg) !important;
@@ -134,82 +139,93 @@ a { color:#0000ee; }
   --gold: var(--jm-accent) !important;
   --gold2: var(--jm-accent-2) !important;
   --link: var(--jm-link) !important;
-  color-scheme: light dark;
+  color-scheme: dark;
 }
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) {
-    --jm-bg: #000000;
-    --jm-bg-alt: #0b0b0d;
-    --jm-card: #1c1c1e;
-    --jm-ink: #f5f5f7;
-    --jm-muted: #a1a1a6;
-    --jm-line: #2c2c2e;
-    --jm-accent: #f97316;
-    --jm-accent-2: #fb923c;
-    --jm-link: #2997ff;
-    --jm-shadow: 0 6px 24px rgba(0, 0, 0, 0.45);
-    --jm-shadow-hover: 0 18px 42px rgba(0, 0, 0, 0.65);
+
+@media (prefers-color-scheme: light) {
+  :root[data-theme="light"] {
+    --jm-bg: #fbfbfd;
+    --jm-bg-alt: #f5f5f7;
+    --jm-card: rgba(255, 255, 255, 0.82);
+    --jm-card-solid: #ffffff;
+    --jm-ink: #1d1d1f;
+    --jm-muted: #6e6e73;
+    --jm-line: rgba(0, 0, 0, 0.08);
+    --jm-link: #0066cc;
+    --jm-shadow: 0 6px 24px rgba(0, 0, 0, 0.06);
+    --jm-shadow-hover: 0 18px 40px rgba(0, 0, 0, 0.12);
   }
 }
+
 * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
-html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+  background: var(--jm-bg);
+}
 body {
   margin: 0 !important;
   padding: 0 0 env(safe-area-inset-bottom) 0 !important;
   background: var(--jm-bg) !important;
-  background-image: none !important;
+  background-image: radial-gradient(ellipse 80% 50% at 50% -20%, rgba(245, 158, 11, 0.10), transparent 70%) !important;
   color: var(--jm-ink) !important;
-  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "SF Pro Display", "Inter", "Segoe UI", Roboto, sans-serif !important;
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "SF Pro Display", "SF Pro", "Inter", -apple-system-subheadline, system-ui, sans-serif !important;
   font-size: 17px;
   line-height: 1.5;
-  letter-spacing: -0.011em;
+  letter-spacing: -0.015em;
   -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
 }
-a { color: var(--jm-link); text-decoration: none; }
-a:hover { text-decoration: underline; }
+a { color: var(--jm-link); text-decoration: none; transition: color 0.2s, opacity 0.2s; }
+a:hover { opacity: 0.85; text-decoration: none; }
 
-/* Universal Apple Frosted-Glass Navigation Bar (iPhone & Desktop friendly) */
+/* 1. Universal Apple Frosted Liquid Glass Navigation Bar */
 nav.jm-apple-nav {
   position: sticky !important;
   top: 0 !important;
   z-index: 9999 !important;
-  height: auto !important;
+  height: 52px !important;
   min-height: 52px !important;
-  background: color-mix(in srgb, var(--jm-bg) 78%, transparent) !important;
-  backdrop-filter: saturate(180%) blur(20px) !important;
-  -webkit-backdrop-filter: saturate(180%) blur(20px) !important;
-  border-bottom: 1px solid color-mix(in srgb, var(--jm-line) 65%, transparent) !important;
-  padding: 0 max(16px, env(safe-area-inset-right)) 0 max(16px, env(safe-area-inset-left)) !important;
+  background: rgba(0, 0, 0, 0.78) !important;
+  backdrop-filter: blur(24px) saturate(190%) !important;
+  -webkit-backdrop-filter: blur(24px) saturate(190%) !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08) !important;
+  padding: 0 max(20px, env(safe-area-inset-right)) 0 max(20px, env(safe-area-inset-left)) !important;
 }
 nav.jm-apple-nav .jm-nav-inner {
-  max-width: 1120px;
+  max-width: 1140px;
   margin: 0 auto;
-  min-height: 52px;
+  height: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 14px;
+  gap: 16px;
 }
 nav.jm-apple-nav .jm-brand {
   flex: 0 0 auto;
   display: inline-flex;
   align-items: center;
-  gap: 9px;
+  gap: 10px;
   font-weight: 700;
   font-size: 17px;
-  letter-spacing: -0.02em;
-  color: var(--jm-ink) !important;
+  letter-spacing: -0.025em;
+  color: #ffffff !important;
   text-decoration: none !important;
-  padding: 6px 0;
+  padding: 4px 0;
+  transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+nav.jm-apple-nav .jm-brand:hover {
+  transform: scale(1.02);
 }
 nav.jm-apple-nav .jm-brand-dot {
-  width: 26px;
-  height: 26px;
-  border-radius: 8px;
-  background: linear-gradient(135deg, #f97316, #c2410c);
-  color: #ffffff;
-  font-size: 12px;
+  width: 28px;
+  height: 28px;
+  border-radius: 9px;
+  background: var(--jm-gold-grad);
+  box-shadow: 0 2px 10px rgba(245, 158, 11, 0.4);
+  color: #000000;
+  font-size: 13px;
   font-weight: 800;
   display: inline-grid;
   place-items: center;
@@ -218,10 +234,10 @@ nav.jm-apple-nav .jm-brand-dot {
 nav.jm-apple-nav .jm-links {
   display: flex !important;
   align-items: center;
-  gap: 6px;
+  gap: 8px;
   list-style: none !important;
   margin: 0 !important;
-  padding: 6px 0 !important;
+  padding: 0 !important;
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
   scrollbar-width: none;
@@ -239,211 +255,315 @@ nav.jm-apple-nav .jm-links li {
 nav.jm-apple-nav .jm-links a {
   display: inline-flex;
   align-items: center;
-  min-height: 36px;
-  padding: 6px 13px;
+  min-height: 34px;
+  padding: 6px 14px;
   border-radius: 980px;
   font-size: 13.5px;
-  font-weight: 600;
+  font-weight: 500;
   color: var(--jm-ink) !important;
-  opacity: 0.82;
+  opacity: 0.8;
   text-decoration: none !important;
-  transition: background 0.2s, opacity 0.2s, color 0.2s;
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
 }
 nav.jm-apple-nav .jm-links a:hover {
   opacity: 1;
-  background: color-mix(in srgb, var(--jm-ink) 8%, transparent);
+  background: rgba(255, 255, 255, 0.08);
 }
 nav.jm-apple-nav .jm-links a.active {
   opacity: 1;
-  background: var(--jm-accent) !important;
+  background: rgba(255, 255, 255, 0.12) !important;
   color: #ffffff !important;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.16);
+  font-weight: 600;
 }
 
-/* Statusbar & Live Clock — clean Apple pill telemetry bar */
+/* 2. Apple Bento Grid, Tactile Realism & Card Surfaces */
+.card, .tile, .stat, .cbtn, .formcard {
+  background: var(--jm-card) !important;
+  backdrop-filter: blur(24px) saturate(180%) !important;
+  -webkit-backdrop-filter: blur(24px) saturate(180%) !important;
+  border: 1px solid var(--jm-line) !important;
+  border-radius: 24px !important;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.12), var(--jm-shadow) !important;
+  transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.35s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.35s ease !important;
+}
+.card:hover, .tile:hover, .stat:hover, a.cbtn:hover {
+  transform: translateY(-4px) scale(1.006) !important;
+  border-color: rgba(245, 158, 11, 0.4) !important;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.18), var(--jm-shadow-hover), 0 0 24px rgba(245, 158, 11, 0.15) !important;
+}
+
+/* 3. Typography & Display Headings */
+h1, .hero h1, .navcontent h1, main h1 {
+  font-size: clamp(42px, 8vw, 84px) !important;
+  line-height: 1.02 !important;
+  font-weight: 800 !important;
+  letter-spacing: -0.04em !important;
+  background: var(--jm-titanium-grad);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent !important;
+  margin: 0 0 14px 0 !important;
+}
+h2 {
+  font-size: clamp(32px, 5.5vw, 56px) !important;
+  line-height: 1.06 !important;
+  font-weight: 700 !important;
+  letter-spacing: -0.035em !important;
+  color: var(--jm-ink) !important;
+  margin: 0 0 16px 0 !important;
+}
+.kicker, .hero-kicker {
+  font-size: 13px !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.18em !important;
+  text-transform: uppercase !important;
+  background: var(--jm-gold-grad);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent !important;
+  margin: 0 0 12px 0 !important;
+  display: inline-block;
+}
+.lead, .hero p, .sub {
+  font-size: clamp(18px, 2.2vw, 24px) !important;
+  line-height: 1.38 !important;
+  font-weight: 500 !important;
+  letter-spacing: -0.015em !important;
+  color: var(--jm-muted) !important;
+  max-width: 760px;
+  margin: 0 auto 32px !important;
+}
+.grad {
+  background: var(--jm-gold-grad) !important;
+  -webkit-background-clip: text !important;
+  background-clip: text !important;
+  color: transparent !important;
+}
+
+/* 4. Apple Tactile Pill Buttons & Micro-Interactions */
+.btn, button.btn, .pill {
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+  min-height: 48px;
+  padding: 12px 28px !important;
+  border-radius: 980px !important;
+  font-family: inherit !important;
+  font-size: 16px !important;
+  font-weight: 600 !important;
+  letter-spacing: -0.01em;
+  background: var(--jm-gold-grad) !important;
+  color: #000000 !important;
+  border: 0 !important;
+  cursor: pointer;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 8px 24px -4px rgba(245, 158, 11, 0.45) !important;
+  transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.25s ease, opacity 0.2s !important;
+  text-decoration: none !important;
+}
+.btn:hover, button.btn:hover {
+  transform: translateY(-2px) scale(1.02) !important;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), 0 14px 30px -4px rgba(245, 158, 11, 0.6) !important;
+  text-decoration: none !important;
+}
+.btn:active, button.btn:active {
+  transform: translateY(0) scale(0.98) !important;
+}
+.btn-secondary, .chev {
+  background: rgba(255, 255, 255, 0.08) !important;
+  color: #ffffff !important;
+  border: 1px solid rgba(255, 255, 255, 0.12) !important;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1) !important;
+  backdrop-filter: blur(16px);
+}
+.btn-secondary:hover, .chev:hover {
+  background: rgba(255, 255, 255, 0.14) !important;
+  border-color: rgba(255, 255, 255, 0.22) !important;
+}
+
+/* 5. Precision Statusbar & Telemetry */
 .statusbar, .empire-statusbar {
   display: flex !important;
   flex-wrap: wrap;
-  gap: 6px 18px !important;
+  gap: 8px 20px !important;
   align-items: center;
   justify-content: center;
-  background: var(--jm-bg-alt) !important;
+  background: rgba(10, 10, 12, 0.85) !important;
   color: var(--jm-muted) !important;
-  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Inter", sans-serif !important;
-  font-size: 12.5px !important;
+  font-size: 13px !important;
   font-weight: 500 !important;
-  padding: 8px 16px !important;
+  padding: 9px 18px !important;
   margin: 0 !important;
-  border-radius: 0 !important;
-  border-bottom: 1px solid color-mix(in srgb, var(--jm-line) 65%, transparent) !important;
+  border-bottom: 1px solid var(--jm-line) !important;
   font-variant-numeric: tabular-nums;
+  backdrop-filter: blur(16px);
 }
 .statusbar .liveclock, .empire-statusbar #empire-clock {
   color: var(--jm-accent) !important;
   font-weight: 600;
 }
 
-/* Remove legacy Windows 95 / Netscape browser chrome on /topics/ */
-.navtitle, .navtoolbar, .navloc, .navstatus, nav.back {
-  display: none !important;
+/* 6. Form Inputs & Interactive Controls */
+#filter, input, select, textarea {
+  font-size: 17px !important;
+  background: rgba(255, 255, 255, 0.05) !important;
+  color: var(--jm-ink) !important;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  border-radius: 14px !important;
+  padding: 14px 18px !important;
+  transition: border-color 0.25s, box-shadow 0.25s, background 0.25s;
 }
+#filter:focus, input:focus, select:focus, textarea:focus {
+  outline: none !important;
+  background: rgba(255, 255, 255, 0.08) !important;
+  border-color: var(--jm-accent) !important;
+  box-shadow: 0 0 0 4px rgba(245, 158, 11, 0.2) !important;
+}
+
+/* 7. Strip legacy Windows 95 browser chrome on /topics/ */
+.navtitle, .navtoolbar, .navloc, .navstatus, nav.back { display: none !important; }
 .navframe {
-  max-width: 1000px !important;
+  max-width: 1040px !important;
   margin: 0 auto !important;
   background: transparent !important;
   border: 0 !important;
   box-shadow: none !important;
-  padding: 0 max(20px, env(safe-area-inset-right)) 48px max(20px, env(safe-area-inset-left)) !important;
+  padding: 0 max(20px, env(safe-area-inset-right)) 56px max(20px, env(safe-area-inset-left)) !important;
 }
-.navcontent {
-  background: transparent !important;
-  padding: 36px 0 0 !important;
-}
+.navcontent { background: transparent !important; padding: 40px 0 0 !important; }
 .navcontent .statusbar {
   border-radius: 980px !important;
   border: 1px solid var(--jm-line) !important;
-  margin: 0 0 28px 0 !important;
-  padding: 8px 18px !important;
-}
-.navcontent h1, main h1 {
-  font-size: clamp(36px, 6vw, 56px) !important;
-  line-height: 1.06 !important;
-  font-weight: 800 !important;
-  letter-spacing: -0.035em !important;
-  color: var(--jm-ink) !important;
-  margin: 0 0 8px !important;
-}
-.navcontent .date, .stamp {
-  font-size: 14px !important;
-  font-weight: 600 !important;
-  color: var(--jm-accent) !important;
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
-  margin: 0 0 8px !important;
-}
-.navcontent .head {
-  font-size: clamp(18px, 2.2vw, 22px) !important;
-  font-weight: 500 !important;
-  color: var(--jm-muted) !important;
-  margin: 0 0 28px !important;
-  line-height: 1.4;
+  margin: 0 auto 32px auto !important;
+  padding: 8px 20px !important;
+  max-width: 600px;
 }
 .navcontent ul > li {
   background: var(--jm-card) !important;
-  border: 1px solid color-mix(in srgb, var(--jm-line) 70%, transparent) !important;
+  backdrop-filter: blur(20px) !important;
+  border: 1px solid var(--jm-line) !important;
   border-radius: 20px !important;
-  padding: 18px 22px !important;
-  margin: 0 0 14px !important;
-  box-shadow: var(--jm-shadow) !important;
+  padding: 20px 24px !important;
+  margin: 0 0 16px !important;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), var(--jm-shadow) !important;
   color: var(--jm-ink) !important;
+  transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.3s !important;
+}
+.navcontent ul > li:hover {
+  transform: translateY(-3px) scale(1.005) !important;
+  border-color: rgba(245, 158, 11, 0.4) !important;
 }
 .navcontent .tag, .navcontent .feeds {
-  background: color-mix(in srgb, var(--jm-accent) 14%, transparent) !important;
-  border: 1px solid color-mix(in srgb, var(--jm-accent) 30%, transparent) !important;
+  background: rgba(245, 158, 11, 0.14) !important;
+  border: 1px solid rgba(245, 158, 11, 0.3) !important;
   color: var(--jm-accent) !important;
   border-radius: 980px !important;
   padding: 4px 12px !important;
-  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Inter", sans-serif !important;
   font-size: 12px !important;
   font-weight: 700 !important;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.04em;
 }
 .navcontent h2.day {
-  font-size: 26px !important;
+  font-size: 28px !important;
   font-weight: 700 !important;
-  letter-spacing: -0.025em;
+  letter-spacing: -0.03em;
   color: var(--jm-ink) !important;
   border-top: 1px solid var(--jm-line) !important;
-  padding-top: 28px !important;
-  margin: 36px 0 6px !important;
+  padding-top: 32px !important;
+  margin: 40px 0 8px !important;
 }
 .navcontent h3.lane {
   color: var(--jm-accent) !important;
-  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", sans-serif !important;
   font-size: 13px !important;
   font-weight: 700 !important;
-  letter-spacing: 0.08em !important;
-  margin: 22px 0 10px !important;
+  letter-spacing: 0.1em !important;
+  margin: 24px 0 12px !important;
 }
-.navcontent li h4 { color: var(--jm-ink) !important; font-size: 17px !important; font-weight: 700 !important; }
-.navcontent li p, .navcontent li p.why { color: var(--jm-ink) !important; font-size: 15.5px !important; }
-.navcontent .src { color: var(--jm-muted) !important; }
 
-/* Upgrade /empire/ totals, movers, filter input, and cards to Apple Cupertino */
-.totals { gap: 14px !important; margin: 24px 0 8px !important; }
-.tot {
-  background: var(--jm-card) !important;
-  border: 1px solid color-mix(in srgb, var(--jm-line) 70%, transparent) !important;
-  border-radius: 20px !important;
-  padding: 16px 20px !important;
-  min-width: 140px !important;
-  box-shadow: var(--jm-shadow) !important;
+/* 8. Bento Big Stats & Metrics */
+.bigstats, .totals {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  margin-top: 48px;
 }
-.totnum {
-  font-size: 28px !important;
+@media (max-width: 760px) {
+  .bigstats, .totals { grid-template-columns: repeat(2, 1fr); }
+}
+.bigstats > div, .tot {
+  background: var(--jm-card) !important;
+  backdrop-filter: blur(20px) !important;
+  border: 1px solid var(--jm-line) !important;
+  border-radius: 20px !important;
+  padding: 24px 20px !important;
+  text-align: center;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), var(--jm-shadow) !important;
+  transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1) !important;
+}
+.bigstats > div:hover, .tot:hover {
+  transform: translateY(-3px) !important;
+  border-color: rgba(245, 158, 11, 0.35) !important;
+}
+.bigstats b, .totnum {
+  font-size: clamp(36px, 5vw, 64px) !important;
   font-weight: 800 !important;
-  letter-spacing: -0.035em !important;
-  color: var(--jm-ink) !important;
+  letter-spacing: -0.04em !important;
+  line-height: 1 !important;
+  font-variant-numeric: tabular-nums !important;
+  background: var(--jm-titanium-grad);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent !important;
 }
-.totlab {
-  font-size: 11.5px !important;
+.bigstats span, .totlab {
+  display: block;
+  margin-top: 10px;
+  font-size: 13px !important;
   font-weight: 600 !important;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
   color: var(--jm-muted) !important;
-  margin-top: 4px;
 }
-.movers h2 {
-  color: var(--jm-ink) !important;
-  border-bottom: 1px solid var(--jm-line) !important;
+
+/* 9. Floating 3D Luminous Orb */
+.orb {
+  position: relative;
+  height: 320px;
+  margin: 60px auto 0;
+  max-width: 900px;
 }
-.mbar {
-  background: var(--jm-bg-alt) !important;
-  border: 1px solid var(--jm-line) !important;
-  border-radius: 980px !important;
-  overflow: hidden;
-  height: 12px !important;
+.orb::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background: radial-gradient(circle at 35% 30%, #fef3c7 0%, #f59e0b 40%, #ea580c 75%, #451a03 100%);
+  filter: blur(1px);
+  box-shadow: 0 40px 100px -10px rgba(245, 158, 11, 0.5), inset 0 2px 14px rgba(255, 255, 255, 0.6);
+  animation: floatOrb 8s ease-in-out infinite;
 }
-.mfill {
-  background: linear-gradient(90deg, var(--jm-accent), var(--jm-accent-2)) !important;
-  border-radius: 980px;
+.orb span {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 68px;
+  font-weight: 800;
+  color: #ffffff;
+  letter-spacing: -0.04em;
+  text-shadow: 0 4px 28px rgba(0, 0, 0, 0.45);
 }
-.mgain { color: var(--jm-accent) !important; }
-.toc {
-  top: 52px !important;
-  background: color-mix(in srgb, var(--jm-bg) 82%, transparent) !important;
-  backdrop-filter: saturate(180%) blur(18px) !important;
-  -webkit-backdrop-filter: saturate(180%) blur(18px) !important;
+@keyframes floatOrb {
+  0%, 100% { transform: translateY(0) scale(1); }
+  50% { transform: translateY(-16px) scale(1.025); }
 }
-#filter, input, select, textarea {
-  font-size: 17px !important; /* Prevents iOS Safari auto-zoom on tap */
-  border-radius: 14px !important;
-}
-.cbtn, .card, .stat {
-  background: var(--jm-card) !important;
-  border: 1px solid color-mix(in srgb, var(--jm-line) 70%, transparent) !important;
-  border-radius: 22px !important;
-  box-shadow: var(--jm-shadow) !important;
-}
-a.cbtn:hover {
-  box-shadow: var(--jm-shadow-hover) !important;
-  border-color: var(--jm-accent) !important;
-}
-table {
-  background: var(--jm-card) !important;
-  border-radius: 18px !important;
-}
-th, td {
-  border-bottom: 1px solid color-mix(in srgb, var(--jm-line) 65%, transparent) !important;
-}
-.rawwrap, .tablewrap {
-  overflow-x: auto !important;
-  -webkit-overflow-scrolling: touch !important;
-  border-radius: 20px !important;
-  border: 1px solid var(--jm-line) !important;
-  background: var(--jm-card) !important;
-}
-@media (max-width: 640px) {
-  .mrow { flex-wrap: wrap; gap: 6px !important; }
-  .mname { flex: 1 1 100% !important; }
-  .mgain { flex: 0 0 auto !important; }
+
+@media (prefers-reduced-motion: reduce) {
+  * { animation: none !important; transition: none !important; }
+  .reveal { opacity: 1 !important; transform: none !important; }
 }
 </style>
 </head><body>
@@ -455,7 +575,7 @@ th, td {
 <div class="navtoolbar"><span class="navbtn">&#9664; Back</span><span class="navbtn">Forward &#9654;</span><span class="navbtn">&#8635; Reload</span><span class="navbtn">&#8962; Home</span><span class="navbtn">Search</span><span class="navbtn">Print</span></div>
 <div class="navloc"><label>Location:</label><span class="navurl">https://rtr525-web.github.io/topics/</span></div>
 <div class="navcontent" id="content">
-<div class="statusbar"><span>Last updated: Wednesday, November 11, 2026 — 9:50 PM ET</span><span>Eastern now: <span class="liveclock">—</span></span></div><h1>Popular Topics — Daily Log</h1>
+<div class="statusbar"><span>Last updated: Wednesday, November 11, 2026 — 9:52 PM ET</span><span>Eastern now: <span class="liveclock">—</span></span></div><h1>Popular Topics — Daily Log</h1>
 <p class="date">A working resource for the empire: what is popular today, why, and which channel it can feed.</p><p class="head">Researched fresh every morning. Every topic is real and sourced — nothing invented. Consumer prices are never listed (education-only rule).</p>
 <h2 class="day">Wednesday, November 11, 2026</h2>
 <p class="searched">Researched Wednesday, November 11, 2026 (America/New_York) — web news search + social search (Instagram / Facebook / Threads, posts since Nov 1, 2026).</p>
