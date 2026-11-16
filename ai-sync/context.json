@@ -1,7 +1,7 @@
 {
  "schema": "ai-sync/1.0",
- "updated_at": "2026-11-14T06:43-05:00",
- "updated_note": "Daily update, Saturday, November 14, 2026: YouTube rotation is flowing again after its sign-in block cleared, Florida Consumer Protection Tip #26 is produced and gate-certified, and the first TikTok archive-and-replace finished end-to-end. Registry holds at 86 pages; check-ins hold at 5.",
+ "updated_at": "2026-11-15T06:43-05:00",
+ "updated_note": "Daily update, Sunday, November 15, 2026: Facebook closed Saturday at 8 of 33 reels, the certified buffer ticked up to 393 ready pieces, and Shoe University certified its first reel. Registry holds at 87 pages; check-ins hold at 5.",
  "owner": {
   "name": "Robert Rang",
   "public_identity": "Creator and builder in Minneola, Florida. Runs the RTR525 media empire and the Hillsboro Blueprint hub: dozens of narrated, blueprint-style educational channels covering irrigation, welding, music history, golf, parks, local news, and practical know-how.",
@@ -683,7 +683,7 @@
    "status": "live"
   },
   {
-   "name": "Hillsboro Consumer",
+   "name": "Florida Consumer Protection Tips",
    "platform": "Facebook",
    "handle": null,
    "url": "https://www.facebook.com/profile.php?id=1422194797633015",
@@ -852,6 +852,15 @@
    "url": "https://www.facebook.com/profile.php?id=1451166331406983",
    "role": "Advanced shoe marketing, decoded — the athletes, the campaigns, and the shoes that created the trends. Education only.",
    "desk": "Network",
+   "status": "live"
+  },
+  {
+   "name": "Vanished Florida",
+   "platform": "Facebook",
+   "handle": null,
+   "url": "https://www.facebook.com/profile.php?id=1325541847320011",
+   "role": "Florida places and attractions that are gone — one story a day. Education only.",
+   "desk": "The Parks",
    "status": "live"
   },
   {
@@ -1059,14 +1068,14 @@
   }
  ],
  "daily_brief": {
-  "date": "2026-11-14",
-  "headline": "YouTube rotation flows again, Tip #26 is certified, and the first TikTok replace finishes",
+  "date": "2026-11-15",
+  "headline": "Facebook closes 8 of 33, buffer ticks to 393, Shoe University certifies a first reel",
   "items": [
-   "YouTube rotation cleared its sign-in block on November 13: National Parks Blueprint posted NPB-E30 (Virgin Islands), NPB-E31 (Haleakalā), NPB-E32 (Petrified Forest), and NPB-E33 (Canyonlands), with State Parks and Family Blueprint pieces also posting, until three channels hit YouTube's daily upload limit and rotation closed for the day.",
-   "Florida Consumer Protection Tip #26 is produced and gate-certified and staged, bringing that lane back from zero ready pieces.",
-   "The first TikTok archive-and-replace finished end-to-end: the Green Swamp remake is live in Format v3 and the dead original is set to private and verified, with two more TikToks queued the same way.",
-   "Cigar College's \"Cutting a Torpedo\" reel passed 1,000 views on November 13, reaching 1,588.",
-   "Facebook Waves 1 and 2 on November 13 posted zero — a production shortfall, not an approvals block; the buffer target stays at least 14 gate-certified days per channel, and all 11 Facebook Page inboxes were checked that day."
+   "Facebook closed Saturday, November 14 at 8 of 33 reels. Wave 1 counted three verified landings: Cross Climate CC-28, Florida Consumer Protection Tip #26, and Hillsboro Entertainment HE-15.",
+   "The certified buffer ticked up to 393 ready pieces across 102 lanes, with 29 lanes at zero. Shoe University's first reel — a pump-wars story — was produced and gate-certified on November 14, and a Verse & Anvil 'Annabel Lee' piece certified the same evening.",
+   "Cigar College's 'Cutting a Torpedo' kept climbing on Facebook: the November 15 morning stats sweep matched it +839 views since the prior morning. Cigar School's 'Don't Tap the Ash' stands at 38,290 views — the network's top reel.",
+   "Golf Club Blueprint Episode 18 is live on YouTube, read as a new video in the November 15 morning sweep. The same sweep read 29 YouTube channels live, with matched views up 75 on the day.",
+   "Winter Park Road published a new Instagram reel on November 14 with readback verified — a piece built November 12, held a day for a frame-edge fix, then re-rendered and posted."
   ]
  },
  "handoff": {
