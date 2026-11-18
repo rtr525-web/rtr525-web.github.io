@@ -1,0 +1,21 @@
+name: Hub gate guard
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency: hub-gate-guard
+jobs:
+  guard:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 300 }
+      - run: bash .jm/hub-gate-guard.sh
+      - run: |
+          if ! git diff --quiet; then
+            git config user.name "hub-gate-guard"; git config user.email "actions@github.com"
+            git commit -am "Hub gate guard: re-locked empire/index.html stripped by sync"
+            git pull --rebase && git push
+          fi
